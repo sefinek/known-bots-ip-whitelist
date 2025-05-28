@@ -3,24 +3,26 @@ const path = require('node:path');
 const axios = require('axios');
 const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
-const generateFacebook = require('./scripts/generate-facebookbot.js');
+const getASNPrefixes = require('./scripts/get-asn-prefixes.js');
 
 const sources = [
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
 	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'jsonPrefixes' },
 	{ name: 'BingBot', dir: 'bingbot', url: 'https://www.bing.com/toolbox/bingbot.json', type: 'jsonPrefixes' },
 	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
-	{ name: 'FacebookBot', dir: 'facebookbot', type: 'whois.radb.net' },
+	{ name: 'FacebookBot', dir: 'facebookbot', asn: 'AS32934', type: 'radb' },
 	{ name: 'DuckDuckBot', dir: 'duckduckbot', url: 'https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md', type: 'mdList' },
-	{ name: 'TelegramBot', dir: 'telegrambot', url: 'https://core.telegram.org/resources/cidr.txt', type: 'text' },
-	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'text' },
+	{ name: 'TelegramBot', dir: 'telegrambot', url: 'https://core.telegram.org/resources/cidr.txt', type: 'hosts' },
+	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'hosts' },
 	{ name: 'PingdomBot', dir: 'pingdombot', url: ['https://my.pingdom.com/probes/ipv4', 'https://my.pingdom.com/probes/ipv6'], type: 'textMulti' },
-	{ name: 'Stripe', dir: 'stripewebhook', url: 'https://stripe.com/files/ips/ips_webhooks.txt', type: 'text' },
-	{ name: 'RSS API', dir: 'rssapi', url: 'https://rssapi.net/ips.txt', type: 'text' },
-	{ name: 'Better Uptime Bot', dir: 'betteruptimebot', url: 'https://betteruptime.com/ips.txt', type: 'text' },
+	{ name: 'Stripe', dir: 'stripewebhook', url: 'https://stripe.com/files/ips/ips_webhooks.txt', type: 'hosts' },
+	{ name: 'RSS API', dir: 'rssapi', url: 'https://rssapi.net/ips.txt', type: 'hosts' },
+	{ name: 'Better Uptime Bot', dir: 'betteruptimebot', url: 'https://betteruptime.com/ips.txt', type: 'hosts' },
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'Bunny CDN', dir: 'bunnycdn', url: ['https://api.bunny.net/system/edgeserverlist/plain', 'https://api.bunny.net/system/edgeserverlist/ipv6'], type: 'textMulti' },
 	{ name: 'Cloudflare', dir: 'cloudflare', url: ['https://www.cloudflare.com/ips-v4', 'https://www.cloudflare.com/ips-v6'], type: 'textMulti' },
+	{ name: 'Palo Alto Networks', dir: 'paloaltonetworks', asn: 'AS54538', type: 'radb' },
+	{ name: 'Shodan', dir: 'shodan', url: 'https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips', type: 'hosts' },
 ];
 
 const parseIP = ip => {
@@ -47,11 +49,12 @@ const compareIPs = (a, b) => {
 const fetchSource = async src => {
 	let out = [];
 
-	if (src.type === 'whois.radb.net') {
-		out = await generateFacebook();
+	if (src.type === 'radb') {
+		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
+		out = await getASNPrefixes(src.asn);
 	} else {
 		try {
-			if (src.type === 'text') {
+			if (src.type === 'hosts') {
 				const data = await axios.get(src.url).then(r => r.data);
 				out = data
 					.split(/\r?\n/)

@@ -1,7 +1,6 @@
 const net = require('node:net');
 const ipaddr = require('ipaddr.js');
 
-const AS_NUMBER = 'AS32934';
 const WHOIS_HOST = 'whois.radb.net';
 const WHOIS_PORT = 43;
 
@@ -27,11 +26,11 @@ const compareIPs = (a, b) => {
 	return a.localeCompare(b);
 };
 
-const fetchRoutes = () =>
+const fetchRoutes = asn =>
 	new Promise((resolve, reject) => {
 		let buf = '';
 		const sock = net.createConnection(WHOIS_PORT, WHOIS_HOST, () => {
-			sock.write(`-i origin ${AS_NUMBER}\r\n`);
+			sock.write(`-i origin ${asn}\r\n`);
 			sock.end();
 		});
 		sock
@@ -50,14 +49,12 @@ const fetchRoutes = () =>
 			.on('error', reject);
 	});
 
-const cleanAndSort = list =>
-	[...new Set(list)].sort(compareIPs);
-
-module.exports = async () => {
-	const prefixes = cleanAndSort(await fetchRoutes());
-	return prefixes.map(ip => ({
+module.exports = async asn => {
+	const raw = await fetchRoutes(asn);
+	const unique = [...new Set(raw)].sort(compareIPs);
+	return unique.map(ip => ({
 		ip,
-		name: AS_NUMBER,
+		name: asn,
 		source: WHOIS_HOST,
 	}));
 };
