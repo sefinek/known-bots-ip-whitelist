@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-s
 https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-safe-ips.csv
 ```
 
-### .json
+### JSON
 ```text
 https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-safe-ips.json
 ```
