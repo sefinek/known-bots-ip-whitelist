@@ -18,6 +18,7 @@ const compareIPs = (a, b) => {
 		const parsed = parseIP(ip);
 		return parsed ? parsed.toByteArray() : [];
 	};
+
 	const aB = toBytes(a), bB = toBytes(b);
 	for (let i = 0, len = Math.max(aB.length, bB.length); i < len; i++) {
 		const diff = (aB[i] || 0) - (bB[i] || 0);
@@ -50,6 +51,13 @@ const fetchRoutes = () =>
 	});
 
 const cleanAndSort = list =>
-	[ ...new Set(list) ].sort(compareIPs);
+	[...new Set(list)].sort(compareIPs);
 
-module.exports = async () => cleanAndSort(await fetchRoutes());
+module.exports = async () => {
+	const prefixes = cleanAndSort(await fetchRoutes());
+	return prefixes.map(ip => ({
+		ip,
+		name: AS_NUMBER,
+		source: WHOIS_HOST,
+	}));
+};

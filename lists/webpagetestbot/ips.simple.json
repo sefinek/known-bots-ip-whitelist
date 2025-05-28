@@ -203,10 +203,5 @@
     "ip": "172.70.215.13",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "ip": "172.70.215.86",
-    "name": "webpagetestbot",
-    "source": "https://www.webpagetest.org/addresses.php?f=json"
   }
 ]

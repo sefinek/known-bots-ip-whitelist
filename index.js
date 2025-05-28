@@ -53,32 +53,61 @@ const fetchSource = async src => {
 		try {
 			if (src.type === 'text') {
 				const data = await axios.get(src.url).then(r => r.data);
-				out = data.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+				out = data
+					.split(/\r?\n/)
+					.map(l => l.trim())
+					.filter(Boolean)
+					.map(ip => ({ ip, source: src.url }));
 			} else if (src.type === 'textMulti') {
 				for (const u of src.url) {
 					const d = await axios.get(u).then(r => r.data);
-					if (typeof d === 'string') out.push(...d.split(/\r?\n/).map(l => l.trim()).filter(Boolean));
-					else if (Array.isArray(d)) out.push(...d.map(String).map(l => l.trim()).filter(Boolean));
+					if (typeof d === 'string') {
+						d
+							.split(/\r?\n/)
+							.map(l => l.trim())
+							.filter(Boolean)
+							.forEach(ip => out.push({ ip, source: u }));
+					} else if (Array.isArray(d)) {
+						d
+							.map(String)
+							.map(l => l.trim())
+							.filter(Boolean)
+							.forEach(ip => out.push({ ip, source: u }));
+					}
 				}
 			} else if (src.type === 'jsonPrefixes') {
 				const data = await axios.get(src.url).then(r => r.data);
-				out = (data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean);
+				(data.prefixes || [])
+					.map(p => p.ipv4Prefix || p.ipv6Prefix)
+					.filter(Boolean)
+					.forEach(ip => out.push({ ip, source: src.url }));
 			} else if (src.type === 'jsonIps') {
 				const data = await axios.get(src.url).then(r => r.data);
-				out = (data.ips || []).map(o => o.ip_address).filter(Boolean);
+				(data.ips || [])
+					.map(o => o.ip_address)
+					.filter(Boolean)
+					.forEach(ip => out.push({ ip, source: src.url }));
 			} else if (src.type === 'jsonAddresses') {
 				const data = await axios.get(src.url).then(r => r.data);
-				out = Object.values(data.data || {}).flatMap(d => d.addresses || []).filter(Boolean);
+				Object.values(data.data || {})
+					.flatMap(d => d.addresses || [])
+					.filter(Boolean)
+					.forEach(ip => out.push({ ip, source: src.url }));
 			} else if (src.type === 'mdList') {
 				const data = await axios.get(src.url).then(r => r.data);
-				out = data.split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => l.replace(/^- /, '').trim());
+				data
+					.split(/\r?\n/)
+					.filter(l => l.startsWith('- '))
+					.map(l => l.replace(/^- /, '').trim())
+					.forEach(ip => out.push({ ip, source: src.url }));
 			}
 		} catch (err) {
 			console.error(`Error fetching ${src.name}:`, err.stack);
 		}
 	}
 
-	out = [...new Set(out)];
+	out = Array.from(new Map(out.map(r => [`${r.ip}|${r.source}`, r])).values());
+
 	console.log(`Collected ${out.length} IPs for ${src.name}`);
 	return out;
 };
@@ -110,33 +139,45 @@ const writeMeta = async (file, list) => {
 	const allMap = new Map();
 
 	for (const src of sources) {
-		console.log(`> Processing ${src.name}`);
-		const list = (await fetchSource(src)).sort(compareIPs);
+		console.log(`> Processing ${src.name}...`);
+		const records = (await fetchSource(src)).sort((a, b) => compareIPs(a.ip, b.ip));
 		const dir = path.join(base, src.dir);
 		await fs.mkdir(dir, { recursive: true });
 
-		await fs.writeFile(path.join(dir, 'ips.txt'), list.join('\n') + '\n', 'utf8');
-		await fs.writeFile(path.join(dir, 'ips.csv'), stringify(list.map(ip => ({ IP: ip, Name: src.name, Source: src.url || src.type })), { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
-		await fs.writeFile(path.join(dir, 'ips.simple.json'), JSON.stringify(list.map(ip => ({ ip, name: src.dir, source: src.url || src.type })), null, 2), 'utf8');
+		await fs.writeFile(
+			path.join(dir, 'ips.txt'),
+			records.map(r => r.ip).join('\n') + '\n',
+			'utf8'
+		);
 
-		await writeMeta(path.join(dir, 'ips.meta.json'), list);
+		await fs.writeFile(
+			path.join(dir, 'ips.csv'),
+			stringify(records.map(r => ({ IP: r.ip, Name: src.name, Source: r.source })), { header: true, columns: ['IP', 'Name', 'Source'] }),
+			'utf8'
+		);
 
-		list.forEach(ip => {
-			if (!allMap.has(ip)) {
-				allMap.set(ip, { Name: src.name, Source: src.url || src.type });
-			}
+		await fs.writeFile(
+			path.join(dir, 'ips.simple.json'),
+			JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
+			'utf8'
+		);
+
+		await writeMeta(path.join(dir, 'ips.meta.json'), records.map(r => r.ip));
+
+		records.forEach(r => {
+			if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
 		});
 	}
 
 	console.log('> Writing global lists');
-	const records = Array.from(allMap.entries())
+	const globalRecs = Array.from(allMap.entries())
 		.map(([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
 		.sort((a, b) => compareIPs(a.IP, b.IP));
 
-	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), records.map(r => r.IP).join('\n') + '\n', 'utf8');
-	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), records.map(r => r.IP));
-	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(records, null, 2), 'utf8');
-	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(records, { header:true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
+	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.IP).join('\n') + '\n', 'utf8');
+	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), globalRecs.map(r => r.IP));
+	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
+	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
-	console.log(`Generation complete: ${records.length} IPs total`);
+	console.log(`Generation complete: ${globalRecs.length} IPs total`);
 })();
