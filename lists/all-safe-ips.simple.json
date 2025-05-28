@@ -47815,11 +47815,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "150.158.3.127",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "151.106.52.134",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -48520,12 +48515,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.90.129",
+    "IP": "162.158.90.209",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.90.209",
+    "IP": "162.158.91.96",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
