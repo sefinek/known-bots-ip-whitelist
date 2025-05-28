@@ -54,7 +54,6 @@ const fetchSource = async src => {
 	if (src.type === 'radb') {
 		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
 		out = await getASNPrefixes(src.asn);
-		console.log(out);
 	} else if (src.type === 'yandex') {
 		out = await getYandexIPs();
 	} else {

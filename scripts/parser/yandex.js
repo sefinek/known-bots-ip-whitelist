@@ -27,13 +27,16 @@ const getYandexIPs = async () => {
 			const text = $(el).text().trim();
 			if (!text.includes('/')) return;
 
-			const [addr, prefix] = text.split('/');
-			if (!prefix) return;
+			const [addr] = text.split('/');
+			if (!ipaddr.isValid(addr)) return;
 
-			if (ipaddr.isValid(addr)) ips.push(text);
+			ips.push({
+				ip: text,
+				name: 'YandexBot',
+				source: 'https://yandex.com/ips',
+			});
 		});
 
-		console.log(ips);
 		return ips;
 	} finally {
 		await browser.close();
