@@ -5,11 +5,21 @@ const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
 
 const sources = [
-	{ name: 'Bingbot', dir: 'bingbot', url: 'https://www.bing.com/toolbox/bingbot.json', type: 'json' },
-	{ name: 'Cloudflare IPv4', dir: 'cloudflare-ipv4', url: 'https://www.cloudflare.com/ips-v4', type: 'text' },
-	{ name: 'Cloudflare IPv6', dir: 'cloudflare-ipv6', url: 'https://www.cloudflare.com/ips-v6', type: 'text' },
-	{ name: 'Googlebot', dir: 'googlebot', url: 'https://developers.google.com/search/apis/ipranges/googlebot.json', type: 'json' },
-	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'json' },
+	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
+	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'jsonPrefixes' },
+	{ name: 'BingBot', dir: 'bingbot', url: 'https://www.bing.com/toolbox/bingbot.json', type: 'jsonPrefixes' },
+	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
+	{ name: 'FacebookBot', dir: 'facebookbot', url: 'https://whois.radb.net/-i%20origin%20AS32934', type: 'radb' },
+	{ name: 'DuckDuckBot', dir: 'duckduckbot', url: 'https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md', type: 'mdList' },
+	{ name: 'TelegramBot', dir: 'telegrambot', url: 'https://core.telegram.org/resources/cidr.txt', type: 'text' },
+	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'text' },
+	{ name: 'PingdomBot', dir: 'pingdombot', url: ['https://my.pingdom.com/probes/ipv4', 'https://my.pingdom.com/probes/ipv6'], type: 'textMulti' },
+	{ name: 'Stripe', dir: 'stripewebhook', url: 'https://stripe.com/files/ips/ips_webhooks.txt', type: 'text' },
+	{ name: 'RSS API', dir: 'rssapi', url: 'https://rssapi.net/ips.txt', type: 'text' },
+	{ name: 'Better Uptime Bot', dir: 'betteruptimebot', url: 'https://betteruptime.com/ips.txt', type: 'text' },
+	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
+	{ name: 'Bunny CDN', dir: 'bunnycdn', url: ['https://api.bunny.net/system/edgeserverlist/plain', 'https://api.bunny.net/system/edgeserverlist/ipv6'], type: 'textMulti' },
+	{ name: 'Cloudflare', dir: 'cloudflare', url: ['https://www.cloudflare.com/ips-v4', 'https://www.cloudflare.com/ips-v6'], type: 'textMulti' },
 ];
 
 const parseIP = ip => {
@@ -38,45 +48,49 @@ const compareIPs = (a, b) => {
 	return a.localeCompare(b);
 };
 
-const fetchSource = async ({ name, url, type }) => {
-	console.log(`Fetching ${type.toUpperCase()} from ${name}`);
+const fetchSource = async src => {
+	let out = [];
 	try {
-		const { data } = await axios.get(url);
-
-		if (type === 'text') {
-			return data
-				.split(/\r?\n/)
-				.map(line => line.trim())
-				.filter(line => line);
+		if (src.type === 'text') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+		} else if (src.type === 'textMulti') {
+			for (const u of src.url) {
+				const data = await axios.get(u).then(r => r.data);
+				out.push(...data.split(/\r?\n/).map(l => l.trim()).filter(Boolean));
+			}
+		} else if (src.type === 'jsonPrefixes') {
+			const { prefixes } = await axios.get(src.url).then(r => r.data);
+			out = prefixes.map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean);
+		} else if (src.type === 'jsonIps') {
+			const { ips } = await axios.get(src.url).then(r => r.data);
+			out = ips.map(o => o.ip_address).filter(Boolean);
+		} else if (src.type === 'jsonAddresses') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.data.flatMap(d => d.addresses).filter(Boolean);
+		} else if (src.type === 'mdList') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => l.replace(/^- /, '').trim());
+		} else if (src.type === 'radb') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.split(/\r?\n/).filter(l => l.startsWith('route')).map(l => l.replace(/route6?:/, '').trim());
 		}
-
-		if (Array.isArray(data.prefixes)) {
-			return data.prefixes
-				.map(p => p.ipv4Prefix || p.ipv6Prefix)
-				.filter(prefix => prefix);
-		}
-
-		return [];
-	} catch {
-		return [];
+	} catch (err) {
+		console.error(`Error fetching ${src.name}:`, err.stack);
 	}
+
+	out = [...new Set(out)];
+	console.log(`Collected ${out.length} IPs`);
+	return out;
 };
 
-const writeMeta = async (file, prefixes) => {
-	const exists = await fs
-		.stat(file)
-		.then(() => true)
-		.catch(() => false);
-
+const writeMeta = async (file, list) => {
+	const exists = await fs.stat(file).then(() => true).catch(() => false);
 	let creationTime = new Date().toISOString();
-
 	if (exists) {
 		const existing = JSON.parse(await fs.readFile(file, 'utf8'));
-		const oldList = (existing.prefixes || [])
-			.map(p => p.ipv4Prefix || p.ipv6Prefix)
-			.sort();
-		const newList = [...prefixes].sort();
-
+		const oldList = (existing.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).sort();
+		const newList = [...list].sort();
 		if (oldList.length === newList.length && oldList.every((v, i) => v === newList[i])) {
 			creationTime = existing.creationTime;
 		}
@@ -84,12 +98,7 @@ const writeMeta = async (file, prefixes) => {
 
 	const meta = {
 		creationTime,
-		prefixes: prefixes
-			.map(ip => ({
-				ipv4Prefix: ip.includes('/') && !ip.includes(':') ? ip : undefined,
-				ipv6Prefix: ip.includes(':') ? ip : undefined,
-			}))
-			.filter(p => p.ipv4Prefix || p.ipv6Prefix),
+		prefixes: list.map(ip => ({ ipv4Prefix: ip.includes('/') && !ip.includes(':') ? ip : undefined, ipv6Prefix: ip.includes(':') ? ip : undefined })).filter(p => p.ipv4Prefix || p.ipv6Prefix),
 	};
 
 	await fs.writeFile(file, JSON.stringify(meta, null, 2), 'utf8');
@@ -98,36 +107,44 @@ const writeMeta = async (file, prefixes) => {
 (async () => {
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
-
 	const allMap = new Map();
 
-	await Promise.all(
-		sources.map(async src => {
-			const entries = (await fetchSource(src)).sort(compareIPs);
-			const dir = path.join(base, src.dir);
+	for (const src of sources) {
+		console.log(`> Processing ${src.name}`);
+		const list = (await fetchSource(src)).sort(compareIPs);
+		const dir = path.join(base, src.dir);
+		await fs.mkdir(dir, { recursive: true });
 
-			await fs.mkdir(dir, { recursive: true });
-			await fs.writeFile(path.join(dir, 'ips.txt'), entries.join('\n') + '\n', 'utf8');
-			await fs.writeFile(path.join(dir, 'ips.csv'), stringify(entries.map(ip => ({ IP: ip, Name: src.name, Source: src.url })), { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
-			await fs.writeFile(path.join(dir, 'ips.simple.json'), JSON.stringify(entries.map(ip => ({ ip, name: src.dir, source: src.url })), null, 2), 'utf8');
-			await writeMeta(path.join(dir, 'ips.meta.json'), entries);
+		// TXT
+		await fs.writeFile(path.join(dir, 'ips.txt'), list.join('\n') + '\n', 'utf8');
 
-			entries.forEach(ip => {
-				if (!allMap.has(ip)) allMap.set(ip, { Name: src.name, Source: src.url });
-			});
-		})
-	);
+		// CSV
+		await fs.writeFile(
+			path.join(dir, 'ips.csv'),
+			stringify(list.map(ip => ({ IP: ip, Name: src.name, Source: Array.isArray(src.url) ? src.url.join(',') : src.url })), { header: true, columns: ['IP', 'Name', 'Source'] }),
+			'utf8'
+		);
 
-	const records = Array.from(allMap, ([IP, info]) => ({
-		IP,
-		Name: info.Name,
-		Source: info.Source,
-	})).sort((a, b) => compareIPs(a.IP, b.IP));
+		// JSON
+		await fs.writeFile(
+			path.join(dir, 'ips.simple.json'),
+			JSON.stringify(list.map(ip => ({ ip, name: src.dir, source: src.url })), null, 2),
+			'utf8'
+		);
+		await writeMeta(path.join(dir, 'ips.meta.json'), list);
 
+		list.forEach(ip => {
+			if (!allMap.has(ip)) allMap.set(ip, { Name: src.name, Source: Array.isArray(src.url) ? src.url.join(',') : src.url });
+		});
+	}
+
+	const records = Array.from(allMap, ([IP, info]) => ({ IP, Name: info.Name, Source: info.Source })).sort((a, b) => compareIPs(a.IP, b.IP));
+
+	console.log('Writing global lists');
 	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), records.map(r => r.IP).join('\n') + '\n', 'utf8');
 	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), records.map(r => r.IP));
 	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(records, null, 2), 'utf8');
 	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(records, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
-	console.log(`Wrote lists (${records.length} total)`);
+	console.log(`Generation complete: ${records.length} IPs total`);
 })();

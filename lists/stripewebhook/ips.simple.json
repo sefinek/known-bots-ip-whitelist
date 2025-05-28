@@ -1,0 +1,62 @@
+[
+  {
+    "ip": "3.18.12.63",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "3.130.192.231",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "13.235.14.237",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "13.235.122.149",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "18.211.135.69",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "35.154.171.200",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "52.15.183.38",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "54.88.130.119",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "54.88.130.237",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "54.187.174.169",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "54.187.205.235",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  },
+  {
+    "ip": "54.187.216.72",
+    "name": "stripewebhook",
+    "source": "https://stripe.com/files/ips/ips_webhooks.txt"
+  }
+]
