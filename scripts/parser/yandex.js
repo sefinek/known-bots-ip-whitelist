@@ -11,35 +11,35 @@ const getYandexIPs = async () => {
 		args: [
 			'--no-sandbox',
 			'--disable-setuid-sandbox',
-			'--disable-blink-features=AutomationControlled',
+			'--window-size=1920,1080',
+			'--blink-settings=imagesEnabled=false',
 		],
 	});
 
-	const page = await browser.newPage();
-	await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36');
-	await page.setExtraHTTPHeaders({ 'Accept-Language': 'pl,en;q=0.9' });
+	try {
+		const page = await browser.newPage();
+		await page.goto('https://yandex.com/ips', { waitUntil: 'domcontentloaded' });
 
-	await page.goto('https://yandex.com/ips', { waitUntil: 'domcontentloaded' });
+		const $ = cheerio.load(await page.content());
+		const ips = [];
 
-	const $ = cheerio.load(await page.content());
-	const ips = [];
+		$('.lc-features__description .lc-rich-text span').each((_, el) => {
+			const text = $(el).text().trim();
+			if (!text.includes('/')) return;
 
-	$('.lc-features__description .lc-rich-text span').each((_, el) => {
-		const text = $(el).text().trim();
-		const [addr, prefix] = text.split('/');
-		if (!prefix) return;
+			const [addr, prefix] = text.split('/');
+			if (!prefix) return;
 
-		try {
-			const parsed = ipaddr.parse(addr);
-			if (parsed.kind() === 'ipv4' || parsed.kind() === 'ipv6') ips.push(text);
-		} catch {}
-	});
+			if (ipaddr.isValid(addr)) ips.push(text);
+		});
 
-	await browser.close();
-	console.log(ips);
-	return ips;
+		console.log(ips);
+		return ips;
+	} finally {
+		await browser.close();
+	}
 };
 
 module.exports = getYandexIPs;
 
-(async () => getYandexIPs())();
+if (require.main === module) getYandexIPs().then(console.log).catch(console.error);

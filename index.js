@@ -4,6 +4,7 @@ const axios = require('./scripts/services/axios.js');
 const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
 const getASNPrefixes = require('./scripts/services/radb.js');
+const getYandexIPs = require('./scripts/parser/yandex.js');
 
 const sources = [
 	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
@@ -23,6 +24,7 @@ const sources = [
 	{ name: 'TelegramBot', dir: 'telegrambot', url: 'https://core.telegram.org/resources/cidr.txt', type: 'hosts' },
 	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'hosts' },
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
+	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
 ];
 
 const parseIP = ip => {
@@ -52,6 +54,9 @@ const fetchSource = async src => {
 	if (src.type === 'radb') {
 		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
 		out = await getASNPrefixes(src.asn);
+		console.log(out);
+	} else if (src.type === 'yandex') {
+		out = await getYandexIPs();
 	} else {
 		try {
 			if (src.type === 'hosts') {
