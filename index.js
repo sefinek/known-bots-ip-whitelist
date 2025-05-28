@@ -119,27 +119,6 @@ const fetchSource = async src => {
 	return out;
 };
 
-const writeMeta = async (file, list) => {
-	const prefixes = list
-		.map(ip => ({
-			ipv4Prefix: ip.includes('/') && !ip.includes(':') ? ip : undefined,
-			ipv6Prefix: ip.includes(':') ? ip : undefined,
-		}))
-		.filter(p => p.ipv4Prefix || p.ipv6Prefix);
-
-	const exists = await fs.stat(file).then(() => true).catch(() => false);
-	if (exists) {
-		const existing = JSON.parse(await fs.readFile(file, 'utf8'));
-		if (JSON.stringify(existing.prefixes) === JSON.stringify(prefixes)) {
-			console.log('Meta unchanged, skip write');
-			return;
-		}
-	}
-
-	const newMeta = { creationTime: new Date().toISOString(), prefixes };
-	await fs.writeFile(file, JSON.stringify(newMeta, null, 2), 'utf8');
-};
-
 (async () => {
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
@@ -164,12 +143,10 @@ const writeMeta = async (file, list) => {
 		);
 
 		await fs.writeFile(
-			path.join(dir, 'ips.simple.json'),
+			path.join(dir, 'ips.json'),
 			JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
 			'utf8'
 		);
-
-		await writeMeta(path.join(dir, 'ips.meta.json'), records.map(r => r.ip));
 
 		records.forEach(r => {
 			if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
@@ -182,8 +159,7 @@ const writeMeta = async (file, list) => {
 		.sort((a, b) => compareIPs(a.IP, b.IP));
 
 	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.IP).join('\n') + '\n', 'utf8');
-	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), globalRecs.map(r => r.IP));
-	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
+	await fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
 	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
 	console.log(`Generation complete: ${globalRecs.length} IPs total`);
