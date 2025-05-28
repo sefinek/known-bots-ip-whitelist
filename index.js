@@ -13,7 +13,14 @@ const sources = [
 ];
 
 const parseIP = ip => {
-	try { return ip.includes('/') ? ipaddr.parseCIDR(ip)[0] : ipaddr.parse(ip); } catch { return null; }
+	try {
+		if (ip.includes('/')) {
+			return ipaddr.parseCIDR(ip)[0];
+		}
+		return ipaddr.parse(ip);
+	} catch {
+		return null;
+	}
 };
 
 const compareIPs = (a, b) => {
@@ -21,10 +28,13 @@ const compareIPs = (a, b) => {
 	const B = parseIP(b) || { toByteArray: () => [] };
 	const aBytes = A.toByteArray();
 	const bBytes = B.toByteArray();
-	for (let i = 0, len = Math.max(aBytes.length, bBytes.length); i < len; i++) {
+
+	const length = Math.max(aBytes.length, bBytes.length);
+	for (let i = 0; i < length; i++) {
 		const diff = (aBytes[i] || 0) - (bBytes[i] || 0);
 		if (diff) return diff;
 	}
+
 	return a.localeCompare(b);
 };
 
@@ -32,38 +42,56 @@ const fetchSource = async ({ name, url, type }) => {
 	console.log(`Fetching ${type.toUpperCase()} from ${name}`);
 	try {
 		const { data } = await axios.get(url);
-		const list = type === 'text'
-			? data.split(/\r?\n/).map(l => l.trim()).filter(Boolean)
-			: (Array.isArray(data.prefixes)
-				? data.prefixes.map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean)
-				: []);
-		console.log(`Got ${list.length} entries from ${name}`);
-		return list;
-	} catch (e) {
-		console.error(`Error ${name}: ${e.message}`);
+
+		if (type === 'text') {
+			return data
+				.split(/\r?\n/)
+				.map(line => line.trim())
+				.filter(line => line);
+		}
+
+		if (Array.isArray(data.prefixes)) {
+			return data.prefixes
+				.map(p => p.ipv4Prefix || p.ipv6Prefix)
+				.filter(prefix => prefix);
+		}
+
+		return [];
+	} catch {
 		return [];
 	}
 };
 
 const writeMeta = async (file, prefixes) => {
-	const exists = await fs.stat(file).then(() => true).catch(() => false);
+	const exists = await fs
+		.stat(file)
+		.then(() => true)
+		.catch(() => false);
+
 	let creationTime = new Date().toISOString();
+
 	if (exists) {
 		const existing = JSON.parse(await fs.readFile(file, 'utf8'));
-		const oldList = (existing.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix);
-		const newList = [...prefixes];
-		oldList.sort(); newList.sort();
+		const oldList = (existing.prefixes || [])
+			.map(p => p.ipv4Prefix || p.ipv6Prefix)
+			.sort();
+		const newList = [...prefixes].sort();
+
 		if (oldList.length === newList.length && oldList.every((v, i) => v === newList[i])) {
 			creationTime = existing.creationTime;
 		}
 	}
+
 	const meta = {
 		creationTime,
-		prefixes: prefixes.map(ip => ({
-			ipv4Prefix: ip.includes('/') && !ip.includes(':') ? ip : undefined,
-			ipv6Prefix: ip.includes(':') ? ip : undefined,
-		})).filter(p => p.ipv4Prefix || p.ipv6Prefix),
+		prefixes: prefixes
+			.map(ip => ({
+				ipv4Prefix: ip.includes('/') && !ip.includes(':') ? ip : undefined,
+				ipv6Prefix: ip.includes(':') ? ip : undefined,
+			}))
+			.filter(p => p.ipv4Prefix || p.ipv6Prefix),
 	};
+
 	await fs.writeFile(file, JSON.stringify(meta, null, 2), 'utf8');
 };
 
@@ -73,29 +101,30 @@ const writeMeta = async (file, prefixes) => {
 
 	const allMap = new Map();
 
-	await Promise.all(sources.map(async src => {
-		const entries = (await fetchSource(src)).sort(compareIPs);
-		const dir = path.join(base, src.dir);
-		await fs.mkdir(dir, { recursive: true });
-		await fs.writeFile(path.join(dir, 'ips.txt'), entries.join('\n') + '\n', 'utf8');
-		await fs.writeFile(
-			path.join(dir, 'ips.csv'),
-			stringify(
-				entries.map(ip => ({ IP: ip, Name: src.name, Source: src.url })),
-				{ header: true, columns: ['IP', 'Name', 'Source'] }
-			),
-			'utf8'
-		);
-		await fs.writeFile(path.join(dir, 'ips.simple.json'), JSON.stringify(entries.map(ip => ({ ip, name: src.dir, source: src.url })), null, 2), 'utf8');
-		await writeMeta(path.join(dir, 'ips.meta.json'), entries);
-		entries.forEach(ip => { if (!allMap.has(ip)) allMap.set(ip, { name: src.name, source: src.url }); });
-	}));
+	await Promise.all(
+		sources.map(async src => {
+			const entries = (await fetchSource(src)).sort(compareIPs);
+			const dir = path.join(base, src.dir);
 
-	const records = Array.from(allMap, ([IP, info]) => ({ IP, Name: info.name, Source: info.source }));
-	records.sort((a, b) => compareIPs(a.IP, b.IP));
+			await fs.mkdir(dir, { recursive: true });
+			await fs.writeFile(path.join(dir, 'ips.txt'), entries.join('\n') + '\n', 'utf8');
+			await fs.writeFile(path.join(dir, 'ips.csv'), stringify(entries.map(ip => ({ IP: ip, Name: src.name, Source: src.url })), { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
+			await fs.writeFile(path.join(dir, 'ips.simple.json'), JSON.stringify(entries.map(ip => ({ ip, name: src.dir, source: src.url })), null, 2), 'utf8');
+			await writeMeta(path.join(dir, 'ips.meta.json'), entries);
 
-	const txtFile = path.join(base, 'all-safe-ips.txt');
-	await fs.writeFile(txtFile, records.map(r => r.IP).join('\n') + '\n', 'utf8');
+			entries.forEach(ip => {
+				if (!allMap.has(ip)) allMap.set(ip, { Name: src.name, Source: src.url });
+			});
+		})
+	);
+
+	const records = Array.from(allMap, ([IP, info]) => ({
+		IP,
+		Name: info.Name,
+		Source: info.Source,
+	})).sort((a, b) => compareIPs(a.IP, b.IP));
+
+	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), records.map(r => r.IP).join('\n') + '\n', 'utf8');
 	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), records.map(r => r.IP));
 	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(records, null, 2), 'utf8');
 	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(records, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
