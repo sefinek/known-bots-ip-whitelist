@@ -3,6 +3,7 @@ const path = require('node:path');
 const axios = require('axios');
 const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
+const generateFacebook = require('./scripts/generate-facebookbot.js');
 
 const sources = [
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
@@ -34,10 +35,11 @@ const parseIP = ip => {
 const compareIPs = (a, b) => {
 	const A = parseIP(a) || { toByteArray: () => [] };
 	const B = parseIP(b) || { toByteArray: () => [] };
-	const aBytes = A.toByteArray(), bBytes = B.toByteArray();
-	for (let i = 0; i < Math.max(aBytes.length, bBytes.length); i++) {
-		const d = (aBytes[i] || 0) - (bBytes[i] || 0);
-		if (d) return d;
+	const aBytes = A.toByteArray();
+	const bBytes = B.toByteArray();
+	for (let i = 0, len = Math.max(aBytes.length, bBytes.length); i < len; i++) {
+		const diff = (aBytes[i] || 0) - (bBytes[i] || 0);
+		if (diff) return diff;
 	}
 	return a.localeCompare(b);
 };
@@ -50,33 +52,30 @@ const fetchSource = async src => {
 		if (src.type === 'text') {
 			const data = await axios.get(src.url).then(r => r.data);
 			out = data.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
-		}
-		else if (src.type === 'textMulti') {
+		} else if (src.type === 'textMulti') {
 			for (const u of src.url) {
 				const d = await axios.get(u).then(r => r.data);
-				if (typeof d === 'string') out.push(...d.split(/\r?\n/).map(l => l.trim()).filter(Boolean));
-				else if (Array.isArray(d)) out.push(...d.map(String).map(l => l.trim()).filter(Boolean));
+				if (typeof d === 'string') {
+					out.push(...d.split(/\r?\n/).map(l => l.trim()).filter(Boolean));
+				} else if (Array.isArray(d)) {
+					out.push(...d.map(String).map(l => l.trim()).filter(Boolean));
+				}
 			}
-		}
-		else if (src.type === 'jsonPrefixes') {
-			const { prefixes } = await axios.get(src.url).then(r => r.data);
-			out = prefixes.map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean);
-		}
-		else if (src.type === 'jsonIps') {
-			const { ips } = await axios.get(src.url).then(r => r.data);
-			out = ips.map(o => o.ip_address).filter(Boolean);
-		}
-		else if (src.type === 'jsonAddresses') {
+		} else if (src.type === 'jsonPrefixes') {
 			const data = await axios.get(src.url).then(r => r.data);
-			out = Object.values(data.data).flatMap(d => d.addresses).filter(Boolean);
-		}
-		else if (src.type === 'mdList') {
-			const d = await axios.get(src.url).then(r => r.data);
-			out = d.split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => l.replace(/^- /, '').trim());
-		}
-		else if (src.type === 'radb') {
-			const d = await axios.get(src.url).then(r => r.data);
-			out = d.split(/\r?\n/).filter(l => l.startsWith('route')).map(l => l.replace(/route6?:/, '').trim());
+			out = (data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean);
+		} else if (src.type === 'jsonIps') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = (data.ips || []).map(o => o.ip_address).filter(Boolean);
+		} else if (src.type === 'jsonAddresses') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = Object.values(data.data || {}).flatMap(d => d.addresses || []).filter(Boolean);
+		} else if (src.type === 'mdList') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => l.replace(/^- /, '').trim());
+		} else if (src.type === 'radb') {
+			const data = await axios.get(src.url).then(r => r.data);
+			out = data.split(/\r?\n/).filter(l => l.startsWith('route')).map(l => l.replace(/route6?:/, '').trim());
 		}
 	} catch (err) {
 		console.error(`Error fetching ${src.name}:`, err.stack);
@@ -93,8 +92,6 @@ const writeMeta = async (file, list) => {
 		ipv6Prefix: ip.includes(':') ? ip : undefined,
 	})).filter(p => p.ipv4Prefix || p.ipv6Prefix);
 
-	const newMeta = { creationTime: new Date().toISOString(), prefixes };
-
 	const exists = await fs.stat(file).then(() => true).catch(() => false);
 	if (exists) {
 		const existing = JSON.parse(await fs.readFile(file, 'utf8'));
@@ -104,6 +101,7 @@ const writeMeta = async (file, list) => {
 		}
 	}
 
+	const newMeta = { creationTime: new Date().toISOString(), prefixes };
 	await fs.writeFile(file, JSON.stringify(newMeta, null, 2), 'utf8');
 };
 
@@ -126,7 +124,7 @@ const writeMeta = async (file, list) => {
 			path.join(dir, 'ips.csv'),
 			stringify(
 				list.map(ip => ({ IP: ip, Name: src.name, Source: Array.isArray(src.url) ? src.url.join(',') : src.url })),
-				{ header: true, columns:['IP', 'Name', 'Source'] }
+				{ header: true, columns: ['IP', 'Name', 'Source'] }
 			),
 			'utf8'
 		);
@@ -150,13 +148,13 @@ const writeMeta = async (file, list) => {
 
 	// Global
 	console.log('> Writing global lists');
-	const records = Array.from(allMap, ([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
+	const records = Array.from(allMap.entries()).map(([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
 		.sort((a, b) => compareIPs(a.IP, b.IP));
 
 	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), records.map(r => r.IP).join('\n') + '\n', 'utf8');
 	await writeMeta(path.join(base, 'all-safe-ips.meta.json'), records.map(r => r.IP));
 	await fs.writeFile(path.join(base, 'all-safe-ips.simple.json'), JSON.stringify(records, null, 2), 'utf8');
-	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(records, { header:true, columns:['IP', 'Name', 'Source'] }), 'utf8');
+	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(records, { header:true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
 	console.log(`Generation complete: ${records.length} IPs total`);
 })();
