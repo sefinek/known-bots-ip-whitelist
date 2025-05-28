@@ -1,9 +1,9 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const axios = require('axios');
+const axios = require('./scripts/services/axios.js');
 const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
-const getASNPrefixes = require('./scripts/get-asn-prefixes.js');
+const getASNPrefixes = require('./scripts/services/radb.js');
 
 const sources = [
 	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
