@@ -26,6 +26,7 @@
     "cheerio": "^1.0.0",
     "csv-stringify": "^6.5.2",
     "ipaddr.js": "^2.2.0",
+    "puppeteer": "^24.9.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
