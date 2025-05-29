@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-s
 https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-safe-ips.json
 ```
 
+
 ## ✨ Supports
 - AhrefsBot (source: [1](https://api.ahrefs.com/v3/public/crawler-ips)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/ahrefsbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/ahrefsbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/ahrefsbot/ips.json)
 - Better Uptime Bot (source: [1](https://betteruptime.com/ips.txt)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/betteruptimebot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/betteruptimebot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/betteruptimebot/ips.json)
@@ -34,6 +35,7 @@ https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-s
 - UptimeRobot (source: [1](https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/uptimerobot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/uptimerobot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/uptimerobot/ips.json)
 - WebPageTest Bot (source: [1](https://www.webpagetest.org/addresses.php?f=json)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/webpagetestbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/webpagetestbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/webpagetestbot/ips.json)
 - YandexBot (source: [1](https://yandex.com/ips)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.json)
+
 
 ## 🔓 MIT License
 Copyright 2025 © by [Sefinek](https://sefinek.net). All Rights Reserved.
