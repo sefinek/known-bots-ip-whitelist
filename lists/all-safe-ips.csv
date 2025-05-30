@@ -9703,9 +9703,6 @@ IP,Name,Source
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
-162.158.91.95,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.186.51,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.187.45,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10345,6 +10342,9 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
+172.69.34.110,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.70.206.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.70.210.99,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt
