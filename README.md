@@ -37,5 +37,9 @@ https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/all-s
 - YandexBot (source: [1](https://yandex.com/ips)): [TXT](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/GoodBots-IP-Whitelist/main/lists/yandexbot/ips.json)
 
 
+## ⏱️ Cron job
+Lists are updated every [2 hours](https://github.com/sefinek/GoodBots-IP-Whitelist/blob/main/.github/workflows/update-whitelists.yml#L5).
+
+
 ## 🔓 MIT License
 Copyright 2025 © by [Sefinek](https://sefinek.net). All Rights Reserved.
