@@ -48520,7 +48520,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.91.141",
+    "IP": "162.158.91.95",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51720,12 +51720,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.69.34.110",
+    "IP": "172.70.206.90",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "172.70.207.61",
+    "IP": "172.70.207.132",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
