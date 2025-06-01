@@ -5270,7 +5270,7 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
-    "IP": "2001:19f0:c000:c950::930:1",
+    "IP": "2001:19f0:c000:c8cd:5400:05ff:fe7a:0fb7",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -48520,16 +48520,6 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.90.15",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "162.158.91.96",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "162.159.244.38",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -51725,7 +51715,17 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.206.57",
+    "IP": "172.69.34.17",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "172.69.34.148",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "172.70.210.72",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -64710,7 +64710,7 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "208.83.234.216",
+    "IP": "208.83.234.224",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },

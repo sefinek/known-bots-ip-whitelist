@@ -1053,7 +1053,7 @@ IP,Name,Source
 2001:1900:22b3:8c08::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:19f0:200:125d::426,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:19f0:200:40cf:225:90ff:fed5:9aea,PingdomBot,https://my.pingdom.com/probes/ipv6
-2001:19f0:c000:c950::930:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2001:19f0:c000:c8cd:5400:05ff:fe7a:0fb7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1af8:4400:a056::4052,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:1af8:4400:a056::4053,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:41d0:605:ca00::1175:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -9703,8 +9703,6 @@ IP,Name,Source
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
-162.158.90.15,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.91.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10344,7 +10342,9 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
-172.70.206.57,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.69.34.17,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.69.34.148,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.70.210.72,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt
@@ -12941,7 +12941,7 @@ IP,Name,Source
 207.121.99.60,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.211.214.145,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
-208.83.234.216,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+208.83.234.224,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 208.180.20.97,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4

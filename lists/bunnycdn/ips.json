@@ -230,7 +230,7 @@
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
-    "ip": "2001:19f0:c000:c950::930:1",
+    "ip": "2001:19f0:c000:c8cd:5400:05ff:fe7a:0fb7",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -3920,7 +3920,7 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "208.83.234.216",
+    "ip": "208.83.234.224",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
