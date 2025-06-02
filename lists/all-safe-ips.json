@@ -37760,6 +37760,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "79.127.237.131",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "79.127.237.132",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -44990,11 +44995,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "143.244.38.135",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "143.244.38.136",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -48520,12 +48520,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.186.195",
+    "IP": "162.158.90.129",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.187.46",
+    "IP": "162.158.90.204",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51725,7 +51725,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.207.35",
+    "IP": "172.70.207.158",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
