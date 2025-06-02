@@ -48525,11 +48525,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.90.204",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "162.159.244.38",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -51725,7 +51720,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.207.158",
+    "IP": "172.70.206.56",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "172.70.210.48",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
