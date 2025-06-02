@@ -99,7 +99,6 @@ IP,Name,Source
 13.232.220.164,PingdomBot,https://my.pingdom.com/probes/ipv4
 13.235.14.237,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 13.235.122.149,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
-13.246.114.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 15.184.48.78,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 15.235.27.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.27.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -9703,9 +9702,8 @@ IP,Name,Source
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
-162.158.90.135,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.186.51,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.186.196,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.90.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.187.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10345,6 +10343,7 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
+172.70.210.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt
