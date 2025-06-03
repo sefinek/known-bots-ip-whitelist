@@ -3040,11 +3040,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "169.150.213.49",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "ip": "169.150.215.115",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"

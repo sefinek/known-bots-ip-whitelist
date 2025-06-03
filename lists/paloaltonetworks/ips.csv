@@ -13,7 +13,9 @@ IP,Name,Source
 165.85.144.0/24,Palo Alto Networks,whois.radb.net
 165.85.145.0/24,Palo Alto Networks,whois.radb.net
 165.85.149.0/24,Palo Alto Networks,whois.radb.net
+165.85.151.0/24,Palo Alto Networks,whois.radb.net
 165.85.250.0/23,Palo Alto Networks,whois.radb.net
+165.85.252.0/24,Palo Alto Networks,whois.radb.net
 169.224.130.0/24,Palo Alto Networks,whois.radb.net
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net

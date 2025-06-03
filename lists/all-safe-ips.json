@@ -37320,11 +37320,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -48520,12 +48515,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.186.71",
+    "IP": "162.158.186.196",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.187.45",
+    "IP": "162.158.187.46",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -48710,7 +48705,17 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "165.85.151.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "165.85.250.0/23",
+    "Name": "Palo Alto Networks",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "165.85.252.0/24",
     "Name": "Palo Alto Networks",
     "Source": "whois.radb.net"
   },
@@ -51415,11 +51420,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "169.150.213.49",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "169.150.215.115",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -51725,7 +51725,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.206.90",
+    "IP": "172.70.206.45",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
