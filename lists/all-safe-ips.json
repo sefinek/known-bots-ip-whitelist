@@ -37320,11 +37320,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -48520,17 +48515,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.186.71",
+    "IP": "162.158.90.15",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.186.122",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "162.158.187.116",
+    "IP": "162.158.187.183",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51728,6 +51718,11 @@
     "IP": "172.64.0.0/13",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
+  },
+  {
+    "IP": "172.70.211.190",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "172.104.181.25",
