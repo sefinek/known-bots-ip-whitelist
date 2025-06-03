@@ -37320,11 +37320,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -37771,11 +37766,6 @@
   },
   {
     "IP": "79.127.237.132",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "79.127.237.134",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -48525,17 +48515,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.91.189",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "162.158.187.19",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "162.158.187.46",
+    "IP": "162.158.90.15",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51733,6 +51713,16 @@
     "IP": "172.64.0.0/13",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
+  },
+  {
+    "IP": "172.70.210.193",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "172.70.214.72",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "172.104.181.25",
