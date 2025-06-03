@@ -27,6 +27,7 @@ IP,Name,Source
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 49.232.162.18,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 49.233.249.157,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.149.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 104.199.223.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -37,6 +38,6 @@ IP,Name,Source
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 154.8.217.128,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.90.15,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-172.70.210.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-172.70.214.72,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.186.71,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.186.122,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.187.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
