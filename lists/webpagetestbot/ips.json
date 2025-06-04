@@ -190,17 +190,17 @@
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "172.70.206.244",
+    "ip": "162.158.186.122",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "172.70.210.213",
+    "ip": "162.158.187.154",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "172.70.215.85",
+    "ip": "172.70.206.67",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   }

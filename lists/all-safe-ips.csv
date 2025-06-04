@@ -2332,6 +2332,7 @@ IP,Name,Source
 2a03:2880:f36c::/48,FacebookBot,whois.radb.net
 2a03:2880:f36d::/48,FacebookBot,whois.radb.net
 2a03:2880:f36e::/48,FacebookBot,whois.radb.net
+2a03:2880:f36f::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,whois.radb.net
 2a03:2880:f801::/48,FacebookBot,whois.radb.net
 2a03:2880:f802::/48,FacebookBot,whois.radb.net
@@ -7243,6 +7244,7 @@ IP,Name,Source
 57.144.216.0/23,FacebookBot,whois.radb.net
 57.144.218.0/23,FacebookBot,whois.radb.net
 57.144.220.0/23,FacebookBot,whois.radb.net
+57.144.222.0/23,FacebookBot,whois.radb.net
 57.152.72.128,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 64.74.133.224/27,Palo Alto Networks,whois.radb.net
 64.74.215.0/24,Palo Alto Networks,whois.radb.net
@@ -9702,6 +9704,8 @@ IP,Name,Source
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
+162.158.186.122,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.187.154,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10343,9 +10347,7 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
-172.70.206.244,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-172.70.210.213,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-172.70.215.85,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+172.70.206.67,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt

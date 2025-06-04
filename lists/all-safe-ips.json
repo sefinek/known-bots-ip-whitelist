@@ -11665,6 +11665,11 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "2a03:2880:f36f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f800::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -36220,6 +36225,11 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "57.144.222.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.152.72.128",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -48515,6 +48525,16 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
+    "IP": "162.158.186.122",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "162.158.187.154",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "162.159.244.38",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -51720,17 +51740,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.206.244",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "172.70.210.213",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "172.70.215.85",
+    "IP": "172.70.206.67",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
