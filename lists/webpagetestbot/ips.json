@@ -130,12 +130,12 @@
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "49.233.249.157",
+    "ip": "49.232.162.18",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "74.62.157.137",
+    "ip": "49.233.249.157",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -151,11 +151,6 @@
   },
   {
     "ip": "115.159.57.46",
-    "name": "webpagetestbot",
-    "source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "ip": "124.156.244.42",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -190,17 +185,17 @@
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "162.158.90.134",
+    "ip": "162.158.90.14",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "162.158.187.116",
+    "ip": "172.70.206.67",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "172.70.215.6",
+    "ip": "172.70.210.192",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   }

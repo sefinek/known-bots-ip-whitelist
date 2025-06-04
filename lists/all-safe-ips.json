@@ -12260,6 +12260,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "49.232.162.18",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "49.233.249.157",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -37325,11 +37330,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -39288,11 +39288,6 @@
     "IP": "122.248.234.23",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -48525,12 +48520,7 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.90.134",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "162.158.187.116",
+    "IP": "162.158.90.14",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51740,7 +51730,12 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.215.6",
+    "IP": "172.70.206.67",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "172.70.210.192",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
