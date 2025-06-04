@@ -37320,6 +37320,11 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -37756,11 +37761,6 @@
   },
   {
     "IP": "79.127.219.198",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "79.127.237.131",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -44985,6 +44985,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "143.244.38.133",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "143.244.38.134",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -48515,12 +48520,17 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.186.196",
+    "IP": "162.158.91.28",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "162.158.187.46",
+    "IP": "162.158.91.142",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "162.158.187.153",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -51420,6 +51430,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "169.150.213.50",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "169.150.215.115",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -51723,11 +51738,6 @@
     "IP": "172.64.0.0/13",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
-  },
-  {
-    "IP": "172.70.206.45",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "172.104.181.25",

@@ -7463,6 +7463,7 @@ IP,Name,Source
 72.14.199.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.46.130.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.46.131.10,PingdomBot,https://my.pingdom.com/probes/ipv4
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7551,7 +7552,6 @@ IP,Name,Source
 79.127.216.111,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.216.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.219.198,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-79.127.237.131,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.237.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.242.89,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
@@ -8996,6 +8996,7 @@ IP,Name,Source
 143.198.225.197,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 143.198.238.87,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 143.244.38.129,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+143.244.38.133,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.38.134,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.38.136,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.45.177,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9702,8 +9703,9 @@ IP,Name,Source
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
-162.158.186.196,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-162.158.187.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.91.28,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.91.142,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+162.158.187.153,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10283,6 +10285,7 @@ IP,Name,Source
 169.150.207.215,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.207.216,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.207.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+169.150.213.50,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.215.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.219.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.220.228,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10344,7 +10347,6 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
-172.70.206.45,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt
