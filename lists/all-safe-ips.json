@@ -8360,11 +8360,6 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
-    "IP": "2604:a940::/48",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "2604:b480:fff9::444",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
@@ -8415,21 +8410,6 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
-    "IP": "2606:f4c0:7000::/43",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "2606:f4c0:7000::/44",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "2606:f4c0:7010::/44",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "2607:5300:203:a1e2::1",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -8477,11 +8457,6 @@
   {
     "IP": "2620:0:1cff::/48",
     "Name": "FacebookBot",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "2620:52:c000::/48",
-    "Name": "Palo Alto Networks",
     "Source": "whois.radb.net"
   },
   {
@@ -36235,16 +36210,6 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
-    "IP": "64.74.133.224/27",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "64.74.215.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "64.185.232.82",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -36348,16 +36313,6 @@
     "IP": "66.228.56.189",
     "Name": "Better Uptime Bot",
     "Source": "https://betteruptime.com/ips.txt"
-  },
-  {
-    "IP": "66.232.36.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "66.232.37.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "66.240.192.138",
@@ -37273,11 +37228,6 @@
     "IP": "71.6.199.23",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
-  },
-  {
-    "IP": "72.5.231.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "72.14.199.0/27",
@@ -45190,11 +45140,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "144.125.104.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "146.59.69.202",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -45217,11 +45162,6 @@
   {
     "IP": "147.75.208.0/20",
     "Name": "FacebookBot",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "147.185.136.0/24",
-    "Name": "Palo Alto Networks",
     "Source": "whois.radb.net"
   },
   {
@@ -48530,11 +48470,6 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "162.158.91.189",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "162.159.244.38",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -48697,36 +48632,6 @@
   {
     "IP": "163.77.128.0/17",
     "Name": "FacebookBot",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.144.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.145.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.149.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.151.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.250.0/23",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.252.0/24",
-    "Name": "Palo Alto Networks",
     "Source": "whois.radb.net"
   },
   {
@@ -51720,32 +51625,17 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "169.224.130.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "169.224.131.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "169.224.138.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "172.64.0.0/13",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.69.33.214",
+    "IP": "172.70.210.212",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "172.70.214.172",
+    "IP": "172.70.214.64",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -59260,16 +59150,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "199.167.52.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "199.167.53.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "200.25.11.8",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -64503,16 +64383,6 @@
     "IP": "202.94.84.113",
     "Name": "AhrefsBot",
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
-  },
-  {
-    "IP": "202.126.13.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "202.189.133.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "204.15.20.0/22",
