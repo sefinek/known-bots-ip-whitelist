@@ -10349,7 +10349,6 @@ IP,Name,Source
 169.224.131.0/24,Palo Alto Networks,whois.radb.net
 169.224.138.0/24,Palo Alto Networks,whois.radb.net
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
-172.70.215.49,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 172.104.181.25,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.162.194,Better Uptime Bot,https://betteruptime.com/ips.txt
 172.105.177.82,Better Uptime Bot,https://betteruptime.com/ips.txt

@@ -4,7 +4,14 @@ const ipaddr = require('ipaddr.js');
 const { parse } = require('csv-parse/sync');
 const listsDir = path.join(__dirname, '../lists');
 
-const validateIP = ip => ip.includes('/') ? ipaddr.parseCIDR(ip) : ipaddr.parse(ip);
+const validateIP = ip => {
+	if (!ip || typeof ip !== 'string') throw new Error(`Invalid IP: ${ip}`);
+	try {
+		if (ip.includes('/')) ipaddr.parseCIDR(ip); else ipaddr.parse(ip);
+	} catch (err) {
+		throw new Error(`${ip} - ${err.message}`);
+	}
+};
 
 const parseTxt = txt => {
 	const lines = txt.trim().split('\n');

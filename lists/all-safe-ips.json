@@ -51750,11 +51750,6 @@
     "Source": "https://www.cloudflare.com/ips-v4"
   },
   {
-    "IP": "172.70.215.49",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "172.104.181.25",
     "Name": "Better Uptime Bot",
     "Source": "https://betteruptime.com/ips.txt"
