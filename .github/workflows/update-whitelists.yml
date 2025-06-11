@@ -22,10 +22,13 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --omit=dev
+        run: npm ci
 
-      - name: Run index.js
+      - name: Run whitelist generator
         run: node .
+
+      - name: Run tests
+        run: npm test
 
       - name: Pull latest changes
         run: git pull

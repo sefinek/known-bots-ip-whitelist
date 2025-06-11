@@ -1,10 +1,8 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const axios = require('./scripts/services/axios.js');
-const ipaddr = require('ipaddr.js');
 const { stringify } = require('csv-stringify/sync');
-const getASNPrefixes = require('./scripts/services/radb.js');
-const getYandexIPs = require('./scripts/parser/yandex.js');
+const fetchSource = require('./scripts/fetchSource.js');
+const ipUtils = require('./scripts/ipUtils.js');
 
 const sources = [
 	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
@@ -27,98 +25,6 @@ const sources = [
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
 ];
 
-const parseIP = ip => {
-	try {
-		if (ip.includes('/')) return ipaddr.parseCIDR(ip)[0];
-		return ipaddr.parse(ip);
-	} catch {
-		return null;
-	}
-};
-
-const compareIPs = (a, b) => {
-	const A = parseIP(a) || { toByteArray: () => [] };
-	const B = parseIP(b) || { toByteArray: () => [] };
-	const aBytes = A.toByteArray();
-	const bBytes = B.toByteArray();
-	for (let i = 0, len = Math.max(aBytes.length, bBytes.length); i < len; i++) {
-		const diff = (aBytes[i] || 0) - (bBytes[i] || 0);
-		if (diff) return diff;
-	}
-	return a.localeCompare(b);
-};
-
-const fetchSource = async src => {
-	let out = [];
-
-	if (src.type === 'radb') {
-		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
-		out = await getASNPrefixes(src.asn);
-	} else if (src.type === 'yandex') {
-		out = await getYandexIPs();
-	} else {
-		try {
-			if (src.type === 'hosts') {
-				const data = await axios.get(src.url).then(r => r.data);
-				out = data
-					.split(/\r?\n/)
-					.map(l => l.trim())
-					.filter(Boolean)
-					.map(ip => ({ ip, source: src.url }));
-			} else if (src.type === 'textMulti') {
-				for (const u of src.url) {
-					const d = await axios.get(u).then(r => r.data);
-					if (typeof d === 'string') {
-						d
-							.split(/\r?\n/)
-							.map(l => l.trim())
-							.filter(Boolean)
-							.forEach(ip => out.push({ ip, source: u }));
-					} else if (Array.isArray(d)) {
-						d
-							.map(String)
-							.map(l => l.trim())
-							.filter(Boolean)
-							.forEach(ip => out.push({ ip, source: u }));
-					}
-				}
-			} else if (src.type === 'jsonPrefixes') {
-				const data = await axios.get(src.url).then(r => r.data);
-				(data.prefixes || [])
-					.map(p => p.ipv4Prefix || p.ipv6Prefix)
-					.filter(Boolean)
-					.forEach(ip => out.push({ ip, source: src.url }));
-			} else if (src.type === 'jsonIps') {
-				const data = await axios.get(src.url).then(r => r.data);
-				(data.ips || [])
-					.map(o => o.ip_address)
-					.filter(Boolean)
-					.forEach(ip => out.push({ ip, source: src.url }));
-			} else if (src.type === 'jsonAddresses') {
-				const data = await axios.get(src.url).then(r => r.data);
-				Object.values(data.data || {})
-					.flatMap(d => d.addresses || [])
-					.filter(Boolean)
-					.forEach(ip => out.push({ ip, source: src.url }));
-			} else if (src.type === 'mdList') {
-				const data = await axios.get(src.url).then(r => r.data);
-				data
-					.split(/\r?\n/)
-					.filter(l => l.startsWith('- '))
-					.map(l => l.replace(/^- /, '').trim())
-					.forEach(ip => out.push({ ip, source: src.url }));
-			}
-		} catch (err) {
-			console.error(`Error fetching ${src.name}:`, err.stack);
-		}
-	}
-
-	out = Array.from(new Map(out.map(r => [`${r.ip}|${r.source}`, r])).values());
-
-	console.log(`Collected ${out.length} IPs for ${src.name}`);
-	return out;
-};
-
 (async () => {
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
@@ -126,7 +32,7 @@ const fetchSource = async src => {
 
 	for (const src of sources) {
 		console.log(`> Processing ${src.name}...`);
-		const records = (await fetchSource(src)).sort((a, b) => compareIPs(a.ip, b.ip));
+		const records = (await fetchSource(src)).sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
 		const dir = path.join(base, src.dir);
 		await fs.mkdir(dir, { recursive: true });
 
@@ -156,7 +62,7 @@ const fetchSource = async src => {
 	console.log('> Writing global lists');
 	const globalRecs = Array.from(allMap.entries())
 		.map(([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
-		.sort((a, b) => compareIPs(a.IP, b.IP));
+		.sort((a, b) => ipUtils.compareIPs(a.IP, b.IP));
 
 	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.IP).join('\n') + '\n', 'utf8');
 	await fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
