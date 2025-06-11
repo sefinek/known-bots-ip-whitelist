@@ -63,7 +63,7 @@ module.exports = async src => {
 					.forEach(ip => out.push({ ip, source: src.url }));
 			}
 		} catch (err) {
-			console.error(`Error fetching ${src.name}:`, err.stack);
+			console.error(err.stack);
 		}
 	}
 

@@ -36,18 +36,21 @@ const sources = [
 		const dir = path.join(base, src.dir);
 		await fs.mkdir(dir, { recursive: true });
 
+		// TXT
 		await fs.writeFile(
 			path.join(dir, 'ips.txt'),
 			records.map(r => r.ip).join('\n') + '\n',
 			'utf8'
 		);
 
+		// CSV
 		await fs.writeFile(
 			path.join(dir, 'ips.csv'),
 			stringify(records.map(r => ({ IP: r.ip, Name: src.name, Source: r.source })), { header: true, columns: ['IP', 'Name', 'Source'] }),
 			'utf8'
 		);
 
+		// JSON
 		await fs.writeFile(
 			path.join(dir, 'ips.json'),
 			JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
