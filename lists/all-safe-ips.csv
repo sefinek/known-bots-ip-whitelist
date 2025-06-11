@@ -7526,6 +7526,7 @@ IP,Name,Source
 79.127.216.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.219.198,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.237.99,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.237.104,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.237.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.242.89,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
