@@ -2,12 +2,9 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const ipaddr = require('ipaddr.js');
 const { parse } = require('csv-parse/sync');
-
 const listsDir = path.join(__dirname, '../lists');
 
-const validateIP = ip => {
-	ip.includes('/') ? ipaddr.parseCIDR(ip) : ipaddr.parse(ip);
-};
+const validateIP = ip => ip.includes('/') ? ipaddr.parseCIDR(ip) : ipaddr.parse(ip);
 
 const parseTxt = txt => {
 	const lines = txt.trim().split('\n');
