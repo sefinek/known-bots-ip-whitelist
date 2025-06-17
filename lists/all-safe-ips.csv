@@ -1014,43 +1014,10 @@ IP,Name,Source
 2001:b28:f23c::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23d::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23f::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:1900:22b3:80d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:80e::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:810::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:814::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:815::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:816::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:817::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:818::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:819::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:81a::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:81b::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:81d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:81e::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:81f::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:820::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:160d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:160e::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:1610::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1611::6,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:1612::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:1613::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1614::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1615::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1616::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1617::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1618::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:1619::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:161b::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:161c::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:161d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:161e::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c03::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c04::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c05::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c06::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c07::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2001:1900:22b3:8c08::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:19f0:200:125d::426,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:19f0:200:40cf:225:90ff:fed5:9aea,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:19f0:c000:c8cd:5400:05ff:fe7a:0fb7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -1548,6 +1515,7 @@ IP,Name,Source
 2400:52e0:1e02::1273:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e03::886:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e03::1205:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e03::1312:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e04::888:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e04::1202:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e05::887:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -1821,6 +1789,7 @@ IP,Name,Source
 2a02:6ea0:c216::4043,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:6ea0:c305::4041,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:6ea0:c454::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:c454::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:cb01::4042,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:6ea0:ce02::4044,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:6ea0:d70d:1::919:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -2433,6 +2402,7 @@ IP,Name,Source
 44.227.38.253,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 45.64.40.0/22,FacebookBot,whois.radb.net
 45.125.247.57,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+45.156.248.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.4.102.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.4.113.143,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.4.116.17,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7465,7 +7435,6 @@ IP,Name,Source
 72.14.199.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.46.130.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.46.131.10,PingdomBot,https://my.pingdom.com/probes/ipv4
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7606,7 +7575,6 @@ IP,Name,Source
 88.198.9.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.198.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.198.57.50,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-89.35.237.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.38.96.158,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.163.146.247,PingdomBot,https://my.pingdom.com/probes/ipv4
 89.163.242.206,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7861,6 +7829,8 @@ IP,Name,Source
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.248.234.23,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9563,6 +9533,7 @@ IP,Name,Source
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
+150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9589,7 +9560,6 @@ IP,Name,Source
 156.146.56.169,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.146.56.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.146.56.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-156.146.58.83,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 157.55.39.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 157.90.155.240,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 157.90.156.63,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -10468,7 +10438,6 @@ IP,Name,Source
 185.152.65.167,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.152.66.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.163.109.66,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.164.35.8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.165.190.17,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 185.165.190.34,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
@@ -12904,42 +12873,10 @@ IP,Name,Source
 207.46.13.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 207.90.244.0/24,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 207.90.244.0/28,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-207.121.23.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.124,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.180,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.188,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.204,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.23.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.60,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.76,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.100,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.108,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.24.116,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.41.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.46.220,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.46.228,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.46.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.46.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.46.252,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.75.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.80.12,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.80.118,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.80.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.90.60,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.90.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.90.252,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.97.204,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.97.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.12,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.20,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.36,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.44,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-207.121.99.60,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.211.214.145,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
 208.83.234.224,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12983,5 +12920,4 @@ IP,Name,Source
 213.180.192.0/19,YandexBot,https://yandex.com/ips
 216.117.2.180,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 216.144.248.16/28,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-216.202.235.164,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 216.245.221.80/28,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
