@@ -1,6 +1,10 @@
+const simpleGit = require('simple-git');
+const git = simpleGit();
+const { CronJob } = require('cron');
+const { spawn } = require('node:child_process');
+const { stringify } = require('csv-stringify/sync');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { stringify } = require('csv-stringify/sync');
 const fetchSource = require('./scripts/fetchSource.js');
 const ipUtils = require('./scripts/ipUtils.js');
 
@@ -25,7 +29,23 @@ const sources = [
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
 ];
 
-(async () => {
+const runTests = () => {
+	return new Promise((resolve, reject) => {
+		const child = spawn('npm', ['run', 'test'], {
+			stdio: 'inherit',
+			shell: true,
+		});
+
+		child.on('exit', code => {
+			if (code === 0) resolve();
+			else reject(new Error(`Tests failed with exit code ${code}`));
+		});
+
+		child.on('error', reject);
+	});
+};
+
+const generateLists = async () => {
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
 	const allMap = new Map();
@@ -72,4 +92,26 @@ const sources = [
 	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
 	console.log(`Generation complete: ${globalRecs.length} IPs total`);
-})();
+
+	const status = await git.status(['lists']);
+	if (status.files.length > 0) {
+		await runTests();
+
+		await git.add('./lists');
+		await git.commit(
+			`Auto-update IP lists (${status.files.length} modified files) - ${new Date().toUTCString()}`,
+			{ '--author': '"Sefinek Actions <sefinek.actions@gmail.com>"' }
+		);
+		await git.push();
+
+		console.log(`\nCommitted and pushed changes:\n${status.files.map(f => `- ${f.working_dir} ${f.path}`).join('\n')}`);
+	}
+};
+
+new CronJob('0 */2 * * *', generateLists, null, true, 'Europe/Warsaw');
+if (require.main === module) {
+	generateLists().catch(err => {
+		console.error(err);
+		process.exit(1);
+	});
+}
