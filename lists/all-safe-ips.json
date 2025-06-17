@@ -405,6 +405,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "5.45.192.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "5.78.87.38",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -428,6 +433,11 @@
     "IP": "5.189.202.62",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "5.255.192.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "13.36.154.207",
@@ -7790,6 +7800,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "37.9.64.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "37.19.203.178",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -8018,6 +8033,11 @@
     "IP": "37.59.204.159",
     "Name": "AhrefsBot",
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
+  },
+  {
+    "IP": "37.140.128.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "37.236.234.2",
@@ -8868,6 +8888,11 @@
     "IP": "2a01:7e00::f03c:94ff:fed1:d8c5",
     "Name": "Better Uptime Bot",
     "Source": "https://betteruptime.com/ips.txt"
+  },
+  {
+    "IP": "2a02:6b8::/29",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "2a02:750:11:284::442",
@@ -37460,6 +37485,11 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "77.88.0.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "78.46.69.199",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -37785,6 +37815,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "84.252.160.0/19",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "85.25.43.94",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -37803,6 +37838,11 @@
     "IP": "87.249.137.52",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "87.250.224.0/19",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "88.99.26.97",
@@ -37943,6 +37983,11 @@
     "IP": "89.248.172.16",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+  },
+  {
+    "IP": "90.156.176.0/22",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "91.105.192.0/23",
@@ -38310,6 +38355,11 @@
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
   },
   {
+    "IP": "93.158.128.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "93.174.95.106",
     "Name": "Shodan",
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
@@ -38523,6 +38573,11 @@
     "IP": "94.247.174.83",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "IP": "95.108.128.0/17",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "98.98.242.142",
@@ -39608,6 +39663,11 @@
     "IP": "139.217.52.0/28",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
+  },
+  {
+    "IP": "141.8.128.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "141.101.64.0/18",
@@ -51795,6 +51855,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "178.154.128.0/18",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "178.162.206.244",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -51868,6 +51933,11 @@
     "IP": "185.24.11.19",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "185.32.187.0/24",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "185.39.146.214",
@@ -64523,6 +64593,11 @@
     "IP": "213.170.143.139",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "213.180.192.0/19",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "216.117.2.180",
