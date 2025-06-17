@@ -33,15 +33,14 @@ const fetchRoutes = asn =>
 			sock.write(`-i origin ${asn}\r\n`);
 			sock.end();
 		});
+
 		sock
 			.on('data', chunk => buf += chunk)
 			.on('end', () => {
 				const routes = buf
 					.split(/\r?\n/)
 					.reduce((acc, line) => {
-						if ((/^route6?:/).test(line)) {
-							acc.push(line.replace(/^route6?:/, '').trim());
-						}
+						if ((/^route6?:/).test(line)) acc.push(line.replace(/^route6?:/, '').trim());
 						return acc;
 					}, []);
 				resolve(routes);
