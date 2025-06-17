@@ -46,7 +46,7 @@ const runTests = () => {
 };
 
 const generateLists = async () => {
-	await git.pull(['--rebase']);
+	await git.pull('origin', 'main');
 
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
