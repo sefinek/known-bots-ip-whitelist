@@ -105,7 +105,7 @@ const generateLists = async () => {
 			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
 			{ '--author': '"Sefinek Actions <sefinek.actions@gmail.com>"' }
 		);
-		await git.push();
+		await git.push('origin', 'main');
 
 		console.log(`\nCommitted and pushed changes:\n${status.files.map(f => `- ${f.working_dir} ${f.path}`).join('\n')}`);
 	}
