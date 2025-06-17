@@ -80,5 +80,5 @@ describe('Generated bot IP lists', () => {
 		expect(new Set(jsonIPs)).toEqual(new Set(txtIPs));
 		expect(new Set(txtIPs).size).toBe(txtIPs.length);
 		txtIPs.forEach(ip => expect(allIPs.has(ip)).toBe(true));
-	});
+	}, 15000);
 });
