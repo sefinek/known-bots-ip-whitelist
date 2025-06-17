@@ -46,6 +46,8 @@ const runTests = () => {
 };
 
 const generateLists = async () => {
+	await git.pull(['--rebase']);
+
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
 	const allMap = new Map();
@@ -93,15 +95,14 @@ const generateLists = async () => {
 
 	console.log(`Generation complete: ${globalRecs.length} IPs total`);
 
-	await git.pull();
-
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();
 
+		const timestamp = new Date().toUTCString();
 		await git.add('./lists');
 		await git.commit(
-			`Auto-update IP lists (${status.files.length} modified files) - ${new Date().toUTCString()}`,
+			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
 			{ '--author': '"Sefinek Actions <sefinek.actions@gmail.com>"' }
 		);
 		await git.push();
