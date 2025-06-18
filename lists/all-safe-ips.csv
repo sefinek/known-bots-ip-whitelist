@@ -1,5 +1,4 @@
 IP,Name,Source
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -7720,6 +7719,7 @@ IP,Name,Source
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+101.43.149.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 102.132.96.0/20,FacebookBot,whois.radb.net
 102.132.96.0/24,FacebookBot,whois.radb.net
@@ -7833,7 +7833,6 @@ IP,Name,Source
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.248.234.23,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
