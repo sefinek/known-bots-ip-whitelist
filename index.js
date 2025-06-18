@@ -118,3 +118,5 @@ if (require.main === module) {
 		process.exit(1);
 	});
 }
+
+process.send?.('ready');
