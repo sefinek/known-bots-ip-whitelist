@@ -111,7 +111,7 @@ const generateLists = async () => {
 	}
 };
 
-new CronJob('0 */2 * * *', generateLists, null, true, 'Europe/Warsaw');
+new CronJob('0 */2 * * *', generateLists, null, true, 'utc');
 if (require.main === module) {
 	generateLists().catch(err => {
 		console.error(err);
