@@ -7720,7 +7720,6 @@ IP,Name,Source
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-101.43.149.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 102.132.96.0/20,FacebookBot,whois.radb.net
 102.132.96.0/24,FacebookBot,whois.radb.net
