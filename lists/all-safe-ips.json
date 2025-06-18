@@ -11515,6 +11515,16 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "2a03:2880:f370::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f371::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f800::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -36076,6 +36086,16 @@
   },
   {
     "IP": "57.144.222.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.224.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.226.0/23",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
   },
