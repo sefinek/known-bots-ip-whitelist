@@ -90,6 +90,11 @@
     "source": "whois.radb.net"
   },
   {
+    "ip": "169.224.130.0/23",
+    "name": "paloaltonetworks",
+    "source": "whois.radb.net"
+  },
+  {
     "ip": "169.224.130.0/24",
     "name": "paloaltonetworks",
     "source": "whois.radb.net"

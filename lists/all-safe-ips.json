@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -39165,6 +39170,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "124.220.31.125",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -47680,6 +47690,11 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -51573,6 +51588,11 @@
     "IP": "169.150.252.209",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "169.224.130.0/23",
+    "Name": "Palo Alto Networks",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "169.224.130.0/24",
