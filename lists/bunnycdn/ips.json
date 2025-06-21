@@ -1000,6 +1000,31 @@
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
+    "ip": "2400:52e0:1e02::1323:1",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "ip": "2400:52e0:1e02::1324:1",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "ip": "2400:52e0:1e02::1325:1",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "ip": "2400:52e0:1e02::1326:1",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "ip": "2400:52e0:1e02::1327:1",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
     "ip": "2400:52e0:1e03::886:1",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -1056,11 +1081,6 @@
   },
   {
     "ip": "2401:c080:1c01:5a:ba3f:d2ff:fe0a:94b0",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
-    "ip": "2404:a140:42:3::6d2",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -1520,6 +1540,21 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "79.127.134.130",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "79.127.134.131",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "79.127.134.132",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "79.127.134.225",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -1551,6 +1586,16 @@
   },
   {
     "ip": "79.127.134.231",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "79.127.134.234",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "79.127.134.235",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
