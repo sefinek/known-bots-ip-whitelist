@@ -7570,6 +7570,41 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
+    "IP": "2400:52e0:1e02::1315:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1316:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1317:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1318:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1319:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1320:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1e02::1321:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
     "IP": "2400:52e0:1e03::886:1",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -7713,6 +7748,11 @@
     "IP": "2403:f000:1:100:4096:597:1:100",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
+  },
+  {
+    "IP": "2404:a140:42:3::6d2",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
     "IP": "2404:f780:0:2::d",
@@ -8336,6 +8376,11 @@
   },
   {
     "IP": "38.54.5.37",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "38.54.121.16",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -37570,6 +37615,41 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "79.127.134.225",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.226",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.227",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.228",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.229",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.230",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.134.231",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "79.127.188.193",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -39115,6 +39195,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "116.90.72.155",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -39168,6 +39253,16 @@
     "IP": "122.248.234.23",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -47685,7 +47780,22 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
