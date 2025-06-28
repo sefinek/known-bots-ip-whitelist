@@ -1,5 +1,4 @@
 IP,Name,Source
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1689,6 +1688,7 @@ IP,Name,Source
 38.54.121.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
@@ -7853,7 +7853,6 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7865,7 +7864,6 @@ IP,Name,Source
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.248.234.23,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9570,7 +9568,6 @@ IP,Name,Source
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
