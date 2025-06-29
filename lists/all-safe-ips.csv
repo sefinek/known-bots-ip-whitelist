@@ -1,5 +1,4 @@
 IP,Name,Source
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -7459,6 +7458,7 @@ IP,Name,Source
 72.14.199.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.46.130.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.46.131.10,PingdomBot,https://my.pingdom.com/probes/ipv4
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -9569,9 +9569,6 @@ IP,Name,Source
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
