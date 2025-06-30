@@ -175,16 +175,6 @@
     "source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "ip": "150.109.181.129",
-    "name": "webpagetestbot",
-    "source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "ip": "150.158.3.127",
-    "name": "webpagetestbot",
-    "source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "ip": "154.8.217.128",
     "name": "webpagetestbot",
     "source": "https://www.webpagetest.org/addresses.php?f=json"
