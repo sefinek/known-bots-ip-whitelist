@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -47848,11 +47853,6 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.181.129",
