@@ -1689,6 +1689,7 @@ IP,Name,Source
 38.54.121.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
@@ -7853,6 +7854,7 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
