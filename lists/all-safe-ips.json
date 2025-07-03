@@ -8295,9 +8295,9 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
-    "IP": "2604:a940::/48",
+    "IP": "2604:a940:1::/48",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "2604:b480:fff9::444",
@@ -8350,19 +8350,9 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
-    "IP": "2606:f4c0:7000::/43",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "2606:f4c0:7000::/44",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "2606:f4c0:7010::/44",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "2607:5300:203:a1e2::1",
@@ -8417,7 +8407,7 @@
   {
     "IP": "2620:52:c000::/48",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "38.32.110.58",
@@ -36205,16 +36195,6 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
-    "IP": "64.74.133.224/27",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "64.74.215.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "64.185.232.82",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -36275,6 +36255,31 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "65.154.226.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "65.155.38.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.132.148.0/24",
+    "Name": "Censys Scanner",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "66.132.153.0/24",
+    "Name": "Censys Scanner",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "66.132.159.0/24",
+    "Name": "Censys Scanner",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "66.165.229.130",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -36320,14 +36325,79 @@
     "Source": "https://betteruptime.com/ips.txt"
   },
   {
+    "IP": "66.232.32.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.34.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.35.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
     "IP": "66.232.36.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "66.232.37.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.38.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.39.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.40.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.41.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.42.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.43.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.44.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.45.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.46.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "66.232.47.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "66.240.192.138",
@@ -37245,11 +37315,6 @@
     "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
   },
   {
-    "IP": "72.5.231.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "72.14.199.0/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -37298,6 +37363,11 @@
     "IP": "72.46.131.10",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "IP": "72.165.69.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "74.62.157.137",
@@ -39336,6 +39406,11 @@
   },
   {
     "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "124.220.31.125",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -45230,16 +45305,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "144.125.104.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "144.125.105.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "146.59.69.202",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -45267,7 +45332,7 @@
   {
     "IP": "147.185.136.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "148.72.170.233",
@@ -47855,12 +47920,17 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.172.224",
+    "IP": "150.109.170.94",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -48550,6 +48620,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "162.142.125.0/24",
+    "Name": "Censys Scanner",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "162.158.0.0/15",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
@@ -48722,32 +48797,27 @@
   {
     "IP": "165.85.144.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "165.85.145.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "165.85.149.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "165.85.151.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "165.85.250.0/23",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.252.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "165.227.55.4",
@@ -51740,24 +51810,14 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "169.224.130.0/23",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "169.224.130.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "169.224.131.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "169.224.138.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "172.64.0.0/13",
@@ -59307,12 +59367,17 @@
   {
     "IP": "199.167.52.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "199.167.53.0/24",
     "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
+    "IP": "199.167.54.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
     "IP": "200.25.11.8",
@@ -64545,16 +64610,6 @@
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
-    "IP": "202.126.13.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "202.189.133.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "204.15.20.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -64563,6 +64618,11 @@
     "IP": "204.16.244.92",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "206.168.32.0/24",
+    "Name": "Censys Scanner",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "207.46.13.0/24",
