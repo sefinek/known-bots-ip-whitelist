@@ -7252,9 +7252,6 @@ IP,Name,Source
 65.109.142.78,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 65.154.226.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 65.155.38.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
-66.132.148.0/24,Censys Scanner,whois.radb.net
-66.132.153.0/24,Censys Scanner,whois.radb.net
-66.132.159.0/24,Censys Scanner,whois.radb.net
 66.165.229.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.165.233.234,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.181.163.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9723,7 +9720,6 @@ IP,Name,Source
 159.203.30.41,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-162.142.125.0/24,Censys Scanner,whois.radb.net
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
 162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -12923,7 +12919,6 @@ IP,Name,Source
 202.94.84.113,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 204.15.20.0/22,FacebookBot,whois.radb.net
 204.16.244.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-206.168.32.0/24,Censys Scanner,whois.radb.net
 207.46.13.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 207.90.244.0/24,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
 207.90.244.0/28,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips

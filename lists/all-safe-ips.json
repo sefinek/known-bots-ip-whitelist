@@ -36265,21 +36265,6 @@
     "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
-    "IP": "66.132.148.0/24",
-    "Name": "Censys Scanner",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "66.132.153.0/24",
-    "Name": "Censys Scanner",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "66.132.159.0/24",
-    "Name": "Censys Scanner",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "66.165.229.130",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -48618,11 +48603,6 @@
     "IP": "162.55.135.11",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "162.142.125.0/24",
-    "Name": "Censys Scanner",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "162.158.0.0/15",
@@ -64618,11 +64598,6 @@
     "IP": "204.16.244.92",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "206.168.32.0/24",
-    "Name": "Censys Scanner",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "207.46.13.0/24",
