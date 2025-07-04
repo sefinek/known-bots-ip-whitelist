@@ -245,11 +245,6 @@
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "ip": "2001:4860:4801:203e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "ip": "2001:4860:4801:203f::/64",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -1026,11 +1021,6 @@
   },
   {
     "ip": "74.125.151.192/27",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "74.125.151.224/27",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },

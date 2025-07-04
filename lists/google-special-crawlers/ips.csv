@@ -48,7 +48,6 @@ IP,Name,Source
 2001:4860:4801:203b::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:203c::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:203d::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
-2001:4860:4801:203e::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:203f::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2040::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2041::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -205,7 +204,6 @@ IP,Name,Source
 74.125.151.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.151.160/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.151.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
-74.125.151.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json

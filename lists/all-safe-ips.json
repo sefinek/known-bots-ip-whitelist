@@ -6050,11 +6050,6 @@
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "IP": "2001:4860:4801:203e::/64",
-    "Name": "Google Special Crawlers",
-    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "IP": "2001:4860:4801:203f::/64",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -37505,11 +37500,6 @@
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "IP": "74.125.151.224/27",
-    "Name": "Google Special Crawlers",
-    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "IP": "74.125.216.0/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -39325,11 +39315,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "115.159.57.46",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "116.90.72.155",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -39383,6 +39368,11 @@
     "IP": "122.248.234.23",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -47893,6 +47883,11 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
+  },
+  {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.172.224",
