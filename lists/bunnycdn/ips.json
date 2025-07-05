@@ -2010,6 +2010,11 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "94.128.254.166",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "94.130.68.122",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
