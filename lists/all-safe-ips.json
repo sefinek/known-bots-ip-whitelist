@@ -8435,6 +8435,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "39.104.13.61",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "2800:1e0:2410:1::9",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -37340,6 +37345,11 @@
     "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -47883,11 +47893,6 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.172.224",
