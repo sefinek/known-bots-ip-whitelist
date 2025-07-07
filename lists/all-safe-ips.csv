@@ -2321,6 +2321,7 @@ IP,Name,Source
 2a03:2880:f36f::/48,FacebookBot,whois.radb.net
 2a03:2880:f370::/48,FacebookBot,whois.radb.net
 2a03:2880:f371::/48,FacebookBot,whois.radb.net
+2a03:2880:f372::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,whois.radb.net
 2a03:2880:f801::/48,FacebookBot,whois.radb.net
 2a03:2880:f802::/48,FacebookBot,whois.radb.net
@@ -7236,6 +7237,7 @@ IP,Name,Source
 57.144.222.0/23,FacebookBot,whois.radb.net
 57.144.224.0/23,FacebookBot,whois.radb.net
 57.144.226.0/23,FacebookBot,whois.radb.net
+57.144.228.0/23,FacebookBot,whois.radb.net
 57.152.72.128,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 64.185.232.82,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7875,6 +7877,7 @@ IP,Name,Source
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.248.234.23,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

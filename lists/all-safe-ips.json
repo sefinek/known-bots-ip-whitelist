@@ -11610,6 +11610,11 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "2a03:2880:f372::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f800::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -36185,6 +36190,11 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "57.144.228.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.152.72.128",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -39378,6 +39388,11 @@
     "IP": "122.248.234.23",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",

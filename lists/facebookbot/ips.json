@@ -2750,6 +2750,11 @@
     "source": "whois.radb.net"
   },
   {
+    "ip": "2a03:2880:f372::/48",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
     "ip": "2a03:2880:f800::/48",
     "name": "facebookbot",
     "source": "whois.radb.net"
@@ -3756,6 +3761,11 @@
   },
   {
     "ip": "57.144.226.0/23",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "57.144.228.0/23",
     "name": "facebookbot",
     "source": "whois.radb.net"
   },

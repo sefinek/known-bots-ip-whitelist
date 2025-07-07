@@ -549,6 +549,7 @@ IP,Name,Source
 2a03:2880:f36f::/48,FacebookBot,whois.radb.net
 2a03:2880:f370::/48,FacebookBot,whois.radb.net
 2a03:2880:f371::/48,FacebookBot,whois.radb.net
+2a03:2880:f372::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,whois.radb.net
 2a03:2880:f801::/48,FacebookBot,whois.radb.net
 2a03:2880:f802::/48,FacebookBot,whois.radb.net
@@ -751,6 +752,7 @@ IP,Name,Source
 57.144.222.0/23,FacebookBot,whois.radb.net
 57.144.224.0/23,FacebookBot,whois.radb.net
 57.144.226.0/23,FacebookBot,whois.radb.net
+57.144.228.0/23,FacebookBot,whois.radb.net
 66.220.144.0/20,FacebookBot,whois.radb.net
 66.220.144.0/21,FacebookBot,whois.radb.net
 66.220.152.0/21,FacebookBot,whois.radb.net
