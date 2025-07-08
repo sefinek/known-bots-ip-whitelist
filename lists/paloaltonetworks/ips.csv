@@ -20,6 +20,7 @@ IP,Name,Source
 66.232.46.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 66.232.47.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 72.165.69.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
+147.185.132.0/22,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 147.185.136.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 165.85.144.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
 165.85.145.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips

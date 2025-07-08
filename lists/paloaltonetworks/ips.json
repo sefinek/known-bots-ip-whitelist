@@ -105,6 +105,11 @@
     "source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
+    "ip": "147.185.132.0/22",
+    "name": "paloaltonetworks",
+    "source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
+  },
+  {
     "ip": "147.185.136.0/24",
     "name": "paloaltonetworks",
     "source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
