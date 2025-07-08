@@ -69,7 +69,7 @@ const makeKeywords = src => {
 
 const fetchFromBGPView = async src => {
 	const keywords = makeKeywords(src);
-	const allNullable = !!src.allNullable;
+	const allowNullable = !!src.allowNullable;
 
 	try {
 		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
@@ -90,8 +90,11 @@ const fetchFromBGPView = async src => {
 
 		const result = [];
 		for (const p of [...ipv4, ...ipv6]) {
-			if (p.name == null || p.description == null) {
+			if (allowNullable && (p.name == null || p.description == null)) {
 				result.push({ ip: p.ip, source: p.source });
+				continue;
+			}
+			if (p.name == null || p.description == null) {
 				continue;
 			}
 			const owner = (String(p.name) + ' ' + String(p.description)).toLowerCase();

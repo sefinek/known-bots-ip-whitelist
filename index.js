@@ -15,7 +15,7 @@ const sources = [
 	{ name: 'Bunny CDN', dir: 'bunnycdn', url: ['https://api.bunny.net/system/edgeserverlist/plain', 'https://api.bunny.net/system/edgeserverlist/ipv6'], type: 'textMulti' },
 	{ name: 'Cloudflare', dir: 'cloudflare', url: ['https://www.cloudflare.com/ips-v4', 'https://www.cloudflare.com/ips-v6'], type: 'textMulti' },
 	{ name: 'DuckDuckBot', dir: 'duckduckbot', url: 'https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md', type: 'mdList' },
-	{ name: 'FacebookBot', dir: 'facebookbot', keywords: ['meta', 'fb', 'facebook'], analyzeKeywords: true, allNullable: true, asn: 'AS32934', type: 'radb' },
+	{ name: 'FacebookBot', dir: 'facebookbot', keywords: ['meta', 'fb', 'facebook'], analyzeKeywords: true, allowNullable: true, asn: 'AS32934', type: 'radb' },
 	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'jsonPrefixes' },
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
 	{ name: 'Palo Alto Networks', dir: 'paloaltonetworks', url: 'https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips', type: 'hosts' },
@@ -27,7 +27,7 @@ const sources = [
 	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'hosts' },
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
-	{ name: 'Censys', dir: 'censys', keywords: ['censys', 'censy'], analyzeKeywords: true, allNullable: true, asn: 'AS398324', type: 'radb' },
+	{ name: 'Censys', dir: 'censys', keywords: ['censys', 'censy'], analyzeKeywords: true, allowNullable: true, asn: 'AS398324', type: 'radb' },
 ];
 
 const runTests = () => {
