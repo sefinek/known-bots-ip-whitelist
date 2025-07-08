@@ -13,9 +13,9 @@ describe('fetchSource', () => {
 	});
 
 	it('fetches from RADB', async () => {
-		getASNPrefixes.mockResolvedValue([{ ip: '1.2.3.4', source: 'radb' }]);
-		const out = await fetchSource({ name: 'Test RADB', asn: 'AS123', type: 'radb' });
-		expect(out).toEqual([{ ip: '1.2.3.4', source: 'radb' }]);
+		getASNPrefixes.mockResolvedValue([{ ip: '1.2.3.4', source: 'whois' }]);
+		const out = await fetchSource({ name: 'Test RADB', asn: 'AS123', type: 'whois' });
+		expect(out).toEqual([{ ip: '1.2.3.4', source: 'whois' }]);
 	});
 
 	it('fetches Yandex data', async () => {

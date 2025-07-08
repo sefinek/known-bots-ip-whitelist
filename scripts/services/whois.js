@@ -18,49 +18,50 @@ const compareIPs = (a, b) => {
 		const parsed = parseIP(ip);
 		return parsed ? parsed.toByteArray() : [];
 	};
-	const aB = toBytes(a), bB = toBytes(b);
+
+	const aB = toBytes(a);
+	const bB = toBytes(b);
 	for (let i = 0, len = Math.max(aB.length, bB.length); i < len; i++) {
 		const diff = (aB[i] || 0) - (bB[i] || 0);
 		if (diff) return diff;
 	}
+
 	return a.localeCompare(b);
 };
 
 const fetchRoutesFromHost = async (asn, host) => {
-	let buf = '';
 	return await new Promise(resolve => {
+		let buf = '';
 		const sock = net.createConnection(WHOIS_PORT, host);
 		sock.setEncoding('utf8');
 
-		const writeReq = host === 'whois.arin.net'
-			? `AS${asn.replace(/^AS/, '')}\r\n`
-			: `-i origin ${asn}\r\n`;
+		const req =
+			host === 'whois.arin.net'
+				? `AS${asn.replace(/^AS/i, '')}\r\n`
+				: `-i origin AS${asn.replace(/^AS/i, '')}\r\n`;
 
-		sock.on('data', chunk => buf += chunk);
+		sock.on('data', chunk => (buf += chunk));
 		sock.on('error', () => resolve([]));
 		sock.on('end', () => {
-			const routes = buf
-				.split(/\r?\n/)
-				.reduce((acc, line) => {
-					if ((/^route6?:/i).test(line)) {
-						acc.push({
-							ip: line.replace(/^route6?:/i, '').trim(),
-							source: host,
-						});
-					}
-					return acc;
-				}, []);
+			const routes = buf.split(/\r?\n/).reduce((acc, line) => {
+				if ((/^route6?:/i).test(line)) {
+					acc.push({
+						ip: line.replace(/^route6?:/i, '').trim(),
+						source: host,
+					});
+				}
+				return acc;
+			}, []);
 			resolve(routes);
 		});
-		sock.write(writeReq);
-		sock.end();
+		sock.write(req, () => sock.end());
 	});
 };
 
 const makeKeywords = src => {
-	let arr = [];
+	const arr = [];
 	if (src.analyzeKeywords && Array.isArray(src.keywords) && src.keywords.length) {
-		arr = src.keywords.map(k => String(k || '').toLowerCase());
+		for (const k of src.keywords) arr.push(String(k || '').toLowerCase());
 	}
 	arr.push(String(src.name || '').toLowerCase());
 	arr.push(String(src.dir || '').toLowerCase());
@@ -69,40 +70,33 @@ const makeKeywords = src => {
 
 const fetchFromBGPView = async src => {
 	const keywords = makeKeywords(src);
-	const allowNullable = !!src.allowNullable;
+	const acceptNullable = !!src.acceptNullable;
 
 	try {
 		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
 		if (data.status !== 'ok' || !data.data) return [];
 
-		const ipv4 = (data.data.ipv4_prefixes || []).map(p => ({
-			ip: p.prefix,
-			source: 'bgpview.io',
-			name: p.name,
-			description: p.description,
-		}));
-		const ipv6 = (data.data.ipv6_prefixes || []).map(p => ({
-			ip: p.prefix,
-			source: 'bgpview.io',
-			name: p.name,
-			description: p.description,
-		}));
+		const all = [
+			...(data.data.ipv4_prefixes || []),
+			...(data.data.ipv6_prefixes || []),
+		];
 
 		const result = [];
-		for (const p of [...ipv4, ...ipv6]) {
-			if (allowNullable && (p.name == null || p.description == null)) {
-				result.push({ ip: p.ip, source: p.source });
+		for (const p of all) {
+			const nameNull = p.name == null;
+			const descNull = p.description == null;
+
+			if (acceptNullable && (nameNull || descNull)) {
+				result.push({ ip: p.prefix, source: 'bgpview.io' });
 				continue;
 			}
-			if (p.name == null || p.description == null) {
-				continue;
-			}
-			const owner = (String(p.name) + ' ' + String(p.description)).toLowerCase();
-			const isMatch = keywords.some(k => owner.includes(k));
-			if (isMatch) {
-				result.push({ ip: p.ip, source: p.source });
+			if (!acceptNullable && (nameNull || descNull)) continue;
+
+			const owner = `${p.name || ''} ${p.description || ''}`.toLowerCase();
+			if (keywords.some(k => owner.includes(k))) {
+				result.push({ ip: p.prefix, source: 'bgpview.io' });
 			} else {
-				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.ip}; Got: "${p.name}" / "${p.description}"`);
+				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.prefix}; Got: "${p.name}" / "${p.description}"`);
 			}
 		}
 		return result;
@@ -114,23 +108,24 @@ const fetchFromBGPView = async src => {
 
 module.exports = async src => {
 	const asnNorm = String(src.asn).toUpperCase().replace(/^AS/, '');
-	const asnInput = `AS${asnNorm}`;
 	const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
 		fetchFromBGPView(src),
-		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnInput, host))),
+		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
 	]);
 
+	console.log(whoisRoutesArray);
 	const whoisRoutes = whoisRoutesArray.flat();
-	const allRoutes = [...bgpviewRoutes, ...whoisRoutes];
+
 	const uniqueMap = new Map();
-	for (const r of allRoutes) {
+	for (const r of [...bgpviewRoutes, ...whoisRoutes]) {
 		if (!uniqueMap.has(r.ip)) uniqueMap.set(r.ip, r);
 	}
 
-	const unique = Array.from(uniqueMap.values()).sort((a, b) => compareIPs(a.ip, b.ip));
-	return unique.map(({ ip, source }) => ({
-		ip,
-		name: asnInput,
-		source,
-	}));
+	return Array.from(uniqueMap.values())
+		.sort((a, b) => compareIPs(a.ip, b.ip))
+		.map(({ ip, source }) => ({
+			ip,
+			name: `AS${asnNorm}`,
+			source,
+		}));
 };

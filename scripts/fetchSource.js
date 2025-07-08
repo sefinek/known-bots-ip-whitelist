@@ -5,7 +5,7 @@ const axios = require('./services/axios.js');
 module.exports = async src => {
 	let out = [];
 
-	if (src.type === 'radb') {
+	if (src.type === 'whois') {
 		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
 		out = await getASNPrefixes(src);
 	} else if (src.type === 'yandex') {
