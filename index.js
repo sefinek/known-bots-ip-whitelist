@@ -28,6 +28,7 @@ const sources = [
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
 	{ name: 'Censys', dir: 'censys', keywords: ['censys', 'censy'], analyzeKeywords: true, acceptNullable: true, asn: 'AS398324', type: 'whois' },
+	{ name: 'OpenAI', dir: 'openai', url: 'https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt', type: 'hosts' },
 ];
 
 const runTests = () => {

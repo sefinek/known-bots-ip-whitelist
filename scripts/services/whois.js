@@ -113,7 +113,6 @@ module.exports = async src => {
 		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
 	]);
 
-	console.log(whoisRoutesArray);
 	const whoisRoutes = whoisRoutesArray.flat();
 
 	const uniqueMap = new Map();
