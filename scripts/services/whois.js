@@ -1,6 +1,7 @@
-const axios = require('./axios.js');
+const { once } = require('node:events');
 const net = require('node:net');
 const ipaddr = require('ipaddr.js');
+const axios = require('./axios.js');
 
 const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
 const WHOIS_PORT = 43;
@@ -26,53 +27,97 @@ const compareIPs = (a, b) => {
 	return a.localeCompare(b);
 };
 
-const fetchRoutesFromHost = (asn, host) =>
-	new Promise(resolve => {
-		let buf = '';
-		const sock = net.createConnection(WHOIS_PORT, host, () => {
-			if (host === 'whois.arin.net') {
-				sock.write(`AS${asn.replace(/^AS/, '')}\r\n`);
-			} else {
-				sock.write(`-i origin ${asn}\r\n`);
-			}
-			sock.end();
-		});
-		sock
-			.on('data', chunk => buf += chunk)
-			.on('end', () => {
-				const routes = buf
-					.split(/\r?\n/)
-					.reduce((acc, line) => {
-						if ((/^route6?:/i).test(line)) {acc.push({
-							ip: line.replace(/^route6?:/i, '').trim(),
-							source: host,
-						});}
-						return acc;
-					}, []);
-				resolve(routes);
-			})
-			.on('error', () => resolve([]));
-	});
+const fetchRoutesFromHost = async (asn, host) => {
+	let buf = '';
+	const sock = net.createConnection(WHOIS_PORT, host);
+	sock.setEncoding('utf8');
 
-const fetchFromBGPView = async asn => {
+	const writeReq = host === 'whois.arin.net'
+		? `AS${asn.replace(/^AS/, '')}\r\n`
+		: `-i origin ${asn}\r\n`;
+
+	sock.write(writeReq);
+	sock.end();
+
+	sock.on('data', chunk => buf += chunk);
+
 	try {
-		const { data } = await axios.get(`https://api.bgpview.io/asn/${asn}/prefixes`);
-		if (data.status === 'ok') {
-			const ipv4 = data.data.ipv4_prefixes.map(p => ({ ip: p.prefix, source: 'bgpview.io' }));
-			const ipv6 = data.data.ipv6_prefixes.map(p => ({ ip: p.prefix, source: 'bgpview.io' }));
-			return [...ipv4, ...ipv6];
-		}
-		return [];
+		await once(sock, 'end');
 	} catch {
+		return [];
+	}
+
+	return buf
+		.split(/\r?\n/)
+		.reduce((acc, line) => {
+			if ((/^route6?:/i).test(line)) {
+				acc.push({
+					ip: line.replace(/^route6?:/i, '').trim(),
+					source: host,
+				});
+			}
+			return acc;
+		}, []);
+};
+
+const makeKeywords = src => {
+	let arr = [];
+	if (src.analyzeKeywords && Array.isArray(src.keywords) && src.keywords.length) {
+		arr = src.keywords.map(k => String(k || '').toLowerCase());
+	}
+	arr.push(String(src.name || '').toLowerCase());
+	arr.push(String(src.dir || '').toLowerCase());
+	return Array.from(new Set(arr.filter(Boolean)));
+};
+
+const fetchFromBGPView = async src => {
+	const keywords = makeKeywords(src);
+	const allNullable = !!src.allNullable;
+
+	try {
+		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
+		if (data.status !== 'ok' || !data.data) return [];
+
+		const ipv4 = (data.data.ipv4_prefixes || []).map(p => ({
+			ip: p.prefix,
+			source: 'bgpview.io',
+			name: p.name,
+			description: p.description,
+		}));
+		const ipv6 = (data.data.ipv6_prefixes || []).map(p => ({
+			ip: p.prefix,
+			source: 'bgpview.io',
+			name: p.name,
+			description: p.description,
+		}));
+
+		const result = [];
+		for (const p of [...ipv4, ...ipv6]) {
+			if ((allNullable && (p.name == null || p.description == null)) ||
+				(!allNullable && (p.name == null || p.description == null))) {
+				result.push({ ip: p.ip, source: p.source });
+				continue;
+			}
+			const owner = (String(p.name) + ' ' + String(p.description)).toLowerCase();
+			const isMatch = keywords.some(k => owner.includes(k));
+			if (isMatch) {
+				result.push({ ip: p.ip, source: p.source });
+			} else {
+				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.ip}; Got: "${p.name}" / "${p.description}"`);
+			}
+		}
+		return result;
+	} catch (err) {
+		console.error(`BGPView ERROR -> ASN: ${src.asn};`, err);
 		return [];
 	}
 };
 
-module.exports = async asn => {
-	const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
+module.exports = async src => {
+	const asnNorm = String(src.asn).toUpperCase().replace(/^AS/, '');
 	const asnInput = `AS${asnNorm}`;
 	const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
-		fetchFromBGPView(asn),
+		fetchFromBGPView(src),
 		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnInput, host))),
 	]);
 

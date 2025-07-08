@@ -7,7 +7,7 @@ module.exports = async src => {
 
 	if (src.type === 'radb') {
 		if (!src.asn) throw new Error(`Missing ASN for ${src.name}`);
-		out = await getASNPrefixes(src.asn);
+		out = await getASNPrefixes(src);
 	} else if (src.type === 'yandex') {
 		out = await getYandexIPs();
 	} else {
