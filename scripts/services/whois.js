@@ -1,4 +1,3 @@
-const { once } = require('node:events');
 const net = require('node:net');
 const ipaddr = require('ipaddr.js');
 const axios = require('./axios.js');
@@ -29,35 +28,33 @@ const compareIPs = (a, b) => {
 
 const fetchRoutesFromHost = async (asn, host) => {
 	let buf = '';
-	const sock = net.createConnection(WHOIS_PORT, host);
-	sock.setEncoding('utf8');
+	return await new Promise(resolve => {
+		const sock = net.createConnection(WHOIS_PORT, host);
+		sock.setEncoding('utf8');
 
-	const writeReq = host === 'whois.arin.net'
-		? `AS${asn.replace(/^AS/, '')}\r\n`
-		: `-i origin ${asn}\r\n`;
+		const writeReq = host === 'whois.arin.net'
+			? `AS${asn.replace(/^AS/, '')}\r\n`
+			: `-i origin ${asn}\r\n`;
 
-	sock.write(writeReq);
-	sock.end();
-
-	sock.on('data', chunk => buf += chunk);
-
-	try {
-		await once(sock, 'end');
-	} catch {
-		return [];
-	}
-
-	return buf
-		.split(/\r?\n/)
-		.reduce((acc, line) => {
-			if ((/^route6?:/i).test(line)) {
-				acc.push({
-					ip: line.replace(/^route6?:/i, '').trim(),
-					source: host,
-				});
-			}
-			return acc;
-		}, []);
+		sock.on('data', chunk => buf += chunk);
+		sock.on('error', () => resolve([]));
+		sock.on('end', () => {
+			const routes = buf
+				.split(/\r?\n/)
+				.reduce((acc, line) => {
+					if ((/^route6?:/i).test(line)) {
+						acc.push({
+							ip: line.replace(/^route6?:/i, '').trim(),
+							source: host,
+						});
+					}
+					return acc;
+				}, []);
+			resolve(routes);
+		});
+		sock.write(writeReq);
+		sock.end();
+	});
 };
 
 const makeKeywords = src => {
@@ -93,8 +90,7 @@ const fetchFromBGPView = async src => {
 
 		const result = [];
 		for (const p of [...ipv4, ...ipv6]) {
-			if ((allNullable && (p.name == null || p.description == null)) ||
-				(!allNullable && (p.name == null || p.description == null))) {
+			if (p.name == null || p.description == null) {
 				result.push({ ip: p.ip, source: p.source });
 				continue;
 			}
