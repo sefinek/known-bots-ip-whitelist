@@ -27,6 +27,7 @@ const sources = [
 	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'hosts' },
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
+	{ name: 'Censys', dir: 'censys', asn: 'AS398324', type: 'radb' },
 ];
 
 const runTests = () => {
@@ -95,6 +96,7 @@ const generateLists = async () => {
 
 	console.log(`Generation complete: ${globalRecs.length} IPs total`);
 
+	return;
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();

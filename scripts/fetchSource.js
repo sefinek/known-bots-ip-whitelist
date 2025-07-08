@@ -1,5 +1,5 @@
 const getYandexIPs = require('./parser/yandex.js');
-const getASNPrefixes = require('./services/radb.js');
+const getASNPrefixes = require('./services/whois.js');
 const axios = require('./services/axios.js');
 
 module.exports = async src => {

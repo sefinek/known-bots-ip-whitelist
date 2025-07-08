@@ -1,10 +1,10 @@
 jest.mock('../scripts/services/axios.js');
-jest.mock('../scripts/services/radb.js');
+jest.mock('../scripts/services/whois.js');
 jest.mock('../scripts/parser/yandex.js');
 
 const fetchSource = require('../scripts/fetchSource.js');
 const axios = require('../scripts/services/axios.js');
-const getASNPrefixes = require('../scripts/services/radb.js');
+const getASNPrefixes = require('../scripts/services/whois.js');
 const getYandexIPs = require('../scripts/parser/yandex.js');
 
 describe('fetchSource', () => {
