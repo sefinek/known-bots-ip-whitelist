@@ -56,7 +56,7 @@ const fetchRoutesFromHost = (asn, host) =>
 
 const fetchFromBGPView = async asn => {
 	try {
-		const { data } = await axios.get(`https://api.bgpview.io/asn/${asn.replace(/^AS/, '')}/prefixes`);
+		const { data } = await axios.get(`https://api.bgpview.io/asn/${asn}/prefixes`);
 		if (data.status === 'ok') {
 			const ipv4 = data.data.ipv4_prefixes.map(p => ({ ip: p.prefix, source: 'bgpview.io' }));
 			const ipv6 = data.data.ipv6_prefixes.map(p => ({ ip: p.prefix, source: 'bgpview.io' }));
@@ -72,7 +72,7 @@ module.exports = async asn => {
 	const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
 	const asnInput = `AS${asnNorm}`;
 	const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
-		fetchFromBGPView(asnNorm),
+		fetchFromBGPView(asn),
 		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnInput, host))),
 	]);
 
