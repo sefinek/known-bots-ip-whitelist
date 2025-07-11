@@ -1,5 +1,4 @@
 IP,Name,Source
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -2365,6 +2364,7 @@ IP,Name,Source
 2a03:2880:f370::/48,FacebookBot,whois.radb.net
 2a03:2880:f371::/48,FacebookBot,whois.radb.net
 2a03:2880:f372::/48,FacebookBot,whois.radb.net
+2a03:2880:f373::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,whois.radb.net
 2a03:2880:f801::/48,FacebookBot,whois.radb.net
 2a03:2880:f802::/48,FacebookBot,whois.radb.net
@@ -7301,6 +7301,7 @@ IP,Name,Source
 57.144.224.0/23,FacebookBot,whois.radb.net
 57.144.226.0/23,FacebookBot,whois.radb.net
 57.144.228.0/23,FacebookBot,whois.radb.net
+57.144.230.0/23,FacebookBot,whois.radb.net
 57.152.72.128,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 63.178.84.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.185.232.82,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7930,6 +7931,7 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9656,7 +9658,7 @@ IP,Name,Source
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt

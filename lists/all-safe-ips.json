@@ -1,10 +1,5 @@
 [
   {
-    "IP": "1.117.61.116",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -11826,6 +11821,11 @@
   },
   {
     "IP": "2a03:2880:f372::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f373::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
   },
@@ -36510,6 +36510,11 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "57.144.230.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.152.72.128",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -39653,6 +39658,11 @@
     "IP": "109.248.43.241",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "116.90.72.155",
@@ -48285,7 +48295,7 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "150.109.181.129",
+    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
