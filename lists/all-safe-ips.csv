@@ -7943,7 +7943,6 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9658,7 +9657,7 @@ IP,Name,Source
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
