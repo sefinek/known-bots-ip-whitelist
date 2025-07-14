@@ -37690,11 +37690,6 @@
     "Source": "https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"

@@ -7537,7 +7537,6 @@ IP,Name,Source
 72.46.130.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.46.131.10,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.165.69.0/24,Palo Alto Networks,https://gist.githubusercontent.com/sefinek/6ebd61da62a82b1ea6bae4e21c4a1719/raw/palo-alto.ips
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
