@@ -3685,6 +3685,11 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "195.206.229.69",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "195.206.229.106",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
