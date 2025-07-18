@@ -1,0 +1,187 @@
+[
+  {
+    "ip": "15.235.224.227",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "15.235.224.238",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "15.235.224.239",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "15.235.227.163",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "23.106.244.195",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "31.14.32.4",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "31.14.32.5",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "31.14.32.6",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "31.14.32.7",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "31.14.32.8",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "46.105.70.190",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "51.161.172.223",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "51.161.174.170",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "54.37.81.238",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "57.128.230.106",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "57.129.64.10",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "57.129.64.219",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "57.129.64.237",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "91.134.73.222",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "91.134.73.230",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "104.236.209.11",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "134.199.202.6",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "134.199.207.201",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "134.209.173.54",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "134.209.199.75",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.193.79",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.206.49",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.208.45",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.210.228",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.210.254",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.212.55",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.213.23",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.214.202",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.214.204",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.214.206",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "148.113.214.212",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  },
+  {
+    "ip": "165.22.200.16",
+    "name": "modat",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
+  }
+]
