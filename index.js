@@ -33,17 +33,27 @@ const sources = [
 ];
 
 const runTests = () => {
+	console.log('> Running tests...');
+
 	return new Promise((resolve, reject) => {
 		const child = spawn('npm', ['run', 'test'], {
-			stdio: 'inherit',
 			shell: true,
+			stdio: ['inherit', 'pipe', 'pipe'],
 		});
+
+		let stderr = '', stdout = '';
+
+		child.stdout.on('data', chunk => stdout += chunk);
+		child.stderr.on('data', chunk => stderr += chunk);
 
 		child.on('exit', code => {
-			if (code === 0) resolve();
-			else reject(new Error(`Tests failed with exit code ${code}`));
+			const fail = code !== 0 || stdout.includes('FAIL') || stderr.includes('FAIL');
+			if (fail) {
+				if (stdout.trim()) process.stdout.write(stdout);
+				if (stderr.trim()) process.stderr.write(stderr);
+			}
+			code === 0 ? resolve() : reject(new Error(`Tests failed with exit code ${code}`));
 		});
-
 		child.on('error', reject);
 	});
 };
@@ -87,7 +97,7 @@ const generateLists = async () => {
 		});
 	}
 
-	console.log('> Writing global lists');
+	console.log('> Writing global lists...');
 	const globalRecs = Array.from(allMap.entries())
 		.map(([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
 		.sort((a, b) => ipUtils.compareIPs(a.IP, b.IP));
@@ -96,12 +106,13 @@ const generateLists = async () => {
 	await fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
 	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
 
-	console.log(`Generation complete: ${globalRecs.length} IPs total`);
+	console.log(`Generation complete: ${globalRecs.length} IPs total\n`);
 
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();
 
+		console.log('> Committing & pushing...');
 		const timestamp = new Date().toUTCString();
 		await git.add('./lists');
 		await git.commit(
