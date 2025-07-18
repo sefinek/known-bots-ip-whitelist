@@ -6961,7 +6961,7 @@ IP,Name,Source
 64.185.235.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.225.81.248,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.225.82.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-64.227.90.185,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+64.227.90.185,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
 65.55.210.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -6994,11 +6994,11 @@ IP,Name,Source
 66.232.45.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 66.232.46.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 66.232.47.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.240.192.138,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-66.240.205.34,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-66.240.219.133,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-66.240.219.146,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-66.240.236.119,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+66.240.192.138,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+66.240.205.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+66.240.219.133,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+66.240.219.146,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+66.240.236.119,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.249.64.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.64.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.64.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -7171,18 +7171,18 @@ IP,Name,Source
 69.171.224.0/20,FacebookBot,bgpview.io
 69.171.240.0/20,FacebookBot,bgpview.io
 69.171.250.0/24,FacebookBot,bgpview.io
-71.6.135.131,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.146.130,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.146.185,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.146.186,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.147.198,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.147.254,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.150.153,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.158.166,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.165.200,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.167.125,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.167.142,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-71.6.199.23,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+71.6.135.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.146.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.146.185,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.146.186,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.147.198,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.147.254,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.150.153,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.158.166,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.165.200,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.167.125,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.167.142,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+71.6.199.23,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 72.14.199.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.14.199.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.14.199.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7304,13 +7304,13 @@ IP,Name,Source
 79.127.237.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.242.89,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-80.82.77.33,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-80.82.77.139,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
-82.221.105.6,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-82.221.105.7,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+82.221.105.6,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+82.221.105.7,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 84.17.37.209,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.37.211,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.37.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7339,8 +7339,8 @@ IP,Name,Source
 84.17.59.117,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.63.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.252.160.0/19,YandexBot,https://yandex.com/ips
-85.25.43.94,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-85.25.103.50,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+85.25.103.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 87.249.137.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 87.250.224.0/19,YandexBot,https://yandex.com/ips
@@ -7369,9 +7369,9 @@ IP,Name,Source
 89.187.184.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.188.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.188.228,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-89.248.167.131,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-89.248.172.7,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-89.248.172.16,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+89.248.167.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+89.248.172.7,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+89.248.172.16,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 90.156.176.0/22,YandexBot,https://yandex.com/ips
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 91.105.192.0/23,TelegramBot,https://core.telegram.org/resources/cidr.txt
@@ -7448,9 +7448,9 @@ IP,Name,Source
 92.222.108.125,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.126,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.127,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-93.120.27.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+93.120.27.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 93.158.128.0/18,YandexBot,https://yandex.com/ips
-93.174.95.106,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+93.174.95.106,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 93.180.217.214,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 93.189.63.149,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.20.154.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7489,8 +7489,8 @@ IP,Name,Source
 94.46.27.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.75.211.73,PingdomBot,https://my.pingdom.com/probes/ipv4
 94.75.211.74,PingdomBot,https://my.pingdom.com/probes/ipv4
-94.102.49.190,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-94.102.49.193,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+94.102.49.190,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+94.102.49.193,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 94.128.254.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.68.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7538,13 +7538,13 @@ IP,Name,Source
 104.43.55.117,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 104.43.55.166,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 104.43.55.167,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
-104.131.0.69,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+104.131.0.69,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 104.166.144.106,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.199.223.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 104.210.139.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.210.139.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.210.140.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-104.236.198.48,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+104.236.198.48,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 104.236.209.11,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 104.237.51.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.53.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7646,17 +7646,17 @@ IP,Name,Source
 136.243.42.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 137.135.191.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-137.184.9.17,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.13.100,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.94.133,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.95.216,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.112.103,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.112.192,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.180.190,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.190.188,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.190.194,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.190.205,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-137.184.190.246,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+137.184.9.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.13.100,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.94.133,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.95.216,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.112.103,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.112.192,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.180.190,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.190.188,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.190.194,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.190.205,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+137.184.190.246,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 138.197.53.117,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 138.197.53.138,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 138.197.54.143,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -8736,11 +8736,11 @@ IP,Name,Source
 142.132.223.79,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 142.132.223.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 142.132.223.81,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-143.110.239.2,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-143.198.50.234,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-143.198.68.20,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-143.198.225.197,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-143.198.238.87,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+143.110.239.2,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+143.198.50.234,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+143.198.68.20,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+143.198.225.197,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+143.198.238.87,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 143.198.249.237,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 143.198.250.89,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 143.244.38.129,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9408,13 +9408,13 @@ IP,Name,Source
 159.69.57.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.68.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.158.189,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-159.203.176.62,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+159.203.176.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 159.223.243.219,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.142.125.0/24,Censys,bgpview.io
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
-162.159.244.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+162.159.244.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
 163.70.128.0/17,FacebookBot,bgpview.io
@@ -9431,8 +9431,8 @@ IP,Name,Source
 165.85.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.85.151.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.85.250.0/23,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-165.227.55.4,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-165.227.62.247,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+165.227.55.4,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+165.227.62.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 167.94.138.0/24,Censys,bgpview.io
 167.99.18.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.114.139.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -9691,7 +9691,7 @@ IP,Name,Source
 167.114.139.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 167.114.139.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 167.114.139.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-167.172.219.157,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+167.172.219.157,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 167.235.114.167,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 167.235.143.113,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.248.133.0/24,Censys,bgpview.io
@@ -10172,30 +10172,30 @@ IP,Name,Source
 185.131.64.124,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.135.85.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.136.156.82,PingdomBot,https://my.pingdom.com/probes/ipv4
-185.142.236.34,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.236.35,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.236.36,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.236.40,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.236.41,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.236.43,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.142.239.16,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+185.142.236.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.236.35,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.236.36,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.236.40,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.236.41,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.236.43,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.142.239.16,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.152.64.17,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.152.64.19,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.152.64.23,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.152.65.167,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.152.66.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-185.163.109.66,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+185.163.109.66,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-185.165.190.17,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-185.165.190.34,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+185.165.190.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+185.165.190.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.180.12.65,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.180.12.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-185.181.102.18,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+185.181.102.18,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.246.208.82,PingdomBot,https://my.pingdom.com/probes/ipv4
 188.40.126.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 188.114.96.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
-188.138.9.50,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+188.138.9.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 188.166.201.79,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 190.93.240.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
 190.120.230.7,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10245,7 +10245,7 @@ IP,Name,Source
 194.195.253.114,Better Uptime Bot,https://betteruptime.com/ips.txt
 194.242.11.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.69.140.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-195.144.21.56,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+195.144.21.56,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 195.181.163.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10262,15 +10262,15 @@ IP,Name,Source
 196.244.191.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 196.245.151.42,PingdomBot,https://my.pingdom.com/probes/ipv4
 197.234.240.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
-198.20.69.74,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.69.96/29,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.69.98,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.70.112/29,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.70.114,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.87.96/29,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.87.98,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.99.128/29,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-198.20.99.130,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+198.20.69.74,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.69.96/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.69.98,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.70.112/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.70.114,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.87.96/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.87.98,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.99.128/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.99.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.41.128.0/17,Cloudflare,https://www.cloudflare.com/ips-v4
 198.244.168.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.168.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -12621,8 +12621,8 @@ IP,Name,Source
 206.168.35.0/24,Censys,bgpview.io
 206.189.241.133,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 207.46.13.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
-207.90.244.0/24,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
-207.90.244.0/28,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+207.90.244.0/24,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+207.90.244.0/28,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 207.121.75.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.80.12,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.80.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12630,7 +12630,7 @@ IP,Name,Source
 207.211.214.145,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
 208.83.234.224,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-208.180.20.97,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+208.180.20.97,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 209.38.49.1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 209.38.49.206,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 209.38.49.226,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -12648,7 +12648,7 @@ IP,Name,Source
 209.85.238.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.85.238.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
-209.126.110.38,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+209.126.110.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 209.177.87.197,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -12674,7 +12674,7 @@ IP,Name,Source
 213.168.248.219,Better Uptime Bot,https://betteruptime.com/ips.txt
 213.170.143.139,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 213.180.192.0/19,YandexBot,https://yandex.com/ips
-216.117.2.180,Shodan,https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips
+216.117.2.180,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 216.144.248.18,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.19,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.21,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt

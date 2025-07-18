@@ -34812,7 +34812,7 @@
   {
     "IP": "64.227.90.185",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "64.237.49.203",
@@ -34977,27 +34977,27 @@
   {
     "IP": "66.240.192.138",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "66.240.205.34",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "66.240.219.133",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "66.240.219.146",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "66.240.236.119",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "66.249.64.0/27",
@@ -35862,62 +35862,62 @@
   {
     "IP": "71.6.135.131",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.146.130",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.146.185",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.146.186",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.147.198",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.147.254",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.150.153",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.158.166",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.165.200",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.167.125",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.167.142",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "71.6.199.23",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "72.14.199.0/27",
@@ -36527,12 +36527,12 @@
   {
     "IP": "80.82.77.33",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "80.82.77.139",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "82.103.136.16",
@@ -36552,12 +36552,12 @@
   {
     "IP": "82.221.105.6",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "82.221.105.7",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "84.17.37.209",
@@ -36702,12 +36702,12 @@
   {
     "IP": "85.25.43.94",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "85.25.103.50",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "85.195.116.134",
@@ -36852,17 +36852,17 @@
   {
     "IP": "89.248.167.131",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "89.248.172.7",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "89.248.172.16",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "90.156.176.0/22",
@@ -37247,7 +37247,7 @@
   {
     "IP": "93.120.27.62",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "93.158.128.0/18",
@@ -37257,7 +37257,7 @@
   {
     "IP": "93.174.95.106",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "93.180.217.214",
@@ -37452,12 +37452,12 @@
   {
     "IP": "94.102.49.190",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "94.102.49.193",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "94.128.254.166",
@@ -37697,7 +37697,7 @@
   {
     "IP": "104.131.0.69",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "104.166.144.106",
@@ -37727,7 +37727,7 @@
   {
     "IP": "104.236.198.48",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "104.236.209.11",
@@ -38237,57 +38237,57 @@
   {
     "IP": "137.184.9.17",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.13.100",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.94.133",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.95.216",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.112.103",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.112.192",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.180.190",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.190.188",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.190.194",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.190.205",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "137.184.190.246",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "138.197.53.117",
@@ -43687,27 +43687,27 @@
   {
     "IP": "143.110.239.2",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "143.198.50.234",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "143.198.68.20",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "143.198.225.197",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "143.198.238.87",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "143.198.249.237",
@@ -47047,7 +47047,7 @@
   {
     "IP": "159.203.176.62",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "159.223.243.219",
@@ -47077,7 +47077,7 @@
   {
     "IP": "162.159.244.38",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "162.218.67.34",
@@ -47162,12 +47162,12 @@
   {
     "IP": "165.227.55.4",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "165.227.62.247",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "167.94.138.0/24",
@@ -48462,7 +48462,7 @@
   {
     "IP": "167.172.219.157",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "167.235.114.167",
@@ -50867,37 +50867,37 @@
   {
     "IP": "185.142.236.34",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.236.35",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.236.36",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.236.40",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.236.41",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.236.43",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.142.239.16",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.152.64.17",
@@ -50927,7 +50927,7 @@
   {
     "IP": "185.163.109.66",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.165.170.74",
@@ -50937,12 +50937,12 @@
   {
     "IP": "185.165.190.17",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.165.190.34",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.180.12.65",
@@ -50962,7 +50962,7 @@
   {
     "IP": "185.181.102.18",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "185.246.208.82",
@@ -50982,7 +50982,7 @@
   {
     "IP": "188.138.9.50",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "188.166.201.79",
@@ -51232,7 +51232,7 @@
   {
     "IP": "195.144.21.56",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "195.181.163.194",
@@ -51317,47 +51317,47 @@
   {
     "IP": "198.20.69.74",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.69.96/29",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.69.98",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.70.112/29",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.70.114",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.87.96/29",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.87.98",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.99.128/29",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.20.99.130",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "198.41.128.0/17",
@@ -63112,12 +63112,12 @@
   {
     "IP": "207.90.244.0/24",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "207.90.244.0/28",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "207.121.75.132",
@@ -63157,7 +63157,7 @@
   {
     "IP": "208.180.20.97",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "209.38.49.1",
@@ -63247,7 +63247,7 @@
   {
     "IP": "209.126.110.38",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "209.177.87.197",
@@ -63377,7 +63377,7 @@
   {
     "IP": "216.117.2.180",
     "Name": "Shodan",
-    "Source": "https://gist.githubusercontent.com/sefinek/c4a0630324412447cacab94cbccdd58e/raw/shodan.ips"
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
     "IP": "216.144.248.18",
