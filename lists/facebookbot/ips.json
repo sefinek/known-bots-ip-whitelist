@@ -3567,7 +3567,7 @@
   {
     "ip": "57.144.146.0/23",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "57.144.148.0/23",
@@ -4282,7 +4282,7 @@
   {
     "ip": "157.240.198.0/24",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "157.240.199.0/24",
@@ -4482,7 +4482,7 @@
   {
     "ip": "157.240.239.0/24",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "157.240.240.0/24",
@@ -4652,12 +4652,12 @@
   {
     "ip": "163.70.145.0/24",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "163.70.146.0/24",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "163.70.147.0/24",

@@ -712,7 +712,7 @@ IP,Name,Source
 57.144.140.0/23,FacebookBot,whois.radb.net
 57.144.142.0/23,FacebookBot,whois.radb.net
 57.144.144.0/23,FacebookBot,bgpview.io
-57.144.146.0/23,FacebookBot,bgpview.io
+57.144.146.0/23,FacebookBot,whois.radb.net
 57.144.148.0/23,FacebookBot,whois.radb.net
 57.144.150.0/23,FacebookBot,bgpview.io
 57.144.152.0/23,FacebookBot,bgpview.io
@@ -855,7 +855,7 @@ IP,Name,Source
 157.240.195.0/24,FacebookBot,bgpview.io
 157.240.196.0/24,FacebookBot,bgpview.io
 157.240.197.0/24,FacebookBot,whois.radb.net
-157.240.198.0/24,FacebookBot,bgpview.io
+157.240.198.0/24,FacebookBot,whois.radb.net
 157.240.199.0/24,FacebookBot,bgpview.io
 157.240.200.0/24,FacebookBot,bgpview.io
 157.240.201.0/24,FacebookBot,bgpview.io
@@ -895,7 +895,7 @@ IP,Name,Source
 157.240.236.0/24,FacebookBot,whois.radb.net
 157.240.237.0/24,FacebookBot,whois.radb.net
 157.240.238.0/24,FacebookBot,bgpview.io
-157.240.239.0/24,FacebookBot,bgpview.io
+157.240.239.0/24,FacebookBot,whois.radb.net
 157.240.240.0/24,FacebookBot,whois.radb.net
 157.240.241.0/24,FacebookBot,bgpview.io
 157.240.242.0/24,FacebookBot,whois.radb.net
@@ -929,8 +929,8 @@ IP,Name,Source
 163.70.142.0/24,FacebookBot,whois.radb.net
 163.70.143.0/24,FacebookBot,whois.radb.net
 163.70.144.0/24,FacebookBot,whois.radb.net
-163.70.145.0/24,FacebookBot,bgpview.io
-163.70.146.0/24,FacebookBot,bgpview.io
+163.70.145.0/24,FacebookBot,whois.radb.net
+163.70.146.0/24,FacebookBot,whois.radb.net
 163.70.147.0/24,FacebookBot,bgpview.io
 163.70.148.0/24,FacebookBot,whois.radb.net
 163.70.149.0/24,FacebookBot,whois.radb.net

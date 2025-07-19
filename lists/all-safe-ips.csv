@@ -7367,7 +7367,7 @@ IP,Name,Source
 57.144.140.0/23,FacebookBot,whois.radb.net
 57.144.142.0/23,FacebookBot,whois.radb.net
 57.144.144.0/23,FacebookBot,bgpview.io
-57.144.146.0/23,FacebookBot,bgpview.io
+57.144.146.0/23,FacebookBot,whois.radb.net
 57.144.148.0/23,FacebookBot,whois.radb.net
 57.144.150.0/23,FacebookBot,bgpview.io
 57.144.152.0/23,FacebookBot,bgpview.io
@@ -8068,6 +8068,7 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9817,7 +9818,6 @@ IP,Name,Source
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9894,7 +9894,7 @@ IP,Name,Source
 157.240.195.0/24,FacebookBot,bgpview.io
 157.240.196.0/24,FacebookBot,bgpview.io
 157.240.197.0/24,FacebookBot,whois.radb.net
-157.240.198.0/24,FacebookBot,bgpview.io
+157.240.198.0/24,FacebookBot,whois.radb.net
 157.240.199.0/24,FacebookBot,bgpview.io
 157.240.200.0/24,FacebookBot,bgpview.io
 157.240.201.0/24,FacebookBot,bgpview.io
@@ -9934,7 +9934,7 @@ IP,Name,Source
 157.240.236.0/24,FacebookBot,whois.radb.net
 157.240.237.0/24,FacebookBot,whois.radb.net
 157.240.238.0/24,FacebookBot,bgpview.io
-157.240.239.0/24,FacebookBot,bgpview.io
+157.240.239.0/24,FacebookBot,whois.radb.net
 157.240.240.0/24,FacebookBot,whois.radb.net
 157.240.241.0/24,FacebookBot,bgpview.io
 157.240.242.0/24,FacebookBot,whois.radb.net
@@ -9981,8 +9981,8 @@ IP,Name,Source
 163.70.142.0/24,FacebookBot,whois.radb.net
 163.70.143.0/24,FacebookBot,whois.radb.net
 163.70.144.0/24,FacebookBot,whois.radb.net
-163.70.145.0/24,FacebookBot,bgpview.io
-163.70.146.0/24,FacebookBot,bgpview.io
+163.70.145.0/24,FacebookBot,whois.radb.net
+163.70.146.0/24,FacebookBot,whois.radb.net
 163.70.147.0/24,FacebookBot,bgpview.io
 163.70.148.0/24,FacebookBot,whois.radb.net
 163.70.149.0/24,FacebookBot,whois.radb.net
