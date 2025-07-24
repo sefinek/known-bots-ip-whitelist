@@ -5240,6 +5240,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "31.13.85.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "31.13.86.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -5251,6 +5256,16 @@
   },
   {
     "IP": "31.13.89.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.90.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.91.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -8835,11 +8850,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "2800:1e0:2410:1::9",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -10505,11 +10515,6 @@
     "Source": "bgpview.io"
   },
   {
-    "IP": "2a03:2880:f32d::/48",
-    "Name": "FacebookBot",
-    "Source": "bgpview.io"
-  },
-  {
     "IP": "2a03:2880:f32e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10631,6 +10636,11 @@
   },
   {
     "IP": "2a03:2880:f36d::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f36e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -34635,17 +34645,17 @@
     "Source": "bgpview.io"
   },
   {
-    "IP": "57.144.108.0/23",
-    "Name": "FacebookBot",
-    "Source": "bgpview.io"
-  },
-  {
     "IP": "57.144.110.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
     "IP": "57.144.112.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.114.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -34766,6 +34776,11 @@
   },
   {
     "IP": "57.144.218.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.220.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -38088,6 +38103,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -46855,6 +46875,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.12.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "157.240.13.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -46925,6 +46950,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.197.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "157.240.199.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -46946,6 +46976,11 @@
   },
   {
     "IP": "157.240.203.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.204.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -46985,6 +47020,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.222.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "157.240.223.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -47000,12 +47040,22 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.226.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "157.240.229.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
     "IP": "157.240.231.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.233.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
@@ -47141,6 +47191,11 @@
   },
   {
     "IP": "163.70.151.0/24",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "163.70.152.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },

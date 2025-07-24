@@ -70,6 +70,11 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "31.13.85.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "31.13.86.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -81,6 +86,16 @@
   },
   {
     "ip": "31.13.89.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "31.13.90.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "31.13.91.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
@@ -1105,11 +1120,6 @@
     "source": "bgpview.io"
   },
   {
-    "ip": "2a03:2880:f32d::/48",
-    "name": "facebookbot",
-    "source": "bgpview.io"
-  },
-  {
     "ip": "2a03:2880:f32e::/48",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -1235,6 +1245,11 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "2a03:2880:f36e::/48",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "2a03:2880:f36f::/48",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -1355,17 +1370,17 @@
     "source": "bgpview.io"
   },
   {
-    "ip": "57.144.108.0/23",
-    "name": "facebookbot",
-    "source": "bgpview.io"
-  },
-  {
     "ip": "57.144.110.0/23",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
   {
     "ip": "57.144.112.0/23",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "57.144.114.0/23",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
@@ -1486,6 +1501,11 @@
   },
   {
     "ip": "57.144.218.0/23",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "57.144.220.0/23",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
@@ -1655,6 +1675,11 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "157.240.12.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "157.240.13.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -1725,6 +1750,11 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "157.240.197.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "157.240.199.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -1746,6 +1776,11 @@
   },
   {
     "ip": "157.240.203.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "157.240.204.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
@@ -1785,6 +1820,11 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "157.240.222.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "157.240.223.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -1800,12 +1840,22 @@
     "source": "bgpview.io"
   },
   {
+    "ip": "157.240.226.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
     "ip": "157.240.229.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
   {
     "ip": "157.240.231.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "157.240.233.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
   },
@@ -1876,6 +1926,11 @@
   },
   {
     "ip": "163.70.151.0/24",
+    "name": "facebookbot",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "163.70.152.0/24",
     "name": "facebookbot",
     "source": "bgpview.io"
   },

@@ -1047,9 +1047,12 @@ IP,Name,Source
 31.13.82.0/24,FacebookBot,bgpview.io
 31.13.83.0/24,FacebookBot,bgpview.io
 31.13.84.0/24,FacebookBot,bgpview.io
+31.13.85.0/24,FacebookBot,bgpview.io
 31.13.86.0/24,FacebookBot,bgpview.io
 31.13.88.0/24,FacebookBot,bgpview.io
 31.13.89.0/24,FacebookBot,bgpview.io
+31.13.90.0/24,FacebookBot,bgpview.io
+31.13.91.0/24,FacebookBot,bgpview.io
 31.13.93.0/24,FacebookBot,bgpview.io
 31.13.94.0/24,FacebookBot,bgpview.io
 31.13.96.0/19,FacebookBot,bgpview.io
@@ -1766,7 +1769,6 @@ IP,Name,Source
 38.54.121.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
@@ -2100,7 +2102,6 @@ IP,Name,Source
 2a03:2880:f329::/48,FacebookBot,bgpview.io
 2a03:2880:f32a::/48,FacebookBot,bgpview.io
 2a03:2880:f32b::/48,FacebookBot,bgpview.io
-2a03:2880:f32d::/48,FacebookBot,bgpview.io
 2a03:2880:f32e::/48,FacebookBot,bgpview.io
 2a03:2880:f330::/48,FacebookBot,bgpview.io
 2a03:2880:f33a::/48,FacebookBot,bgpview.io
@@ -2126,6 +2127,7 @@ IP,Name,Source
 2a03:2880:f367::/48,FacebookBot,bgpview.io
 2a03:2880:f36c::/48,FacebookBot,bgpview.io
 2a03:2880:f36d::/48,FacebookBot,bgpview.io
+2a03:2880:f36e::/48,FacebookBot,bgpview.io
 2a03:2880:f36f::/48,FacebookBot,bgpview.io
 2a03:2880:f800::/48,FacebookBot,bgpview.io
 2a03:2880:f802::/48,FacebookBot,bgpview.io
@@ -6926,9 +6928,9 @@ IP,Name,Source
 57.144.0.0/14,FacebookBot,bgpview.io
 57.144.102.0/23,FacebookBot,bgpview.io
 57.144.104.0/23,FacebookBot,bgpview.io
-57.144.108.0/23,FacebookBot,bgpview.io
 57.144.110.0/23,FacebookBot,bgpview.io
 57.144.112.0/23,FacebookBot,bgpview.io
+57.144.114.0/23,FacebookBot,bgpview.io
 57.144.116.0/23,FacebookBot,bgpview.io
 57.144.120.0/23,FacebookBot,bgpview.io
 57.144.126.0/23,FacebookBot,bgpview.io
@@ -6953,6 +6955,7 @@ IP,Name,Source
 57.144.206.0/23,FacebookBot,bgpview.io
 57.144.216.0/23,FacebookBot,bgpview.io
 57.144.218.0/23,FacebookBot,bgpview.io
+57.144.220.0/23,FacebookBot,bgpview.io
 57.144.222.0/23,FacebookBot,bgpview.io
 57.152.72.128,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 57.154.174.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7617,6 +7620,7 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9370,6 +9374,7 @@ IP,Name,Source
 157.240.7.0/24,FacebookBot,bgpview.io
 157.240.9.0/24,FacebookBot,bgpview.io
 157.240.11.0/24,FacebookBot,bgpview.io
+157.240.12.0/24,FacebookBot,bgpview.io
 157.240.13.0/24,FacebookBot,bgpview.io
 157.240.14.0/24,FacebookBot,bgpview.io
 157.240.15.0/24,FacebookBot,bgpview.io
@@ -9384,11 +9389,13 @@ IP,Name,Source
 157.240.192.0/18,FacebookBot,bgpview.io
 157.240.195.0/24,FacebookBot,bgpview.io
 157.240.196.0/24,FacebookBot,bgpview.io
+157.240.197.0/24,FacebookBot,bgpview.io
 157.240.199.0/24,FacebookBot,bgpview.io
 157.240.200.0/24,FacebookBot,bgpview.io
 157.240.201.0/24,FacebookBot,bgpview.io
 157.240.202.0/24,FacebookBot,bgpview.io
 157.240.203.0/24,FacebookBot,bgpview.io
+157.240.204.0/24,FacebookBot,bgpview.io
 157.240.205.0/24,FacebookBot,bgpview.io
 157.240.209.0/24,FacebookBot,bgpview.io
 157.240.210.0/24,FacebookBot,bgpview.io
@@ -9396,11 +9403,14 @@ IP,Name,Source
 157.240.212.0/24,FacebookBot,bgpview.io
 157.240.214.0/24,FacebookBot,bgpview.io
 157.240.221.0/24,FacebookBot,bgpview.io
+157.240.222.0/24,FacebookBot,bgpview.io
 157.240.223.0/24,FacebookBot,bgpview.io
 157.240.224.0/24,FacebookBot,bgpview.io
 157.240.225.0/24,FacebookBot,bgpview.io
+157.240.226.0/24,FacebookBot,bgpview.io
 157.240.229.0/24,FacebookBot,bgpview.io
 157.240.231.0/24,FacebookBot,bgpview.io
+157.240.233.0/24,FacebookBot,bgpview.io
 157.240.234.0/24,FacebookBot,bgpview.io
 157.240.238.0/24,FacebookBot,bgpview.io
 157.240.241.0/24,FacebookBot,bgpview.io
@@ -9428,6 +9438,7 @@ IP,Name,Source
 163.70.128.0/24,FacebookBot,bgpview.io
 163.70.147.0/24,FacebookBot,bgpview.io
 163.70.151.0/24,FacebookBot,bgpview.io
+163.70.152.0/24,FacebookBot,bgpview.io
 163.70.158.0/24,FacebookBot,bgpview.io
 163.70.159.0/24,FacebookBot,bgpview.io
 165.22.200.16,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
