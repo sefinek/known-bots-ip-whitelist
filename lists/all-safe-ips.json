@@ -8930,6 +8930,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "39.104.13.61",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "2800:1e0:2410:1::9",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -38325,11 +38330,6 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -40400,7 +40400,7 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "124.220.31.125",
+    "IP": "124.156.244.42",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -49085,12 +49085,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.158.3.127",
+    "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
