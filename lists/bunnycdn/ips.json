@@ -1930,16 +1930,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "89.187.169.18",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "89.187.169.26",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "ip": "89.187.169.47",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -2241,16 +2231,6 @@
   },
   {
     "ip": "109.61.86.193",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "109.61.89.57",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "109.61.89.58",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -3255,61 +3235,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "169.150.247.138",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.139",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.177",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.178",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.179",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.180",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.181",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.182",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.183",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.184",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "ip": "169.150.247.185",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "ip": "169.150.249.162",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -3825,11 +3750,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "212.102.43.88",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "ip": "212.102.46.115",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -3870,6 +3790,26 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "212.104.158.10",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.11",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.12",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.16",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "212.104.158.17",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -3900,12 +3840,92 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "212.104.158.23",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "212.104.158.24",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "212.104.158.25",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "212.104.158.26",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.27",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.28",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.29",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.30",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.31",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.32",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.33",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.34",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.35",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.36",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.37",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.54",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.64",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "ip": "212.104.158.67",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
