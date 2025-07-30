@@ -12222,7 +12222,7 @@
   {
     "IP": "2a03:2880:f80c::/48",
     "Name": "FacebookBot",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "2a03:2880:f80d::/48",
@@ -36467,7 +36467,7 @@
   {
     "IP": "57.141.12.0/24",
     "Name": "FacebookBot",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "57.141.13.0/24",
@@ -49095,12 +49095,22 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
