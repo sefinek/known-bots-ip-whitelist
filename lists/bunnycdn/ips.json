@@ -875,21 +875,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
-    "ip": "2400:52e0:1e00::1328:1",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
-    "ip": "2400:52e0:1e00::1329:1",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
-    "ip": "2400:52e0:1e00::1330:1",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
     "ip": "2400:52e0:1e00::1331:1",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
