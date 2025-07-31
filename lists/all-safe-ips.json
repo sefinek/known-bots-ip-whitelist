@@ -38315,11 +38315,6 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -39195,7 +39190,7 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
-    "IP": "90.156.176.0/22",
+    "IP": "90.156.176.0/20",
     "Name": "YandexBot",
     "Source": "https://yandex.com/ips"
   },
@@ -39575,6 +39570,11 @@
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
+    "IP": "92.255.112.0/20",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "93.120.27.62",
     "Name": "Shodan",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
@@ -39813,6 +39813,11 @@
     "IP": "98.98.242.142",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "100.43.64.0/19",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "101.43.149.237",
@@ -40388,11 +40393,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -49078,11 +49078,6 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.172.224",
@@ -60715,9 +60710,19 @@
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
+    "IP": "199.21.96.0/22",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
+  },
+  {
     "IP": "199.30.24.0/23",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
+  },
+  {
+    "IP": "199.36.240.0/22",
+    "Name": "YandexBot",
+    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "199.87.228.66",

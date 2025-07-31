@@ -7662,7 +7662,6 @@ IP,Name,Source
 74.7.36.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.36.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.36.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,bgpview.io
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7838,7 +7837,7 @@ IP,Name,Source
 89.248.167.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 89.248.172.7,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 89.248.172.16,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-90.156.176.0/22,YandexBot,https://yandex.com/ips
+90.156.176.0/20,YandexBot,https://yandex.com/ips
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 91.105.192.0/23,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.107.221.68,Better Uptime Bot,https://betteruptime.com/ips.txt
@@ -7914,6 +7913,7 @@ IP,Name,Source
 92.222.108.125,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.126,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.127,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+92.255.112.0/20,YandexBot,https://yandex.com/ips
 93.120.27.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 93.158.128.0/18,YandexBot,https://yandex.com/ips
 93.174.95.106,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -7962,6 +7962,7 @@ IP,Name,Source
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+100.43.64.0/19,YandexBot,https://yandex.com/ips
 101.43.149.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 102.132.96.0/20,FacebookBot,bgpview.io
@@ -8077,7 +8078,6 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9815,7 +9815,6 @@ IP,Name,Source
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -12142,7 +12141,9 @@ IP,Name,Source
 198.244.242.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+199.21.96.0/22,YandexBot,https://yandex.com/ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
+199.36.240.0/22,YandexBot,https://yandex.com/ips
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 199.167.52.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 199.167.53.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
