@@ -40415,11 +40415,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "124.220.31.125",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -49106,11 +49101,6 @@
   },
   {
     "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
