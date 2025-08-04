@@ -126,11 +126,9 @@ const generateLists = async () => {
 };
 
 new CronJob('0 */4 * * *', generateLists, null, true, 'utc');
-if (require.main === module) {
-	generateLists().catch(err => {
-		console.error(err);
-		process.exit(1);
-	});
-}
+// generateLists().catch(err => {
+// 	console.error(err);
+// 	process.exit(1);
+// });
 
 process.send?.('ready');
