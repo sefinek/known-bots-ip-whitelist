@@ -1181,6 +1181,7 @@ IP,Name,Source
 2001:4860:4801:79::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:7a::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:7b::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:7c::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:80::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:81::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:82::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1318,6 +1319,7 @@ IP,Name,Source
 2001:4860:4801:2079::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:207a::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:207b::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+2001:4860:4801:207c::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2080::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2081::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2082::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7115,6 +7117,7 @@ IP,Name,Source
 66.249.78.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.78.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.78.96/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+66.249.78.128/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -7270,6 +7273,7 @@ IP,Name,Source
 74.125.219.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+74.125.219.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7611,7 +7615,6 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9340,7 +9343,6 @@ IP,Name,Source
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

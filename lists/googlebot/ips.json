@@ -510,6 +510,11 @@
     "source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "ip": "2001:4860:4801:7c::/64",
+    "name": "googlebot",
+    "source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "ip": "2001:4860:4801:80::/64",
     "name": "googlebot",
     "source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -1341,6 +1346,11 @@
   },
   {
     "ip": "66.249.78.96/27",
+    "name": "googlebot",
+    "source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
+    "ip": "66.249.78.128/27",
     "name": "googlebot",
     "source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },

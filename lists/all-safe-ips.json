@@ -5910,6 +5910,11 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "2001:4860:4801:7c::/64",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "2001:4860:4801:80::/64",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -6591,6 +6596,11 @@
   },
   {
     "IP": "2001:4860:4801:207b::/64",
+    "Name": "Google Special Crawlers",
+    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "2001:4860:4801:207c::/64",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -35580,6 +35590,11 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "66.249.78.128/27",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "66.249.79.0/27",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -36351,6 +36366,11 @@
   },
   {
     "IP": "74.125.219.96/27",
+    "Name": "Google Special Crawlers",
+    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "74.125.219.128/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -38058,11 +38078,6 @@
     "IP": "109.248.43.241",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "115.159.57.46",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "116.90.72.155",
@@ -46701,11 +46716,6 @@
   },
   {
     "IP": "150.109.181.129",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
