@@ -85,46 +85,55 @@ const fetchFromBGPView = async src => {
 		for (const p of all) {
 			const nameNull = p.name == null;
 			const descNull = p.description == null;
+			if (!acceptNullable && nameNull && descNull) continue;
 
-			if (acceptNullable && (nameNull || descNull)) {
+			if (acceptNullable && nameNull && descNull) {
 				result.push({ ip: p.prefix, source: 'bgpview.io' });
 				continue;
 			}
-			if (!acceptNullable && (nameNull || descNull)) continue;
 
 			const owner = `${p.name || ''} ${p.description || ''}`.toLowerCase();
 			if (keywords.some(k => owner.includes(k))) {
 				result.push({ ip: p.prefix, source: 'bgpview.io' });
 			} else {
-				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.prefix}; Got: "${p.name}" / "${p.description}"`);
+				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.prefix}; Got: "${p.name}" / "${p.description}" (SKIPPED)`);
 			}
 		}
 		return result;
 	} catch (err) {
-		console.error(`BGPView ERROR -> ASN: ${src.asn};`, err);
+		console.error(`BGPView ERROR -> ASN: ${src.asn};`, err.stack);
 		return [];
 	}
 };
 
 module.exports = async src => {
-	const asnNorm = String(src.asn).toUpperCase().replace(/^AS/, '');
-	const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
-		fetchFromBGPView(src),
-		Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
-	]);
+	const asns = Array.isArray(src.asn) ? src.asn : [src.asn];
+	const allResults = [];
 
-	const whoisRoutes = whoisRoutesArray.flat();
+	for (const asn of asns) {
+		const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
+		const srcWithSingleAsn = { ...src, asn };
+
+		const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
+			fetchFromBGPView(srcWithSingleAsn),
+			Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
+		]);
+
+		const whoisRoutes = whoisRoutesArray.flat();
+		allResults.push(...bgpviewRoutes, ...whoisRoutes);
+	}
 
 	const uniqueMap = new Map();
-	for (const r of [...bgpviewRoutes, ...whoisRoutes]) {
+	for (const r of allResults) {
 		if (!uniqueMap.has(r.ip)) uniqueMap.set(r.ip, r);
 	}
 
+	const asnDisplay = Array.isArray(src.asn) ? src.asn.join(',') : src.asn;
 	return Array.from(uniqueMap.values())
 		.sort((a, b) => compareIPs(a.ip, b.ip))
 		.map(({ ip, source }) => ({
 			ip,
-			name: `AS${asnNorm}`,
+			name: asnDisplay,
 			source,
 		}));
 };

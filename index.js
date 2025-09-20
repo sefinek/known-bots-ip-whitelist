@@ -30,6 +30,7 @@ const sources = [
 	{ name: 'Censys', dir: 'censys', keywords: ['censys', 'censy'], analyzeKeywords: true, acceptNullable: true, asn: 'AS398324', type: 'whois' },
 	{ name: 'OpenAI', dir: 'openai', url: 'https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt', type: 'hosts' },
 	{ name: 'Modat Scanner', dir: 'modat', file: 'modat.txt', type: 'file' },
+	{ name: 'Semrush', dir: 'semrush', analyzeKeywords: false, asn: ['AS398324', 'AS209366'], type: 'whois' },
 ];
 
 const runTests = () => {
