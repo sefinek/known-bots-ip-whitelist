@@ -68,11 +68,17 @@ const makeKeywords = src => {
 	return Array.from(new Set(arr.filter(Boolean)));
 };
 
+const sleep = (baseMs, randomMs = 0) => {
+	const finalMs = baseMs + Math.floor(Math.random() * randomMs);
+	return new Promise(resolve => setTimeout(resolve, finalMs));
+};
+
 const fetchFromBGPView = async src => {
 	const keywords = makeKeywords(src);
 	const acceptNullable = !!src.acceptNullable;
 
 	try {
+		await sleep(1500, 2000);
 		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
 		if (data.status !== 'ok' || !data.data) return [];
 
@@ -110,9 +116,12 @@ module.exports = async src => {
 	const asns = Array.isArray(src.asn) ? src.asn : [src.asn];
 	const allResults = [];
 
-	for (const asn of asns) {
+	for (let i = 0; i < asns.length; i++) {
+		const asn = asns[i];
 		const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
 		const srcWithSingleAsn = { ...src, asn };
+
+		if (i > 0) await sleep(2000);
 
 		const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
 			fetchFromBGPView(srcWithSingleAsn),
