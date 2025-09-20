@@ -20,11 +20,6 @@
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "ip": "2001:4860:4801:2011::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "ip": "2001:4860:4801:2012::/64",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -506,6 +501,11 @@
   },
   {
     "ip": "2001:4860:4801:207c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:207d::/64",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -1070,11 +1070,6 @@
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "ip": "74.125.216.96/27",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "ip": "74.125.216.128/27",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -1196,6 +1191,11 @@
   },
   {
     "ip": "74.125.219.128/27",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "74.125.219.160/27",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },

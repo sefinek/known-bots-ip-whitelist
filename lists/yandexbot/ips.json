@@ -60,11 +60,6 @@
     "source": "https://yandex.com/ips"
   },
   {
-    "ip": "100.43.64.0/19",
-    "name": "yandexbot",
-    "source": "https://yandex.com/ips"
-  },
-  {
     "ip": "141.8.128.0/18",
     "name": "yandexbot",
     "source": "https://yandex.com/ips"
@@ -76,16 +71,6 @@
   },
   {
     "ip": "185.32.187.0/24",
-    "name": "yandexbot",
-    "source": "https://yandex.com/ips"
-  },
-  {
-    "ip": "199.21.96.0/22",
-    "name": "yandexbot",
-    "source": "https://yandex.com/ips"
-  },
-  {
-    "ip": "199.36.240.0/22",
     "name": "yandexbot",
     "source": "https://yandex.com/ips"
   },

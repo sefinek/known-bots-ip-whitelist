@@ -90,6 +90,16 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "4.196.198.80",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "4.197.19.176",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "4.197.22.112",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -123,6 +133,11 @@
     "IP": "4.228.76.163",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "4.234.83.96",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "5.9.71.119",
@@ -570,6 +585,11 @@
     "Source": "https://www.bing.com/toolbox/bingbot.json"
   },
   {
+    "IP": "13.70.107.160",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "13.70.181.210",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -578,6 +598,11 @@
     "IP": "13.71.172.224/28",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
+  },
+  {
+    "IP": "13.76.32.208",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "13.76.116.80",
@@ -1908,11 +1933,6 @@
     "IP": "15.235.27.255",
     "Name": "AhrefsBot",
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
-  },
-  {
-    "IP": "15.235.54.226",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
     "IP": "15.235.96.0",
@@ -4520,6 +4540,11 @@
     "Source": "https://stripe.com/files/ips/ips_webhooks.txt"
   },
   {
+    "IP": "20.0.53.96",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.3.1.178",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -4541,6 +4566,11 @@
   },
   {
     "IP": "20.25.151.224",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "20.27.94.128",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -4780,6 +4810,11 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
+    "IP": "20.77.178.240",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.79.107.240/28",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
@@ -4965,6 +5000,21 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "20.194.0.208",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "20.194.1.0",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "20.194.157.176",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.195.108.47",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -4980,9 +5030,19 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
+    "IP": "20.198.67.96",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.201.15.208",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "20.204.24.240",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "20.204.240.172",
@@ -5055,6 +5115,16 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
+    "IP": "20.210.154.128",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "20.210.174.208",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.215.188.192",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -5090,6 +5160,11 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "20.235.75.208",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "20.235.87.224",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -5115,6 +5190,16 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "23.97.109.224",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "23.98.142.176",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "23.98.179.16",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -5136,6 +5221,16 @@
   },
   {
     "IP": "23.98.186.192",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "23.102.140.144",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "23.102.141.32",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -5180,6 +5275,16 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "31.13.64.0/19",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.64.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "31.13.65.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -5193,6 +5298,11 @@
     "IP": "31.13.67.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.68.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.69.0/24",
@@ -5220,9 +5330,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "31.13.74.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.75.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.76.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.77.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.78.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.79.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "31.13.80.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.81.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.82.0/24",
@@ -5242,12 +5387,17 @@
   {
     "IP": "31.13.85.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.86.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.87.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.88.0/24",
@@ -5262,12 +5412,17 @@
   {
     "IP": "31.13.90.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.91.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "31.13.92.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.93.0/24",
@@ -5278,6 +5433,11 @@
     "IP": "31.13.94.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "31.13.95.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "31.13.96.0/19",
@@ -5330,22 +5490,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "2001:67c:4e8:f002::a/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:67c:4e8:f002::e/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:67c:4e8:f004::a/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:67c:4e8:fa60::/64",
+    "IP": "2001:b28:f23c::/48",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
@@ -5355,32 +5500,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "2001:b28:f23d:f001::a/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:b28:f23d:f001::e/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:b28:f23d:f003::a/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:b28:f23d:f003::e/128",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
     "IP": "2001:b28:f23f::/48",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "2001:b28:f23f:f005::a/128",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
@@ -5456,11 +5576,6 @@
   },
   {
     "IP": "2001:4860:4801:10::/64",
-    "Name": "GoogleBot",
-    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
-  },
-  {
-    "IP": "2001:4860:4801:11::/64",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
@@ -5810,6 +5925,11 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "2001:4860:4801:58::/64",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "2001:4860:4801:60::/64",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -5951,6 +6071,11 @@
   },
   {
     "IP": "2001:4860:4801:7c::/64",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
+    "IP": "2001:4860:4801:7d::/64",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
@@ -6105,6 +6230,16 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "2001:4860:4801:ad::/64",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
+    "IP": "2001:4860:4801:ae::/64",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "2001:4860:4801:b0::/64",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -6151,11 +6286,6 @@
   },
   {
     "IP": "2001:4860:4801:2010::/64",
-    "Name": "Google Special Crawlers",
-    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "IP": "2001:4860:4801:2011::/64",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -6641,6 +6771,11 @@
   },
   {
     "IP": "2001:4860:4801:207c::/64",
+    "Name": "Google Special Crawlers",
+    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "2001:4860:4801:207d::/64",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -7376,6 +7511,16 @@
   },
   {
     "IP": "2400:52e0:1690::1168:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1690::1341:1",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+  },
+  {
+    "IP": "2400:52e0:1690::1342:1",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -8155,6 +8300,11 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
+    "IP": "2401:db00::/32",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2401:e780:1:91::495",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
@@ -8610,6 +8760,11 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
+    "IP": "2604:86c0:4001:b::4067",
+    "Name": "PingdomBot",
+    "Source": "https://my.pingdom.com/probes/ipv6"
+  },
+  {
     "IP": "2604:a880:800:14:0:1:68ba:d000",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -8745,7 +8900,7 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
-    "IP": "2607:5300:203:a1e2::1",
+    "IP": "2607:5300:20e:a100::",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -8768,11 +8923,6 @@
     "IP": "2607:fdc0:1:2d:f6ee:8ff:fe3e:a1cc",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
-    "IP": "2607:ff28:800f:21::4067",
-    "Name": "PingdomBot",
-    "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
     "IP": "2607:ff68:107::4",
@@ -8860,6 +9010,16 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2620:0:1cfa::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2620:0:1cff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2620:52:c000::/48",
     "Name": "Palo Alto Networks",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
@@ -8885,11 +9045,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "38.54.121.16",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "38.104.169.186",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -8898,6 +9053,11 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "39.104.13.61",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "2800:1e0:2410:1::9",
@@ -8920,6 +9080,16 @@
     "Source": "https://my.pingdom.com/probes/ipv6"
   },
   {
+    "IP": "2806:1090:cbff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2806:10a0:cbff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "40.64.105.247",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -8928,6 +9098,11 @@
     "IP": "40.64.106.11",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "40.75.14.224",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "40.76.162.191",
@@ -9590,14 +9765,29 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:4000::/36",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:5000::/36",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:6000::/36",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:7000::/36",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f000::/36",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f001::/48",
@@ -9618,6 +9808,11 @@
     "IP": "2a03:2880:f005::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f006::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f007::/48",
@@ -9675,19 +9870,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f016::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f017::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "2a03:2880:f019::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f01b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f01c::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f01d::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f01e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f01f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f021::/48",
@@ -9700,14 +9920,59 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f024::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f027::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f028::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f029::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f02a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f02b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f02c::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f02d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f02e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f02f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f030::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f031::/48",
@@ -9718,6 +9983,11 @@
     "IP": "2a03:2880:f032::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f033::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f034::/48",
@@ -9735,9 +10005,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f037::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f038::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f03a::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f03b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f03d::/48",
@@ -9745,9 +10030,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f03e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f03f::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f040::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f041::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f042::/48",
@@ -9755,14 +10055,49 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f043::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f044::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f045::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f046::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f047::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f048::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f04a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f04b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f04c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f04d::/48",
@@ -9773,6 +10108,11 @@
     "IP": "2a03:2880:f04e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f04f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f050::/48",
@@ -9790,6 +10130,21 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f054::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f055::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f056::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f057::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -9800,9 +10155,29 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f059::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f05a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f05b::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f05c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f05d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f05e::/48",
@@ -9827,7 +10202,12 @@
   {
     "IP": "2a03:2880:f066::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f067::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f068::/48",
@@ -9845,14 +10225,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f06d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f06f::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f070::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f071::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f073::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f074::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f076::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f077::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f078::/48",
@@ -9868,6 +10278,16 @@
     "IP": "2a03:2880:f07e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f080::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f081::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f082::/48",
@@ -9890,14 +10310,109 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f086::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f08a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f08e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f091::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f096::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f097::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f098::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f099::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f09a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f09b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f09c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f09d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f09e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0a2::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0a3::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0a4::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f0a5::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f0a6::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0a7::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0a8::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f0aa::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f0fc::/47",
@@ -9925,6 +10440,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f102::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f103::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -9938,6 +10458,11 @@
     "IP": "2a03:2880:f105::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f106::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f107::/48",
@@ -9997,7 +10522,7 @@
   {
     "IP": "2a03:2880:f114::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f115::/48",
@@ -10005,9 +10530,34 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f116::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f117::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "2a03:2880:f119::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f11b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f11c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f11f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f121::/48",
@@ -10020,14 +10570,59 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f124::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f127::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f128::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f129::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f12a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f12b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f12c::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f12d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f12e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f12f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f130::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f131::/48",
@@ -10038,6 +10633,11 @@
     "IP": "2a03:2880:f132::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f133::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f134::/48",
@@ -10055,9 +10655,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f137::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f138::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f13a::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f13b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f13d::/48",
@@ -10065,9 +10680,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f13e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f13f::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f140::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f141::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f142::/48",
@@ -10075,14 +10705,49 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f143::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f144::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f145::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f146::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f147::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f148::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f14a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f14b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f14c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f14d::/48",
@@ -10093,6 +10758,11 @@
     "IP": "2a03:2880:f14e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f14f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f150::/48",
@@ -10110,6 +10780,21 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f154::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f155::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f156::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f157::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10120,9 +10805,29 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f159::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f15a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f15b::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f15c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f15d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f15e::/48",
@@ -10147,7 +10852,12 @@
   {
     "IP": "2a03:2880:f163::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f164::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f165::/48",
@@ -10165,14 +10875,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f168::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f169::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f16a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f16b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f16c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f16d::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f16e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f16f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f170::/48",
@@ -10188,6 +10928,16 @@
     "IP": "2a03:2880:f172::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f173::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f174::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f175::/48",
@@ -10210,14 +10960,104 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f179::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f17a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f17b::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f17c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f17d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f17e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f17f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f180::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f181::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f182::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f183::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f184::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f185::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f186::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f187::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f188::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f189::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f18a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f18b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f18c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f1fc::/47",
@@ -10235,9 +11075,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f1ff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f201::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f202::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f203::/48",
@@ -10253,6 +11103,11 @@
     "IP": "2a03:2880:f205::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f206::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f207::/48",
@@ -10312,7 +11167,7 @@
   {
     "IP": "2a03:2880:f214::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f215::/48",
@@ -10320,9 +11175,34 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f216::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f217::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "2a03:2880:f219::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f21b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f21c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f21f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f221::/48",
@@ -10335,14 +11215,59 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f224::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f227::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f228::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f229::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f22a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f22b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f22c::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f22d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f22e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f22f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f230::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f231::/48",
@@ -10353,6 +11278,11 @@
     "IP": "2a03:2880:f232::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f233::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f234::/48",
@@ -10370,9 +11300,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f237::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f238::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f23a::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f23b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f23d::/48",
@@ -10380,9 +11325,24 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f23e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f23f::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f240::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f241::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f242::/48",
@@ -10390,14 +11350,49 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f243::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f244::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f245::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f246::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f247::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f248::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f24a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f24b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f24c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f24d::/48",
@@ -10408,6 +11403,11 @@
     "IP": "2a03:2880:f24e::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f24f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f250::/48",
@@ -10425,6 +11425,21 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f254::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f255::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f256::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f257::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10435,9 +11450,29 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f259::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f25a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f25b::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f25c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f25d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f25e::/48",
@@ -10462,7 +11497,12 @@
   {
     "IP": "2a03:2880:f263::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f264::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f265::/48",
@@ -10480,14 +11520,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f268::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f269::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f26a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f26b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f26c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f26d::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f26e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f26f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f270::/48",
@@ -10503,6 +11573,16 @@
     "IP": "2a03:2880:f272::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f273::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f274::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f275::/48",
@@ -10525,14 +11605,314 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f279::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f27a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f27b::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f27c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f27d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f27e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f27f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f280::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f281::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f282::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f283::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f284::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f285::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f286::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f287::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f288::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f289::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f28a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f28b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f28c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f2ff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f300::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f301::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f302::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f303::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f304::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f305::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f306::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f307::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f308::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f309::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f30f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f310::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f311::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f312::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f313::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f314::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f315::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f316::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f317::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f318::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f319::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f31f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f320::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f321::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f322::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f323::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f324::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f325::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f326::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f327::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f328::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f329::/48",
@@ -10550,6 +11930,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f32c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f32d::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10560,9 +11945,59 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f32f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f330::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f331::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f332::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f333::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f334::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f335::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f336::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f337::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f338::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f339::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f33a::/48",
@@ -10570,9 +12005,39 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f33b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f33c::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f33d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f33e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f33f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f340::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f341::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f342::/48",
@@ -10585,14 +12050,34 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f344::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f345::/48",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f346::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f347::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f348::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f349::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f34a::/48",
@@ -10610,6 +12095,21 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f34d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f34e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f34f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f350::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10618,6 +12118,26 @@
     "IP": "2a03:2880:f351::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f352::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f353::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f354::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f355::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f356::/48",
@@ -10630,14 +12150,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f358::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f359::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f35a::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f35b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f35c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f35d::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f35e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f35f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f360::/48",
@@ -10660,6 +12210,16 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f364::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f365::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f366::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -10668,6 +12228,26 @@
     "IP": "2a03:2880:f367::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f368::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f369::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f36a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f36b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f36c::/48",
@@ -10690,9 +12270,84 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f370::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f371::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f372::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f373::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f374::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f375::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f376::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f377::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f378::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f379::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f37a::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f37b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f37c::/48",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f37d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f800::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f801::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f802::/48",
@@ -10700,9 +12355,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f803::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f804::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f805::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f806::/48",
@@ -10710,9 +12375,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f807::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f808::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f809::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f80a::/48",
@@ -10720,9 +12395,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:f80b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:2880:f80c::/48",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "2a03:2880:f80d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:ff08::/48",
@@ -10750,9 +12435,269 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "2a03:2880:fffe::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:ffff::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881::/32",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:1::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:2::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:3::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:5::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:6::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:7::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:8::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:9::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:f::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:10::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:11::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:12::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:13::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:14::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:15::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:16::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:17::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:18::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:19::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:1a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:1b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:1c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:1e::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:48::/45",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:98::/45",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4000::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4001::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4002::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4003::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4004::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4005::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4006::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4007::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4008::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:4009::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:400a::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:400b::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:400c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2881:400d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2887:ff2c::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2887:ff2d::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "2a03:8180:1301:146::4070",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
+  },
+  {
+    "IP": "2a03:83e0::/32",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "2a03:b0c0:2:f0::bd91:f001",
@@ -10910,12 +12855,12 @@
     "Source": "https://www.cloudflare.com/ips-v6"
   },
   {
-    "IP": "2a0b:21c0:2000:208f::ff",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
+    "IP": "2a0a:f280::/32",
+    "Name": "TelegramBot",
+    "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "2a0c:e082:11::d",
+    "IP": "2a0b:21c0:2000:208f::ff",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
@@ -10923,6 +12868,11 @@
     "IP": "2a0d:3002:2100:a00c:5::4065",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
+  },
+  {
+    "IP": "2a10:f781:10:cee0::/64",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "43.200.31.191",
@@ -11015,6 +12965,16 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "46.151.194.242",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "46.151.194.243",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "46.199.75.115",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -11075,11 +13035,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "50.2.185.66",
-    "Name": "PingdomBot",
-    "Source": "https://my.pingdom.com/probes/ipv4"
-  },
-  {
     "IP": "50.16.153.186",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -11101,6 +13056,11 @@
   },
   {
     "IP": "51.8.155.64",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "51.8.155.80",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -22420,6 +24380,11 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
+    "IP": "52.154.22.48",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "52.154.60.82",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
@@ -22555,6 +24520,21 @@
     "Source": "https://www.bing.com/toolbox/bingbot.json"
   },
   {
+    "IP": "52.173.123.0",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "52.173.219.96",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "52.173.219.112",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "52.173.234.16",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -22565,7 +24545,17 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "52.173.235.80",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "52.176.139.176",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "52.187.246.128",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -22798,6 +24788,11 @@
     "IP": "52.242.224.168",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "52.242.245.208",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "52.252.113.240",
@@ -34635,9 +36630,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.141.1.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.141.2.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.141.3.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.141.4.0/24",
@@ -34645,9 +36650,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.141.5.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.141.6.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.141.7.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.141.8.0/24",
@@ -34655,9 +36670,19 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.141.9.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.141.10.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.141.11.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.141.12.0/24",
@@ -34665,9 +36690,269 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.141.13.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.0.0/14",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.0.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.2.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.4.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.6.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.8.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.10.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.12.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.14.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.16.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.18.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.20.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.22.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.24.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.26.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.28.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.30.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.32.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.34.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.36.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.38.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.40.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.42.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.44.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.46.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.48.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.50.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.52.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.54.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.56.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.58.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.60.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.62.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.64.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.66.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.68.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.70.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.72.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.74.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.76.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.78.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.80.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.82.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.84.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.86.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.88.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.90.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.92.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.94.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.96.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.98.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.100.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.102.0/23",
@@ -34678,6 +36963,11 @@
     "IP": "57.144.104.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.106.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.108.0/23",
@@ -34697,7 +36987,7 @@
   {
     "IP": "57.144.114.0/23",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.116.0/23",
@@ -34705,19 +36995,39 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.118.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.120.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.122.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.124.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.126.0/23",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.128.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.130.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.132.0/23",
@@ -34730,14 +37040,39 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.136.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.138.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.140.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.142.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.144.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.146.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.148.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.150.0/23",
@@ -34748,6 +37083,21 @@
     "IP": "57.144.152.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.154.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.156.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.158.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.160.0/23",
@@ -34765,6 +37115,21 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.166.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.168.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.170.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.172.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -34775,14 +37140,49 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.176.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.178.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.180.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.182.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.184.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.186.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.188.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.190.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.192.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.194.0/23",
@@ -34800,6 +37200,16 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "57.144.200.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.202.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.204.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -34808,6 +37218,26 @@
     "IP": "57.144.206.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.208.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.210.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.212.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.214.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.144.216.0/23",
@@ -34828,6 +37258,76 @@
     "IP": "57.144.222.0/23",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.224.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.226.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.228.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.230.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.232.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.234.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.236.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.238.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.240.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.242.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.244.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.246.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.144.248.0/23",
+    "Name": "FacebookBot",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "57.144.250.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "57.152.72.128",
@@ -35205,6 +37705,11 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "66.249.67.32/27",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "66.249.68.0/27",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -35371,11 +37876,6 @@
   },
   {
     "IP": "66.249.72.64/27",
-    "Name": "GoogleBot",
-    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
-  },
-  {
-    "IP": "66.249.72.96/27",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
@@ -35625,6 +38125,11 @@
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
   {
+    "IP": "66.249.78.160/27",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
     "IP": "66.249.79.0/27",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -35870,6 +38375,11 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "68.218.30.112",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "68.220.57.64",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -35945,6 +38455,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "69.171.239.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "69.171.240.0/20",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -35953,6 +38468,11 @@
     "IP": "69.171.250.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "69.171.255.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "71.6.135.131",
@@ -36093,6 +38613,11 @@
     "IP": "74.7.36.96",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "74.119.76.0/22",
@@ -36270,11 +38795,6 @@
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
-    "IP": "74.125.216.96/27",
-    "Name": "Google Special Crawlers",
-    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "IP": "74.125.216.128/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -36396,6 +38916,11 @@
   },
   {
     "IP": "74.125.219.128/27",
+    "Name": "Google Special Crawlers",
+    "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "74.125.219.160/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -36870,11 +39395,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "89.38.96.158",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "89.163.146.247",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -36985,6 +39505,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "91.105.192.0/23",
+    "Name": "TelegramBot",
+    "Source": "https://core.telegram.org/resources/cidr.txt"
+  },
+  {
     "IP": "91.107.221.68",
     "Name": "BetterStack",
     "Source": "https://uptime.betterstack.com/ips.txt"
@@ -36995,17 +39520,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "91.108.4.0/24",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
     "IP": "91.108.8.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "91.108.8.0/27",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
@@ -37015,27 +39530,17 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "91.108.12.0/27",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
     "IP": "91.108.16.0/22",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "91.108.16.0/27",
+    "IP": "91.108.20.0/22",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
     "IP": "91.108.56.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "91.108.56.0/24",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
@@ -37615,11 +40120,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "100.43.64.0/19",
-    "Name": "YandexBot",
-    "Source": "https://yandex.com/ips"
-  },
-  {
     "IP": "101.43.149.237",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -37635,14 +40135,34 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "102.132.96.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "102.132.97.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "102.132.99.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "102.132.100.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "102.132.101.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "102.132.103.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "102.132.104.0/24",
@@ -37651,11 +40171,6 @@
   },
   {
     "IP": "102.219.126.20",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "103.1.215.93",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -37750,11 +40265,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "103.107.196.31",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "103.108.229.5",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -37766,16 +40276,6 @@
   },
   {
     "IP": "103.112.0.22",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "103.137.12.33",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "103.137.14.5",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -38125,16 +40625,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "116.90.72.155",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "116.90.75.65",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -38180,11 +40670,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "124.220.31.125",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "128.1.35.170",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -38208,6 +40693,11 @@
     "IP": "128.140.106.114",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "129.134.0.0/16",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "129.134.0.0/17",
@@ -38253,6 +40743,111 @@
     "IP": "129.134.31.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "129.134.64.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.65.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.66.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.67.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.68.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.69.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.70.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.71.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.72.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.73.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.74.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.75.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.76.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.77.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.78.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.79.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.112.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.113.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.114.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.115.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "129.134.127.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "129.212.132.140",
@@ -38365,6 +40960,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "136.243.70.170",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "137.135.191.176",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -38423,6 +41023,16 @@
     "IP": "137.184.190.246",
     "Name": "Shodan",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
+  },
+  {
+    "IP": "138.91.30.48",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "138.91.46.96",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "138.197.53.117",
@@ -44100,6 +46710,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "147.75.208.0/20",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "147.185.132.0/22",
     "Name": "Palo Alto Networks",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
@@ -46680,6 +49295,11 @@
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
+    "IP": "148.113.190.161",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "148.113.193.79",
     "Name": "Modat Scanner",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt"
@@ -46745,117 +49365,27 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "148.251.129.132",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "148.251.131.73",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "148.251.131.74",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "148.251.131.238",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "149.154.160.0/20",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.160.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.164.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.164.8/29",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.164.250/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.165.120/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.166.120/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.40/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.42/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.50/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.51/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.90/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.91/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.99/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.117/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.118/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.167.192/27",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.168.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.172.0/22",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.175.10/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.175.50/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.175.100/32",
-    "Name": "TelegramBot",
-    "Source": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "149.154.175.117/32",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
@@ -46871,11 +49401,6 @@
   },
   {
     "IP": "150.109.181.129",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -46898,6 +49423,11 @@
     "IP": "154.8.217.128",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "154.93.86.71",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
     "IP": "154.95.86.76",
@@ -47020,6 +49550,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "157.240.0.0/16",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.0.0/17",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -47028,6 +49563,16 @@
     "IP": "157.240.0.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.1.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.2.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.3.0/24",
@@ -47040,14 +49585,29 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.6.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.7.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.8.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.9.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.10.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.11.0/24",
@@ -47057,7 +49617,7 @@
   {
     "IP": "157.240.12.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.13.0/24",
@@ -47075,14 +49635,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.16.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.17.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.18.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.19.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.20.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.21.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.22.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.23.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.24.0/24",
@@ -47105,6 +49695,16 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.28.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.29.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.30.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -47115,9 +49715,54 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.96.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.97.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.98.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.99.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.100.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.101.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.192.0/18",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.192.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.193.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.194.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.195.0/24",
@@ -47132,7 +49777,12 @@
   {
     "IP": "157.240.197.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.198.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.199.0/24",
@@ -47162,12 +49812,27 @@
   {
     "IP": "157.240.204.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.205.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.206.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.207.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.208.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.209.0/24",
@@ -47190,19 +49855,54 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.213.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.214.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.215.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.216.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.217.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.218.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.219.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.220.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.221.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.222.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.223.0/24",
@@ -47222,7 +49922,17 @@
   {
     "IP": "157.240.226.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.227.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.228.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.229.0/24",
@@ -47235,9 +49945,14 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.232.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.233.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.234.0/24",
@@ -47245,14 +49960,44 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.235.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.236.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.237.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.238.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.239.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.240.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.241.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "157.240.242.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.243.0/24",
@@ -47270,14 +50015,39 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "157.240.246.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.247.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.248.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.249.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "157.240.250.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "157.240.251.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.252.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
   },
   {
     "IP": "157.240.253.0/24",
@@ -47345,6 +50115,11 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
+    "IP": "162.216.149.0/24",
+    "Name": "Palo Alto Networks",
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
     "IP": "162.218.67.34",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -47365,9 +50140,114 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "163.70.129.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.130.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.131.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.132.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.133.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.134.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.135.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.136.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.137.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.138.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.139.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.140.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.141.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.142.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.143.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.144.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.145.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.146.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "163.70.147.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.148.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.149.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.150.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "163.70.151.0/24",
@@ -47377,7 +50257,12 @@
   {
     "IP": "163.70.152.0/24",
     "Name": "FacebookBot",
-    "Source": "bgpview.io"
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "163.70.153.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "163.70.158.0/24",
@@ -47388,6 +50273,11 @@
     "IP": "163.70.159.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "163.77.128.0/17",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "165.22.200.16",
@@ -47428,6 +50318,11 @@
     "IP": "165.227.62.247",
     "Name": "Shodan",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
+  },
+  {
+    "IP": "167.17.67.101",
+    "Name": "PingdomBot",
+    "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
     "IP": "167.94.138.0/24",
@@ -50555,6 +53450,11 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "172.204.16.64",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "172.212.159.64",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -50605,6 +53505,11 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "173.252.64.0/18",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "173.252.64.0/19",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -50631,6 +53536,11 @@
   },
   {
     "IP": "176.9.139.55",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "176.9.139.94",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -50875,6 +53785,31 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "179.60.192.0/22",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "179.60.192.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "179.60.193.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "179.60.194.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "179.60.195.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "180.149.231.175",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -50945,6 +53880,11 @@
     "Source": "bgpview.io"
   },
   {
+    "IP": "185.60.216.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "185.60.217.0/24",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -50965,9 +53905,29 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "185.76.151.0/24",
+    "Name": "TelegramBot",
+    "Source": "https://core.telegram.org/resources/cidr.txt"
+  },
+  {
     "IP": "185.89.216.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
+  },
+  {
+    "IP": "185.89.218.0/23",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "185.89.218.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "185.89.219.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "185.93.1.242",
@@ -51245,6 +54205,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "189.247.71.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "190.93.240.0/20",
     "Name": "Cloudflare",
     "Source": "https://www.cloudflare.com/ips-v4"
@@ -51265,9 +54230,24 @@
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
   },
   {
+    "IP": "191.233.194.32",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "191.233.196.112",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "IP": "191.233.204.224/28",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
+  },
+  {
+    "IP": "191.234.167.128",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "191.234.216.4",
@@ -51278,6 +54258,21 @@
     "IP": "191.234.216.178",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "191.235.66.16",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "191.235.98.144",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "191.235.99.80",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "191.235.201.214",
@@ -51293,6 +54288,11 @@
     "IP": "191.235.202.48",
     "Name": "DuckDuckBot",
     "Source": "https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md"
+  },
+  {
+    "IP": "191.239.245.16",
+    "Name": "OpenAI",
+    "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
     "IP": "192.155.95.211",
@@ -51411,6 +54411,16 @@
   },
   {
     "IP": "192.178.7.160/27",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
+    "IP": "192.178.7.192/27",
+    "Name": "GoogleBot",
+    "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
+  {
+    "IP": "192.178.7.224/27",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
@@ -58080,19 +61090,9 @@
     "Source": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
-    "IP": "199.21.96.0/22",
-    "Name": "YandexBot",
-    "Source": "https://yandex.com/ips"
-  },
-  {
     "IP": "199.30.24.0/23",
     "Name": "BingBot",
     "Source": "https://www.bing.com/toolbox/bingbot.json"
-  },
-  {
-    "IP": "199.36.240.0/22",
-    "Name": "YandexBot",
-    "Source": "https://yandex.com/ips"
   },
   {
     "IP": "199.87.228.66",
@@ -58191,6 +61191,11 @@
   },
   {
     "IP": "200.25.80.74",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "200.25.86.90",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -63550,6 +66555,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "212.102.40.120",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "212.102.43.88",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -63596,11 +66606,6 @@
   },
   {
     "IP": "212.104.158.10",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "212.104.158.11",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -63740,7 +66745,7 @@
     "Source": "https://uptime.betterstack.com/ips.txt"
   },
   {
-    "IP": "213.170.143.139",
+    "IP": "213.170.143.100",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },

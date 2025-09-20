@@ -130,6 +130,11 @@
     "source": "https://my.pingdom.com/probes/ipv6"
   },
   {
+    "ip": "2604:86c0:4001:b::4067",
+    "name": "pingdombot",
+    "source": "https://my.pingdom.com/probes/ipv6"
+  },
+  {
     "ip": "2604:b480:fff9::444",
     "name": "pingdombot",
     "source": "https://my.pingdom.com/probes/ipv6"
@@ -181,11 +186,6 @@
   },
   {
     "ip": "2607:fc88:100:26::421",
-    "name": "pingdombot",
-    "source": "https://my.pingdom.com/probes/ipv6"
-  },
-  {
-    "ip": "2607:ff28:800f:21::4067",
     "name": "pingdombot",
     "source": "https://my.pingdom.com/probes/ipv6"
   },
@@ -316,11 +316,6 @@
   },
   {
     "ip": "46.246.122.10",
-    "name": "pingdombot",
-    "source": "https://my.pingdom.com/probes/ipv4"
-  },
-  {
-    "ip": "50.2.185.66",
     "name": "pingdombot",
     "source": "https://my.pingdom.com/probes/ipv4"
   },
@@ -586,6 +581,11 @@
   },
   {
     "ip": "162.253.128.178",
+    "name": "pingdombot",
+    "source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "ip": "167.17.67.101",
     "name": "pingdombot",
     "source": "https://my.pingdom.com/probes/ipv4"
   },

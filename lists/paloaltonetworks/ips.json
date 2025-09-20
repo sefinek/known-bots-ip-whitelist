@@ -115,6 +115,11 @@
     "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
+    "ip": "162.216.149.0/24",
+    "name": "paloaltonetworks",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
     "ip": "165.85.144.0/24",
     "name": "paloaltonetworks",
     "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"

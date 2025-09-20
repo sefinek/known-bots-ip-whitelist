@@ -17,6 +17,8 @@ IP,Name,Source
 4.182.131.108,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 4.195.133.120,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 4.196.118.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+4.196.198.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+4.197.19.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.22.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.115.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.205.128.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -24,6 +26,7 @@ IP,Name,Source
 4.213.46.14,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 4.227.36.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.228.76.163,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+4.234.83.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 5.9.71.119,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.98.45,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.99.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -113,8 +116,10 @@ IP,Name,Source
 13.66.144.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.67.10.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.69.66.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+13.70.107.160,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.70.181.210,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 13.71.172.224/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+13.76.32.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.76.116.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.83.167.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.83.237.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -381,7 +386,6 @@ IP,Name,Source
 15.235.27.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.27.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.27.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-15.235.54.226,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 15.235.96.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.96.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.96.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -903,11 +907,13 @@ IP,Name,Source
 18.192.166.72,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.193.252.127,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.211.135.69,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
+20.0.53.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.3.1.178,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.12.141.99,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.14.99.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.15.133.160/27,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.25.151.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.27.94.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.36.108.32/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.40.133.240,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.42.10.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -955,6 +961,7 @@ IP,Name,Source
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+20.77.178.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.79.107.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.79.226.26,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.79.238.198,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
@@ -992,10 +999,15 @@ IP,Name,Source
 20.193.27.215,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.193.45.113,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.193.50.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.194.0.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.194.1.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.194.157.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.195.108.47,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.197.209.11,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.197.209.27,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+20.198.67.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.201.15.208,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+20.204.24.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.204.240.172,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.204.241.148,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.204.242.19,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
@@ -1010,6 +1022,8 @@ IP,Name,Source
 20.207.97.190,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.207.99.197,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.207.107.181,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+20.210.154.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.210.174.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.188.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.214.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.219.43.246,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
@@ -1017,16 +1031,21 @@ IP,Name,Source
 20.219.45.190,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.226.133.105,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 20.228.106.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.235.75.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.235.87.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.249.63.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.22.2.46,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.83.129.219,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.92.127.2,PingdomBot,https://my.pingdom.com/probes/ipv4
+23.97.109.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+23.98.142.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.98.179.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.98.186.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.98.186.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.98.186.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.98.186.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+23.102.140.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+23.102.141.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.106.244.195,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 23.111.152.74,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -1035,26 +1054,39 @@ IP,Name,Source
 24.144.78.185,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 31.13.24.0/21,FacebookBot,bgpview.io
 31.13.64.0/18,FacebookBot,bgpview.io
+31.13.64.0/19,FacebookBot,whois.radb.net
+31.13.64.0/24,FacebookBot,whois.radb.net
 31.13.65.0/24,FacebookBot,bgpview.io
 31.13.66.0/24,FacebookBot,bgpview.io
 31.13.67.0/24,FacebookBot,bgpview.io
+31.13.68.0/24,FacebookBot,whois.radb.net
 31.13.69.0/24,FacebookBot,bgpview.io
 31.13.70.0/24,FacebookBot,bgpview.io
 31.13.71.0/24,FacebookBot,bgpview.io
 31.13.72.0/24,FacebookBot,bgpview.io
 31.13.73.0/24,FacebookBot,bgpview.io
+31.13.74.0/24,FacebookBot,whois.radb.net
+31.13.75.0/24,FacebookBot,whois.radb.net
+31.13.76.0/24,FacebookBot,whois.radb.net
+31.13.77.0/24,FacebookBot,whois.radb.net
+31.13.78.0/24,FacebookBot,whois.radb.net
+31.13.79.0/24,FacebookBot,whois.radb.net
 31.13.80.0/24,FacebookBot,bgpview.io
+31.13.81.0/24,FacebookBot,whois.radb.net
 31.13.82.0/24,FacebookBot,bgpview.io
 31.13.83.0/24,FacebookBot,bgpview.io
 31.13.84.0/24,FacebookBot,bgpview.io
-31.13.85.0/24,FacebookBot,bgpview.io
+31.13.85.0/24,FacebookBot,whois.radb.net
 31.13.86.0/24,FacebookBot,bgpview.io
+31.13.87.0/24,FacebookBot,whois.radb.net
 31.13.88.0/24,FacebookBot,bgpview.io
 31.13.89.0/24,FacebookBot,bgpview.io
-31.13.90.0/24,FacebookBot,bgpview.io
-31.13.91.0/24,FacebookBot,bgpview.io
+31.13.90.0/24,FacebookBot,whois.radb.net
+31.13.91.0/24,FacebookBot,whois.radb.net
+31.13.92.0/24,FacebookBot,whois.radb.net
 31.13.93.0/24,FacebookBot,bgpview.io
 31.13.94.0/24,FacebookBot,bgpview.io
+31.13.95.0/24,FacebookBot,whois.radb.net
 31.13.96.0/19,FacebookBot,bgpview.io
 31.14.32.4,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 31.14.32.5,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
@@ -1065,17 +1097,9 @@ IP,Name,Source
 2001:550:2:6f::f3:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:dc::5e:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:67c:4e8::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:67c:4e8:f002::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:67c:4e8:f002::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:67c:4e8:f004::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:67c:4e8:fa60::/64,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23c::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23d::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:b28:f23d:f001::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:b28:f23d:f001::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:b28:f23d:f003::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:b28:f23d:f003::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23f::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
-2001:b28:f23f:f005::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:1900:22b3:160d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:1610::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:1612::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -1091,7 +1115,6 @@ IP,Name,Source
 2001:4860:4801:c::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:f::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:10::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
-2001:4860:4801:11::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:12::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:13::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:14::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1161,6 +1184,7 @@ IP,Name,Source
 2001:4860:4801:55::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:56::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:57::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:58::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:60::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:61::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:62::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1190,6 +1214,7 @@ IP,Name,Source
 2001:4860:4801:7a::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:7b::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:7c::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:7d::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:80::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:81::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:82::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1220,6 +1245,8 @@ IP,Name,Source
 2001:4860:4801:aa::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:ab::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:ac::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:ad::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:ae::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:b0::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:b1::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:b2::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1230,7 +1257,6 @@ IP,Name,Source
 2001:4860:4801:200c::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:200d::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2010::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
-2001:4860:4801:2011::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2012::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2013::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2014::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -1328,6 +1354,7 @@ IP,Name,Source
 2001:4860:4801:207a::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:207b::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:207c::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+2001:4860:4801:207d::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2080::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2081::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2082::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -1475,6 +1502,8 @@ IP,Name,Source
 2400:52e0:1690::1159:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1690::1160:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1690::1168:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1690::1341:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1690::1342:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a00::718:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a00::845:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a00::871:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -1630,6 +1659,7 @@ IP,Name,Source
 2400:cb00::/32,Cloudflare,https://www.cloudflare.com/ips-v6
 2401:c080:1c01:5a:ba3f:d2ff:fe0a:94b0,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2401:c900:1401:71::4078,PingdomBot,https://my.pingdom.com/probes/ipv6
+2401:db00::/32,FacebookBot,whois.radb.net
 2401:e780:1:91::495,PingdomBot,https://my.pingdom.com/probes/ipv6
 2403:f000:1:100:4096:597:1:100,PingdomBot,https://my.pingdom.com/probes/ipv6
 2404:f780:0:2::d,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -1721,6 +1751,7 @@ IP,Name,Source
 2604:4500:8:120::4032,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:4500:9:5d::4031,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:6600:fdc0:12::4066,PingdomBot,https://my.pingdom.com/probes/ipv6
+2604:86c0:4001:b::4067,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:a880:800:14:0:1:68ba:d000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68ba:e000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68bb:0,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1748,12 +1779,11 @@ IP,Name,Source
 2606:6080:1001:4::448,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:9880:f000:4:5::4047,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:f4c0:7010::/44,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-2607:5300:203:a1e2::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2607:5300:20e:a100::,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:f0d0:3701:f2::4079,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:f2d8:4010:5b::877:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:fc88:100:26::421,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:fdc0:1:2d:f6ee:8ff:fe3e:a1cc,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2607:ff28:800f:21::4067,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:ff68:107::4,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2607:ff68:107::14,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2607:ff68:107::33,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1771,20 +1801,25 @@ IP,Name,Source
 2607:ff68:107::59,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2607:ff68:107::60,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2620:0:1c00::/40,FacebookBot,bgpview.io
+2620:0:1cfa::/48,FacebookBot,whois.radb.net
+2620:0:1cff::/48,FacebookBot,whois.radb.net
 2620:52:c000::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 2620:96:e000::/48,Censys,bgpview.io
 38.32.110.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.54.3.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-38.54.121.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
 2804:4c4:dc10:8860::4021,PingdomBot,https://my.pingdom.com/probes/ipv6
+2806:1090:cbff::/48,FacebookBot,whois.radb.net
+2806:10a0:cbff::/48,FacebookBot,whois.radb.net
 40.64.105.247,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 40.64.106.11,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+40.75.14.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 40.76.162.191,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 40.76.162.208,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 40.76.162.247,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
@@ -1917,12 +1952,16 @@ IP,Name,Source
 2a03:2880:1000::/36,FacebookBot,bgpview.io
 2a03:2880:2000::/36,FacebookBot,bgpview.io
 2a03:2880:3000::/36,FacebookBot,bgpview.io
+2a03:2880:4000::/36,FacebookBot,whois.radb.net
 2a03:2880:5000::/36,FacebookBot,bgpview.io
+2a03:2880:6000::/36,FacebookBot,whois.radb.net
 2a03:2880:7000::/36,FacebookBot,bgpview.io
+2a03:2880:f000::/36,FacebookBot,whois.radb.net
 2a03:2880:f001::/48,FacebookBot,bgpview.io
 2a03:2880:f003::/48,FacebookBot,bgpview.io
 2a03:2880:f004::/48,FacebookBot,bgpview.io
 2a03:2880:f005::/48,FacebookBot,bgpview.io
+2a03:2880:f006::/48,FacebookBot,whois.radb.net
 2a03:2880:f007::/48,FacebookBot,bgpview.io
 2a03:2880:f008::/48,FacebookBot,bgpview.io
 2a03:2880:f00a::/48,FacebookBot,bgpview.io
@@ -1934,59 +1973,125 @@ IP,Name,Source
 2a03:2880:f011::/48,FacebookBot,bgpview.io
 2a03:2880:f012::/48,FacebookBot,bgpview.io
 2a03:2880:f013::/48,FacebookBot,bgpview.io
+2a03:2880:f016::/48,FacebookBot,whois.radb.net
+2a03:2880:f017::/48,FacebookBot,bgpview.io
 2a03:2880:f019::/48,FacebookBot,bgpview.io
-2a03:2880:f01c::/48,FacebookBot,bgpview.io
+2a03:2880:f01b::/48,FacebookBot,whois.radb.net
+2a03:2880:f01c::/48,FacebookBot,whois.radb.net
 2a03:2880:f01d::/48,FacebookBot,bgpview.io
+2a03:2880:f01e::/48,FacebookBot,whois.radb.net
+2a03:2880:f01f::/48,FacebookBot,whois.radb.net
 2a03:2880:f021::/48,FacebookBot,bgpview.io
 2a03:2880:f023::/48,FacebookBot,bgpview.io
+2a03:2880:f024::/48,FacebookBot,whois.radb.net
+2a03:2880:f027::/48,FacebookBot,whois.radb.net
 2a03:2880:f028::/48,FacebookBot,bgpview.io
+2a03:2880:f029::/48,FacebookBot,whois.radb.net
+2a03:2880:f02a::/48,FacebookBot,whois.radb.net
+2a03:2880:f02b::/48,FacebookBot,whois.radb.net
 2a03:2880:f02c::/48,FacebookBot,bgpview.io
+2a03:2880:f02d::/48,FacebookBot,whois.radb.net
+2a03:2880:f02e::/48,FacebookBot,whois.radb.net
+2a03:2880:f02f::/48,FacebookBot,whois.radb.net
+2a03:2880:f030::/48,FacebookBot,whois.radb.net
 2a03:2880:f031::/48,FacebookBot,bgpview.io
 2a03:2880:f032::/48,FacebookBot,bgpview.io
+2a03:2880:f033::/48,FacebookBot,whois.radb.net
 2a03:2880:f034::/48,FacebookBot,bgpview.io
 2a03:2880:f035::/48,FacebookBot,bgpview.io
 2a03:2880:f036::/48,FacebookBot,bgpview.io
+2a03:2880:f037::/48,FacebookBot,whois.radb.net
+2a03:2880:f038::/48,FacebookBot,whois.radb.net
 2a03:2880:f03a::/48,FacebookBot,bgpview.io
+2a03:2880:f03b::/48,FacebookBot,whois.radb.net
 2a03:2880:f03d::/48,FacebookBot,bgpview.io
+2a03:2880:f03e::/48,FacebookBot,whois.radb.net
 2a03:2880:f03f::/48,FacebookBot,bgpview.io
+2a03:2880:f040::/48,FacebookBot,whois.radb.net
+2a03:2880:f041::/48,FacebookBot,whois.radb.net
 2a03:2880:f042::/48,FacebookBot,bgpview.io
+2a03:2880:f043::/48,FacebookBot,whois.radb.net
+2a03:2880:f044::/48,FacebookBot,whois.radb.net
 2a03:2880:f045::/48,FacebookBot,bgpview.io
+2a03:2880:f046::/48,FacebookBot,whois.radb.net
+2a03:2880:f047::/48,FacebookBot,whois.radb.net
 2a03:2880:f048::/48,FacebookBot,bgpview.io
+2a03:2880:f04a::/48,FacebookBot,whois.radb.net
+2a03:2880:f04b::/48,FacebookBot,whois.radb.net
+2a03:2880:f04c::/48,FacebookBot,whois.radb.net
 2a03:2880:f04d::/48,FacebookBot,bgpview.io
 2a03:2880:f04e::/48,FacebookBot,bgpview.io
+2a03:2880:f04f::/48,FacebookBot,whois.radb.net
 2a03:2880:f050::/48,FacebookBot,bgpview.io
 2a03:2880:f052::/48,FacebookBot,bgpview.io
 2a03:2880:f053::/48,FacebookBot,bgpview.io
+2a03:2880:f054::/48,FacebookBot,whois.radb.net
+2a03:2880:f055::/48,FacebookBot,whois.radb.net
+2a03:2880:f056::/48,FacebookBot,whois.radb.net
 2a03:2880:f057::/48,FacebookBot,bgpview.io
 2a03:2880:f058::/48,FacebookBot,bgpview.io
+2a03:2880:f059::/48,FacebookBot,whois.radb.net
+2a03:2880:f05a::/48,FacebookBot,whois.radb.net
 2a03:2880:f05b::/48,FacebookBot,bgpview.io
+2a03:2880:f05c::/48,FacebookBot,whois.radb.net
+2a03:2880:f05d::/48,FacebookBot,whois.radb.net
 2a03:2880:f05e::/48,FacebookBot,bgpview.io
 2a03:2880:f060::/48,FacebookBot,bgpview.io
 2a03:2880:f061::/48,FacebookBot,bgpview.io
 2a03:2880:f065::/48,FacebookBot,bgpview.io
-2a03:2880:f066::/48,FacebookBot,bgpview.io
+2a03:2880:f066::/48,FacebookBot,whois.radb.net
+2a03:2880:f067::/48,FacebookBot,whois.radb.net
 2a03:2880:f068::/48,FacebookBot,bgpview.io
 2a03:2880:f06a::/48,FacebookBot,bgpview.io
 2a03:2880:f06b::/48,FacebookBot,bgpview.io
+2a03:2880:f06d::/48,FacebookBot,whois.radb.net
 2a03:2880:f06f::/48,FacebookBot,bgpview.io
+2a03:2880:f070::/48,FacebookBot,whois.radb.net
+2a03:2880:f071::/48,FacebookBot,whois.radb.net
+2a03:2880:f073::/48,FacebookBot,whois.radb.net
 2a03:2880:f074::/48,FacebookBot,bgpview.io
+2a03:2880:f076::/48,FacebookBot,whois.radb.net
+2a03:2880:f077::/48,FacebookBot,whois.radb.net
 2a03:2880:f078::/48,FacebookBot,bgpview.io
 2a03:2880:f07d::/48,FacebookBot,bgpview.io
 2a03:2880:f07e::/48,FacebookBot,bgpview.io
+2a03:2880:f080::/48,FacebookBot,whois.radb.net
+2a03:2880:f081::/48,FacebookBot,whois.radb.net
 2a03:2880:f082::/48,FacebookBot,bgpview.io
 2a03:2880:f083::/48,FacebookBot,bgpview.io
 2a03:2880:f084::/48,FacebookBot,bgpview.io
 2a03:2880:f085::/48,FacebookBot,bgpview.io
+2a03:2880:f086::/48,FacebookBot,whois.radb.net
+2a03:2880:f08a::/48,FacebookBot,whois.radb.net
 2a03:2880:f08e::/48,FacebookBot,bgpview.io
+2a03:2880:f091::/48,FacebookBot,whois.radb.net
+2a03:2880:f096::/48,FacebookBot,whois.radb.net
+2a03:2880:f097::/48,FacebookBot,whois.radb.net
+2a03:2880:f098::/48,FacebookBot,whois.radb.net
+2a03:2880:f099::/48,FacebookBot,whois.radb.net
+2a03:2880:f09a::/48,FacebookBot,whois.radb.net
+2a03:2880:f09b::/48,FacebookBot,whois.radb.net
+2a03:2880:f09c::/48,FacebookBot,whois.radb.net
+2a03:2880:f09d::/48,FacebookBot,whois.radb.net
+2a03:2880:f09e::/48,FacebookBot,whois.radb.net
+2a03:2880:f0a2::/48,FacebookBot,whois.radb.net
+2a03:2880:f0a3::/48,FacebookBot,whois.radb.net
+2a03:2880:f0a4::/48,FacebookBot,whois.radb.net
 2a03:2880:f0a5::/48,FacebookBot,bgpview.io
+2a03:2880:f0a6::/48,FacebookBot,whois.radb.net
+2a03:2880:f0a7::/48,FacebookBot,whois.radb.net
+2a03:2880:f0a8::/48,FacebookBot,whois.radb.net
+2a03:2880:f0aa::/48,FacebookBot,whois.radb.net
 2a03:2880:f0fc::/47,FacebookBot,bgpview.io
 2a03:2880:f0fc::/48,FacebookBot,bgpview.io
 2a03:2880:f0fd::/48,FacebookBot,bgpview.io
 2a03:2880:f0ff::/48,FacebookBot,bgpview.io
 2a03:2880:f101::/48,FacebookBot,bgpview.io
+2a03:2880:f102::/48,FacebookBot,whois.radb.net
 2a03:2880:f103::/48,FacebookBot,bgpview.io
 2a03:2880:f104::/48,FacebookBot,bgpview.io
 2a03:2880:f105::/48,FacebookBot,bgpview.io
+2a03:2880:f106::/48,FacebookBot,whois.radb.net
 2a03:2880:f107::/48,FacebookBot,bgpview.io
 2a03:2880:f108::/48,FacebookBot,bgpview.io
 2a03:2880:f10a::/48,FacebookBot,bgpview.io
@@ -1998,58 +2103,124 @@ IP,Name,Source
 2a03:2880:f111::/48,FacebookBot,bgpview.io
 2a03:2880:f112::/48,FacebookBot,bgpview.io
 2a03:2880:f113::/48,FacebookBot,bgpview.io
-2a03:2880:f114::/48,FacebookBot,bgpview.io
+2a03:2880:f114::/48,FacebookBot,whois.radb.net
 2a03:2880:f115::/48,FacebookBot,bgpview.io
+2a03:2880:f116::/48,FacebookBot,whois.radb.net
+2a03:2880:f117::/48,FacebookBot,bgpview.io
 2a03:2880:f119::/48,FacebookBot,bgpview.io
+2a03:2880:f11b::/48,FacebookBot,whois.radb.net
+2a03:2880:f11c::/48,FacebookBot,whois.radb.net
+2a03:2880:f11f::/48,FacebookBot,whois.radb.net
 2a03:2880:f121::/48,FacebookBot,bgpview.io
 2a03:2880:f123::/48,FacebookBot,bgpview.io
+2a03:2880:f124::/48,FacebookBot,whois.radb.net
+2a03:2880:f127::/48,FacebookBot,whois.radb.net
 2a03:2880:f128::/48,FacebookBot,bgpview.io
+2a03:2880:f129::/48,FacebookBot,whois.radb.net
+2a03:2880:f12a::/48,FacebookBot,whois.radb.net
+2a03:2880:f12b::/48,FacebookBot,whois.radb.net
 2a03:2880:f12c::/48,FacebookBot,bgpview.io
+2a03:2880:f12d::/48,FacebookBot,whois.radb.net
+2a03:2880:f12e::/48,FacebookBot,whois.radb.net
+2a03:2880:f12f::/48,FacebookBot,whois.radb.net
+2a03:2880:f130::/48,FacebookBot,whois.radb.net
 2a03:2880:f131::/48,FacebookBot,bgpview.io
 2a03:2880:f132::/48,FacebookBot,bgpview.io
+2a03:2880:f133::/48,FacebookBot,whois.radb.net
 2a03:2880:f134::/48,FacebookBot,bgpview.io
 2a03:2880:f135::/48,FacebookBot,bgpview.io
 2a03:2880:f136::/48,FacebookBot,bgpview.io
+2a03:2880:f137::/48,FacebookBot,whois.radb.net
+2a03:2880:f138::/48,FacebookBot,whois.radb.net
 2a03:2880:f13a::/48,FacebookBot,bgpview.io
+2a03:2880:f13b::/48,FacebookBot,whois.radb.net
 2a03:2880:f13d::/48,FacebookBot,bgpview.io
+2a03:2880:f13e::/48,FacebookBot,whois.radb.net
 2a03:2880:f13f::/48,FacebookBot,bgpview.io
+2a03:2880:f140::/48,FacebookBot,whois.radb.net
+2a03:2880:f141::/48,FacebookBot,whois.radb.net
 2a03:2880:f142::/48,FacebookBot,bgpview.io
+2a03:2880:f143::/48,FacebookBot,whois.radb.net
+2a03:2880:f144::/48,FacebookBot,whois.radb.net
 2a03:2880:f145::/48,FacebookBot,bgpview.io
+2a03:2880:f146::/48,FacebookBot,whois.radb.net
+2a03:2880:f147::/48,FacebookBot,whois.radb.net
 2a03:2880:f148::/48,FacebookBot,bgpview.io
+2a03:2880:f14a::/48,FacebookBot,whois.radb.net
+2a03:2880:f14b::/48,FacebookBot,whois.radb.net
+2a03:2880:f14c::/48,FacebookBot,whois.radb.net
 2a03:2880:f14d::/48,FacebookBot,bgpview.io
 2a03:2880:f14e::/48,FacebookBot,bgpview.io
+2a03:2880:f14f::/48,FacebookBot,whois.radb.net
 2a03:2880:f150::/48,FacebookBot,bgpview.io
 2a03:2880:f152::/48,FacebookBot,bgpview.io
 2a03:2880:f153::/48,FacebookBot,bgpview.io
+2a03:2880:f154::/48,FacebookBot,whois.radb.net
+2a03:2880:f155::/48,FacebookBot,whois.radb.net
+2a03:2880:f156::/48,FacebookBot,whois.radb.net
 2a03:2880:f157::/48,FacebookBot,bgpview.io
 2a03:2880:f158::/48,FacebookBot,bgpview.io
+2a03:2880:f159::/48,FacebookBot,whois.radb.net
+2a03:2880:f15a::/48,FacebookBot,whois.radb.net
 2a03:2880:f15b::/48,FacebookBot,bgpview.io
+2a03:2880:f15c::/48,FacebookBot,whois.radb.net
+2a03:2880:f15d::/48,FacebookBot,whois.radb.net
 2a03:2880:f15e::/48,FacebookBot,bgpview.io
 2a03:2880:f160::/48,FacebookBot,bgpview.io
 2a03:2880:f161::/48,FacebookBot,bgpview.io
 2a03:2880:f162::/48,FacebookBot,bgpview.io
-2a03:2880:f163::/48,FacebookBot,bgpview.io
+2a03:2880:f163::/48,FacebookBot,whois.radb.net
+2a03:2880:f164::/48,FacebookBot,whois.radb.net
 2a03:2880:f165::/48,FacebookBot,bgpview.io
 2a03:2880:f166::/48,FacebookBot,bgpview.io
 2a03:2880:f167::/48,FacebookBot,bgpview.io
+2a03:2880:f168::/48,FacebookBot,whois.radb.net
 2a03:2880:f169::/48,FacebookBot,bgpview.io
+2a03:2880:f16a::/48,FacebookBot,whois.radb.net
+2a03:2880:f16b::/48,FacebookBot,whois.radb.net
+2a03:2880:f16c::/48,FacebookBot,whois.radb.net
 2a03:2880:f16d::/48,FacebookBot,bgpview.io
+2a03:2880:f16e::/48,FacebookBot,whois.radb.net
+2a03:2880:f16f::/48,FacebookBot,whois.radb.net
 2a03:2880:f170::/48,FacebookBot,bgpview.io
 2a03:2880:f171::/48,FacebookBot,bgpview.io
 2a03:2880:f172::/48,FacebookBot,bgpview.io
+2a03:2880:f173::/48,FacebookBot,whois.radb.net
+2a03:2880:f174::/48,FacebookBot,whois.radb.net
 2a03:2880:f175::/48,FacebookBot,bgpview.io
 2a03:2880:f176::/48,FacebookBot,bgpview.io
 2a03:2880:f177::/48,FacebookBot,bgpview.io
 2a03:2880:f178::/48,FacebookBot,bgpview.io
+2a03:2880:f179::/48,FacebookBot,whois.radb.net
+2a03:2880:f17a::/48,FacebookBot,whois.radb.net
 2a03:2880:f17b::/48,FacebookBot,bgpview.io
+2a03:2880:f17c::/48,FacebookBot,whois.radb.net
+2a03:2880:f17d::/48,FacebookBot,whois.radb.net
+2a03:2880:f17e::/48,FacebookBot,whois.radb.net
+2a03:2880:f17f::/48,FacebookBot,whois.radb.net
+2a03:2880:f180::/48,FacebookBot,whois.radb.net
+2a03:2880:f181::/48,FacebookBot,whois.radb.net
+2a03:2880:f182::/48,FacebookBot,whois.radb.net
+2a03:2880:f183::/48,FacebookBot,whois.radb.net
+2a03:2880:f184::/48,FacebookBot,whois.radb.net
+2a03:2880:f185::/48,FacebookBot,whois.radb.net
+2a03:2880:f186::/48,FacebookBot,whois.radb.net
+2a03:2880:f187::/48,FacebookBot,whois.radb.net
+2a03:2880:f188::/48,FacebookBot,whois.radb.net
 2a03:2880:f189::/48,FacebookBot,bgpview.io
+2a03:2880:f18a::/48,FacebookBot,whois.radb.net
+2a03:2880:f18b::/48,FacebookBot,whois.radb.net
+2a03:2880:f18c::/48,FacebookBot,whois.radb.net
 2a03:2880:f1fc::/47,FacebookBot,bgpview.io
 2a03:2880:f1fc::/48,FacebookBot,bgpview.io
 2a03:2880:f1fd::/48,FacebookBot,bgpview.io
+2a03:2880:f1ff::/48,FacebookBot,whois.radb.net
 2a03:2880:f201::/48,FacebookBot,bgpview.io
+2a03:2880:f202::/48,FacebookBot,whois.radb.net
 2a03:2880:f203::/48,FacebookBot,bgpview.io
 2a03:2880:f204::/48,FacebookBot,bgpview.io
 2a03:2880:f205::/48,FacebookBot,bgpview.io
+2a03:2880:f206::/48,FacebookBot,whois.radb.net
 2a03:2880:f207::/48,FacebookBot,bgpview.io
 2a03:2880:f208::/48,FacebookBot,bgpview.io
 2a03:2880:f20a::/48,FacebookBot,bgpview.io
@@ -2061,95 +2232,313 @@ IP,Name,Source
 2a03:2880:f211::/48,FacebookBot,bgpview.io
 2a03:2880:f212::/48,FacebookBot,bgpview.io
 2a03:2880:f213::/48,FacebookBot,bgpview.io
-2a03:2880:f214::/48,FacebookBot,bgpview.io
+2a03:2880:f214::/48,FacebookBot,whois.radb.net
 2a03:2880:f215::/48,FacebookBot,bgpview.io
+2a03:2880:f216::/48,FacebookBot,whois.radb.net
+2a03:2880:f217::/48,FacebookBot,bgpview.io
 2a03:2880:f219::/48,FacebookBot,bgpview.io
+2a03:2880:f21b::/48,FacebookBot,whois.radb.net
+2a03:2880:f21c::/48,FacebookBot,whois.radb.net
+2a03:2880:f21f::/48,FacebookBot,whois.radb.net
 2a03:2880:f221::/48,FacebookBot,bgpview.io
 2a03:2880:f223::/48,FacebookBot,bgpview.io
+2a03:2880:f224::/48,FacebookBot,whois.radb.net
+2a03:2880:f227::/48,FacebookBot,whois.radb.net
 2a03:2880:f228::/48,FacebookBot,bgpview.io
+2a03:2880:f229::/48,FacebookBot,whois.radb.net
+2a03:2880:f22a::/48,FacebookBot,whois.radb.net
+2a03:2880:f22b::/48,FacebookBot,whois.radb.net
 2a03:2880:f22c::/48,FacebookBot,bgpview.io
+2a03:2880:f22d::/48,FacebookBot,whois.radb.net
+2a03:2880:f22e::/48,FacebookBot,whois.radb.net
+2a03:2880:f22f::/48,FacebookBot,whois.radb.net
+2a03:2880:f230::/48,FacebookBot,whois.radb.net
 2a03:2880:f231::/48,FacebookBot,bgpview.io
 2a03:2880:f232::/48,FacebookBot,bgpview.io
+2a03:2880:f233::/48,FacebookBot,whois.radb.net
 2a03:2880:f234::/48,FacebookBot,bgpview.io
 2a03:2880:f235::/48,FacebookBot,bgpview.io
 2a03:2880:f236::/48,FacebookBot,bgpview.io
+2a03:2880:f237::/48,FacebookBot,whois.radb.net
+2a03:2880:f238::/48,FacebookBot,whois.radb.net
 2a03:2880:f23a::/48,FacebookBot,bgpview.io
+2a03:2880:f23b::/48,FacebookBot,whois.radb.net
 2a03:2880:f23d::/48,FacebookBot,bgpview.io
+2a03:2880:f23e::/48,FacebookBot,whois.radb.net
 2a03:2880:f23f::/48,FacebookBot,bgpview.io
+2a03:2880:f240::/48,FacebookBot,whois.radb.net
+2a03:2880:f241::/48,FacebookBot,whois.radb.net
 2a03:2880:f242::/48,FacebookBot,bgpview.io
+2a03:2880:f243::/48,FacebookBot,whois.radb.net
+2a03:2880:f244::/48,FacebookBot,whois.radb.net
 2a03:2880:f245::/48,FacebookBot,bgpview.io
+2a03:2880:f246::/48,FacebookBot,whois.radb.net
+2a03:2880:f247::/48,FacebookBot,whois.radb.net
 2a03:2880:f248::/48,FacebookBot,bgpview.io
+2a03:2880:f24a::/48,FacebookBot,whois.radb.net
+2a03:2880:f24b::/48,FacebookBot,whois.radb.net
+2a03:2880:f24c::/48,FacebookBot,whois.radb.net
 2a03:2880:f24d::/48,FacebookBot,bgpview.io
 2a03:2880:f24e::/48,FacebookBot,bgpview.io
+2a03:2880:f24f::/48,FacebookBot,whois.radb.net
 2a03:2880:f250::/48,FacebookBot,bgpview.io
 2a03:2880:f252::/48,FacebookBot,bgpview.io
 2a03:2880:f253::/48,FacebookBot,bgpview.io
+2a03:2880:f254::/48,FacebookBot,whois.radb.net
+2a03:2880:f255::/48,FacebookBot,whois.radb.net
+2a03:2880:f256::/48,FacebookBot,whois.radb.net
 2a03:2880:f257::/48,FacebookBot,bgpview.io
 2a03:2880:f258::/48,FacebookBot,bgpview.io
+2a03:2880:f259::/48,FacebookBot,whois.radb.net
+2a03:2880:f25a::/48,FacebookBot,whois.radb.net
 2a03:2880:f25b::/48,FacebookBot,bgpview.io
+2a03:2880:f25c::/48,FacebookBot,whois.radb.net
+2a03:2880:f25d::/48,FacebookBot,whois.radb.net
 2a03:2880:f25e::/48,FacebookBot,bgpview.io
 2a03:2880:f260::/48,FacebookBot,bgpview.io
 2a03:2880:f261::/48,FacebookBot,bgpview.io
 2a03:2880:f262::/48,FacebookBot,bgpview.io
-2a03:2880:f263::/48,FacebookBot,bgpview.io
+2a03:2880:f263::/48,FacebookBot,whois.radb.net
+2a03:2880:f264::/48,FacebookBot,whois.radb.net
 2a03:2880:f265::/48,FacebookBot,bgpview.io
 2a03:2880:f266::/48,FacebookBot,bgpview.io
 2a03:2880:f267::/48,FacebookBot,bgpview.io
+2a03:2880:f268::/48,FacebookBot,whois.radb.net
 2a03:2880:f269::/48,FacebookBot,bgpview.io
+2a03:2880:f26a::/48,FacebookBot,whois.radb.net
+2a03:2880:f26b::/48,FacebookBot,whois.radb.net
+2a03:2880:f26c::/48,FacebookBot,whois.radb.net
 2a03:2880:f26d::/48,FacebookBot,bgpview.io
+2a03:2880:f26e::/48,FacebookBot,whois.radb.net
+2a03:2880:f26f::/48,FacebookBot,whois.radb.net
 2a03:2880:f270::/48,FacebookBot,bgpview.io
 2a03:2880:f271::/48,FacebookBot,bgpview.io
 2a03:2880:f272::/48,FacebookBot,bgpview.io
+2a03:2880:f273::/48,FacebookBot,whois.radb.net
+2a03:2880:f274::/48,FacebookBot,whois.radb.net
 2a03:2880:f275::/48,FacebookBot,bgpview.io
 2a03:2880:f276::/48,FacebookBot,bgpview.io
 2a03:2880:f277::/48,FacebookBot,bgpview.io
 2a03:2880:f278::/48,FacebookBot,bgpview.io
+2a03:2880:f279::/48,FacebookBot,whois.radb.net
+2a03:2880:f27a::/48,FacebookBot,whois.radb.net
 2a03:2880:f27b::/48,FacebookBot,bgpview.io
+2a03:2880:f27c::/48,FacebookBot,whois.radb.net
+2a03:2880:f27d::/48,FacebookBot,whois.radb.net
+2a03:2880:f27e::/48,FacebookBot,whois.radb.net
+2a03:2880:f27f::/48,FacebookBot,whois.radb.net
+2a03:2880:f280::/48,FacebookBot,whois.radb.net
+2a03:2880:f281::/48,FacebookBot,whois.radb.net
+2a03:2880:f282::/48,FacebookBot,whois.radb.net
+2a03:2880:f283::/48,FacebookBot,whois.radb.net
+2a03:2880:f284::/48,FacebookBot,whois.radb.net
+2a03:2880:f285::/48,FacebookBot,whois.radb.net
+2a03:2880:f286::/48,FacebookBot,whois.radb.net
+2a03:2880:f287::/48,FacebookBot,whois.radb.net
+2a03:2880:f288::/48,FacebookBot,whois.radb.net
 2a03:2880:f289::/48,FacebookBot,bgpview.io
+2a03:2880:f28a::/48,FacebookBot,whois.radb.net
+2a03:2880:f28b::/48,FacebookBot,whois.radb.net
+2a03:2880:f28c::/48,FacebookBot,whois.radb.net
+2a03:2880:f2ff::/48,FacebookBot,whois.radb.net
+2a03:2880:f300::/48,FacebookBot,whois.radb.net
+2a03:2880:f301::/48,FacebookBot,whois.radb.net
+2a03:2880:f302::/48,FacebookBot,whois.radb.net
+2a03:2880:f303::/48,FacebookBot,whois.radb.net
+2a03:2880:f304::/48,FacebookBot,whois.radb.net
+2a03:2880:f305::/48,FacebookBot,whois.radb.net
+2a03:2880:f306::/48,FacebookBot,whois.radb.net
+2a03:2880:f307::/48,FacebookBot,whois.radb.net
+2a03:2880:f308::/48,FacebookBot,whois.radb.net
+2a03:2880:f309::/48,FacebookBot,whois.radb.net
+2a03:2880:f30a::/48,FacebookBot,whois.radb.net
+2a03:2880:f30b::/48,FacebookBot,whois.radb.net
+2a03:2880:f30c::/48,FacebookBot,whois.radb.net
+2a03:2880:f30d::/48,FacebookBot,whois.radb.net
+2a03:2880:f30e::/48,FacebookBot,whois.radb.net
+2a03:2880:f30f::/48,FacebookBot,whois.radb.net
+2a03:2880:f310::/48,FacebookBot,whois.radb.net
+2a03:2880:f311::/48,FacebookBot,whois.radb.net
+2a03:2880:f312::/48,FacebookBot,whois.radb.net
+2a03:2880:f313::/48,FacebookBot,whois.radb.net
+2a03:2880:f314::/48,FacebookBot,whois.radb.net
+2a03:2880:f315::/48,FacebookBot,whois.radb.net
+2a03:2880:f316::/48,FacebookBot,whois.radb.net
+2a03:2880:f317::/48,FacebookBot,whois.radb.net
+2a03:2880:f318::/48,FacebookBot,whois.radb.net
+2a03:2880:f319::/48,FacebookBot,whois.radb.net
+2a03:2880:f31a::/48,FacebookBot,whois.radb.net
+2a03:2880:f31b::/48,FacebookBot,whois.radb.net
+2a03:2880:f31c::/48,FacebookBot,whois.radb.net
+2a03:2880:f31d::/48,FacebookBot,whois.radb.net
+2a03:2880:f31e::/48,FacebookBot,whois.radb.net
+2a03:2880:f31f::/48,FacebookBot,whois.radb.net
+2a03:2880:f320::/48,FacebookBot,whois.radb.net
+2a03:2880:f321::/48,FacebookBot,whois.radb.net
+2a03:2880:f322::/48,FacebookBot,whois.radb.net
+2a03:2880:f323::/48,FacebookBot,whois.radb.net
+2a03:2880:f324::/48,FacebookBot,whois.radb.net
+2a03:2880:f325::/48,FacebookBot,whois.radb.net
+2a03:2880:f326::/48,FacebookBot,whois.radb.net
+2a03:2880:f327::/48,FacebookBot,whois.radb.net
+2a03:2880:f328::/48,FacebookBot,whois.radb.net
 2a03:2880:f329::/48,FacebookBot,bgpview.io
 2a03:2880:f32a::/48,FacebookBot,bgpview.io
 2a03:2880:f32b::/48,FacebookBot,bgpview.io
+2a03:2880:f32c::/48,FacebookBot,whois.radb.net
 2a03:2880:f32d::/48,FacebookBot,bgpview.io
 2a03:2880:f32e::/48,FacebookBot,bgpview.io
+2a03:2880:f32f::/48,FacebookBot,whois.radb.net
 2a03:2880:f330::/48,FacebookBot,bgpview.io
+2a03:2880:f331::/48,FacebookBot,whois.radb.net
+2a03:2880:f332::/48,FacebookBot,whois.radb.net
+2a03:2880:f333::/48,FacebookBot,whois.radb.net
+2a03:2880:f334::/48,FacebookBot,whois.radb.net
+2a03:2880:f335::/48,FacebookBot,whois.radb.net
+2a03:2880:f336::/48,FacebookBot,whois.radb.net
+2a03:2880:f337::/48,FacebookBot,whois.radb.net
+2a03:2880:f338::/48,FacebookBot,whois.radb.net
+2a03:2880:f339::/48,FacebookBot,whois.radb.net
 2a03:2880:f33a::/48,FacebookBot,bgpview.io
+2a03:2880:f33b::/48,FacebookBot,whois.radb.net
 2a03:2880:f33c::/48,FacebookBot,bgpview.io
+2a03:2880:f33d::/48,FacebookBot,whois.radb.net
+2a03:2880:f33e::/48,FacebookBot,whois.radb.net
+2a03:2880:f33f::/48,FacebookBot,whois.radb.net
+2a03:2880:f340::/48,FacebookBot,whois.radb.net
+2a03:2880:f341::/48,FacebookBot,whois.radb.net
 2a03:2880:f342::/48,FacebookBot,bgpview.io
 2a03:2880:f343::/48,FacebookBot,bgpview.io
-2a03:2880:f345::/48,FacebookBot,bgpview.io
+2a03:2880:f344::/48,FacebookBot,whois.radb.net
+2a03:2880:f345::/48,FacebookBot,whois.radb.net
+2a03:2880:f346::/48,FacebookBot,whois.radb.net
+2a03:2880:f347::/48,FacebookBot,whois.radb.net
 2a03:2880:f348::/48,FacebookBot,bgpview.io
+2a03:2880:f349::/48,FacebookBot,whois.radb.net
 2a03:2880:f34a::/48,FacebookBot,bgpview.io
 2a03:2880:f34b::/48,FacebookBot,bgpview.io
 2a03:2880:f34c::/48,FacebookBot,bgpview.io
+2a03:2880:f34d::/48,FacebookBot,whois.radb.net
+2a03:2880:f34e::/48,FacebookBot,whois.radb.net
+2a03:2880:f34f::/48,FacebookBot,whois.radb.net
 2a03:2880:f350::/48,FacebookBot,bgpview.io
 2a03:2880:f351::/48,FacebookBot,bgpview.io
+2a03:2880:f352::/48,FacebookBot,whois.radb.net
+2a03:2880:f353::/48,FacebookBot,whois.radb.net
+2a03:2880:f354::/48,FacebookBot,whois.radb.net
+2a03:2880:f355::/48,FacebookBot,whois.radb.net
 2a03:2880:f356::/48,FacebookBot,bgpview.io
 2a03:2880:f357::/48,FacebookBot,bgpview.io
+2a03:2880:f358::/48,FacebookBot,whois.radb.net
+2a03:2880:f359::/48,FacebookBot,whois.radb.net
 2a03:2880:f35a::/48,FacebookBot,bgpview.io
+2a03:2880:f35b::/48,FacebookBot,whois.radb.net
+2a03:2880:f35c::/48,FacebookBot,whois.radb.net
 2a03:2880:f35d::/48,FacebookBot,bgpview.io
+2a03:2880:f35e::/48,FacebookBot,whois.radb.net
+2a03:2880:f35f::/48,FacebookBot,whois.radb.net
 2a03:2880:f360::/48,FacebookBot,bgpview.io
 2a03:2880:f361::/48,FacebookBot,bgpview.io
 2a03:2880:f362::/48,FacebookBot,bgpview.io
 2a03:2880:f363::/48,FacebookBot,bgpview.io
+2a03:2880:f364::/48,FacebookBot,whois.radb.net
+2a03:2880:f365::/48,FacebookBot,whois.radb.net
 2a03:2880:f366::/48,FacebookBot,bgpview.io
 2a03:2880:f367::/48,FacebookBot,bgpview.io
+2a03:2880:f368::/48,FacebookBot,whois.radb.net
+2a03:2880:f369::/48,FacebookBot,whois.radb.net
+2a03:2880:f36a::/48,FacebookBot,whois.radb.net
+2a03:2880:f36b::/48,FacebookBot,whois.radb.net
 2a03:2880:f36c::/48,FacebookBot,bgpview.io
 2a03:2880:f36d::/48,FacebookBot,bgpview.io
 2a03:2880:f36e::/48,FacebookBot,bgpview.io
 2a03:2880:f36f::/48,FacebookBot,bgpview.io
+2a03:2880:f370::/48,FacebookBot,whois.radb.net
+2a03:2880:f371::/48,FacebookBot,whois.radb.net
+2a03:2880:f372::/48,FacebookBot,whois.radb.net
+2a03:2880:f373::/48,FacebookBot,whois.radb.net
+2a03:2880:f374::/48,FacebookBot,whois.radb.net
+2a03:2880:f375::/48,FacebookBot,bgpview.io
+2a03:2880:f376::/48,FacebookBot,whois.radb.net
+2a03:2880:f377::/48,FacebookBot,bgpview.io
+2a03:2880:f378::/48,FacebookBot,bgpview.io
+2a03:2880:f379::/48,FacebookBot,whois.radb.net
+2a03:2880:f37a::/48,FacebookBot,bgpview.io
+2a03:2880:f37b::/48,FacebookBot,whois.radb.net
+2a03:2880:f37c::/48,FacebookBot,bgpview.io
+2a03:2880:f37d::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,bgpview.io
+2a03:2880:f801::/48,FacebookBot,whois.radb.net
 2a03:2880:f802::/48,FacebookBot,bgpview.io
+2a03:2880:f803::/48,FacebookBot,whois.radb.net
 2a03:2880:f804::/48,FacebookBot,bgpview.io
+2a03:2880:f805::/48,FacebookBot,whois.radb.net
 2a03:2880:f806::/48,FacebookBot,bgpview.io
+2a03:2880:f807::/48,FacebookBot,whois.radb.net
 2a03:2880:f808::/48,FacebookBot,bgpview.io
+2a03:2880:f809::/48,FacebookBot,whois.radb.net
 2a03:2880:f80a::/48,FacebookBot,bgpview.io
+2a03:2880:f80b::/48,FacebookBot,whois.radb.net
 2a03:2880:f80c::/48,FacebookBot,bgpview.io
+2a03:2880:f80d::/48,FacebookBot,whois.radb.net
 2a03:2880:ff08::/48,FacebookBot,bgpview.io
 2a03:2880:ff09::/48,FacebookBot,bgpview.io
 2a03:2880:ff0a::/48,FacebookBot,bgpview.io
 2a03:2880:ff0b::/48,FacebookBot,bgpview.io
 2a03:2880:ff0c::/48,FacebookBot,bgpview.io
+2a03:2880:fffe::/48,FacebookBot,whois.radb.net
+2a03:2880:ffff::/48,FacebookBot,whois.radb.net
+2a03:2881::/32,FacebookBot,whois.radb.net
+2a03:2881::/48,FacebookBot,whois.radb.net
+2a03:2881:1::/48,FacebookBot,whois.radb.net
+2a03:2881:2::/48,FacebookBot,whois.radb.net
+2a03:2881:3::/48,FacebookBot,whois.radb.net
+2a03:2881:4::/48,FacebookBot,whois.radb.net
+2a03:2881:5::/48,FacebookBot,whois.radb.net
+2a03:2881:6::/48,FacebookBot,whois.radb.net
+2a03:2881:7::/48,FacebookBot,whois.radb.net
+2a03:2881:8::/48,FacebookBot,whois.radb.net
+2a03:2881:9::/48,FacebookBot,whois.radb.net
+2a03:2881:a::/48,FacebookBot,whois.radb.net
+2a03:2881:b::/48,FacebookBot,whois.radb.net
+2a03:2881:c::/48,FacebookBot,whois.radb.net
+2a03:2881:d::/48,FacebookBot,whois.radb.net
+2a03:2881:e::/48,FacebookBot,whois.radb.net
+2a03:2881:f::/48,FacebookBot,whois.radb.net
+2a03:2881:10::/48,FacebookBot,whois.radb.net
+2a03:2881:11::/48,FacebookBot,whois.radb.net
+2a03:2881:12::/48,FacebookBot,whois.radb.net
+2a03:2881:13::/48,FacebookBot,whois.radb.net
+2a03:2881:14::/48,FacebookBot,whois.radb.net
+2a03:2881:15::/48,FacebookBot,whois.radb.net
+2a03:2881:16::/48,FacebookBot,whois.radb.net
+2a03:2881:17::/48,FacebookBot,whois.radb.net
+2a03:2881:18::/48,FacebookBot,whois.radb.net
+2a03:2881:19::/48,FacebookBot,whois.radb.net
+2a03:2881:1a::/48,FacebookBot,whois.radb.net
+2a03:2881:1b::/48,FacebookBot,whois.radb.net
+2a03:2881:1c::/48,FacebookBot,whois.radb.net
+2a03:2881:1e::/48,FacebookBot,whois.radb.net
+2a03:2881:48::/45,FacebookBot,whois.radb.net
+2a03:2881:98::/45,FacebookBot,whois.radb.net
+2a03:2881:4000::/48,FacebookBot,whois.radb.net
+2a03:2881:4001::/48,FacebookBot,whois.radb.net
+2a03:2881:4002::/48,FacebookBot,whois.radb.net
+2a03:2881:4003::/48,FacebookBot,whois.radb.net
+2a03:2881:4004::/48,FacebookBot,whois.radb.net
+2a03:2881:4005::/48,FacebookBot,whois.radb.net
+2a03:2881:4006::/48,FacebookBot,whois.radb.net
+2a03:2881:4007::/48,FacebookBot,whois.radb.net
+2a03:2881:4008::/48,FacebookBot,whois.radb.net
+2a03:2881:4009::/48,FacebookBot,whois.radb.net
+2a03:2881:400a::/48,FacebookBot,whois.radb.net
+2a03:2881:400b::/48,FacebookBot,whois.radb.net
+2a03:2881:400c::/48,FacebookBot,whois.radb.net
+2a03:2881:400d::/48,FacebookBot,whois.radb.net
+2a03:2887:ff2c::/48,FacebookBot,whois.radb.net
+2a03:2887:ff2d::/48,FacebookBot,whois.radb.net
 2a03:8180:1301:146::4070,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a03:83e0::/32,FacebookBot,whois.radb.net
 2a03:b0c0:2:f0::bd91:f001,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a03:b0c0:2:f0::bd92:1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a03:b0c0:2:f0::bd92:1001,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -2181,9 +2570,10 @@ IP,Name,Source
 2a05:d014:1815:3400:c7d6:f7f3:6cc1:30d1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a05:d014:1815:3400:d784:e5dd:8e0:67cb,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a06:98c0::/29,Cloudflare,https://www.cloudflare.com/ips-v6
+2a0a:f280::/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2a0b:21c0:2000:208f::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2a0c:e082:11::d,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a0d:3002:2100:a00c:5::4065,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a10:f781:10:cee0::/64,FacebookBot,whois.radb.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -2202,6 +2592,8 @@ IP,Name,Source
 46.20.45.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 46.105.70.190,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 46.151.193.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+46.151.194.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+46.151.194.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.199.75.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.246.122.10,PingdomBot,https://my.pingdom.com/probes/ipv4
 49.12.0.158,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -2214,12 +2606,12 @@ IP,Name,Source
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.232.162.18,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 49.233.249.157,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-50.2.185.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+51.8.155.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.253.152,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4483,6 +4875,7 @@ IP,Name,Source
 52.149.58.173,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 52.149.60.38,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 52.149.61.51,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+52.154.22.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.154.60.82,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 52.154.169.50,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 52.154.169.200,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
@@ -4510,9 +4903,14 @@ IP,Name,Source
 52.159.227.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.159.249.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.167.144.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
+52.173.123.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+52.173.219.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+52.173.219.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.173.234.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.173.234.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+52.173.235.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.176.139.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+52.187.246.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.190.37.160,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 52.190.137.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.190.137.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -4559,6 +4957,7 @@ IP,Name,Source
 52.242.132.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.242.132.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.242.224.168,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+52.242.245.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.252.113.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.255.109.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 52.255.109.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -6926,45 +7325,146 @@ IP,Name,Source
 57.129.64.219,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 57.129.64.237,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 57.141.0.0/24,FacebookBot,bgpview.io
+57.141.1.0/24,FacebookBot,whois.radb.net
 57.141.2.0/24,FacebookBot,bgpview.io
+57.141.3.0/24,FacebookBot,whois.radb.net
 57.141.4.0/24,FacebookBot,bgpview.io
+57.141.5.0/24,FacebookBot,whois.radb.net
 57.141.6.0/24,FacebookBot,bgpview.io
+57.141.7.0/24,FacebookBot,whois.radb.net
 57.141.8.0/24,FacebookBot,bgpview.io
+57.141.9.0/24,FacebookBot,whois.radb.net
 57.141.10.0/24,FacebookBot,bgpview.io
+57.141.11.0/24,FacebookBot,whois.radb.net
 57.141.12.0/24,FacebookBot,bgpview.io
+57.141.13.0/24,FacebookBot,whois.radb.net
 57.144.0.0/14,FacebookBot,bgpview.io
+57.144.0.0/23,FacebookBot,whois.radb.net
+57.144.2.0/23,FacebookBot,whois.radb.net
+57.144.4.0/23,FacebookBot,whois.radb.net
+57.144.6.0/23,FacebookBot,whois.radb.net
+57.144.8.0/23,FacebookBot,whois.radb.net
+57.144.10.0/23,FacebookBot,whois.radb.net
+57.144.12.0/23,FacebookBot,whois.radb.net
+57.144.14.0/23,FacebookBot,whois.radb.net
+57.144.16.0/23,FacebookBot,whois.radb.net
+57.144.18.0/23,FacebookBot,whois.radb.net
+57.144.20.0/23,FacebookBot,whois.radb.net
+57.144.22.0/23,FacebookBot,whois.radb.net
+57.144.24.0/23,FacebookBot,whois.radb.net
+57.144.26.0/23,FacebookBot,whois.radb.net
+57.144.28.0/23,FacebookBot,whois.radb.net
+57.144.30.0/23,FacebookBot,whois.radb.net
+57.144.32.0/23,FacebookBot,whois.radb.net
+57.144.34.0/23,FacebookBot,whois.radb.net
+57.144.36.0/23,FacebookBot,whois.radb.net
+57.144.38.0/23,FacebookBot,whois.radb.net
+57.144.40.0/23,FacebookBot,whois.radb.net
+57.144.42.0/23,FacebookBot,whois.radb.net
+57.144.44.0/23,FacebookBot,whois.radb.net
+57.144.46.0/23,FacebookBot,whois.radb.net
+57.144.48.0/23,FacebookBot,whois.radb.net
+57.144.50.0/23,FacebookBot,whois.radb.net
+57.144.52.0/23,FacebookBot,whois.radb.net
+57.144.54.0/23,FacebookBot,whois.radb.net
+57.144.56.0/23,FacebookBot,whois.radb.net
+57.144.58.0/23,FacebookBot,whois.radb.net
+57.144.60.0/23,FacebookBot,whois.radb.net
+57.144.62.0/23,FacebookBot,whois.radb.net
+57.144.64.0/23,FacebookBot,whois.radb.net
+57.144.66.0/23,FacebookBot,whois.radb.net
+57.144.68.0/23,FacebookBot,whois.radb.net
+57.144.70.0/23,FacebookBot,whois.radb.net
+57.144.72.0/23,FacebookBot,whois.radb.net
+57.144.74.0/23,FacebookBot,whois.radb.net
+57.144.76.0/23,FacebookBot,whois.radb.net
+57.144.78.0/23,FacebookBot,whois.radb.net
+57.144.80.0/23,FacebookBot,whois.radb.net
+57.144.82.0/23,FacebookBot,whois.radb.net
+57.144.84.0/23,FacebookBot,whois.radb.net
+57.144.86.0/23,FacebookBot,whois.radb.net
+57.144.88.0/23,FacebookBot,whois.radb.net
+57.144.90.0/23,FacebookBot,whois.radb.net
+57.144.92.0/23,FacebookBot,whois.radb.net
+57.144.94.0/23,FacebookBot,whois.radb.net
+57.144.96.0/23,FacebookBot,whois.radb.net
+57.144.98.0/23,FacebookBot,whois.radb.net
+57.144.100.0/23,FacebookBot,whois.radb.net
 57.144.102.0/23,FacebookBot,bgpview.io
 57.144.104.0/23,FacebookBot,bgpview.io
+57.144.106.0/23,FacebookBot,whois.radb.net
 57.144.108.0/23,FacebookBot,bgpview.io
 57.144.110.0/23,FacebookBot,bgpview.io
 57.144.112.0/23,FacebookBot,bgpview.io
-57.144.114.0/23,FacebookBot,bgpview.io
+57.144.114.0/23,FacebookBot,whois.radb.net
 57.144.116.0/23,FacebookBot,bgpview.io
+57.144.118.0/23,FacebookBot,whois.radb.net
 57.144.120.0/23,FacebookBot,bgpview.io
-57.144.126.0/23,FacebookBot,bgpview.io
+57.144.122.0/23,FacebookBot,whois.radb.net
+57.144.124.0/23,FacebookBot,whois.radb.net
+57.144.126.0/23,FacebookBot,whois.radb.net
 57.144.128.0/23,FacebookBot,bgpview.io
+57.144.130.0/23,FacebookBot,whois.radb.net
 57.144.132.0/23,FacebookBot,bgpview.io
 57.144.134.0/23,FacebookBot,bgpview.io
+57.144.136.0/23,FacebookBot,whois.radb.net
 57.144.138.0/23,FacebookBot,bgpview.io
+57.144.140.0/23,FacebookBot,whois.radb.net
+57.144.142.0/23,FacebookBot,whois.radb.net
 57.144.144.0/23,FacebookBot,bgpview.io
+57.144.146.0/23,FacebookBot,whois.radb.net
+57.144.148.0/23,FacebookBot,whois.radb.net
 57.144.150.0/23,FacebookBot,bgpview.io
 57.144.152.0/23,FacebookBot,bgpview.io
+57.144.154.0/23,FacebookBot,whois.radb.net
+57.144.156.0/23,FacebookBot,whois.radb.net
+57.144.158.0/23,FacebookBot,whois.radb.net
 57.144.160.0/23,FacebookBot,bgpview.io
 57.144.162.0/23,FacebookBot,bgpview.io
 57.144.164.0/23,FacebookBot,bgpview.io
+57.144.166.0/23,FacebookBot,whois.radb.net
+57.144.168.0/23,FacebookBot,whois.radb.net
+57.144.170.0/23,FacebookBot,whois.radb.net
 57.144.172.0/23,FacebookBot,bgpview.io
 57.144.174.0/23,FacebookBot,bgpview.io
+57.144.176.0/23,FacebookBot,whois.radb.net
+57.144.178.0/23,FacebookBot,whois.radb.net
 57.144.180.0/23,FacebookBot,bgpview.io
+57.144.182.0/23,FacebookBot,whois.radb.net
+57.144.184.0/23,FacebookBot,whois.radb.net
 57.144.186.0/23,FacebookBot,bgpview.io
+57.144.188.0/23,FacebookBot,whois.radb.net
+57.144.190.0/23,FacebookBot,whois.radb.net
+57.144.192.0/23,FacebookBot,whois.radb.net
 57.144.194.0/23,FacebookBot,bgpview.io
 57.144.196.0/23,FacebookBot,bgpview.io
 57.144.198.0/23,FacebookBot,bgpview.io
+57.144.200.0/23,FacebookBot,whois.radb.net
+57.144.202.0/23,FacebookBot,whois.radb.net
 57.144.204.0/23,FacebookBot,bgpview.io
 57.144.206.0/23,FacebookBot,bgpview.io
+57.144.208.0/23,FacebookBot,whois.radb.net
+57.144.210.0/23,FacebookBot,whois.radb.net
+57.144.212.0/23,FacebookBot,whois.radb.net
+57.144.214.0/23,FacebookBot,whois.radb.net
 57.144.216.0/23,FacebookBot,bgpview.io
 57.144.218.0/23,FacebookBot,bgpview.io
 57.144.220.0/23,FacebookBot,bgpview.io
 57.144.222.0/23,FacebookBot,bgpview.io
+57.144.224.0/23,FacebookBot,whois.radb.net
+57.144.226.0/23,FacebookBot,whois.radb.net
+57.144.228.0/23,FacebookBot,whois.radb.net
+57.144.230.0/23,FacebookBot,whois.radb.net
+57.144.232.0/23,FacebookBot,whois.radb.net
+57.144.234.0/23,FacebookBot,bgpview.io
+57.144.236.0/23,FacebookBot,whois.radb.net
+57.144.238.0/23,FacebookBot,bgpview.io
+57.144.240.0/23,FacebookBot,bgpview.io
+57.144.242.0/23,FacebookBot,whois.radb.net
+57.144.244.0/23,FacebookBot,bgpview.io
+57.144.246.0/23,FacebookBot,whois.radb.net
+57.144.248.0/23,FacebookBot,bgpview.io
+57.144.250.0/23,FacebookBot,whois.radb.net
 57.152.72.128,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 57.154.174.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.154.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7040,6 +7540,7 @@ IP,Name,Source
 66.249.66.192/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.66.224/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.67.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+66.249.67.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -7074,7 +7575,6 @@ IP,Name,Source
 66.249.72.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.72.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.72.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
-66.249.72.96/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.72.128/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.72.160/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.72.192/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -7124,6 +7624,7 @@ IP,Name,Source
 66.249.78.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.78.96/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.78.128/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+66.249.78.160/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.79.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -7173,6 +7674,7 @@ IP,Name,Source
 66.249.92.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 66.249.92.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 68.154.28.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+68.218.30.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 68.220.57.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 68.221.67.160,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 68.221.67.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7188,8 +7690,10 @@ IP,Name,Source
 69.164.207.190,BetterStack,https://uptime.betterstack.com/ips.txt
 69.171.224.0/19,FacebookBot,bgpview.io
 69.171.224.0/20,FacebookBot,bgpview.io
+69.171.239.0/24,FacebookBot,whois.radb.net
 69.171.240.0/20,FacebookBot,bgpview.io
 69.171.250.0/24,FacebookBot,bgpview.io
+69.171.255.0/24,FacebookBot,whois.radb.net
 71.6.135.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.146.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.146.185,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -7218,6 +7722,7 @@ IP,Name,Source
 74.7.36.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.36.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.36.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,bgpview.io
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7253,7 +7758,6 @@ IP,Name,Source
 74.125.216.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
-74.125.216.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.160/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7279,6 +7783,7 @@ IP,Name,Source
 74.125.219.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+74.125.219.160/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7373,7 +7878,6 @@ IP,Name,Source
 88.198.9.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.198.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.198.57.50,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-89.38.96.158,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.163.146.247,PingdomBot,https://my.pingdom.com/probes/ipv4
 89.163.242.206,PingdomBot,https://my.pingdom.com/probes/ipv4
 89.187.162.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7396,17 +7900,14 @@ IP,Name,Source
 89.248.172.16,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 90.156.176.0/20,YandexBot,https://yandex.com/ips
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+91.105.192.0/23,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.107.221.68,BetterStack,https://uptime.betterstack.com/ips.txt
 91.108.4.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.4.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.8.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.8.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.12.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.12.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.16.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.16.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.20.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.56.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.56.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.134.73.222,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 91.134.73.230,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 92.222.104.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -7522,15 +8023,17 @@ IP,Name,Source
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-100.43.64.0/19,YandexBot,https://yandex.com/ips
 101.43.149.237,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 102.132.96.0/20,FacebookBot,bgpview.io
+102.132.96.0/24,FacebookBot,whois.radb.net
+102.132.97.0/24,FacebookBot,whois.radb.net
 102.132.99.0/24,FacebookBot,bgpview.io
+102.132.100.0/24,FacebookBot,whois.radb.net
 102.132.101.0/24,FacebookBot,bgpview.io
+102.132.103.0/24,FacebookBot,whois.radb.net
 102.132.104.0/24,FacebookBot,bgpview.io
 102.219.126.20,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-103.1.215.93,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.3.60.124,BetterStack,https://uptime.betterstack.com/ips.txt
 103.4.96.0/22,FacebookBot,bgpview.io
 103.21.244.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
@@ -7549,12 +8052,9 @@ IP,Name,Source
 103.60.15.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.173,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-103.107.196.31,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.108.229.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.108.231.41,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.112.0.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-103.137.12.33,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-103.137.14.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.214.20.95,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.216.220.9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.235.199.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7624,8 +8124,6 @@ IP,Name,Source
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-116.90.72.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-116.90.75.65,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7635,12 +8133,12 @@ IP,Name,Source
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 128.140.70.141,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.106.114,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+129.134.0.0/16,FacebookBot,whois.radb.net
 129.134.0.0/17,FacebookBot,bgpview.io
 129.134.25.0/24,FacebookBot,bgpview.io
 129.134.26.0/24,FacebookBot,bgpview.io
@@ -7650,6 +8148,27 @@ IP,Name,Source
 129.134.30.0/23,FacebookBot,bgpview.io
 129.134.30.0/24,FacebookBot,bgpview.io
 129.134.31.0/24,FacebookBot,bgpview.io
+129.134.64.0/24,FacebookBot,whois.radb.net
+129.134.65.0/24,FacebookBot,whois.radb.net
+129.134.66.0/24,FacebookBot,whois.radb.net
+129.134.67.0/24,FacebookBot,whois.radb.net
+129.134.68.0/24,FacebookBot,whois.radb.net
+129.134.69.0/24,FacebookBot,whois.radb.net
+129.134.70.0/24,FacebookBot,whois.radb.net
+129.134.71.0/24,FacebookBot,whois.radb.net
+129.134.72.0/24,FacebookBot,whois.radb.net
+129.134.73.0/24,FacebookBot,whois.radb.net
+129.134.74.0/24,FacebookBot,whois.radb.net
+129.134.75.0/24,FacebookBot,whois.radb.net
+129.134.76.0/24,FacebookBot,whois.radb.net
+129.134.77.0/24,FacebookBot,whois.radb.net
+129.134.78.0/24,FacebookBot,whois.radb.net
+129.134.79.0/24,FacebookBot,whois.radb.net
+129.134.112.0/24,FacebookBot,whois.radb.net
+129.134.113.0/24,FacebookBot,whois.radb.net
+129.134.114.0/24,FacebookBot,whois.radb.net
+129.134.115.0/24,FacebookBot,whois.radb.net
+129.134.127.0/24,FacebookBot,whois.radb.net
 129.212.132.140,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 129.227.179.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 129.227.186.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7672,6 +8191,7 @@ IP,Name,Source
 136.243.16.49,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+136.243.70.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 137.135.191.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 137.184.9.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 137.184.13.100,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -7684,6 +8204,8 @@ IP,Name,Source
 137.184.190.194,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 137.184.190.205,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 137.184.190.246,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+138.91.30.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+138.91.46.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 138.197.53.117,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 138.197.53.138,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 138.197.54.143,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -8819,6 +9341,7 @@ IP,Name,Source
 146.70.80.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.185.248.15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.190.9.187,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+147.75.208.0/20,FacebookBot,whois.radb.net
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 147.185.136.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9335,6 +9858,7 @@ IP,Name,Source
 148.113.130.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+148.113.190.161,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.113.193.79,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 148.113.206.49,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 148.113.208.45,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
@@ -9348,37 +9872,19 @@ IP,Name,Source
 148.113.214.212,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+148.251.129.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+148.251.131.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.160.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.164.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.164.8/29,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.164.250/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.165.120/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.166.120/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.40/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.42/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.50/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.51/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.90/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.91/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.99/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.117/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.118/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.167.192/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.168.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.172.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.175.10/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.175.50/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.175.100/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
-149.154.175.117/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.8.217.128,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+154.93.86.71,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.95.86.76,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.92.126,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9403,58 +9909,106 @@ IP,Name,Source
 157.90.155.240,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 157.90.156.63,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 157.90.180.205,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+157.240.0.0/16,FacebookBot,whois.radb.net
 157.240.0.0/17,FacebookBot,bgpview.io
 157.240.0.0/24,FacebookBot,bgpview.io
+157.240.1.0/24,FacebookBot,whois.radb.net
+157.240.2.0/24,FacebookBot,whois.radb.net
 157.240.3.0/24,FacebookBot,bgpview.io
 157.240.5.0/24,FacebookBot,bgpview.io
+157.240.6.0/24,FacebookBot,whois.radb.net
 157.240.7.0/24,FacebookBot,bgpview.io
+157.240.8.0/24,FacebookBot,whois.radb.net
 157.240.9.0/24,FacebookBot,bgpview.io
+157.240.10.0/24,FacebookBot,whois.radb.net
 157.240.11.0/24,FacebookBot,bgpview.io
-157.240.12.0/24,FacebookBot,bgpview.io
+157.240.12.0/24,FacebookBot,whois.radb.net
 157.240.13.0/24,FacebookBot,bgpview.io
 157.240.14.0/24,FacebookBot,bgpview.io
 157.240.15.0/24,FacebookBot,bgpview.io
+157.240.16.0/24,FacebookBot,whois.radb.net
 157.240.17.0/24,FacebookBot,bgpview.io
+157.240.18.0/24,FacebookBot,whois.radb.net
+157.240.19.0/24,FacebookBot,whois.radb.net
+157.240.20.0/24,FacebookBot,whois.radb.net
+157.240.21.0/24,FacebookBot,whois.radb.net
 157.240.22.0/24,FacebookBot,bgpview.io
+157.240.23.0/24,FacebookBot,whois.radb.net
 157.240.24.0/24,FacebookBot,bgpview.io
 157.240.25.0/24,FacebookBot,bgpview.io
 157.240.26.0/24,FacebookBot,bgpview.io
 157.240.27.0/24,FacebookBot,bgpview.io
+157.240.28.0/24,FacebookBot,whois.radb.net
+157.240.29.0/24,FacebookBot,whois.radb.net
 157.240.30.0/24,FacebookBot,bgpview.io
 157.240.31.0/24,FacebookBot,bgpview.io
+157.240.96.0/24,FacebookBot,whois.radb.net
+157.240.97.0/24,FacebookBot,whois.radb.net
+157.240.98.0/24,FacebookBot,whois.radb.net
+157.240.99.0/24,FacebookBot,whois.radb.net
+157.240.100.0/24,FacebookBot,whois.radb.net
+157.240.101.0/24,FacebookBot,whois.radb.net
 157.240.192.0/18,FacebookBot,bgpview.io
+157.240.192.0/24,FacebookBot,whois.radb.net
+157.240.193.0/24,FacebookBot,whois.radb.net
+157.240.194.0/24,FacebookBot,whois.radb.net
 157.240.195.0/24,FacebookBot,bgpview.io
 157.240.196.0/24,FacebookBot,bgpview.io
-157.240.197.0/24,FacebookBot,bgpview.io
+157.240.197.0/24,FacebookBot,whois.radb.net
+157.240.198.0/24,FacebookBot,whois.radb.net
 157.240.199.0/24,FacebookBot,bgpview.io
 157.240.200.0/24,FacebookBot,bgpview.io
 157.240.201.0/24,FacebookBot,bgpview.io
 157.240.202.0/24,FacebookBot,bgpview.io
 157.240.203.0/24,FacebookBot,bgpview.io
-157.240.204.0/24,FacebookBot,bgpview.io
+157.240.204.0/24,FacebookBot,whois.radb.net
 157.240.205.0/24,FacebookBot,bgpview.io
+157.240.206.0/24,FacebookBot,whois.radb.net
+157.240.207.0/24,FacebookBot,whois.radb.net
+157.240.208.0/24,FacebookBot,whois.radb.net
 157.240.209.0/24,FacebookBot,bgpview.io
 157.240.210.0/24,FacebookBot,bgpview.io
 157.240.211.0/24,FacebookBot,bgpview.io
 157.240.212.0/24,FacebookBot,bgpview.io
+157.240.213.0/24,FacebookBot,whois.radb.net
 157.240.214.0/24,FacebookBot,bgpview.io
-157.240.221.0/24,FacebookBot,bgpview.io
-157.240.222.0/24,FacebookBot,bgpview.io
+157.240.215.0/24,FacebookBot,whois.radb.net
+157.240.216.0/24,FacebookBot,whois.radb.net
+157.240.217.0/24,FacebookBot,whois.radb.net
+157.240.218.0/24,FacebookBot,whois.radb.net
+157.240.219.0/24,FacebookBot,whois.radb.net
+157.240.220.0/24,FacebookBot,whois.radb.net
+157.240.221.0/24,FacebookBot,whois.radb.net
+157.240.222.0/24,FacebookBot,whois.radb.net
 157.240.223.0/24,FacebookBot,bgpview.io
 157.240.224.0/24,FacebookBot,bgpview.io
 157.240.225.0/24,FacebookBot,bgpview.io
-157.240.226.0/24,FacebookBot,bgpview.io
+157.240.226.0/24,FacebookBot,whois.radb.net
+157.240.227.0/24,FacebookBot,whois.radb.net
+157.240.228.0/24,FacebookBot,whois.radb.net
 157.240.229.0/24,FacebookBot,bgpview.io
 157.240.231.0/24,FacebookBot,bgpview.io
-157.240.233.0/24,FacebookBot,bgpview.io
+157.240.232.0/24,FacebookBot,whois.radb.net
+157.240.233.0/24,FacebookBot,whois.radb.net
 157.240.234.0/24,FacebookBot,bgpview.io
-157.240.238.0/24,FacebookBot,bgpview.io
+157.240.235.0/24,FacebookBot,whois.radb.net
+157.240.236.0/24,FacebookBot,whois.radb.net
+157.240.237.0/24,FacebookBot,whois.radb.net
+157.240.238.0/24,FacebookBot,whois.radb.net
+157.240.239.0/24,FacebookBot,whois.radb.net
+157.240.240.0/24,FacebookBot,whois.radb.net
 157.240.241.0/24,FacebookBot,bgpview.io
+157.240.242.0/24,FacebookBot,whois.radb.net
 157.240.243.0/24,FacebookBot,bgpview.io
 157.240.244.0/24,FacebookBot,bgpview.io
 157.240.245.0/24,FacebookBot,bgpview.io
-157.240.251.0/24,FacebookBot,bgpview.io
-157.240.252.0/24,FacebookBot,bgpview.io
+157.240.246.0/24,FacebookBot,whois.radb.net
+157.240.247.0/24,FacebookBot,whois.radb.net
+157.240.248.0/24,FacebookBot,whois.radb.net
+157.240.249.0/24,FacebookBot,whois.radb.net
+157.240.250.0/24,FacebookBot,whois.radb.net
+157.240.251.0/24,FacebookBot,whois.radb.net
+157.240.252.0/24,FacebookBot,whois.radb.net
 157.240.253.0/24,FacebookBot,bgpview.io
 157.240.254.0/24,FacebookBot,bgpview.io
 158.51.123.205,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9468,15 +10022,39 @@ IP,Name,Source
 162.142.125.0/24,Censys,bgpview.io
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
 162.159.244.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+162.216.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
 163.70.128.0/17,FacebookBot,bgpview.io
 163.70.128.0/24,FacebookBot,bgpview.io
-163.70.147.0/24,FacebookBot,bgpview.io
+163.70.129.0/24,FacebookBot,whois.radb.net
+163.70.130.0/24,FacebookBot,whois.radb.net
+163.70.131.0/24,FacebookBot,whois.radb.net
+163.70.132.0/24,FacebookBot,whois.radb.net
+163.70.133.0/24,FacebookBot,whois.radb.net
+163.70.134.0/24,FacebookBot,whois.radb.net
+163.70.135.0/24,FacebookBot,whois.radb.net
+163.70.136.0/24,FacebookBot,whois.radb.net
+163.70.137.0/24,FacebookBot,whois.radb.net
+163.70.138.0/24,FacebookBot,whois.radb.net
+163.70.139.0/24,FacebookBot,whois.radb.net
+163.70.140.0/24,FacebookBot,whois.radb.net
+163.70.141.0/24,FacebookBot,whois.radb.net
+163.70.142.0/24,FacebookBot,whois.radb.net
+163.70.143.0/24,FacebookBot,whois.radb.net
+163.70.144.0/24,FacebookBot,whois.radb.net
+163.70.145.0/24,FacebookBot,whois.radb.net
+163.70.146.0/24,FacebookBot,whois.radb.net
+163.70.147.0/24,FacebookBot,whois.radb.net
+163.70.148.0/24,FacebookBot,whois.radb.net
+163.70.149.0/24,FacebookBot,whois.radb.net
+163.70.150.0/24,FacebookBot,whois.radb.net
 163.70.151.0/24,FacebookBot,bgpview.io
-163.70.152.0/24,FacebookBot,bgpview.io
+163.70.152.0/24,FacebookBot,whois.radb.net
+163.70.153.0/24,FacebookBot,whois.radb.net
 163.70.158.0/24,FacebookBot,bgpview.io
 163.70.159.0/24,FacebookBot,bgpview.io
+163.77.128.0/17,FacebookBot,whois.radb.net
 165.22.200.16,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 165.85.144.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.85.145.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
@@ -9485,6 +10063,7 @@ IP,Name,Source
 165.85.250.0/23,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.227.55.4,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 165.227.62.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
 167.94.138.0/24,Censys,bgpview.io
 167.99.18.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.114.139.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -10110,6 +10689,7 @@ IP,Name,Source
 172.183.143.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.183.222.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.203.190.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+172.204.16.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.212.159.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.213.11.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.213.12.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -10120,12 +10700,14 @@ IP,Name,Source
 172.255.253.140,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 173.245.48.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
 173.248.147.18,PingdomBot,https://my.pingdom.com/probes/ipv4
+173.252.64.0/18,FacebookBot,whois.radb.net
 173.252.64.0/19,FacebookBot,bgpview.io
 173.252.88.0/21,FacebookBot,bgpview.io
 173.252.96.0/19,FacebookBot,bgpview.io
 174.34.156.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 175.45.132.20,PingdomBot,https://my.pingdom.com/probes/ipv4
 176.9.139.55,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+176.9.139.94,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 176.31.139.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 176.31.139.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 176.31.139.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -10174,6 +10756,11 @@ IP,Name,Source
 178.162.206.244,PingdomBot,https://my.pingdom.com/probes/ipv4
 178.175.134.51,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 179.50.12.212,PingdomBot,https://my.pingdom.com/probes/ipv4
+179.60.192.0/22,FacebookBot,whois.radb.net
+179.60.192.0/24,FacebookBot,whois.radb.net
+179.60.193.0/24,FacebookBot,whois.radb.net
+179.60.194.0/24,FacebookBot,whois.radb.net
+179.60.195.0/24,FacebookBot,whois.radb.net
 180.149.231.175,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 184.75.210.90,PingdomBot,https://my.pingdom.com/probes/ipv4
 184.75.210.226,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10188,11 +10775,16 @@ IP,Name,Source
 185.59.220.198,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.59.220.199,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.60.216.0/22,FacebookBot,bgpview.io
+185.60.216.0/24,FacebookBot,whois.radb.net
 185.60.217.0/24,FacebookBot,bgpview.io
 185.60.218.0/24,FacebookBot,bgpview.io
 185.60.219.0/24,FacebookBot,bgpview.io
 185.70.76.23,PingdomBot,https://my.pingdom.com/probes/ipv4
+185.76.151.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 185.89.216.0/22,FacebookBot,bgpview.io
+185.89.218.0/23,FacebookBot,whois.radb.net
+185.89.218.0/24,FacebookBot,whois.radb.net
+185.89.219.0/24,FacebookBot,whois.radb.net
 185.93.1.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.93.1.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.93.1.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10248,16 +10840,24 @@ IP,Name,Source
 188.114.96.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
 188.138.9.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 188.166.201.79,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+189.247.71.0/24,FacebookBot,whois.radb.net
 190.93.240.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
 190.120.230.7,PingdomBot,https://my.pingdom.com/probes/ipv4
 191.233.3.197,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 191.233.3.202,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+191.233.194.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+191.233.196.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 191.233.204.224/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+191.234.167.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 191.234.216.4,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 191.234.216.178,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+191.235.66.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+191.235.98.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+191.235.99.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 191.235.201.214,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 191.235.202.38,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
 191.235.202.48,DuckDuckBot,https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md
+191.239.245.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 192.155.95.211,BetterStack,https://uptime.betterstack.com/ips.txt
 192.169.120.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 192.178.4.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -10282,6 +10882,8 @@ IP,Name,Source
 192.178.7.96/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 192.178.7.128/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 192.178.7.160/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+192.178.7.192/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+192.178.7.224/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 192.178.16.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 192.178.16.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 192.178.16.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -11615,9 +12217,7 @@ IP,Name,Source
 198.244.242.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-199.21.96.0/22,YandexBot,https://yandex.com/ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
-199.36.240.0/22,YandexBot,https://yandex.com/ips
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 199.167.52.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 199.167.53.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
@@ -11638,6 +12238,7 @@ IP,Name,Source
 200.25.69.94,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.70.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.80.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+200.25.86.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
 201.33.21.5,PingdomBot,https://my.pingdom.com/probes/ipv4
 202.8.40.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -12709,6 +13310,7 @@ IP,Name,Source
 212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 212.102.40.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.40.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+212.102.40.120,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.43.88,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.46.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.46.118,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12719,7 +13321,6 @@ IP,Name,Source
 212.102.50.54,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.50.59,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.104.158.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-212.104.158.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.104.158.12,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.104.158.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.104.158.17,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12747,7 +13348,7 @@ IP,Name,Source
 212.104.158.64,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.104.158.67,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 213.168.248.219,BetterStack,https://uptime.betterstack.com/ips.txt
-213.170.143.139,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+213.170.143.100,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 213.180.192.0/19,YandexBot,https://yandex.com/ips
 216.117.2.180,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 216.144.248.18,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
