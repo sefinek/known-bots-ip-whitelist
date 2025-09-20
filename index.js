@@ -68,34 +68,39 @@ const generateLists = async () => {
 
 	for (const src of sources) {
 		console.log(`> Processing ${src.name}...`);
-		const records = (await fetchSource(src)).sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
-		const dir = path.join(base, src.dir);
-		await fs.mkdir(dir, { recursive: true });
 
-		// TXT
-		await fs.writeFile(
-			path.join(dir, 'ips.txt'),
-			records.map(r => r.ip).join('\n') + '\n',
-			'utf8'
-		);
+		try {
+			const records = (await fetchSource(src)).sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
+			const dir = path.join(base, src.dir);
+			await fs.mkdir(dir, { recursive: true });
 
-		// CSV
-		await fs.writeFile(
-			path.join(dir, 'ips.csv'),
-			stringify(records.map(r => ({ IP: r.ip, Name: src.name, Source: r.source })), { header: true, columns: ['IP', 'Name', 'Source'] }),
-			'utf8'
-		);
+			// TXT
+			await fs.writeFile(
+				path.join(dir, 'ips.txt'),
+				records.map(r => r.ip).join('\n') + '\n',
+				'utf8'
+			);
 
-		// JSON
-		await fs.writeFile(
-			path.join(dir, 'ips.json'),
-			JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
-			'utf8'
-		);
+			// CSV
+			await fs.writeFile(
+				path.join(dir, 'ips.csv'),
+				stringify(records.map(r => ({ IP: r.ip, Name: src.name, Source: r.source })), { header: true, columns: ['IP', 'Name', 'Source'] }),
+				'utf8'
+			);
 
-		records.forEach(r => {
-			if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
-		});
+			// JSON
+			await fs.writeFile(
+				path.join(dir, 'ips.json'),
+				JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
+				'utf8'
+			);
+
+			records.forEach(r => {
+				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
+			});
+		} catch (err) {
+			console.error(`[${src.name}] Failed to process:`, err.message);
+		}
 	}
 
 	console.log('> Writing global lists...');
@@ -127,9 +132,9 @@ const generateLists = async () => {
 };
 
 new CronJob('0 */4 * * *', generateLists, null, true, 'utc');
-// generateLists().catch(err => {
-// 	console.error(err);
-// 	process.exit(1);
-// });
+generateLists().catch(err => {
+	console.error(err);
+	process.exit(1);
+});
 
 process.send?.('ready');

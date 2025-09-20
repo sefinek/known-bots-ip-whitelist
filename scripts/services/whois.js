@@ -34,6 +34,7 @@ const fetchRoutesFromHost = async (asn, host) => {
 		let buf = '';
 		const sock = net.createConnection(WHOIS_PORT, host);
 		sock.setEncoding('utf8');
+		sock.setTimeout(30000);
 
 		const req =
 			host === 'whois.arin.net'
@@ -42,6 +43,10 @@ const fetchRoutesFromHost = async (asn, host) => {
 
 		sock.on('data', chunk => (buf += chunk));
 		sock.on('error', () => resolve([]));
+		sock.on('timeout', () => {
+			sock.destroy();
+			resolve([]);
+		});
 		sock.on('end', () => {
 			const routes = buf.split(/\r?\n/).reduce((acc, line) => {
 				if ((/^route6?:/i).test(line)) {
@@ -73,12 +78,12 @@ const sleep = (baseMs, randomMs = 0) => {
 	return new Promise(resolve => setTimeout(resolve, finalMs));
 };
 
-const fetchFromBGPView = async src => {
+const fetchFromBGPView = async (src, shouldDelay = true) => {
 	const keywords = makeKeywords(src);
 	const acceptNullable = !!src.acceptNullable;
 
 	try {
-		await sleep(1500, 2000);
+		if (shouldDelay) await sleep(1500, 2000);
 		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
 		if (data.status !== 'ok' || !data.data) return [];
 
@@ -119,12 +124,12 @@ module.exports = async src => {
 	for (let i = 0; i < asns.length; i++) {
 		const asn = asns[i];
 		const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
-		const srcWithSingleAsn = { ...src, asn };
+		const srcWithSingleAsn = { ...src, asn: asnNorm };
 
 		if (i > 0) await sleep(2000);
 
 		const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
-			fetchFromBGPView(srcWithSingleAsn),
+			fetchFromBGPView(srcWithSingleAsn, i === 0),
 			Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
 		]);
 
