@@ -115,6 +115,8 @@ const generateLists = async () => {
 
 	console.log(`Generation complete: ${globalRecs.length} IPs total\n`);
 
+	if (process.env.NODE_ENV === 'development') return;
+
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();
