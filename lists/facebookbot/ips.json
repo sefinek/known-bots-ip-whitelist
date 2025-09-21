@@ -2767,7 +2767,7 @@
   {
     "ip": "2a03:2880:f375::/48",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "2a03:2880:f376::/48",
@@ -3837,7 +3837,7 @@
   {
     "ip": "57.144.234.0/23",
     "name": "facebookbot",
-    "source": "bgpview.io"
+    "source": "whois.radb.net"
   },
   {
     "ip": "57.144.236.0/23",
