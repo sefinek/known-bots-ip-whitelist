@@ -1,3 +1,4 @@
+process.loadEnvFile();
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const { CronJob } = require('cron');
@@ -123,7 +124,7 @@ const generateLists = async () => {
 		await git.add('./lists');
 		await git.commit(
 			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
-			{ '--author': '"Sefinek Actions <sefinek.actions@gmail.com>"' }
+			{ '--author': `"Sefinek Actions <${process.env.GIT_EMAIL}>"` }
 		);
 		await git.push('origin', 'main');
 
@@ -132,9 +133,11 @@ const generateLists = async () => {
 };
 
 new CronJob('0 */4 * * *', generateLists, null, true, 'utc');
-// generateLists().catch(err => {
-// 	console.error(err);
-// 	process.exit(1);
-// });
+if (process.env.NODE_ENV === 'development') {
+	generateLists().catch(err => {
+		console.error(err);
+		process.exit(1);
+	});
+}
 
 process.send?.('ready');
