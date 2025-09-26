@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -30637,17 +30642,17 @@
   {
     "IP": "66.132.148.0/24",
     "Name": "Censys",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "66.132.153.0/24",
     "Name": "Censys",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "66.132.159.0/24",
     "Name": "Censys",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "66.165.229.130",
@@ -33850,6 +33855,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -33890,7 +33900,7 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "124.220.31.125",
+    "IP": "124.156.244.42",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -42625,7 +42635,7 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "150.158.3.127",
+    "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -43327,7 +43337,7 @@
   {
     "IP": "162.142.125.0/24",
     "Name": "Censys",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
   },
   {
     "IP": "162.158.0.0/15",
@@ -43548,6 +43558,11 @@
     "IP": "167.17.67.101",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "IP": "167.94.138.0/24",
+    "Name": "Censys",
+    "Source": "bgpview.io"
   },
   {
     "IP": "167.99.18.52",
@@ -44848,6 +44863,11 @@
     "IP": "167.235.143.113",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "167.248.133.0/24",
+    "Name": "Censys",
+    "Source": "bgpview.io"
   },
   {
     "IP": "168.1.203.46",
@@ -59587,7 +59607,22 @@
   {
     "IP": "206.168.32.0/24",
     "Name": "Censys",
-    "Source": "whois.radb.net"
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "206.168.33.0/24",
+    "Name": "Censys",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "206.168.34.0/24",
+    "Name": "Censys",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "206.168.35.0/24",
+    "Name": "Censys",
+    "Source": "bgpview.io"
   },
   {
     "IP": "206.189.241.133",
@@ -62845,6 +62880,16 @@
     "Source": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "2602:80d:1000::/48",
+    "Name": "Censys",
+    "Source": "bgpview.io"
+  },
+  {
+    "IP": "2602:80d:1006::/48",
+    "Name": "Censys",
+    "Source": "bgpview.io"
+  },
+  {
     "IP": "2602:ffe4:c09:106::1154",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -63148,6 +63193,11 @@
     "IP": "2620:52:c000::/48",
     "Name": "Palo Alto Networks",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
+    "IP": "2620:96:e000::/48",
+    "Name": "Censys",
+    "Source": "bgpview.io"
   },
   {
     "IP": "2800:1e0:2410:1::9",
