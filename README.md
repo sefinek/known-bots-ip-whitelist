@@ -1,7 +1,7 @@
 <h1 align="center">📑 Known bots IP whitelist</h1>
-The repository contains up-to-date lists of IP addresses of known bots and crawlers, useful for whitelisting or filtering network traffic.
-They can also be used as blacklists. The project is released under the MIT license — you can do whatever you want with it.
-If you like this repository, give it a star. Thank you!
+This repository contains up-to-date lists of IP addresses of known bots and crawlers, useful for whitelisting or filtering network traffic. They can also be used as blacklists.
+The project is released under the MIT license — you can do whatever you want with it.
+If you like this repository, leave a star. Thank you!
 
 ## ✨ Supports
 - AhrefsBot (source: [1](https://api.ahrefs.com/v3/public/crawler-ips)): [TXT](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.json)
