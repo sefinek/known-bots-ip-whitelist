@@ -172,7 +172,7 @@ const commitAndPushChanges = async () => {
 		await git.add('./lists');
 		await git.commit(
 			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
-			{ '--author': `"Sefinek Actions <${process.env.GIT_EMAIL}>"` }
+			{ '--author': `"Sefinek Actions <${process.env.GITHUB_EMAIL}>"` }
 		);
 		await git.push('origin', 'main');
 
