@@ -1,20 +1,5 @@
 [
   {
-    "ip": "2604:a940:1::/48",
-    "name": "paloaltonetworks",
-    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "ip": "2606:f4c0:7010::/44",
-    "name": "paloaltonetworks",
-    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "ip": "2620:52:c000::/48",
-    "name": "paloaltonetworks",
-    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "ip": "65.154.226.0/24",
     "name": "paloaltonetworks",
     "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
@@ -166,6 +151,21 @@
   },
   {
     "ip": "199.167.54.0/24",
+    "name": "paloaltonetworks",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
+    "ip": "2604:a940:1::/48",
+    "name": "paloaltonetworks",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
+    "ip": "2606:f4c0:7010::/44",
+    "name": "paloaltonetworks",
+    "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
+  },
+  {
+    "ip": "2620:52:c000::/48",
     "name": "paloaltonetworks",
     "source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   }

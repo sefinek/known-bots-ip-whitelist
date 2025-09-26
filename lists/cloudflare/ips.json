@@ -1,40 +1,5 @@
 [
   {
-    "ip": "2400:cb00::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2405:8100::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2405:b500::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2606:4700::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2803:f800::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2a06:98c0::/29",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
-    "ip": "2c0f:f248::/32",
-    "name": "cloudflare",
-    "source": "https://www.cloudflare.com/ips-v6"
-  },
-  {
     "ip": "103.21.244.0/22",
     "name": "cloudflare",
     "source": "https://www.cloudflare.com/ips-v4"
@@ -108,5 +73,40 @@
     "ip": "198.41.128.0/17",
     "name": "cloudflare",
     "source": "https://www.cloudflare.com/ips-v4"
+  },
+  {
+    "ip": "2400:cb00::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2405:8100::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2405:b500::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2606:4700::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2803:f800::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2a06:98c0::/29",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
+  },
+  {
+    "ip": "2c0f:f248::/32",
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/ips-v6"
   }
 ]

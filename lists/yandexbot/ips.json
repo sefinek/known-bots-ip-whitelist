@@ -20,11 +20,6 @@
     "source": "https://yandex.com/ips"
   },
   {
-    "ip": "2a02:6b8::/29",
-    "name": "yandexbot",
-    "source": "https://yandex.com/ips"
-  },
-  {
     "ip": "77.88.0.0/18",
     "name": "yandexbot",
     "source": "https://yandex.com/ips"
@@ -76,6 +71,11 @@
   },
   {
     "ip": "213.180.192.0/19",
+    "name": "yandexbot",
+    "source": "https://yandex.com/ips"
+  },
+  {
+    "ip": "2a02:6b8::/29",
     "name": "yandexbot",
     "source": "https://yandex.com/ips"
   }

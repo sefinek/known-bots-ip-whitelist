@@ -1,665 +1,5 @@
 [
   {
-    "ip": "2001:4860:4801:2008::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:200c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:200d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2010::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2012::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2013::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2014::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2015::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2016::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2017::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2018::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2019::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:201f::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2020::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2021::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2022::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2023::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2024::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2025::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2026::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2027::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2028::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2029::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:202f::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2030::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2031::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2032::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2033::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2034::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2035::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2036::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2037::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2038::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2039::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:203f::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2040::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2041::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2042::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2043::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2044::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2045::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2046::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2047::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2048::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2049::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:204a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:204b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:204c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:204d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:204e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2050::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2051::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2052::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2053::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2054::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2055::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2056::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2060::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2061::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2062::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2063::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2064::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2065::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2066::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2067::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2068::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2069::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206e::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:206f::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2070::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2071::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2072::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2073::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2074::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2075::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2076::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2077::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2078::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2079::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:207a::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:207b::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:207c::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:207d::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2080::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2081::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2082::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2083::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2084::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2085::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2086::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2087::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2088::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2090::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2091::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2092::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2093::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2094::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2095::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2096::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:2097::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a0::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a1::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a2::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a3::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a4::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a5::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20a6::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b0::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b1::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b2::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b3::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b4::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "2001:4860:4801:20b5::/64",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
     "ip": "66.249.87.0/27",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -856,11 +196,6 @@
   },
   {
     "ip": "66.249.92.224/27",
-    "name": "google-special-crawlers",
-    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
-  },
-  {
-    "ip": "72.14.199.0/27",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
@@ -1316,6 +651,661 @@
   },
   {
     "ip": "209.85.238.224/27",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2008::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:200c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:200d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2010::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2012::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2013::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2014::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2015::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2016::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2017::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2018::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2019::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201e::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:201f::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2020::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2021::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2022::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2023::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2024::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2025::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2026::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2027::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2028::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2029::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202e::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:202f::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2030::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2031::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2032::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2033::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2034::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2035::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2036::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2037::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2038::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2039::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203e::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:203f::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2040::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2041::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2042::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2044::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2045::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2046::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2047::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2048::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2049::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:204a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:204b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:204c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:204d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:204e::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2050::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2051::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2052::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2053::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2054::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2055::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2056::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2060::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2061::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2062::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2063::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2064::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2065::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2066::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2067::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2068::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2069::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206e::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:206f::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2070::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2071::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2072::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2073::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2074::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2075::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2076::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2077::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2078::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2079::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:207a::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:207b::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:207c::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:207d::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2080::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2081::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2082::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2083::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2084::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2085::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2086::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2087::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2088::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2090::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2091::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2092::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2093::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2094::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2095::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2096::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:2097::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a0::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a1::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a2::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a3::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a4::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a5::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20a6::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b0::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b1::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b2::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b3::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b4::/64",
+    "name": "google-special-crawlers",
+    "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "ip": "2001:4860:4801:20b5::/64",
     "name": "google-special-crawlers",
     "source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   }

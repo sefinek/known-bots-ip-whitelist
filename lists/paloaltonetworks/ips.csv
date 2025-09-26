@@ -1,7 +1,4 @@
 IP,Name,Source
-2604:a940:1::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-2606:f4c0:7010::/44,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-2620:52:c000::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 65.154.226.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 65.155.38.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 66.232.32.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
@@ -33,3 +30,6 @@ IP,Name,Source
 199.167.52.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 199.167.53.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 199.167.54.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2604:a940:1::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2606:f4c0:7010::/44,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2620:52:c000::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt

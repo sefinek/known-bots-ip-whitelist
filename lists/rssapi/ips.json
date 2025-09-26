@@ -1,11 +1,11 @@
 [
   {
-    "ip": "2a01:4f8:c010:7943::/64",
+    "ip": "168.119.254.124",
     "name": "rssapi",
     "source": "https://rssapi.net/ips.txt"
   },
   {
-    "ip": "168.119.254.124",
+    "ip": "2a01:4f8:c010:7943::/64",
     "name": "rssapi",
     "source": "https://rssapi.net/ips.txt"
   }
