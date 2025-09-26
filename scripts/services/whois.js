@@ -2,6 +2,8 @@ const net = require('node:net');
 const ipaddr = require('ipaddr.js');
 const axios = require('./axios.js');
 
+const logger = require('../utils/logger.js');
+
 const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
 const WHOIS_PORT = 43;
 
@@ -30,36 +32,71 @@ const compareIPs = (a, b) => {
 };
 
 const fetchRoutesFromHost = async (asn, host) => {
-	return await new Promise(resolve => {
-		let buf = '';
+	return new Promise(resolve => {
+		let buffer = '';
+		let hasResolved = false;
 		const sock = net.createConnection(WHOIS_PORT, host);
 		sock.setEncoding('utf8');
 		sock.setTimeout(30000);
 
-		const req =
-			host === 'whois.arin.net'
-				? `AS${asn.replace(/^AS/i, '')}\r\n`
-				: `-i origin AS${asn.replace(/^AS/i, '')}\r\n`;
+		const safeResolve = (data) => {
+			if (!hasResolved) {
+				hasResolved = true;
+				resolve(data);
+			}
+		};
 
-		sock.on('data', chunk => (buf += chunk));
-		sock.on('error', () => resolve([]));
+		const req = host === 'whois.arin.net'
+			? `AS${asn.replace(/^AS/i, '')}\r\n`
+			: `-i origin AS${asn.replace(/^AS/i, '')}\r\n`;
+
+		sock.on('data', chunk => {
+			buffer += chunk;
+			if (buffer.length > 10 * 1024 * 1024) {
+				logger.warn(`Response too large from ${host}, truncating`);
+				sock.destroy();
+				safeResolve([]);
+				return;
+			}
+		});
+
+		sock.on('error', err => {
+			logger.warn(`WHOIS error for ${host} (ASN ${asn}): ${err.message}`);
+			safeResolve([]);
+		});
+
 		sock.on('timeout', () => {
+			logger.warn(`WHOIS timeout for ${host} (ASN ${asn})`);
 			sock.destroy();
-			resolve([]);
+			safeResolve([]);
 		});
+
 		sock.on('end', () => {
-			const routes = buf.split(/\r?\n/).reduce((acc, line) => {
-				if ((/^route6?:/i).test(line)) {
-					acc.push({
-						ip: line.replace(/^route6?:/i, '').trim(),
-						source: host,
-					});
+			try {
+				const routes = [];
+				const lines = buffer.split(/\r?\n/);
+
+				for (const line of lines) {
+					if ((/^route6?:/i).test(line)) {
+						const ip = line.replace(/^route6?:/i, '').trim();
+						if (ip && parseIP(ip)) {
+							routes.push({ ip, source: host });
+						}
+					}
 				}
-				return acc;
-			}, []);
-			resolve(routes);
+				safeResolve(routes);
+			} catch (err) {
+				logger.err(`Failed to parse WHOIS response from ${host} (ASN ${asn}): ${err.message}`);
+				safeResolve([]);
+			}
 		});
-		sock.write(req, () => sock.end());
+
+		try {
+			sock.write(req, () => sock.end());
+		} catch (err) {
+			logger.err(`Failed to write to WHOIS socket ${host} (ASN ${asn}): ${err.message}`);
+			safeResolve([]);
+		}
 	});
 };
 
@@ -84,16 +121,33 @@ const fetchFromBGPView = async (src, shouldDelay = true) => {
 
 	try {
 		if (shouldDelay) await sleep(1500, 2000);
-		const { data } = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`);
-		if (data.status !== 'ok' || !data.data) return [];
+
+		const response = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`, {
+			timeout: 30000,
+			headers: { 'Accept': 'application/json' },
+		});
+
+		const { data } = response;
+		if (!data || data.status !== 'ok' || !data.data) {
+			logger.warn(`Invalid BGPView response for ${src.asn} (status: ${data?.status})`);
+			return [];
+		}
 
 		const all = [
-			...(data.data.ipv4_prefixes || []),
-			...(data.data.ipv6_prefixes || []),
+			...(Array.isArray(data.data.ipv4_prefixes) ? data.data.ipv4_prefixes : []),
+			...(Array.isArray(data.data.ipv6_prefixes) ? data.data.ipv6_prefixes : []),
 		];
 
 		const result = [];
+		const mismatches = [];
 		for (const p of all) {
+			if (!p || !p.prefix) continue;
+
+			if (!parseIP(p.prefix)) {
+				logger.warn(`Invalid IP prefix from BGPView: ${p.prefix} (ASN ${src.asn})`);
+				continue;
+			}
+
 			const nameNull = p.name == null;
 			const descNull = p.description == null;
 			if (!acceptNullable && nameNull && descNull) continue;
@@ -107,12 +161,17 @@ const fetchFromBGPView = async (src, shouldDelay = true) => {
 			if (keywords.some(k => owner.includes(k))) {
 				result.push({ ip: p.prefix, source: 'bgpview.io' });
 			} else {
-				console.log(`BGPView MISMATCH -> ASN: ${src.asn}; IP: ${p.prefix}; Got: "${p.name}" / "${p.description}" (SKIPPED)`);
+				mismatches.push(`${p.prefix} (${p.name || 'N/A'}/${p.description || 'N/A'})`);
 			}
 		}
+
+		if (mismatches.length > 0) {
+			logger.debug(`BGPView keyword mismatches for ASN ${src.asn}: ${mismatches.length} prefixes - ${mismatches.slice(0, 3).join(', ')}${mismatches.length > 3 ? '...' : ''}`);
+		}
+
 		return result;
 	} catch (err) {
-		console.error(`BGPView ERROR -> ASN: ${src.asn};`, err.stack);
+		logger.err(`BGPView fetch failed for ASN ${src.asn}: ${err.message}`);
 		return [];
 	}
 };
@@ -121,33 +180,51 @@ module.exports = async src => {
 	const asns = Array.isArray(src.asn) ? src.asn : [src.asn];
 	const allResults = [];
 
+	logger.info(`Starting WHOIS lookup for ${src.name} (${asns.length} ASNs)`);
+
 	for (let i = 0; i < asns.length; i++) {
 		const asn = asns[i];
+		if (!asn || typeof asn !== 'string') {
+			logger.warn(`Invalid ASN format: ${asn} at index ${i}`);
+			continue;
+		}
+
 		const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
 		const srcWithSingleAsn = { ...src, asn: asnNorm };
 
 		if (i > 0) await sleep(2000);
 
-		const [bgpviewRoutes, whoisRoutesArray] = await Promise.all([
-			fetchFromBGPView(srcWithSingleAsn, i === 0),
-			Promise.all(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
-		]);
+		try {
+			const [bgpviewResult, whoisResults] = await Promise.allSettled([
+				fetchFromBGPView(srcWithSingleAsn, i === 0),
+				Promise.allSettled(WHOIS_HOSTS.map(host => fetchRoutesFromHost(asnNorm, host))),
+			]);
 
-		const whoisRoutes = whoisRoutesArray.flat();
-		allResults.push(...bgpviewRoutes, ...whoisRoutes);
+			const bgpviewRoutes = bgpviewResult.status === 'fulfilled' ? bgpviewResult.value : [];
+			const whoisRoutes = whoisResults.status === 'fulfilled'
+				? whoisResults.value
+					.filter(r => r.status === 'fulfilled')
+					.flatMap(r => r.value)
+				: [];
+
+			allResults.push(...bgpviewRoutes, ...whoisRoutes);
+			logger.info(`Processed ASN ${asnNorm}: ${bgpviewRoutes.length} BGPView + ${whoisRoutes.length} WHOIS = ${bgpviewRoutes.length + whoisRoutes.length} total`);
+		} catch (err) {
+			logger.err(`Failed to process ASN ${asnNorm}: ${err.message}`);
+		}
 	}
 
 	const uniqueMap = new Map();
 	for (const r of allResults) {
-		if (!uniqueMap.has(r.ip)) uniqueMap.set(r.ip, r);
+		if (r && r.ip && !uniqueMap.has(r.ip)) {
+			uniqueMap.set(r.ip, r);
+		}
 	}
 
-	const asnDisplay = Array.isArray(src.asn) ? src.asn.join(',') : src.asn;
 	return Array.from(uniqueMap.values())
 		.sort((a, b) => compareIPs(a.ip, b.ip))
 		.map(({ ip, source }) => ({
 			ip,
-			name: asnDisplay,
 			source,
 		}));
 };

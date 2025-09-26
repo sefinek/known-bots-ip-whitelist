@@ -8,6 +8,10 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const fetchSource = require('./scripts/fetchSource.js');
 const ipUtils = require('./scripts/ipUtils.js');
+const logger = require('./scripts/utils/logger.js');
+const { validateCommandArgs } = require('./scripts/utils/validation.js');
+
+const isDevelopment = process.env.NODE_ENV === 'development';
 
 const sources = [
 	{ name: 'AhrefsBot', dir: 'ahrefsbot', url: 'https://api.ahrefs.com/v3/public/crawler-ips', type: 'jsonIps' },
@@ -35,12 +39,16 @@ const sources = [
 ];
 
 const runTests = () => {
-	console.log('> Running tests...');
+	logger.info('Running tests...');
 
 	return new Promise((resolve, reject) => {
-		const child = spawn('npm', ['run', 'test'], {
+		const args = ['npm', 'run', 'test'];
+		validateCommandArgs(args);
+
+		const child = spawn(args[0], args.slice(1), {
 			shell: true,
 			stdio: ['inherit', 'pipe', 'pipe'],
+			timeout: 300000,
 		});
 
 		let stderr = '', stdout = '';
@@ -51,77 +59,115 @@ const runTests = () => {
 		child.on('exit', code => {
 			const fail = code !== 0 || stdout.includes('FAIL') || stderr.includes('FAIL');
 			if (fail) {
-				if (stdout.trim()) process.stdout.write(stdout);
-				if (stderr.trim()) process.stderr.write(stderr);
+				logger.err(`Tests failed with exit code ${code}`);
+				if (stdout.trim()) console.log(stdout.trim());
+				if (stderr.trim()) console.error(stderr.trim());
+				reject(new Error(`Tests failed with exit code ${code}`));
+			} else {
+				logger.info('Tests passed successfully');
+				resolve();
 			}
-			code === 0 ? resolve() : reject(new Error(`Tests failed with exit code ${code}`));
 		});
-		child.on('error', reject);
+
+		child.on('error', err => {
+			logger.err(`Test execution error: ${err.message}`);
+			reject(err);
+		});
 	});
 };
 
-const generateLists = async () => {
-	await git.pull('origin', 'main');
 
+const pullLatestChanges = async () => {
+	logger.info('Pulling latest changes');
+	await git.pull('origin', 'main');
+};
+
+const setupDirectories = async () => {
 	const base = path.join(__dirname, 'lists');
 	await fs.mkdir(base, { recursive: true });
+	return base;
+};
+
+const processAllSources = async (base) => {
 	const allMap = new Map();
+	const concurrencyLimit = 8;
 
-	for (const src of sources) {
-		console.log(`> Processing ${src.name}...`);
+	const processSources = async (sourceBatch) => {
+		return await Promise.allSettled(
+			sourceBatch.map(async (src) => {
+				try {
+					const records = await fetchSource(src);
+					if (!Array.isArray(records) || !records.length) {
+						logger.warn(`No records found for ${src.name}`);
+						return { name: src.name, count: 0, records: [] };
+					}
 
-		try {
-			const records = (await fetchSource(src)).sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
-			const dir = path.join(base, src.dir);
-			await fs.mkdir(dir, { recursive: true });
+					const sortedRecords = records.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
+					const dir = path.join(base, src.dir);
+					await fs.mkdir(dir, { recursive: true });
 
-			// TXT
-			await fs.writeFile(
-				path.join(dir, 'ips.txt'),
-				records.map(r => r.ip).join('\n') + '\n',
-				'utf8'
-			);
+					const ips = sortedRecords.map(r => r.ip);
+					const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
+					const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
 
-			// CSV
-			await fs.writeFile(
-				path.join(dir, 'ips.csv'),
-				stringify(records.map(r => ({ IP: r.ip, Name: src.name, Source: r.source })), { header: true, columns: ['IP', 'Name', 'Source'] }),
-				'utf8'
-			);
+					await Promise.all([
+						fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
+						fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
+						fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
+					]);
 
-			// JSON
-			await fs.writeFile(
-				path.join(dir, 'ips.json'),
-				JSON.stringify(records.map(r => ({ ip: r.ip, name: src.dir, source: r.source })), null, 2),
-				'utf8'
-			);
+					logger.info(`${src.name}: ${sortedRecords.length} IPs`);
+					return { name: src.name, count: sortedRecords.length, records: sortedRecords };
+				} catch (err) {
+					logger.err(`Failed to process ${src.name}: ${err.message}`);
+					throw err;
+				}
+			})
+		);
+	};
 
-			records.forEach(r => {
-				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
-			});
-		} catch (err) {
-			console.error(`[${src.name}] Failed to process:`, err.message);
+	const batches = [];
+	for (let i = 0; i < sources.length; i += concurrencyLimit) {
+		batches.push(sources.slice(i, i + concurrencyLimit));
+	}
+
+	for (const batch of batches) {
+		const results = await processSources(batch);
+		for (const result of results) {
+			if (result.status === 'fulfilled' && result.value.records) {
+				for (const r of result.value.records) {
+					if (!allMap.has(r.ip)) {
+						allMap.set(r.ip, { Name: result.value.name, Source: r.source });
+					}
+				}
+			}
 		}
 	}
 
-	console.log('> Writing global lists...');
-	const globalRecs = Array.from(allMap.entries())
-		.map(([IP, info]) => ({ IP, Name: info.Name, Source: info.Source }))
-		.sort((a, b) => ipUtils.compareIPs(a.IP, b.IP));
+	return allMap;
+};
 
-	await fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.IP).join('\n') + '\n', 'utf8');
-	await fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8');
-	await fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
+const createGlobalLists = async (base, allMap) => {
+	logger.info('Writing global lists...');
 
-	console.log(`Generation complete: ${globalRecs.length} IPs total\n`);
+	const globalIPs = Array.from(allMap.keys()).sort(ipUtils.compareIPs);
+	const globalRecs = globalIPs.map(IP => ({ IP, ...allMap.get(IP) }));
 
-	if (process.env.NODE_ENV === 'development') return;
+	await Promise.all([
+		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
+	]);
 
+	return globalRecs;
+};
+
+const commitAndPushChanges = async (globalRecs) => {
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();
 
-		console.log('> Committing & pushing...');
+		logger.info(`Committing & pushing ${status.files.length} changed files...`);
 		const timestamp = new Date().toUTCString();
 		await git.add('./lists');
 		await git.commit(
@@ -130,16 +176,72 @@ const generateLists = async () => {
 		);
 		await git.push('origin', 'main');
 
-		console.log(`\nCommitted and pushed changes:\n${status.files.map(f => `- ${f.working_dir} ${f.path}`).join('\n')}`);
+		logger.info('Changes committed and pushed successfully');
+	} else {
+		logger.info('No changes detected, skipping commit');
 	}
 };
 
-new CronJob('0 */4 * * *', generateLists, null, true, 'utc');
-if (process.env.NODE_ENV === 'development') {
-	generateLists().catch(err => {
-		console.error(err);
+const generateLists = async () => {
+	try {
+		logger.info('Starting IP list generation');
+		await pullLatestChanges();
+		const base = await setupDirectories();
+		const allMap = await processAllSources(base);
+		const globalRecs = await createGlobalLists(base, allMap);
+		logger.info(`Generation complete: ${globalRecs.length} IPs total`);
+
+		if (isDevelopment) return;
+
+		await commitAndPushChanges(globalRecs);
+
+	} catch (err) {
+		logger.err(`Failed to generate lists: ${err.message}`);
+		throw err;
+	}
+};
+
+const addGracefulShutdown = () => {
+	const gracefulShutdown = async signal => {
+		logger.info(`Received ${signal}, shutting down gracefully`);
+		process.exit(0);
+	};
+
+	process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+	process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+};
+
+if (isDevelopment) {
+	addGracefulShutdown();
+	generateLists()
+		.then(() => {
+			process.exit(0);
+		})
+		.catch(err => {
+			logger.err(`Development run failed: ${err.message}`);
+			process.exit(1);
+		});
+} else {
+	addGracefulShutdown();
+
+	new CronJob('0 */4 * * *', async () => {
+		try {
+			await generateLists();
+		} catch (err) {
+			logger.err('Cron job failed', { err: err.message });
+		}
+	}, null, true, 'utc');
+
+	logger.info('Production mode: Cron job scheduled for every 4 hours');
+
+	process.on('unhandledRejection', (reason, promise) => {
+		logger.err('Unhandled Rejection', { reason, promise });
+	});
+
+	process.on('uncaughtException', err => {
+		logger.err('Uncaught Exception', { err: err.message, stack: err.stack });
 		process.exit(1);
 	});
-}
 
-process.send?.('ready');
+	process.send?.('ready');
+}

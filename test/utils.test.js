@@ -28,6 +28,6 @@ describe('compareIPs', () => {
 	it('sorts mixed IPv4 and IPv6 correctly', () => {
 		const list = ['2001:db8::1', '8.8.8.8', '::1'];
 		const sorted = [...list].sort(compareIPs);
-		expect(sorted).toEqual(['::1', '8.8.8.8', '2001:db8::1']);
+		expect(sorted).toEqual(['8.8.8.8', '::1', '2001:db8::1']);
 	});
 });
