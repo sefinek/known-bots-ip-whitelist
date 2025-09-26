@@ -162,7 +162,7 @@ const createGlobalLists = async (base, allMap) => {
 	return globalRecs;
 };
 
-const commitAndPushChanges = async (globalRecs) => {
+const commitAndPushChanges = async () => {
 	const status = await git.status(['lists']);
 	if (status.files.length > 0) {
 		await runTests();
@@ -193,7 +193,7 @@ const generateLists = async () => {
 
 		if (isDevelopment) return;
 
-		await commitAndPushChanges(globalRecs);
+		await commitAndPushChanges();
 
 	} catch (err) {
 		logger.err(`Failed to generate lists: ${err.message}`);
@@ -224,7 +224,7 @@ if (isDevelopment) {
 } else {
 	addGracefulShutdown();
 
-	new CronJob('0 */4 * * *', async () => {
+	new CronJob('0 */5 * * *', async () => {
 		try {
 			await generateLists();
 		} catch (err) {

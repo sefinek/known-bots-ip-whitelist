@@ -38,12 +38,15 @@ const parseList = (list, source) => {
 
 
 const processWithTimeout = async (promise, timeoutMs = 60000) => {
+	let timeoutId;
 	return Promise.race([
 		promise,
-		new Promise((_, reject) =>
-			setTimeout(() => reject(new TimeoutError(`Operation timeout after ${timeoutMs}ms`, timeoutMs)), timeoutMs)
-		),
-	]);
+		new Promise((_, reject) => {
+			timeoutId = setTimeout(() => reject(new TimeoutError(`Operation timeout after ${timeoutMs}ms`, timeoutMs)), timeoutMs);
+		}),
+	]).finally(() => {
+		if (timeoutId) clearTimeout(timeoutId);
+	});
 };
 
 module.exports = async source => {

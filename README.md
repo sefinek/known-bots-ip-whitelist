@@ -42,7 +42,7 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 
 
 ## ⏱️ Cron job
-Lists are updated every `4 hours`.
+Lists are updated every `5 hours`.
 
 
 ## 🔓 MIT License
