@@ -1,18 +1,30 @@
-<h1 align="center">📑 GoodBots IP Whitelist ✅</h1>
+<h1 align="center">📑 Known bots IP whitelist</h1>
 
 ### TXT
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
+```
+#### Curl
+```bash
+curl -fsS --max-redirs 0 -o all-safe-ips.txt https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
 ```
 
 ### CSV
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
 ```
+#### Curl
+```bash
+curl -fsS --max-redirs 0 -o all-safe-ips.csv https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
+```
 
 ### JSON
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
+```
+#### Curl
+```bash
+curl -fsS --max-redirs 0 -o all-safe-ips.json https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
 ```
 
 
@@ -46,4 +58,3 @@ Lists are updated every `5 hours`.
 
 
 ## 🔓 MIT License
-Copyright 2025 © by [Sefinek](https://sefinek.net). All Rights Reserved.
