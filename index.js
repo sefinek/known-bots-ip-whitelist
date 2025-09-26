@@ -232,7 +232,7 @@ if (isDevelopment) {
 		}
 	}, null, true, 'utc');
 
-	logger.info('Production mode: Cron job scheduled for every 4 hours');
+	logger.info('Production mode: Cron job scheduled for every 5 hours');
 
 	process.on('unhandledRejection', (reason, promise) => {
 		logger.err('Unhandled Rejection', { reason, promise });
