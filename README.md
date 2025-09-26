@@ -1,7 +1,7 @@
 <h1 align="center">📑 Known Bots IP Whitelist</h1>
 This repository contains up-to-date lists of IP addresses of known bots and crawlers, useful for whitelisting or filtering network traffic. They can also be used as blacklists.
 The project is released under the MIT license — you can do whatever you want with it.
-If you like this repository, leave a star. Thank you!
+If you like this repository, leave a **star** ⭐. Thank you!
 
 
 ## ⏱️ Update Schedule
