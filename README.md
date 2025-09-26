@@ -36,6 +36,9 @@ Lists are updated every `5 hours`.
 | **YandexBot**               | [Documentation](https://yandex.com/ips)                                                                                    | [TXT](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/yandexbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/yandexbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/yandexbot/ips.json)                                           |
 
 
+## List of All IP Addresses
+A combined list of all known service IP addresses.
+
 ### TXT
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
