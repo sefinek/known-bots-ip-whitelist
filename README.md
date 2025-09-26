@@ -3,6 +3,11 @@ This repository contains up-to-date lists of IP addresses of known bots and craw
 The project is released under the MIT license — you can do whatever you want with it.
 If you like this repository, leave a star. Thank you!
 
+
+## ⏱️ Cron job
+Lists are updated every `5 hours`.
+
+
 ## ✨ Supports
 - AhrefsBot (source: [1](https://api.ahrefs.com/v3/public/crawler-ips)): [TXT](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/ahrefsbot/ips.json)
 - BetterStack (source: [1](https://uptime.betterstack.com/ips.txt)): [TXT](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/betterstack/ips.txt) | [CSV](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/betterstack/ips.csv) | [JSON](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/betterstack/ips.json)
@@ -54,7 +59,3 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 ```bash
 curl -fsS --max-redirs 0 -o all-safe-ips.json https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
 ```
-
-
-## ⏱️ Cron job
-Lists are updated every `5 hours`.
