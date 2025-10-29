@@ -5,7 +5,7 @@ If you like this repository, leave a <b>star</b> ⭐. Thank you!
 
 
 ## ⏱️ Update Schedule
-Lists are updated every `5 hours`.
+Lists are updated every `7 hours`.
 
 
 ## 🌍 Supported Services
