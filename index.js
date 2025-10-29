@@ -224,7 +224,7 @@ if (isDevelopment) {
 } else {
 	addGracefulShutdown();
 
-	new CronJob('0 */5 * * *', async () => {
+	new CronJob('0 */7 * * *', async () => {
 		try {
 			await generateLists();
 		} catch (err) {
