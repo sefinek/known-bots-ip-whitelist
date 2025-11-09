@@ -1,35 +1,11 @@
 const net = require('node:net');
-const ipaddr = require('ipaddr.js');
 const axios = require('./axios.js');
+const { parseIP, compareIPs } = require('../ipUtils.js');
 
 const logger = require('../utils/logger.js');
 
 const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
 const WHOIS_PORT = 43;
-
-const parseIP = ip => {
-	try {
-		return ip.includes('/') ? ipaddr.parseCIDR(ip)[0] : ipaddr.parse(ip);
-	} catch {
-		return null;
-	}
-};
-
-const compareIPs = (a, b) => {
-	const toBytes = ip => {
-		const parsed = parseIP(ip);
-		return parsed ? parsed.toByteArray() : [];
-	};
-
-	const aB = toBytes(a);
-	const bB = toBytes(b);
-	for (let i = 0, len = Math.max(aB.length, bB.length); i < len; i++) {
-		const diff = (aB[i] || 0) - (bB[i] || 0);
-		if (diff) return diff;
-	}
-
-	return a.localeCompare(b);
-};
 
 const fetchRoutesFromHost = async (asn, host) => {
 	return new Promise(resolve => {
@@ -115,12 +91,18 @@ const sleep = (baseMs, randomMs = 0) => {
 	return new Promise(resolve => setTimeout(resolve, finalMs));
 };
 
-const fetchFromBGPView = async (src, shouldDelay = true) => {
+const fetchFromBGPView = async (src, shouldDelay = true, retryCount = 0) => {
 	const keywords = makeKeywords(src);
 	const acceptNullable = !!src.acceptNullable;
+	const maxRetries = 3;
 
 	try {
-		if (shouldDelay) await sleep(1500, 2000);
+		// Progressive delays: first call 5-8s, subsequent calls 3-5s
+		if (shouldDelay) {
+			const baseDelay = retryCount === 0 ? 5000 : 3000;
+			const randomDelay = retryCount === 0 ? 3000 : 2000;
+			await sleep(baseDelay, randomDelay);
+		}
 
 		const response = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`, {
 			timeout: 30000,
@@ -171,6 +153,14 @@ const fetchFromBGPView = async (src, shouldDelay = true) => {
 
 		return result;
 	} catch (err) {
+		// Handle rate limiting with exponential backoff
+		if (err.response && err.response.status === 429 && retryCount < maxRetries) {
+			const backoffDelay = Math.pow(2, retryCount) * 10000; // 10s, 20s, 40s
+			logger.warn(`BGPView rate limit hit for ASN ${src.asn}, retrying in ${backoffDelay / 1000}s (attempt ${retryCount + 1}/${maxRetries})`);
+			await sleep(backoffDelay, 0);
+			return fetchFromBGPView(src, false, retryCount + 1);
+		}
+
 		logger.err(`BGPView fetch failed for ASN ${src.asn}: ${err.message}`);
 		return [];
 	}

@@ -90,57 +90,43 @@ const setupDirectories = async () => {
 
 const processAllSources = async (base) => {
 	const allMap = new Map();
-	const concurrencyLimit = 8;
 
-	const processSources = async (sourceBatch) => {
-		return await Promise.allSettled(
-			sourceBatch.map(async (src) => {
-				try {
-					const records = await fetchSource(src);
-					if (!Array.isArray(records) || !records.length) {
-						logger.warn(`No records found for ${src.name}`);
-						return { name: src.name, count: 0, records: [] };
-					}
+	// Process sources sequentially to avoid rate limiting issues
+	for (const src of sources) {
+		try {
+			logger.info(`Processing ${src.name}...`);
+			const records = await fetchSource(src);
 
-					const sortedRecords = records.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
-					const dir = path.join(base, src.dir);
-					await fs.mkdir(dir, { recursive: true });
+			if (!Array.isArray(records) || !records.length) {
+				logger.warn(`No records found for ${src.name}`);
+				continue;
+			}
 
-					const ips = sortedRecords.map(r => r.ip);
-					const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
-					const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
+			const sortedRecords = records.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
+			const dir = path.join(base, src.dir);
+			await fs.mkdir(dir, { recursive: true });
 
-					await Promise.all([
-						fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
-						fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
-						fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
-					]);
+			const ips = sortedRecords.map(r => r.ip);
+			const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
+			const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
 
-					logger.info(`${src.name}: ${sortedRecords.length} IPs`);
-					return { name: src.name, count: sortedRecords.length, records: sortedRecords };
-				} catch (err) {
-					logger.err(`Failed to process ${src.name}: ${err.message}`);
-					throw err;
-				}
-			})
-		);
-	};
+			await Promise.all([
+				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
+				fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
+				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
+			]);
 
-	const batches = [];
-	for (let i = 0; i < sources.length; i += concurrencyLimit) {
-		batches.push(sources.slice(i, i + concurrencyLimit));
-	}
+			logger.info(`${src.name}: ${sortedRecords.length} IPs`);
 
-	for (const batch of batches) {
-		const results = await processSources(batch);
-		for (const result of results) {
-			if (result.status === 'fulfilled' && result.value.records) {
-				for (const r of result.value.records) {
-					if (!allMap.has(r.ip)) {
-						allMap.set(r.ip, { Name: result.value.name, Source: r.source });
-					}
+			// Add to global map
+			for (const r of sortedRecords) {
+				if (!allMap.has(r.ip)) {
+					allMap.set(r.ip, { Name: src.name, Source: r.source });
 				}
 			}
+		} catch (err) {
+			logger.err(`Failed to process ${src.name}: ${err.message}`);
+			// Continue with next source instead of failing completely
 		}
 	}
 
