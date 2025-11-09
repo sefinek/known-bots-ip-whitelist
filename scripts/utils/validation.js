@@ -45,7 +45,17 @@ const validateCommandArgs = args => {
 		throw new SecurityError('Invalid command arguments');
 	}
 
-	const command = args[1]; // npm run [command]
+	// Handle: ['npm', 'run', 'test'] -> check args[2]
+	// Handle: ['npm', 'test'] -> check args[1]
+	let command;
+	if (args[0] === 'npm' && args[1] === 'run') {
+		command = args[2];
+	} else if (args[0] === 'npm') {
+		command = args[1];
+	} else {
+		throw new SecurityError('Only npm commands are allowed');
+	}
+
 	if (!allowedCommands.includes(command)) {
 		throw new SecurityError(`Command not allowed: ${command}`);
 	}
