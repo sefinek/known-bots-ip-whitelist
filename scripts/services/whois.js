@@ -1,35 +1,11 @@
 const net = require('node:net');
-const ipaddr = require('ipaddr.js');
 const axios = require('./axios.js');
+const { parseIP, compareIPs } = require('../ipUtils.js');
 
 const logger = require('../utils/logger.js');
 
 const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
 const WHOIS_PORT = 43;
-
-const parseIP = ip => {
-	try {
-		return ip.includes('/') ? ipaddr.parseCIDR(ip)[0] : ipaddr.parse(ip);
-	} catch {
-		return null;
-	}
-};
-
-const compareIPs = (a, b) => {
-	const toBytes = ip => {
-		const parsed = parseIP(ip);
-		return parsed ? parsed.toByteArray() : [];
-	};
-
-	const aB = toBytes(a);
-	const bB = toBytes(b);
-	for (let i = 0, len = Math.max(aB.length, bB.length); i < len; i++) {
-		const diff = (aB[i] || 0) - (bB[i] || 0);
-		if (diff) return diff;
-	}
-
-	return a.localeCompare(b);
-};
 
 const fetchRoutesFromHost = async (asn, host) => {
 	return new Promise(resolve => {
