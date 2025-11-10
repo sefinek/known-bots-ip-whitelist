@@ -24,7 +24,7 @@ const sources = [
 	{ name: 'FacebookBot', dir: 'facebookbot', keywords: ['meta', 'fb', 'facebook'], analyzeKeywords: true, acceptNullable: true, asn: 'AS32934', type: 'whois' },
 	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'jsonPrefixes' },
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
-	{ name: 'Modat Scanner', dir: 'modat', file: 'modat.txt', type: 'file' },
+	{ name: 'Modat Scanner', dir: 'modat', url: 'https://scanner.modat.io/ipv4.txt', type: 'hosts' },
 	{ name: 'OpenAI', dir: 'openai', url: 'https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt', type: 'hosts' },
 	{ name: 'Palo Alto Networks', dir: 'paloaltonetworks', file: 'palo-alto-networks.txt', type: 'file' },
 	{ name: 'PingdomBot', dir: 'pingdombot', url: ['https://my.pingdom.com/probes/ipv4', 'https://my.pingdom.com/probes/ipv6'], type: 'textMulti' },

@@ -1,4 +1,5 @@
 IP,Name,Source
+1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -912,10 +913,19 @@ IP,Name,Source
 15.235.98.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.98.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.98.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-15.235.224.227,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-15.235.224.238,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-15.235.224.239,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-15.235.227.163,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+15.235.224.227/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.224.238/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.225.83/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.226.26/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.226.164/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.39/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.46/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.52/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.64/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.227.163/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.236.76/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+15.235.236.87/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 18.116.205.62,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.180.208.214,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.192.166.72,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1071,7 +1081,6 @@ IP,Name,Source
 23.102.140.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.102.141.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
-23.106.244.195,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 23.111.152.74,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.111.159.174,PingdomBot,https://my.pingdom.com/probes/ipv4
 24.144.78.39,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1112,11 +1121,8 @@ IP,Name,Source
 31.13.94.0/24,FacebookBot,whois.radb.net
 31.13.95.0/24,FacebookBot,whois.radb.net
 31.13.96.0/19,FacebookBot,bgpview.io
-31.14.32.4,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-31.14.32.5,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-31.14.32.6,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-31.14.32.7,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-31.14.32.8,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+31.14.32.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+31.14.32.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 34.21.9.50,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.22.85.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.39.131.22,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -1265,7 +1271,7 @@ IP,Name,Source
 46.4.119.81,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.4.120.152,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.20.45.18,PingdomBot,https://my.pingdom.com/probes/ipv4
-46.105.70.190,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+46.105.70.190/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 46.151.193.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.151.194.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.151.194.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1293,6 +1299,9 @@ IP,Name,Source
 51.8.155.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+51.68.54.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+51.68.54.67/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+51.68.54.105/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.68.247.193,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.68.247.194,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -2158,8 +2167,8 @@ IP,Name,Source
 51.161.65.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.161.65.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.161.65.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-51.161.172.223,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-51.161.174.170,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+51.161.172.223/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+51.161.174.170/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 51.195.183.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.195.183.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.195.183.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -3184,6 +3193,7 @@ IP,Name,Source
 51.222.95.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.95.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.95.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+51.222.152.150/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 51.222.168.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.168.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.168.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4168,7 +4178,7 @@ IP,Name,Source
 54.36.149.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.36.149.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.36.149.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-54.37.81.238,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+54.37.81.238/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 54.37.118.64,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.37.118.65,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.37.118.66,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4457,6 +4467,7 @@ IP,Name,Source
 54.38.147.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.38.147.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.38.147.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+54.38.193.48/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 54.39.0.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.39.0.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.39.0.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6006,10 +6017,9 @@ IP,Name,Source
 54.187.205.235,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 54.187.216.72,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 54.249.170.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-57.128.230.106,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-57.129.64.10,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-57.129.64.219,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-57.129.64.237,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+57.129.64.10/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+57.129.64.219/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+57.129.64.237/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 57.141.0.0/24,FacebookBot,bgpview.io
 57.141.1.0/24,FacebookBot,whois.radb.net
 57.141.2.0/24,FacebookBot,bgpview.io
@@ -6613,8 +6623,10 @@ IP,Name,Source
 91.108.16.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.20.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.56.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.134.73.222,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-91.134.73.230,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+91.134.9.78/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+91.134.73.222/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+91.134.73.230/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+91.134.84.178/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 92.222.104.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.104.193,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.104.194,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6777,7 +6789,7 @@ IP,Name,Source
 104.210.139.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.210.140.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.236.198.48,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-104.236.209.11,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+104.236.209.11/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 104.237.51.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.53.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.54.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6828,7 +6840,6 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6837,8 +6848,6 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -6885,11 +6894,8 @@ IP,Name,Source
 132.164.209.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.196.82.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 132.196.86.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-134.199.202.6,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-134.199.207.201,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-134.209.173.54,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-134.209.199.75,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+134.209.173.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 135.119.134.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 135.119.134.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 135.220.208.92,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -6968,6 +6974,7 @@ IP,Name,Source
 139.180.209.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.217.52.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 141.8.128.0/18,YandexBot,https://yandex.com/ips
+141.95.206.110/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 141.101.64.0/18,Cloudflare,https://www.cloudflare.com/ips-v4
 141.164.35.160,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 141.227.142.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7995,6 +8002,7 @@ IP,Name,Source
 142.44.233.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 142.44.233.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 142.44.233.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+142.91.102.186/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 142.132.180.39,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 142.132.223.79,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 142.132.223.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8578,18 +8586,28 @@ IP,Name,Source
 148.113.130.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+148.113.189.33/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.190.57/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 148.113.190.161,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-148.113.193.79,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.206.49,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.208.45,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.210.228,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.210.254,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.212.55,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.213.23,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.214.202,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.214.204,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.214.206,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
-148.113.214.212,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
+148.113.193.57/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.193.59/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.193.79/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.206.49/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.208.45/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.210.228/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.210.254/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.211.131/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.212.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.213.23/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.213.24/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.214.99/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.214.202/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.214.204/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.214.206/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.214.212/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.216.105/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.221.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+148.113.221.195/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.129.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8597,8 +8615,8 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
+150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8738,12 +8756,15 @@ IP,Name,Source
 157.240.253.0/24,FacebookBot,bgpview.io
 157.240.254.0/24,FacebookBot,bgpview.io
 158.51.123.205,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+158.69.125.92/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 159.69.57.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.68.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.158.189,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 159.203.176.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 159.223.243.219,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+162.19.80.7/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+162.19.80.39/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.142.125.0/24,Censys,bgpview.io
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
@@ -8785,7 +8806,6 @@ IP,Name,Source
 163.77.133.0/24,FacebookBot,whois.radb.net
 163.77.136.0/24,FacebookBot,bgpview.io
 163.77.137.0/24,FacebookBot,whois.radb.net
-165.22.200.16,Modat Scanner,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/modat.txt
 165.85.144.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.85.145.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 165.85.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
@@ -12112,6 +12132,8 @@ IP,Name,Source
 216.144.248.29,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.30,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.245.221.83,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+217.182.213.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+217.182.213.59/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 2001:470:1a6::/48,Censys,whois.radb.net
 2001:550:2:38::28:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:6f::f3:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
