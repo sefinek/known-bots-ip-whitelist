@@ -15,6 +15,11 @@
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "ip": "4.185.216.109",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "ip": "4.196.118.112",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -31,6 +36,26 @@
   },
   {
     "ip": "4.197.22.112",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "4.197.64.0",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "4.197.64.16",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "4.197.64.48",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "4.197.64.64",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -70,6 +95,16 @@
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "ip": "13.67.46.240",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "13.67.72.16",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "ip": "13.70.107.160",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -85,7 +120,27 @@
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "ip": "13.76.115.224",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "13.76.115.240",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "ip": "13.76.116.80",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "13.76.223.48",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "13.79.43.0",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -201,6 +256,11 @@
   },
   {
     "ip": "20.171.123.64",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "20.171.137.175",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -356,6 +416,11 @@
   },
   {
     "ip": "40.84.221.224",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "40.88.27.77",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -536,6 +601,36 @@
   },
   {
     "ip": "52.230.164.176",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.30.48",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.34.176",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.39.144",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.39.192",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.49.48",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "52.231.50.64",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -790,6 +885,16 @@
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "ip": "135.220.208.92",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "135.234.27.89",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
     "ip": "135.234.64.0",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -806,6 +911,21 @@
   },
   {
     "ip": "135.237.133.112",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "137.135.183.96",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "137.135.190.240",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "137.135.191.32",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -836,6 +956,26 @@
   },
   {
     "ip": "148.76.185.197",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "168.63.252.240",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "172.167.32.228",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "172.167.161.96",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "172.171.234.186",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
@@ -931,6 +1071,16 @@
   },
   {
     "ip": "172.183.222.128",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "172.191.70.179",
+    "name": "openai",
+    "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "ip": "172.191.238.68",
     "name": "openai",
     "source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },

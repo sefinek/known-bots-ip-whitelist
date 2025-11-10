@@ -2,26 +2,71 @@
   {
     "ip": "66.132.148.0/24",
     "name": "censys",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
   },
   {
     "ip": "66.132.153.0/24",
     "name": "censys",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
   },
   {
     "ip": "66.132.159.0/24",
     "name": "censys",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
   },
   {
     "ip": "162.142.125.0/24",
     "name": "censys",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "167.94.138.0/24",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "167.248.133.0/24",
+    "name": "censys",
+    "source": "bgpview.io"
   },
   {
     "ip": "206.168.32.0/24",
     "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "206.168.33.0/24",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "206.168.34.0/24",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "206.168.35.0/24",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "2001:470:1a6::/48",
+    "name": "censys",
     "source": "whois.radb.net"
+  },
+  {
+    "ip": "2602:80d:1000::/48",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "2602:80d:1006::/48",
+    "name": "censys",
+    "source": "bgpview.io"
+  },
+  {
+    "ip": "2620:96:e000::/48",
+    "name": "censys",
+    "source": "bgpview.io"
   }
 ]

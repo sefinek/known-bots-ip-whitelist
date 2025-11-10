@@ -47,15 +47,20 @@
   {
     "ip": "185.170.167.0/24",
     "name": "semrush",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
   },
   {
     "ip": "185.191.171.0/24",
     "name": "semrush",
-    "source": "whois.radb.net"
+    "source": "bgpview.io"
   },
   {
     "ip": "206.168.32.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "2001:470:1a6::/48",
     "name": "semrush",
     "source": "whois.radb.net"
   }

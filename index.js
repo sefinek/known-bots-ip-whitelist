@@ -20,7 +20,7 @@ const sources = [
 	{ name: 'Bunny CDN', dir: 'bunnycdn', url: ['https://api.bunny.net/system/edgeserverlist/plain', 'https://api.bunny.net/system/edgeserverlist/ipv6'], type: 'textMulti' },
 	{ name: 'Censys', dir: 'censys', keywords: ['censys', 'censy'], analyzeKeywords: true, acceptNullable: true, asn: 'AS398324', type: 'whois' },
 	{ name: 'Cloudflare', dir: 'cloudflare', url: ['https://www.cloudflare.com/ips-v4', 'https://www.cloudflare.com/ips-v6'], type: 'textMulti' },
-	{ name: 'DuckDuckBot', dir: 'duckduckbot', url: 'https://raw.githubusercontent.com/duckduckgo/duckduckgo-help-pages/master/_docs/results/duckduckbot.md', type: 'mdList' },
+	{ name: 'DuckDuckBot', dir: 'duckduckbot', url: 'https://duckduckgo.com/duckduckbot.json', type: 'jsonPrefixes' },
 	{ name: 'FacebookBot', dir: 'facebookbot', keywords: ['meta', 'fb', 'facebook'], analyzeKeywords: true, acceptNullable: true, asn: 'AS32934', type: 'whois' },
 	{ name: 'Google Special Crawlers', dir: 'google-special-crawlers', url: 'https://developers.google.com/search/apis/ipranges/special-crawlers.json', type: 'jsonPrefixes' },
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
