@@ -36,7 +36,28 @@ const getYandexIPs = async () => {
 			timeout: 30000,
 		});
 
-		await new Promise(resolve => setTimeout(resolve, 2000));
+		// Wait for content to load - try multiple selectors
+		const selectors = [
+			'.lc-features__description .lc-rich-text span',
+			'.lc-rich-text span',
+			'span',
+		];
+
+		let contentLoaded = false;
+		for (const selector of selectors) {
+			try {
+				await page.waitForSelector(selector, { timeout: 5000 });
+				contentLoaded = true;
+				break;
+			} catch {
+				// Try next selector
+			}
+		}
+
+		if (!contentLoaded) {
+			logger.warn('No specific selector found, waiting 2s as fallback');
+			await new Promise(resolve => setTimeout(resolve, 2000));
+		}
 
 		const content = await page.content();
 		if (!content || content.length < 100) {
@@ -45,14 +66,8 @@ const getYandexIPs = async () => {
 
 		const $ = cheerio.load(content);
 		const ips = [];
-		const selectors = [
-			'.lc-features__description .lc-rich-text span',
-			'.lc-rich-text span',
-			'span',
-			'p',
-		];
 
-		for (const selector of selectors) {
+		for (const selector of [...selectors, 'p']) {
 			$(selector).each((_, el) => {
 				const text = $(el).text().trim();
 				if (!text || !text.includes('/')) return;
