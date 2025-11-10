@@ -97,10 +97,10 @@ const fetchFromBGPView = async (src, shouldDelay = true, retryCount = 0) => {
 	const maxRetries = 3;
 
 	try {
-		// Progressive delays: first call 5-8s, subsequent calls 3-5s
+		// Progressive delays: first call 10-15s, subsequent calls 5-10s
 		if (shouldDelay) {
-			const baseDelay = retryCount === 0 ? 5000 : 3000;
-			const randomDelay = retryCount === 0 ? 3000 : 2000;
+			const baseDelay = retryCount === 0 ? 10000 : 5000;
+			const randomDelay = retryCount === 0 ? 5000 : 5000;
 			await sleep(baseDelay, randomDelay);
 		}
 
@@ -155,7 +155,7 @@ const fetchFromBGPView = async (src, shouldDelay = true, retryCount = 0) => {
 	} catch (err) {
 		// Handle rate limiting with exponential backoff
 		if (err.response && err.response.status === 429 && retryCount < maxRetries) {
-			const backoffDelay = Math.pow(2, retryCount) * 10000; // 10s, 20s, 40s
+			const backoffDelay = Math.pow(2, retryCount) * 30000; // 30s, 60s, 120s
 			logger.warn(`BGPView rate limit hit for ASN ${src.asn}, retrying in ${backoffDelay / 1000}s (attempt ${retryCount + 1}/${maxRetries})`);
 			await sleep(backoffDelay, 0);
 			return fetchFromBGPView(src, false, retryCount + 1);
@@ -182,7 +182,7 @@ module.exports = async src => {
 		const asnNorm = String(asn).toUpperCase().replace(/^AS/, '');
 		const srcWithSingleAsn = { ...src, asn: asnNorm };
 
-		if (i > 0) await sleep(2000);
+		if (i > 0) await sleep(5000);
 
 		try {
 			const [bgpviewResult, whoisResults] = await Promise.allSettled([

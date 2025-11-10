@@ -42,7 +42,7 @@ const runTests = () => {
 	logger.info('Running tests...');
 
 	return new Promise((resolve, reject) => {
-		const args = ['npm', 'run', 'test'];
+		const args = ['npm', 'test'];
 		validateCommandArgs(args);
 
 		const child = spawn(args[0], args.slice(1), {
@@ -210,7 +210,7 @@ if (isDevelopment) {
 } else {
 	addGracefulShutdown();
 
-	new CronJob('0 */7 * * *', async () => {
+	new CronJob('0 */8 * * *', async () => {
 		try {
 			await generateLists();
 		} catch (err) {
@@ -218,7 +218,7 @@ if (isDevelopment) {
 		}
 	}, null, true, 'utc');
 
-	logger.info('Production mode: Cron job scheduled for every 5 hours');
+	logger.info('Production mode: Cron job scheduled for every 8 hours');
 
 	process.on('unhandledRejection', (reason, promise) => {
 		logger.err('Unhandled Rejection', { reason, promise });
