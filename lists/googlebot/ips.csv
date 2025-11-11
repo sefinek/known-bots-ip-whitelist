@@ -48,6 +48,7 @@ IP,Name,Source
 66.249.66.224/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.67.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.67.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+66.249.67.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.68.64/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -236,6 +237,7 @@ IP,Name,Source
 2001:4860:4801:56::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:57::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:58::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+2001:4860:4801:59::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:60::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:61::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 2001:4860:4801:62::/64,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
