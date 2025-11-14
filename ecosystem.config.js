@@ -1,6 +1,6 @@
 module.exports = {
 	apps: [{
-		name: 'kbots',
+		name: 'goodbots',
 		script: './index.js',
 
 		// Logging configuration
