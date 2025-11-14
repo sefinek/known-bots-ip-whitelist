@@ -210,7 +210,7 @@ if (isDevelopment) {
 } else {
 	addGracefulShutdown();
 
-	new CronJob('0 */8 * * *', async () => {
+	new CronJob('0 */6 * * *', async () => {
 		try {
 			await generateLists();
 		} catch (err) {
@@ -218,7 +218,7 @@ if (isDevelopment) {
 		}
 	}, null, true, 'utc');
 
-	logger.info('Production mode: Cron job scheduled for every 8 hours');
+	logger.info('Production mode: Cron job scheduled for every 6 hours');
 
 	process.on('unhandledRejection', (reason, promise) => {
 		logger.err('Unhandled Rejection', { reason, promise });
