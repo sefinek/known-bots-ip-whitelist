@@ -107,22 +107,19 @@ const processAllSources = async (base) => {
 			await fs.mkdir(dir, { recursive: true });
 
 			const ips = sortedRecords.map(r => r.ip);
-			const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
-			const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
+			await fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8');
 
-			await Promise.all([
-				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
-				fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
-				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
-			]);
+			const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
+			await fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
+
+			const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
+			await fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8');
 
 			logger.info(`${src.name}: ${sortedRecords.length} IPs`);
 
 			// Add to global map
 			for (const r of sortedRecords) {
-				if (!allMap.has(r.ip)) {
-					allMap.set(r.ip, { Name: src.name, Source: r.source });
-				}
+				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
 			}
 		} catch (err) {
 			logger.err(`Failed to process ${src.name}: ${err.message}`);

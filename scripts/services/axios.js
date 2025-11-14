@@ -1,15 +1,9 @@
 const axios = require('axios');
-const https = require('node:https');
-const tls = require('node:tls');
 const { version } = require('../../package.json');
 const logger = require('../utils/logger.js');
 
 const api = axios.create({
 	timeout: 60000,
-	httpsAgent: new https.Agent({
-		rejectUnauthorized: true,
-		checkServerIdentity: tls.checkServerIdentity,
-	}),
 	headers: {
 		'User-Agent': `Mozilla/5.0 (compatible; KnownBotsIPWhitelist/${version}; +https://github.com/sefinek/known-bots-ip-whitelist)`,
 		'Accept': 'application/json',
@@ -29,11 +23,7 @@ const shouldRetry = (error, attempt, maxRetries) => {
 	}
 
 	// Retry on 5xx server errors (but not 429 - that's handled separately)
-	if (error.response && error.response.status >= 500 && error.response.status < 600) {
-		return true;
-	}
-
-	return false;
+	return error.response && error.response.status >= 500 && error.response.status < 600;
 };
 
 const getWithRetry = async (url, config = {}, attempt = 0) => {
@@ -48,6 +38,7 @@ const getWithRetry = async (url, config = {}, attempt = 0) => {
 			await sleep(backoffDelay);
 			return getWithRetry(url, config, attempt + 1);
 		}
+
 		throw error;
 	}
 };

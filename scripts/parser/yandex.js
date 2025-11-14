@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const cheerio = require('cheerio');
 const ipaddr = require('ipaddr.js');
-
 const logger = require('../utils/logger.js');
 
 puppeteer.use(StealthPlugin());
@@ -46,7 +45,7 @@ const getYandexIPs = async () => {
 		let contentLoaded = false;
 		for (const selector of selectors) {
 			try {
-				await page.waitForSelector(selector, { timeout: 5000 });
+				await page.waitForSelector(selector, { timeout: 6000 });
 				contentLoaded = true;
 				break;
 			} catch {
@@ -86,9 +85,10 @@ const getYandexIPs = async () => {
 			if (ips.length > 0) break;
 		}
 
-		logger.info(`Yandex extraction completed: ${ips.length} IPs`);
 
-		if (!ips.length) {
+		if (ips.length) {
+			logger.info(`Yandex extraction completed: ${ips.length} IPs`);
+		} else {
 			logger.warn('No IPs found on Yandex page, page structure may have changed');
 		}
 

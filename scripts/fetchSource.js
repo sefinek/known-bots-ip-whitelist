@@ -1,10 +1,9 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
+const ipaddr = require('ipaddr.js');
 const getYandexIPs = require('./parser/yandex.js');
 const getASNPrefixes = require('./services/whois.js');
 const axios = require('./services/axios.js');
-const ipaddr = require('ipaddr.js');
-
 const logger = require('./utils/logger.js');
 const { NetworkError, TimeoutError } = require('./utils/errors.js');
 const { validateSource } = require('./utils/validation.js');
