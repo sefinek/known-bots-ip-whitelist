@@ -6435,11 +6435,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "49.233.249.157",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "50.16.153.186",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -43128,6 +43123,16 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Source": "https://core.telegram.org/resources/cidr.txt"
+  },
+  {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.158.3.127",
