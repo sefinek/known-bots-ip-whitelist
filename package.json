@@ -23,7 +23,7 @@
     "cron": "^4.3.4",
     "csv-stringify": "^6.6.0",
     "ipaddr.js": "^2.2.0",
-    "puppeteer": "^24.29.1",
+    "puppeteer": "^24.30.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "simple-git": "^3.30.0"
