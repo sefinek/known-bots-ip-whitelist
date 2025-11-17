@@ -26,7 +26,7 @@ const sources = [
 	{ name: 'GoogleBot', dir: 'googlebot', url: 'https://developers.google.com/static/search/apis/ipranges/googlebot.json', type: 'jsonPrefixes' },
 	{ name: 'Modat Scanner', dir: 'modat', url: 'https://scanner.modat.io/ipv4.txt', type: 'hosts' },
 	{ name: 'OpenAI', dir: 'openai', url: 'https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt', type: 'hosts' },
-	{ name: 'Palo Alto Networks', dir: 'paloaltonetworks', file: 'palo-alto-networks.txt', type: 'file' },
+	{ name: 'Palo Alto Networks', dir: 'paloaltonetworks', keywords: ['paloalto', 'palo alto'], analyzeKeywords: true, acceptNullable: true, asn: ['AS2763', 'AS54538', 'AS64280', 'AS396421'], type: 'whois' },
 	{ name: 'PingdomBot', dir: 'pingdombot', url: ['https://my.pingdom.com/probes/ipv4', 'https://my.pingdom.com/probes/ipv6'], type: 'textMulti' },
 	{ name: 'RSS API', dir: 'rssapi', url: 'https://rssapi.net/ips.txt', type: 'hosts' },
 	{ name: 'Semrush', dir: 'semrush', analyzeKeywords: false, asn: ['AS398324', 'AS209366'], type: 'whois' },
