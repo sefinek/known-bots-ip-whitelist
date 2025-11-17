@@ -1159,6 +1159,7 @@ IP,Name,Source
 34.198.201.66,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 34.240.49.81,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 35.154.171.200,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
+35.212.27.76,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 35.228.243.201,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 35.242.177.6,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 35.247.243.240/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -6439,6 +6440,7 @@ IP,Name,Source
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,bgpview.io
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6802,6 +6804,7 @@ IP,Name,Source
 104.237.53.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.54.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.134.64,BetterStack,https://uptime.betterstack.com/ips.txt
+104.254.65.50,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 107.155.47.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.163.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -6848,6 +6851,7 @@ IP,Name,Source
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6856,6 +6860,7 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -8623,7 +8628,7 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12078,6 +12083,7 @@ IP,Name,Source
 209.85.238.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.126.110.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+209.151.156.194,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 209.177.87.197,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 209.249.37.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -12124,6 +12130,7 @@ IP,Name,Source
 213.168.248.219,BetterStack,https://uptime.betterstack.com/ips.txt
 213.170.143.100,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 213.180.192.0/19,YandexBot,https://yandex.com/ips
+216.18.205.234,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 216.64.170.234,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 216.117.2.180,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 216.144.248.18,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt

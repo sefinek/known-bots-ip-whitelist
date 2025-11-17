@@ -36,6 +36,7 @@ const sources = [
 	{ name: 'UptimeRobot', dir: 'uptimerobot', url: 'https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt', type: 'hosts' },
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
+	{ name: 'Kagi', dir: 'kagi', file: 'kagi.txt', type: 'file' },
 ];
 
 const runTests = () => {

@@ -5800,6 +5800,11 @@
     "Source": "https://stripe.com/files/ips/ips_webhooks.txt"
   },
   {
+    "IP": "35.212.27.76",
+    "Name": "Kagi",
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
+  },
+  {
     "IP": "35.228.243.201",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -32200,6 +32205,11 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -34015,6 +34025,11 @@
     "Source": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "104.254.65.50",
+    "Name": "Kagi",
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
+  },
+  {
     "IP": "107.155.47.146",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34245,6 +34260,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34283,6 +34303,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -43120,7 +43145,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.158.3.127",
+    "IP": "150.109.170.94",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -60395,6 +60420,11 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
+    "IP": "209.151.156.194",
+    "Name": "Kagi",
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
+  },
+  {
     "IP": "209.177.87.197",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -60623,6 +60653,11 @@
     "IP": "213.180.192.0/19",
     "Name": "YandexBot",
     "Source": "https://yandex.com/ips"
+  },
+  {
+    "IP": "216.18.205.234",
+    "Name": "Kagi",
+    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
   },
   {
     "IP": "216.64.170.234",
