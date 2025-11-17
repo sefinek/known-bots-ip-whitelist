@@ -1,4 +1,5 @@
 IP,Name,Source
+1.7.225.0/24,Palo Alto Networks,whois.radb.net
 1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
@@ -1212,7 +1213,6 @@ IP,Name,Source
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -6171,25 +6171,31 @@ IP,Name,Source
 57.154.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.154.187.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 63.178.84.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+64.74.133.224/27,Palo Alto Networks,whois.radb.net
+64.74.215.0/24,Palo Alto Networks,whois.radb.net
 64.124.21.196,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 64.185.232.82,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.234.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.235.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+64.225.74.178,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 64.225.81.248,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.225.82.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+64.226.86.7,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 64.227.90.185,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
 65.55.210.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
-65.154.226.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-65.155.38.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+65.154.226.0/24,Palo Alto Networks,bgpview.io
+65.155.38.0/24,Palo Alto Networks,bgpview.io
 66.132.148.0/24,Censys,bgpview.io
 66.132.153.0/24,Censys,bgpview.io
 66.132.159.0/24,Censys,bgpview.io
 66.165.229.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.165.233.234,PingdomBot,https://my.pingdom.com/probes/ipv4
+66.179.104.0/24,Palo Alto Networks,whois.radb.net
+66.179.148.0/23,Palo Alto Networks,whois.radb.net
 66.181.163.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 66.193.99.66,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 66.220.144.0/20,FacebookBot,bgpview.io
@@ -6198,25 +6204,26 @@ IP,Name,Source
 66.228.53.233,BetterStack,https://uptime.betterstack.com/ips.txt
 66.228.56.140,BetterStack,https://uptime.betterstack.com/ips.txt
 66.228.56.189,BetterStack,https://uptime.betterstack.com/ips.txt
-66.232.32.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.34.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.35.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.36.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.37.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.38.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.39.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.40.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.41.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.42.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.43.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.44.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.45.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.46.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-66.232.47.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+66.232.32.0/24,Palo Alto Networks,bgpview.io
+66.232.34.0/24,Palo Alto Networks,bgpview.io
+66.232.35.0/24,Palo Alto Networks,bgpview.io
+66.232.36.0/24,Palo Alto Networks,bgpview.io
+66.232.37.0/24,Palo Alto Networks,bgpview.io
+66.232.38.0/24,Palo Alto Networks,bgpview.io
+66.232.39.0/24,Palo Alto Networks,bgpview.io
+66.232.40.0/24,Palo Alto Networks,bgpview.io
+66.232.41.0/24,Palo Alto Networks,bgpview.io
+66.232.42.0/24,Palo Alto Networks,bgpview.io
+66.232.43.0/24,Palo Alto Networks,bgpview.io
+66.232.44.0/24,Palo Alto Networks,bgpview.io
+66.232.45.0/24,Palo Alto Networks,bgpview.io
+66.232.46.0/24,Palo Alto Networks,bgpview.io
+66.232.47.0/24,Palo Alto Networks,bgpview.io
 66.240.192.138,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.240.205.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.240.219.133,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.240.219.146,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+66.240.219.173,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.240.236.119,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 66.249.64.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 66.249.64.32/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -6398,6 +6405,7 @@ IP,Name,Source
 69.171.240.0/20,FacebookBot,bgpview.io
 69.171.250.0/24,FacebookBot,bgpview.io
 69.171.255.0/24,FacebookBot,whois.radb.net
+70.42.131.0/24,Palo Alto Networks,bgpview.io
 71.6.135.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.146.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.146.185,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -6410,6 +6418,7 @@ IP,Name,Source
 71.6.167.125,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.167.142,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.199.23,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+72.5.231.0/24,Palo Alto Networks,whois.radb.net
 72.14.199.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.14.199.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.14.199.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6419,7 +6428,7 @@ IP,Name,Source
 72.14.199.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 72.46.130.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 72.46.131.10,PingdomBot,https://my.pingdom.com/probes/ipv4
-72.165.69.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+72.165.69.0/24,Palo Alto Networks,bgpview.io
 74.7.35.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.35.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.36.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -6440,7 +6449,6 @@ IP,Name,Source
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,bgpview.io
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6502,6 +6510,7 @@ IP,Name,Source
 74.125.219.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.219.160/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+74.201.127.0/24,Palo Alto Networks,bgpview.io
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -6798,6 +6807,7 @@ IP,Name,Source
 104.210.139.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.210.139.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 104.210.140.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+104.236.35.128,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 104.236.198.48,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 104.236.209.11/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 104.237.51.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6860,6 +6870,7 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6903,11 +6914,15 @@ IP,Name,Source
 129.227.217.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 129.227.217.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 130.33.24.99,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+130.41.254.0/23,Palo Alto Networks,whois.radb.net
+130.41.254.0/24,Palo Alto Networks,bgpview.io
+130.41.255.0/24,Palo Alto Networks,bgpview.io
 131.0.72.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 132.164.209.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.196.82.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 132.196.86.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+134.209.95.237,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 134.209.173.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 135.119.134.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 135.119.134.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -8074,14 +8089,33 @@ IP,Name,Source
 144.76.65.213,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 144.76.79.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 144.76.236.44,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+144.125.104.0/24,Palo Alto Networks,whois.radb.net
+144.125.105.0/24,Palo Alto Networks,bgpview.io
+144.125.192.0/21,Palo Alto Networks,whois.radb.net
+144.125.199.0/24,Palo Alto Networks,bgpview.io
+144.125.200.0/21,Palo Alto Networks,whois.radb.net
+144.125.200.0/24,Palo Alto Networks,bgpview.io
+144.125.201.0/24,Palo Alto Networks,bgpview.io
+144.125.202.0/24,Palo Alto Networks,bgpview.io
+144.125.203.0/24,Palo Alto Networks,bgpview.io
+144.125.204.0/24,Palo Alto Networks,bgpview.io
+144.125.205.0/24,Palo Alto Networks,bgpview.io
+144.125.208.0/21,Palo Alto Networks,whois.radb.net
+144.125.209.0/24,Palo Alto Networks,bgpview.io
 144.126.251.21,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 146.59.69.202,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.70.80.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.185.248.15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.190.9.187,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 147.75.208.0/20,FacebookBot,whois.radb.net
-147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-147.185.136.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+147.182.202.179,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.225.86,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.240.244,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.240.245,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.240.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.241.81,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.182.247.10,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.185.136.0/24,Palo Alto Networks,bgpview.io
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.171.17,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.76.185.195,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -8628,7 +8662,8 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8767,11 +8802,13 @@ IP,Name,Source
 157.240.252.0/24,FacebookBot,whois.radb.net
 157.240.253.0/24,FacebookBot,bgpview.io
 157.240.254.0/24,FacebookBot,bgpview.io
+157.245.164.170,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 158.51.123.205,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 158.69.125.92/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 159.69.57.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.68.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.158.189,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+159.89.124.112,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 159.203.176.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 159.223.243.219,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -8781,7 +8818,6 @@ IP,Name,Source
 162.142.125.0/24,Censys,bgpview.io
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
 162.159.244.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-162.216.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
 163.70.128.0/17,FacebookBot,bgpview.io
@@ -8818,11 +8854,15 @@ IP,Name,Source
 163.77.133.0/24,FacebookBot,whois.radb.net
 163.77.136.0/24,FacebookBot,bgpview.io
 163.77.137.0/24,FacebookBot,whois.radb.net
-165.85.144.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-165.85.145.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-165.85.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-165.85.151.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-165.85.250.0/23,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+164.92.106.15,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+165.85.73.0/24,Palo Alto Networks,whois.radb.net
+165.85.144.0/24,Palo Alto Networks,bgpview.io
+165.85.145.0/24,Palo Alto Networks,bgpview.io
+165.85.149.0/24,Palo Alto Networks,bgpview.io
+165.85.151.0/24,Palo Alto Networks,bgpview.io
+165.85.250.0/23,Palo Alto Networks,bgpview.io
+165.85.252.0/24,Palo Alto Networks,bgpview.io
+165.227.31.152,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 165.227.55.4,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 165.227.62.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9424,8 +9464,11 @@ IP,Name,Source
 169.150.249.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.249.169,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.252.209,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.224.130.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-169.224.131.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+169.224.130.0/23,Palo Alto Networks,whois.radb.net
+169.224.130.0/24,Palo Alto Networks,bgpview.io
+169.224.131.0/24,Palo Alto Networks,bgpview.io
+169.224.138.0/24,Palo Alto Networks,bgpview.io
+169.224.139.0/24,Palo Alto Networks,bgpview.io
 170.64.250.64,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 170.64.250.132,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 170.64.250.235,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9516,6 +9559,7 @@ IP,Name,Source
 178.63.41.234,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.41.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.41.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+178.128.32.203,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 178.154.128.0/18,YandexBot,https://yandex.com/ips
 178.156.181.172,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.184.20,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9666,6 +9710,8 @@ IP,Name,Source
 192.178.16.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 192.178.17.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 192.189.65.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+193.110.180.0/23,Palo Alto Networks,whois.radb.net
+193.110.180.0/24,Palo Alto Networks,whois.radb.net
 193.162.131.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 193.201.190.174,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 194.195.253.108,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -9700,6 +9746,7 @@ IP,Name,Source
 198.20.99.128/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.20.99.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.41.128.0/17,Cloudflare,https://www.cloudflare.com/ips-v4
+198.211.117.142,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.244.168.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.168.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.168.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -10992,9 +11039,9 @@ IP,Name,Source
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
-199.167.52.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-199.167.53.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
-199.167.54.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+199.167.52.0/24,Palo Alto Networks,bgpview.io
+199.167.53.0/24,Palo Alto Networks,bgpview.io
+199.167.54.0/24,Palo Alto Networks,bgpview.io
 200.25.11.8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.13.98,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.16.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12042,12 +12089,15 @@ IP,Name,Source
 202.94.84.111,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 202.94.84.112,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 202.94.84.113,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+202.126.13.0/24,Palo Alto Networks,whois.radb.net
+202.189.133.0/24,Palo Alto Networks,whois.radb.net
 204.15.20.0/22,FacebookBot,bgpview.io
 204.16.244.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 206.168.32.0/24,Censys,bgpview.io
 206.168.33.0/24,Censys,bgpview.io
 206.168.34.0/24,Censys,bgpview.io
 206.168.35.0/24,Censys,bgpview.io
+206.189.237.171,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 206.189.241.133,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 207.46.13.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 207.90.244.0/24,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -12083,6 +12133,7 @@ IP,Name,Source
 209.85.238.224/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.126.110.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+209.141.34.11,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 209.151.156.194,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 209.177.87.197,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 209.249.37.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -12750,7 +12801,8 @@ IP,Name,Source
 2604:a880:800:14:0:1:68bb:d000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68bb:e000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68bb:f000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-2604:a940:1::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2604:a940::/48,Palo Alto Networks,whois.radb.net
+2604:a940:1::/48,Palo Alto Networks,bgpview.io
 2604:b480:fff9::444,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:b480:fffa::4015,PingdomBot,https://my.pingdom.com/probes/ipv6
 2605:6f80:0:f::462,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -12761,7 +12813,11 @@ IP,Name,Source
 2606:6080:1001:1::459,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:6080:1001:4::448,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:9880:f000:4:5::4047,PingdomBot,https://my.pingdom.com/probes/ipv6
-2606:f4c0:7010::/44,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2606:f4c0:7000::/43,Palo Alto Networks,whois.radb.net
+2606:f4c0:7000::/44,Palo Alto Networks,whois.radb.net
+2606:f4c0:7010::/44,Palo Alto Networks,bgpview.io
+2606:f4c0:b000::/36,Palo Alto Networks,whois.radb.net
+2606:f4c0:c000::/36,Palo Alto Networks,whois.radb.net
 2607:5300:20e:a100::,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:f0d0:3701:f2::4079,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:f2d8:4010:5b::877:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -12786,7 +12842,7 @@ IP,Name,Source
 2620:0:1c00::/40,FacebookBot,bgpview.io
 2620:0:1cfa::/48,FacebookBot,whois.radb.net
 2620:0:1cff::/48,FacebookBot,whois.radb.net
-2620:52:c000::/48,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt
+2620:52:c000::/48,Palo Alto Networks,bgpview.io
 2620:96:e000::/48,Censys,bgpview.io
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
