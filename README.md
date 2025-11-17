@@ -1,4 +1,4 @@
-<h1 align="center">🤖 Known Bots IP Whitelist</h1>
+# 🤖 Known Bots IP Whitelist
 This repository contains up-to-date lists of IP addresses of known bots and crawlers, useful for whitelisting or filtering network traffic.
 They can also be used as blacklists. Do you have any questions or want to receive notifications about important changes or new features in my repositories?
 Join my [Discord server](https://discord.gg/S7NDzCzQTg)! If you don't use Discord, you can also open an issue on GitHub.
