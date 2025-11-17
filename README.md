@@ -4,7 +4,7 @@ The project is released under the <a href="LICENSE">MIT license</a> — you can 
 If you like this repository, leave a <b>star</b> ⭐. Thank you!
 
 > [!TIP]
-> Do you have any questions or want to receive notifications about my repositories? Join my [Discord server](https://discord.gg/S7NDzCzQTg)!
+> Do you have any questions or want to receive notifications about important changes or new features in my repositories? Join my [Discord server](https://discord.gg/S7NDzCzQTg)! If you don't use Discord, you can also open an issue on GitHub.
 
 
 ## ⏱️ Update Schedule
