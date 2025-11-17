@@ -5800,11 +5800,6 @@
     "Source": "https://stripe.com/files/ips/ips_webhooks.txt"
   },
   {
-    "IP": "35.212.27.76",
-    "Name": "Kagi",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
-  },
-  {
     "IP": "35.228.243.201",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -6063,11 +6058,6 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "40.64.105.247/32",
@@ -30920,16 +30910,6 @@
     "Source": "https://www.bing.com/toolbox/bingbot.json"
   },
   {
-    "IP": "65.154.226.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "65.155.38.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "66.132.148.0/24",
     "Name": "Censys",
     "Source": "bgpview.io"
@@ -30993,81 +30973,6 @@
     "IP": "66.228.56.189",
     "Name": "BetterStack",
     "Source": "https://uptime.betterstack.com/ips.txt"
-  },
-  {
-    "IP": "66.232.32.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.34.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.35.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.36.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.37.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.38.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.39.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.40.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.41.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.42.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.43.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.44.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.45.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.46.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "66.232.47.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
     "IP": "66.240.192.138",
@@ -32100,11 +32005,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "72.165.69.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "74.7.35.48",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
@@ -32203,11 +32103,6 @@
     "IP": "74.7.244.0",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
-  },
-  {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "74.119.76.0/22",
@@ -34025,11 +33920,6 @@
     "Source": "https://uptime.betterstack.com/ips.txt"
   },
   {
-    "IP": "104.254.65.50",
-    "Name": "Kagi",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
-  },
-  {
     "IP": "107.155.47.146",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34303,6 +34193,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -40405,16 +40300,6 @@
     "Source": "whois.radb.net"
   },
   {
-    "IP": "147.185.132.0/22",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "147.185.136.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "148.72.170.233",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -43145,7 +43030,12 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.170.94",
+    "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -43910,11 +43800,6 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
-    "IP": "162.216.149.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "162.218.67.34",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -44093,31 +43978,6 @@
     "IP": "163.77.137.0/24",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
-  },
-  {
-    "IP": "165.85.144.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "165.85.145.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "165.85.149.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "165.85.151.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "165.85.250.0/23",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
     "IP": "165.227.55.4",
@@ -47123,16 +46983,6 @@
     "IP": "169.150.252.209",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.224.130.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "169.224.131.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
     "IP": "170.64.250.64",
@@ -54965,21 +54815,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "199.167.52.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "199.167.53.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
-    "IP": "199.167.54.0/24",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "200.25.11.8",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -60420,11 +60255,6 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
-    "IP": "209.151.156.194",
-    "Name": "Kagi",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
-  },
-  {
     "IP": "209.177.87.197",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -60653,11 +60483,6 @@
     "IP": "213.180.192.0/19",
     "Name": "YandexBot",
     "Source": "https://yandex.com/ips"
-  },
-  {
-    "IP": "216.18.205.234",
-    "Name": "Kagi",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt"
   },
   {
     "IP": "216.64.170.234",
@@ -63755,11 +63580,6 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
-    "IP": "2604:a940:1::/48",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
-  },
-  {
     "IP": "2604:b480:fff9::444",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
@@ -63808,11 +63628,6 @@
     "IP": "2606:9880:f000:4:5::4047",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv6"
-  },
-  {
-    "IP": "2606:f4c0:7010::/44",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
     "IP": "2607:5300:20e:a100::",
@@ -63933,11 +63748,6 @@
     "IP": "2620:0:1cff::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
-  },
-  {
-    "IP": "2620:52:c000::/48",
-    "Name": "Palo Alto Networks",
-    "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/palo-alto-networks.txt"
   },
   {
     "IP": "2620:96:e000::/48",
