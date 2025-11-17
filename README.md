@@ -40,7 +40,7 @@ Lists are updated every `6 hours`.
 ## 📃 List of All IP Addresses
 A combined list of all known service IP addresses.
 
-### TXT
+### » TXT
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
 ```
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 curl -fsS --max-redirs 0 -o all-safe-ips.txt https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
 ```
 
-### CSV
+### » CSV
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
 ```
@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 curl -fsS --max-redirs 0 -o all-safe-ips.csv https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
 ```
 
-### JSON
+### » JSON
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
 ```
