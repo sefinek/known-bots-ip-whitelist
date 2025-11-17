@@ -3,6 +3,9 @@ This repository contains up-to-date lists of IP addresses of known bots and craw
 The project is released under the <a href="LICENSE">MIT license</a> — you can do whatever you want with it.
 If you like this repository, leave a <b>star</b> ⭐. Thank you!
 
+> [!TIP]
+> Do you have any questions or want to receive notifications about my repositories? Join my [Discord server](https://discord.gg/S7NDzCzQTg)!
+
 
 ## ⏱️ Update Schedule
 Lists are updated every `6 hours`.
