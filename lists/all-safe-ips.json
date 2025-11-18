@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -30115,6 +30120,16 @@
     "Source": "whois.radb.net"
   },
   {
+    "IP": "57.141.18.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "57.141.19.0/24",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
     "IP": "57.144.0.0/14",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -34090,6 +34105,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34130,12 +34150,17 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "128.1.35.170",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "128.1.52.179",
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "128.1.35.170",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -42965,7 +42990,22 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -66851,6 +66891,16 @@
   },
   {
     "IP": "2a03:2880:f811::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f812::/48",
+    "Name": "FacebookBot",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "2a03:2880:f813::/48",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
   },
