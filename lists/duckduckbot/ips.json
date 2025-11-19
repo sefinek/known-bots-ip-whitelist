@@ -1,5 +1,10 @@
 [
   {
+    "ip": "4.150.142.218/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "4.156.136.79/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
@@ -615,6 +620,11 @@
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
+    "ip": "48.217.212.89/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "51.8.71.117/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
@@ -1035,6 +1045,16 @@
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
+    "ip": "52.186.37.211/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
+    "ip": "52.188.89.106/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "52.190.37.160/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
@@ -1165,7 +1185,17 @@
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
+    "ip": "64.236.118.43/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "68.219.152.220/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
+    "ip": "74.179.232.116/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
@@ -1200,12 +1230,32 @@
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
+    "ip": "128.203.132.152/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "132.164.209.198/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
+    "ip": "135.234.221.112/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
+    "ip": "172.168.115.250/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "ip": "172.169.17.165/32",
+    "name": "duckduckbot",
+    "source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
+    "ip": "172.169.28.184/32",
     "name": "duckduckbot",
     "source": "https://duckduckgo.com/duckduckbot.json"
   },

@@ -1,10 +1,5 @@
 [
   {
-    "IP": "1.117.61.116",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -58,6 +53,11 @@
     "IP": "3.212.128.62",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "4.150.142.218/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
     "IP": "4.151.71.176",
@@ -6338,6 +6338,11 @@
     "IP": "46.246.122.10",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "IP": "48.217.212.89/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
     "IP": "49.12.0.158",
@@ -17930,9 +17935,19 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "52.186.37.211/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "IP": "52.187.246.128",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "52.188.89.106/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
     "IP": "52.190.37.160/32",
@@ -30845,6 +30860,11 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
+    "IP": "64.236.118.43/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "IP": "64.237.49.203",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -32358,6 +32378,11 @@
     "IP": "74.125.219.160/27",
     "Name": "Google Special Crawlers",
     "Source": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "74.179.232.116/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
     "IP": "74.249.86.176",
@@ -34175,6 +34200,11 @@
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "128.203.132.152/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "IP": "129.134.0.0/16",
     "Name": "FacebookBot",
     "Source": "whois.radb.net"
@@ -34403,6 +34433,11 @@
     "IP": "135.234.64.0",
     "Name": "OpenAI",
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+  },
+  {
+    "IP": "135.234.221.112/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
   },
   {
     "IP": "135.237.131.208",
@@ -42985,7 +43020,12 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.158.3.127",
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -46990,7 +47030,17 @@
     "Source": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "172.168.115.250/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
     "IP": "172.169.17.165/32",
+    "Name": "DuckDuckBot",
+    "Source": "https://duckduckgo.com/duckduckbot.json"
+  },
+  {
+    "IP": "172.169.28.184/32",
     "Name": "DuckDuckBot",
     "Source": "https://duckduckgo.com/duckduckbot.json"
   },
