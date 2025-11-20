@@ -43045,17 +43045,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -46930,57 +46920,12 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "169.150.247.138",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.139",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.177",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.178",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "169.150.247.179",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
     "IP": "169.150.247.180",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.181",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.182",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.183",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.184",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.247.185",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },

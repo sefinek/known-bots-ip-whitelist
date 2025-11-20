@@ -8608,9 +8608,7 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9385,17 +9383,8 @@ IP,Name,Source
 169.150.247.38,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.247.39,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.247.40,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.138,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.139,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.177,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.247.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.247.180,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.181,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.183,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.184,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-169.150.247.185,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.249.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.249.163,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 169.150.249.164,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
