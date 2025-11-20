@@ -789,7 +789,7 @@ IP,Name,Source
 2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c54:277::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:5300:20e:a100::,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2607:f2d8:4010:5b::877:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2607:f2d8:4010:5b::1358:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:fdc0:1:2d:f6ee:8ff:fe3e:a1cc,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6

@@ -3950,7 +3950,7 @@
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
-    "ip": "2607:f2d8:4010:5b::877:1",
+    "ip": "2607:f2d8:4010:5b::1358:1",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
