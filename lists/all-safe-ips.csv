@@ -1,5 +1,4 @@
 IP,Name,Source
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -6844,9 +6843,12 @@ IP,Name,Source
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,whois.radb.net
 129.134.0.0/17,FacebookBot,bgpview.io
+129.134.24.0/23,FacebookBot,whois.radb.net
 129.134.25.0/24,FacebookBot,bgpview.io
+129.134.26.0/23,FacebookBot,whois.radb.net
 129.134.26.0/24,FacebookBot,bgpview.io
 129.134.27.0/24,FacebookBot,bgpview.io
+129.134.28.0/23,FacebookBot,whois.radb.net
 129.134.28.0/24,FacebookBot,bgpview.io
 129.134.29.0/24,FacebookBot,bgpview.io
 129.134.30.0/23,FacebookBot,bgpview.io
@@ -8605,8 +8607,6 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -13391,10 +13391,13 @@ IP,Name,Source
 2a03:2880:ff00::/47,FacebookBot,whois.radb.net
 2a03:2880:ff00::/48,FacebookBot,bgpview.io
 2a03:2880:ff01::/48,FacebookBot,bgpview.io
+2a03:2880:ff08::/47,FacebookBot,whois.radb.net
 2a03:2880:ff08::/48,FacebookBot,bgpview.io
 2a03:2880:ff09::/48,FacebookBot,bgpview.io
+2a03:2880:ff0a::/47,FacebookBot,whois.radb.net
 2a03:2880:ff0a::/48,FacebookBot,bgpview.io
 2a03:2880:ff0b::/48,FacebookBot,bgpview.io
+2a03:2880:ff0c::/47,FacebookBot,whois.radb.net
 2a03:2880:ff0c::/48,FacebookBot,bgpview.io
 2a03:2880:ff10::/47,FacebookBot,whois.radb.net
 2a03:2880:ff10::/48,FacebookBot,bgpview.io
