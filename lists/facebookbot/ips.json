@@ -285,6 +285,16 @@
     "source": "whois.radb.net"
   },
   {
+    "ip": "57.141.20.0/24",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "57.141.21.0/24",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
     "ip": "57.144.0.0/14",
     "name": "facebookbot",
     "source": "bgpview.io"
@@ -4721,6 +4731,16 @@
   },
   {
     "ip": "2a03:2880:f813::/48",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "2a03:2880:f814::/48",
+    "name": "facebookbot",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "2a03:2880:f815::/48",
     "name": "facebookbot",
     "source": "whois.radb.net"
   },
