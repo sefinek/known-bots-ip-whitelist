@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -6038,11 +6043,6 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "40.64.105.247/32",
@@ -32090,6 +32090,11 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -32833,31 +32838,6 @@
     "IP": "85.195.116.134",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
-  },
-  {
-    "IP": "85.208.96.0/22",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.96.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.97.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.98.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.99.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "87.249.137.52",
@@ -34188,6 +34168,16 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -43051,6 +43041,16 @@
   },
   {
     "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
