@@ -5660,11 +5660,6 @@
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
-    "IP": "34.94.159.140",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "34.96.162.48/28",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
@@ -5738,11 +5733,6 @@
     "IP": "34.154.114.144/28",
     "Name": "GoogleBot",
     "Source": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
-  },
-  {
-    "IP": "34.154.170.5",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "34.155.98.32/28",
@@ -32090,11 +32080,6 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -32838,6 +32823,31 @@
     "IP": "85.195.116.134",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
+  },
+  {
+    "IP": "85.208.96.0/22",
+    "Name": "Semrush",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "85.208.96.0/24",
+    "Name": "Semrush",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "85.208.97.0/24",
+    "Name": "Semrush",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "85.208.98.0/24",
+    "Name": "Semrush",
+    "Source": "whois.radb.net"
+  },
+  {
+    "IP": "85.208.99.0/24",
+    "Name": "Semrush",
+    "Source": "whois.radb.net"
   },
   {
     "IP": "87.249.137.52",
@@ -43040,7 +43050,7 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.170.94",
+    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },

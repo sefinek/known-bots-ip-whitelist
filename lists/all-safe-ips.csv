@@ -1131,7 +1131,6 @@ IP,Name,Source
 34.89.198.80/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.91.238.70,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.92.96.4,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-34.94.159.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.96.162.48/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.100.182.96/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.101.50.144/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -1147,7 +1146,6 @@ IP,Name,Source
 34.151.74.144/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.152.50.64/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.154.114.144/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
-34.154.170.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.155.98.32/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.159.56.80,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.165.18.176/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
@@ -6417,7 +6415,6 @@ IP,Name,Source
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,bgpview.io
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6567,6 +6564,11 @@ IP,Name,Source
 85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
+85.208.96.0/22,Semrush,whois.radb.net
+85.208.96.0/24,Semrush,whois.radb.net
+85.208.97.0/24,Semrush,whois.radb.net
+85.208.98.0/24,Semrush,whois.radb.net
+85.208.99.0/24,Semrush,whois.radb.net
 87.249.137.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 87.250.224.0/19,YandexBot,https://yandex.com/ips
 88.99.26.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8607,7 +8609,7 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
