@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -6386,6 +6391,11 @@
   },
   {
     "IP": "49.232.162.18",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "49.233.249.157",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -32080,11 +32090,6 @@
     "Source": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Source": "bgpview.io"
@@ -32600,6 +32605,16 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "79.127.216.101",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.216.108",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "79.127.216.111",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -32611,6 +32626,21 @@
   },
   {
     "IP": "79.127.219.198",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.226.193",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.226.194",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "79.127.226.195",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -32926,11 +32956,6 @@
   },
   {
     "IP": "89.187.169.18",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "89.187.169.26",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -34050,11 +34075,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "109.61.89.57",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "109.61.89.58",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34183,6 +34203,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -60255,11 +60280,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "212.102.43.88",
-    "Name": "Bunny CDN",
-    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "212.102.46.115",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -60526,7 +60546,7 @@
   },
   {
     "IP": "2001:470:1a6::/48",
-    "Name": "Censys",
+    "Name": "Semrush",
     "Source": "whois.radb.net"
   },
   {
