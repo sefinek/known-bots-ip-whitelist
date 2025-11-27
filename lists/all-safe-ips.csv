@@ -6417,6 +6417,7 @@ IP,Name,Source
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6841,6 +6842,7 @@ IP,Name,Source
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8614,6 +8616,7 @@ IP,Name,Source
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
+150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
