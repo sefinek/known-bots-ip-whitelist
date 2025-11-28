@@ -910,11 +910,6 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "ip": "109.61.89.58",
-    "name": "bunnycdn",
-    "source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "ip": "109.248.43.103",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
