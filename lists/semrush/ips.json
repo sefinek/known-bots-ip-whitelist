@@ -15,7 +15,42 @@
     "source": "whois.radb.net"
   },
   {
+    "ip": "85.208.96.0/22",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "85.208.96.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "85.208.97.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "85.208.98.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "85.208.99.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
     "ip": "162.142.125.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "185.170.167.0/24",
+    "name": "semrush",
+    "source": "whois.radb.net"
+  },
+  {
+    "ip": "185.191.171.0/24",
     "name": "semrush",
     "source": "whois.radb.net"
   },
