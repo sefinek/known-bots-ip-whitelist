@@ -43080,6 +43080,16 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "151.106.52.134",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
