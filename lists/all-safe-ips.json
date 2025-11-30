@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -6038,11 +6043,6 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "40.64.105.247/32",
@@ -32850,31 +32850,6 @@
     "Source": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "85.208.96.0/22",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.96.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.97.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.98.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
-    "IP": "85.208.99.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "87.249.137.52",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -43080,11 +43055,6 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -47920,11 +47890,6 @@
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
-    "IP": "185.170.167.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
-  },
-  {
     "IP": "185.180.12.65",
     "Name": "PingdomBot",
     "Source": "https://my.pingdom.com/probes/ipv4"
@@ -47943,11 +47908,6 @@
     "IP": "185.181.102.18",
     "Name": "Shodan",
     "Source": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
-  },
-  {
-    "IP": "185.191.171.0/24",
-    "Name": "Semrush",
-    "Source": "whois.radb.net"
   },
   {
     "IP": "185.246.208.82",
