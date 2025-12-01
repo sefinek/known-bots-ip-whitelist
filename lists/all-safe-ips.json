@@ -6170,11 +6170,6 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "40.64.105.247/32",
     "Name": "DuckDuckBot",
     "Source": "https://duckduckgo.com/duckduckbot.json"
@@ -43230,6 +43225,11 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -60266,6 +60266,11 @@
   },
   {
     "IP": "203.23.179.87",
+    "Name": "Bunny CDN",
+    "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "203.57.82.97",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },

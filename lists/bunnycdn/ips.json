@@ -2530,6 +2530,11 @@
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "ip": "203.57.82.97",
+    "name": "bunnycdn",
+    "source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "ip": "204.16.244.92",
     "name": "bunnycdn",
     "source": "https://api.bunny.net/system/edgeserverlist/plain"
