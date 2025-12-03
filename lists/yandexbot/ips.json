@@ -45,12 +45,7 @@
     "source": "https://yandex.com/ips"
   },
   {
-    "ip": "93.158.128.0/20",
-    "name": "yandexbot",
-    "source": "https://yandex.com/ips"
-  },
-  {
-    "ip": "93.158.144.0/20",
+    "ip": "93.158.128.0/19",
     "name": "yandexbot",
     "source": "https://yandex.com/ips"
   },

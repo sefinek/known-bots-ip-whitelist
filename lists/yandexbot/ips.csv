@@ -8,8 +8,7 @@ IP,Name,Source
 87.250.224.0/19,YandexBot,https://yandex.com/ips
 90.156.176.0/20,YandexBot,https://yandex.com/ips
 92.255.112.0/20,YandexBot,https://yandex.com/ips
-93.158.128.0/20,YandexBot,https://yandex.com/ips
-93.158.144.0/20,YandexBot,https://yandex.com/ips
+93.158.128.0/19,YandexBot,https://yandex.com/ips
 93.158.160.0/20,YandexBot,https://yandex.com/ips
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 141.8.128.0/18,YandexBot,https://yandex.com/ips
