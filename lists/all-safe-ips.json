@@ -1,5 +1,10 @@
 [
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Source": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -31026,17 +31031,17 @@
   },
   {
     "IP": "66.132.148.0/24",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
     "IP": "66.132.153.0/24",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
     "IP": "66.132.159.0/24",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
@@ -34310,6 +34315,11 @@
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "115.159.57.46",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34348,6 +34358,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Source": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.220.31.125",
+    "Name": "WebPageTest Bot",
+    "Source": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -43210,11 +43225,6 @@
     "Source": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Source": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Source": "https://www.webpagetest.org/addresses.php?f=json"
@@ -43976,7 +43986,7 @@
   },
   {
     "IP": "162.142.125.0/24",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
@@ -60271,7 +60281,7 @@
   },
   {
     "IP": "206.168.32.0/24",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
@@ -60596,7 +60606,7 @@
   },
   {
     "IP": "2001:470:1a6::/48",
-    "Name": "Semrush",
+    "Name": "Censys",
     "Source": "whois.radb.net"
   },
   {
