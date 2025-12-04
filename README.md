@@ -42,7 +42,6 @@ Lists are updated every `6 hours`.
 
 
 ## 📃 List of All IP Addresses
-A combined list of all known service IP addresses.
 
 ### » TXT
 ```text
