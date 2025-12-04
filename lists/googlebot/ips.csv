@@ -1,4 +1,4 @@
-IP,Name,Source
+IP,Name,Sources
 34.22.85.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.64.82.64/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.65.242.112/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json

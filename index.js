@@ -107,17 +107,20 @@ const processAllSources = async (base) => {
 			const dir = path.join(base, src.dir);
 			await fs.mkdir(dir, { recursive: true });
 
-			const ips = sortedRecords.map(r => r.ip);
-			const csvData = sortedRecords.map(r => ({
-				IP: r.ip,
-				Name: src.name,
-				Sources: Array.isArray(r.sources) ? r.sources.join('|') : r.source
-			}));
-			const jsonData = sortedRecords.map(r => ({
-				ip: r.ip,
-				name: src.dir,
-				sources: Array.isArray(r.sources) ? r.sources : [r.source]
-			}));
+			const ips = [];
+			const csvData = [];
+			const jsonData = [];
+
+			for (const r of sortedRecords) {
+				const sourcesArray = Array.isArray(r.sources) ? r.sources : [r.source];
+				const sourcesStr = sourcesArray.join('|');
+
+				ips.push(r.ip);
+				csvData.push({ IP: r.ip, Name: src.name, Sources: sourcesStr });
+				jsonData.push({ ip: r.ip, name: src.dir, sources: sourcesArray });
+
+				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Sources: sourcesStr });
+			}
 
 			await Promise.all([
 				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
@@ -126,11 +129,6 @@ const processAllSources = async (base) => {
 			]);
 
 			logger.info(`${src.name}: ${sortedRecords.length} IPs`);
-
-			for (const r of sortedRecords) {
-				const sources = Array.isArray(r.sources) ? r.sources.join('|') : r.source;
-				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Sources: sources });
-			}
 		} catch (err) {
 			logger.err(`Failed to process ${src.name}: ${err.message}`);
 		}

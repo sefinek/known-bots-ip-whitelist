@@ -15,16 +15,17 @@ const fetchRoutesFromHost = async (asn, host) => {
 		sock.setEncoding('utf8');
 		sock.setTimeout(30000);
 
-		const safeResolve = (data) => {
+		const safeResolve = data => {
 			if (!hasResolved) {
 				hasResolved = true;
 				resolve(data);
 			}
 		};
 
+		const asnClean = asn.replace(/^AS/i, '');
 		const req = host === 'whois.arin.net'
-			? `AS${asn.replace(/^AS/i, '')}\r\n`
-			: `-i origin AS${asn.replace(/^AS/i, '')}\r\n`;
+			? `AS${asnClean}\r\n`
+			: `-i origin AS${asnClean}\r\n`;
 
 		sock.on('data', chunk => {
 			buffer += chunk;
@@ -32,7 +33,6 @@ const fetchRoutesFromHost = async (asn, host) => {
 				logger.warn(`Response too large from ${host}, truncating`);
 				sock.destroy();
 				safeResolve([]);
-				return;
 			}
 		});
 
@@ -55,9 +55,7 @@ const fetchRoutesFromHost = async (asn, host) => {
 				for (const line of lines) {
 					if ((/^route6?:/i).test(line)) {
 						const ip = line.replace(/^route6?:/i, '').trim();
-						if (ip && parseIP(ip)) {
-							routes.push({ ip, source: host });
-						}
+						if (ip && parseIP(ip)) routes.push({ ip, source: host });
 					}
 				}
 				safeResolve(routes);
@@ -122,15 +120,17 @@ module.exports = async src => {
 	const ipMap = new Map();
 
 	for (const r of ripestatResults) {
-		if (!r || !r.ip) continue;
-		if (!ipMap.has(r.ip)) ipMap.set(r.ip, []);
-		ipMap.get(r.ip).push(r.source);
+		if (!r?.ip) continue;
+		const sources = ipMap.get(r.ip) || [];
+		sources.push(r.source);
+		ipMap.set(r.ip, sources);
 	}
 
 	for (const r of whoisResults) {
-		if (!r || !r.ip) continue;
-		if (!ipMap.has(r.ip)) ipMap.set(r.ip, []);
-		ipMap.get(r.ip).push(r.source);
+		if (!r?.ip) continue;
+		const sources = ipMap.get(r.ip) || [];
+		sources.push(r.source);
+		ipMap.set(r.ip, sources);
 	}
 
 	return Array.from(ipMap.entries())

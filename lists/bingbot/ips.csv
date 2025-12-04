@@ -1,4 +1,4 @@
-IP,Name,Source
+IP,Name,Sources
 13.66.139.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.66.144.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.67.10.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
