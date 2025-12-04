@@ -41,7 +41,7 @@ Lists are updated every `6 hours`.
 | **Kagi**                    | [Custom lists](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/custom/kagi.txt)                     | [TXT](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/kagi/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/kagi/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/kagi/ips.json)                                                          |
 
 
-## 📃 List of All IP Addresses
+## 📘 List of All IP Addresses
 
 ### 📄 TXT
 ```text
