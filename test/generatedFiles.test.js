@@ -25,7 +25,7 @@ const parseCsv = raw => {
 	const records = parse(raw, { columns: true, skip_empty_lines: true });
 	expect(records.length).toBeGreaterThan(0);
 	return records.map(r => {
-		expect(r).toMatchObject({ IP: expect.any(String), Name: expect.any(String), Source: expect.any(String) });
+		expect(r).toMatchObject({ IP: expect.any(String), Name: expect.any(String), Sources: expect.any(String) });
 		validateIP(r.IP);
 		return r.IP;
 	});
@@ -38,8 +38,8 @@ const parseJson = (raw, global = false) => {
 	return records.map(r => {
 		const ip = global ? r.IP : r.ip;
 		const keys = global
-			? { IP: expect.any(String), Name: expect.any(String), Source: expect.any(String) }
-			: { ip: expect.any(String), name: expect.any(String), source: expect.any(String) };
+			? { IP: expect.any(String), Name: expect.any(String), Sources: expect.any(String) }
+			: { ip: expect.any(String), name: expect.any(String), sources: expect.any(Array) };
 		expect(r).toMatchObject(keys);
 		validateIP(ip);
 		return ip;

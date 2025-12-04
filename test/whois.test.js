@@ -5,11 +5,11 @@ describe('WHOIS module', () => {
 		expect(typeof getASNPrefixes).toBe('function');
 	});
 
-	it('has retry logic for rate limiting', () => {
-		const fs = require('fs');
-		const path = require('path');
-		const whoisPath = path.join(__dirname, '../scripts/services/whois.js');
-		const content = fs.readFileSync(whoisPath, 'utf8');
+	it('integrates RIPEstat with retry logic', () => {
+		const fs = require('node:fs');
+		const path = require('node:path');
+		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
+		const content = fs.readFileSync(ripestatPath, 'utf8');
 
 		expect(content).toContain('retryCount');
 		expect(content).toContain('429');
