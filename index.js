@@ -99,7 +99,7 @@ const processAllSources = async (base) => {
 			const records = await fetchSource(src);
 
 			if (!Array.isArray(records) || !records.length) {
-				logger.warn(`No records found for ${src.name}`);
+				logger.warn(`No records found for ${src.name}, skipping file write`);
 				continue;
 			}
 
@@ -108,23 +108,31 @@ const processAllSources = async (base) => {
 			await fs.mkdir(dir, { recursive: true });
 
 			const ips = sortedRecords.map(r => r.ip);
-			await fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8');
+			const csvData = sortedRecords.map(r => ({
+				IP: r.ip,
+				Name: src.name,
+				Sources: Array.isArray(r.sources) ? r.sources.join('|') : r.source
+			}));
+			const jsonData = sortedRecords.map(r => ({
+				ip: r.ip,
+				name: src.dir,
+				sources: Array.isArray(r.sources) ? r.sources : [r.source]
+			}));
 
-			const csvData = sortedRecords.map(r => ({ IP: r.ip, Name: src.name, Source: r.source }));
-			await fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8');
-
-			const jsonData = sortedRecords.map(r => ({ ip: r.ip, name: src.dir, source: r.source }));
-			await fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8');
+			await Promise.all([
+				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
+				fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
+				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
+			]);
 
 			logger.info(`${src.name}: ${sortedRecords.length} IPs`);
 
-			// Add to global map
 			for (const r of sortedRecords) {
-				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Source: r.source });
+				const sources = Array.isArray(r.sources) ? r.sources.join('|') : r.source;
+				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Sources: sources });
 			}
 		} catch (err) {
 			logger.err(`Failed to process ${src.name}: ${err.message}`);
-			// Continue with next source instead of failing completely
 		}
 	}
 
@@ -140,7 +148,7 @@ const createGlobalLists = async (base, allMap) => {
 	await Promise.all([
 		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
 		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8'),
-		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Source'] }), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
 	]);
 
 	return globalRecs;

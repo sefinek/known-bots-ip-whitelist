@@ -2,306 +2,428 @@
   {
     "ip": "15.235.224.227/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.224.238/31",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.225.83/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.226.26/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.226.164/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.39/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.46/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.52/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.54/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.64/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.227.163/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.236.76/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "15.235.236.87/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "31.14.32.4/30",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "31.14.32.8/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "46.105.70.190/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.68.54.55/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.68.54.67/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.68.54.105/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.161.172.223/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.161.174.170/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "51.222.152.150/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "54.37.81.238/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "54.38.193.48/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "57.129.64.10/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "57.129.64.219/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "57.129.64.237/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "91.134.9.78/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "91.134.73.222/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "91.134.73.230/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "91.134.84.178/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "104.236.209.11/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "134.209.173.54/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "141.95.206.110/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "142.91.102.186/31",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.189.33/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.190.57/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.193.57/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.193.59/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.193.79/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.206.49/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.208.45/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.210.228/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.210.254/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.211.131/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.212.55/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.213.23/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.213.24/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.214.99/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.214.202/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.214.204/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.214.206/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.214.212/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.216.105/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.221.28/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "148.113.221.195/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "158.69.125.92/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "162.19.80.7/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "162.19.80.39/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "217.182.213.55/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   },
   {
     "ip": "217.182.213.59/32",
     "name": "modat",
-    "source": "https://scanner.modat.io/ipv4.txt"
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
   }
 ]
