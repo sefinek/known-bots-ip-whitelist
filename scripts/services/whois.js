@@ -104,12 +104,12 @@ const fetchFromBGPView = async (src, shouldDelay = true, retryCount = 0) => {
 			await sleep(baseDelay, randomDelay);
 		}
 
-		const response = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`, {
+		const res = await axios.get(`https://api.bgpview.io/asn/${src.asn}/prefixes`, {
 			timeout: 30000,
 			headers: { 'Accept': 'application/json' },
 		});
 
-		const { data } = response;
+		const { data } = res;
 		if (!data || data.status !== 'ok' || !data.data) {
 			logger.warn(`Invalid BGPView response for ${src.asn} (status: ${data?.status})`);
 			return [];

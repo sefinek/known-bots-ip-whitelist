@@ -7,7 +7,6 @@ describe('Axios retry logic', () => {
 
 	it('has retry configuration', () => {
 		const axios = require('axios');
-		// Axios module is complex to mock, so we just verify it's properly configured
 		expect(axios).toBeDefined();
 	});
 });

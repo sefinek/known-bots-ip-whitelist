@@ -79,8 +79,8 @@ module.exports = async source => {
 
 		case 'hosts': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			const response = await processWithTimeout(axios.get(source.url));
-			out = parseList(splitAndFilter(response.data), source.url);
+			const res = await processWithTimeout(axios.get(source.url));
+			out = parseList(splitAndFilter(res.data), source.url);
 			break;
 		}
 
@@ -90,10 +90,9 @@ module.exports = async source => {
 			const results = await Promise.allSettled(
 				source.url.map(async u => {
 					try {
-						const response = await processWithTimeout(axios.get(u));
-						const d = response.data;
-						if (typeof d === 'string') return parseList(splitAndFilter(d), u);
-						if (Array.isArray(d)) return parseList(d.map(String).map(l => l.trim()).filter(Boolean), u);
+						const { data } = await processWithTimeout(axios.get(u));
+						if (typeof data === 'string') return parseList(splitAndFilter(data), u);
+						if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
 						return [];
 					} catch (err) {
 						logger.warn(`Failed to fetch ${u}: ${err.message}`);
@@ -110,8 +109,8 @@ module.exports = async source => {
 		case 'jsonPrefixes': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const response = await processWithTimeout(axios.get(source.url));
-			const data = response.data;
+			const res = await processWithTimeout(axios.get(source.url));
+			const data = res.data;
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
 			out = parseList(
@@ -124,8 +123,7 @@ module.exports = async source => {
 		case 'jsonIps': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const response = await processWithTimeout(axios.get(source.url));
-			const data = response.data;
+			const { data } = await processWithTimeout(axios.get(source.url));
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
 			out = parseList(
@@ -138,22 +136,18 @@ module.exports = async source => {
 		case 'jsonAddresses': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const response = await processWithTimeout(axios.get(source.url));
-			const data = response.data;
+			const res = await processWithTimeout(axios.get(source.url));
+			const data = res.data;
 			if (!data || typeof data !== 'object' || !data.data) throw new Error('Invalid JSON response structure');
 
-			out = parseList(
-				Object.values(data.data).flatMap(d => d.addresses || []).filter(Boolean),
-				source.url
-			);
+			out = parseList(Object.values(data.data).flatMap(d => d.addresses || []).filter(Boolean), source.url);
 
 			break;
 		}
 		case 'mdList': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const response = await processWithTimeout(axios.get(source.url));
-			const data = response.data;
+			const { data } = await processWithTimeout(axios.get(source.url));
 			if (typeof data !== 'string') throw new Error('Expected text response for markdown');
 
 			out = parseList(
