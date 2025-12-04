@@ -3,8 +3,7 @@
     "ip": "1.7.225.0/24",
     "name": "paloaltonetworks",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
