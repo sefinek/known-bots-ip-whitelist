@@ -199,6 +199,20 @@
     ]
   },
   {
+    "ip": "130.41.254.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "130.41.255.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
     "ip": "144.125.104.0/24",
     "name": "paloaltonetworks",
     "sources": [
@@ -221,6 +235,13 @@
     ]
   },
   {
+    "ip": "144.125.199.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
     "ip": "144.125.200.0/21",
     "name": "paloaltonetworks",
     "sources": [
@@ -228,10 +249,59 @@
     ]
   },
   {
+    "ip": "144.125.200.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "144.125.201.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "144.125.202.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "144.125.203.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "144.125.204.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "144.125.205.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
     "ip": "144.125.208.0/21",
     "name": "paloaltonetworks",
     "sources": [
       "whois.radb.net"
+    ]
+  },
+  {
+    "ip": "144.125.209.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
     ]
   },
   {
@@ -346,6 +416,7 @@
     "ip": "169.224.139.0/24",
     "name": "paloaltonetworks",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },

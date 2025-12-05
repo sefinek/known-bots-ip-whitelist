@@ -6180,11 +6180,6 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "40.64.105.247/32",
     "Name": "DuckDuckBot",
     "Sources": "https://duckduckgo.com/duckduckbot.json"
@@ -34735,6 +34730,16 @@
     "Sources": "whois.radb.net"
   },
   {
+    "IP": "130.41.254.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "130.41.255.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
     "IP": "131.0.72.0/22",
     "Name": "Cloudflare",
     "Sources": "https://www.cloudflare.com/ips-v4"
@@ -40605,14 +40610,54 @@
     "Sources": "whois.radb.net"
   },
   {
+    "IP": "144.125.199.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
     "IP": "144.125.200.0/21",
     "Name": "Palo Alto Networks",
     "Sources": "whois.radb.net"
   },
   {
+    "IP": "144.125.200.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "144.125.201.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "144.125.202.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "144.125.203.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "144.125.204.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
+    "IP": "144.125.205.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
+  },
+  {
     "IP": "144.125.208.0/21",
     "Name": "Palo Alto Networks",
     "Sources": "whois.radb.net"
+  },
+  {
+    "IP": "144.125.209.0/24",
+    "Name": "Palo Alto Networks",
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "144.126.251.21",
@@ -43398,6 +43443,11 @@
     "IP": "149.154.160.0/20",
     "Name": "TelegramBot",
     "Sources": "https://core.telegram.org/resources/cidr.txt"
+  },
+  {
+    "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "150.109.181.129",
@@ -47407,7 +47457,7 @@
   {
     "IP": "169.224.139.0/24",
     "Name": "Palo Alto Networks",
-    "Sources": "whois.radb.net"
+    "Sources": "stat.ripe.net|whois.radb.net"
   },
   {
     "IP": "170.64.250.64",
