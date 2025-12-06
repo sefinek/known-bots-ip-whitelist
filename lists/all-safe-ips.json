@@ -30892,7 +30892,7 @@
   {
     "IP": "57.144.232.0/23",
     "Name": "FacebookBot",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "whois.radb.net"
   },
   {
     "IP": "57.144.234.0/23",
@@ -32360,6 +32360,11 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -33158,6 +33163,11 @@
     "IP": "85.208.99.0/24",
     "Name": "Semrush",
     "Sources": "stat.ripe.net|whois.radb.net"
+  },
+  {
+    "IP": "85.217.140.0/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "87.249.137.52",
@@ -43445,17 +43455,7 @@
     "Sources": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.172.224",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.181.129",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.158.3.127",
+    "IP": "150.109.170.94",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -67252,7 +67252,7 @@
   {
     "IP": "2a03:2880:f374::/48",
     "Name": "FacebookBot",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "whois.radb.net"
   },
   {
     "IP": "2a03:2880:f375::/48",

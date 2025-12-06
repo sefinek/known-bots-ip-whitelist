@@ -189,6 +189,13 @@
     ]
   },
   {
+    "ip": "74.62.157.137",
+    "name": "webpagetestbot",
+    "sources": [
+      "https://www.webpagetest.org/addresses.php?f=json"
+    ]
+  },
+  {
     "ip": "101.43.149.237",
     "name": "webpagetestbot",
     "sources": [
@@ -217,21 +224,7 @@
     ]
   },
   {
-    "ip": "150.109.172.224",
-    "name": "webpagetestbot",
-    "sources": [
-      "https://www.webpagetest.org/addresses.php?f=json"
-    ]
-  },
-  {
-    "ip": "150.109.181.129",
-    "name": "webpagetestbot",
-    "sources": [
-      "https://www.webpagetest.org/addresses.php?f=json"
-    ]
-  },
-  {
-    "ip": "150.158.3.127",
+    "ip": "150.109.170.94",
     "name": "webpagetestbot",
     "sources": [
       "https://www.webpagetest.org/addresses.php?f=json"
