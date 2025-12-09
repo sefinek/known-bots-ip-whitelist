@@ -32360,6 +32360,11 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "74.62.157.137",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -33160,22 +33165,27 @@
     "Sources": "stat.ripe.net|whois.radb.net"
   },
   {
-    "IP": "85.217.140.0/30",
+    "IP": "85.217.140.0/28",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "85.217.140.4/32",
+    "IP": "85.217.140.16/31",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "85.217.149.0/30",
+    "IP": "85.217.149.0/28",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "85.217.149.4/32",
+    "IP": "85.217.149.16/29",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "85.217.149.24/30",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
@@ -34513,11 +34523,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -60840,12 +60845,22 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "212.73.148.0/29",
+    "IP": "212.73.148.0/28",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "212.73.148.8/32",
+    "IP": "212.73.148.16/30",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "212.73.148.20/31",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "212.73.148.22/32",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },

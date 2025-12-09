@@ -26,10 +26,11 @@ IP,Name,Sources
 57.129.64.10/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 57.129.64.219/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 57.129.64.237/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.0/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 91.134.9.78/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 91.134.73.222/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 91.134.73.230/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -62,7 +63,9 @@ IP,Name,Sources
 158.69.125.92/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 162.19.80.7/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 162.19.80.39/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.0/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.20/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.22/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 217.182.213.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 217.182.213.59/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
