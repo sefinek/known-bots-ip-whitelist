@@ -28,6 +28,41 @@
     ]
   },
   {
+    "ip": "4.201.125.59/32",
+    "name": "duckduckbot",
+    "sources": [
+      "https://duckduckgo.com/duckduckbot.json"
+    ]
+  },
+  {
+    "ip": "4.201.141.71/32",
+    "name": "duckduckbot",
+    "sources": [
+      "https://duckduckgo.com/duckduckbot.json"
+    ]
+  },
+  {
+    "ip": "4.201.197.203/32",
+    "name": "duckduckbot",
+    "sources": [
+      "https://duckduckgo.com/duckduckbot.json"
+    ]
+  },
+  {
+    "ip": "4.201.206.133/32",
+    "name": "duckduckbot",
+    "sources": [
+      "https://duckduckgo.com/duckduckbot.json"
+    ]
+  },
+  {
+    "ip": "4.201.220.8/32",
+    "name": "duckduckbot",
+    "sources": [
+      "https://duckduckgo.com/duckduckbot.json"
+    ]
+  },
+  {
     "ip": "4.207.220.92/32",
     "name": "duckduckbot",
     "sources": [
