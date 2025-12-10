@@ -1207,6 +1207,7 @@
     "ip": "57.144.200.0/23",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -6778,6 +6779,7 @@
     "ip": "2a03:2880:f364::/48",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
