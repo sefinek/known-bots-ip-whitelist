@@ -42,6 +42,7 @@ IP,Name,Sources
 5.9.71.119,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.98.45,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.99.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+5.9.144.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.39.1.224,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 5.39.1.225,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 5.39.1.226,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -1240,6 +1241,7 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.13.61,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1387,6 +1389,7 @@ IP,Name,Sources
 51.75.236.157,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.75.236.158,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.75.236.159,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+51.83.172.163,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 51.89.129.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.89.129.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.89.129.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6511,6 +6514,7 @@ IP,Name,Sources
 74.125.216.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+74.125.216.96/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.128/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.160/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.216.192/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6645,6 +6649,7 @@ IP,Name,Sources
 87.250.224.0/19,YandexBot,https://yandex.com/ips
 88.99.26.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.26.189,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+88.99.63.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.80.227,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 88.99.95.221,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.198.9.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6792,6 +6797,7 @@ IP,Name,Sources
 94.102.49.193,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 94.128.254.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.68.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+94.130.204.110,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6908,7 +6914,6 @@ IP,Name,Sources
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7028,6 +7033,7 @@ IP,Name,Sources
 138.199.46.67,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.46.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.46.69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+138.201.20.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.201.86.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.59.50.44,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 139.99.174.7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8695,6 +8701,7 @@ IP,Name,Sources
 148.251.41.244,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.129.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+148.251.129.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12373,6 +12380,7 @@ IP,Name,Sources
 2001:4860:4801:200c::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:200d::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2010::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
+2001:4860:4801:2011::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2012::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2013::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 2001:4860:4801:2014::/64,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json

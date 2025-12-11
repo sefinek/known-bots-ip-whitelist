@@ -215,6 +215,11 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "5.9.144.178",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "5.39.1.224",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
@@ -6205,6 +6210,11 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "39.104.13.61",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "40.64.105.247/32",
     "Name": "DuckDuckBot",
     "Sources": "https://duckduckgo.com/duckduckbot.json"
@@ -6938,6 +6948,11 @@
     "IP": "51.75.236.159",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
+  },
+  {
+    "IP": "51.83.172.163",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
     "IP": "51.89.129.0",
@@ -32560,6 +32575,11 @@
     "Sources": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
   {
+    "IP": "74.125.216.96/27",
+    "Name": "Google Special Crawlers",
+    "Sources": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
     "IP": "74.125.216.128/27",
     "Name": "Google Special Crawlers",
     "Sources": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
@@ -33226,6 +33246,11 @@
   },
   {
     "IP": "88.99.26.189",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "88.99.63.113",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -33965,6 +33990,11 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
+    "IP": "94.130.204.110",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
     "IP": "94.247.174.83",
     "Name": "PingdomBot",
     "Sources": "https://my.pingdom.com/probes/ipv4"
@@ -34543,11 +34573,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -35141,6 +35166,11 @@
   },
   {
     "IP": "138.199.46.69",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "138.201.20.168",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -43476,6 +43506,11 @@
   },
   {
     "IP": "148.251.129.132",
+    "Name": "Bunny CDN",
+    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "148.251.129.217",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
@@ -61866,6 +61901,11 @@
   },
   {
     "IP": "2001:4860:4801:2010::/64",
+    "Name": "Google Special Crawlers",
+    "Sources": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
+  },
+  {
+    "IP": "2001:4860:4801:2011::/64",
     "Name": "Google Special Crawlers",
     "Sources": "https://developers.google.com/search/apis/ipranges/special-crawlers.json"
   },
