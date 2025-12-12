@@ -952,13 +952,6 @@
     ]
   },
   {
-    "ip": "93.189.63.149",
-    "name": "bunnycdn",
-    "sources": [
-      "https://api.bunny.net/system/edgeserverlist/plain"
-    ]
-  },
-  {
     "ip": "94.20.154.22",
     "name": "bunnycdn",
     "sources": [
