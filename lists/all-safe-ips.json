@@ -31107,17 +31107,17 @@
   {
     "IP": "66.132.148.0/24",
     "Name": "Censys",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "66.132.153.0/24",
     "Name": "Censys",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "66.132.159.0/24",
     "Name": "Censys",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "66.165.229.130",
@@ -32398,11 +32398,6 @@
     "IP": "74.7.244.0",
     "Name": "OpenAI",
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
-  },
-  {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "74.119.76.0/22",
@@ -34578,6 +34573,11 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "124.156.244.42",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -43550,6 +43550,16 @@
     "Sources": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
@@ -44322,7 +44332,7 @@
   {
     "IP": "162.142.125.0/24",
     "Name": "Censys",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "162.158.0.0/15",
@@ -60737,7 +60747,7 @@
   {
     "IP": "206.168.32.0/24",
     "Name": "Censys",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "206.168.33.0/24",
@@ -61106,7 +61116,7 @@
   },
   {
     "IP": "2001:470:1a6::/48",
-    "Name": "Censys",
+    "Name": "Semrush",
     "Sources": "whois.radb.net"
   },
   {
