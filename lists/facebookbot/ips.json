@@ -1619,6 +1619,7 @@
     "ip": "129.134.26.0/23",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -1642,6 +1643,7 @@
     "ip": "129.134.28.0/23",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -7207,6 +7209,7 @@
     "ip": "2a03:2880:ff0a::/47",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },

@@ -42,6 +42,7 @@ IP,Name,Sources
 144.125.205.0/24,Palo Alto Networks,stat.ripe.net
 144.125.208.0/21,Palo Alto Networks,whois.radb.net
 144.125.209.0/24,Palo Alto Networks,stat.ripe.net
+144.125.230.0/23,Palo Alto Networks,whois.radb.net
 147.185.136.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 154.59.123.0/24,Palo Alto Networks,stat.ripe.net
 154.59.126.0/24,Palo Alto Networks,stat.ripe.net

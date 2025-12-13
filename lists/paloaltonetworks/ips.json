@@ -305,6 +305,13 @@
     ]
   },
   {
+    "ip": "144.125.230.0/23",
+    "name": "paloaltonetworks",
+    "sources": [
+      "whois.radb.net"
+    ]
+  },
+  {
     "ip": "147.185.136.0/24",
     "name": "paloaltonetworks",
     "sources": [
