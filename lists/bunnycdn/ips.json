@@ -3304,6 +3304,13 @@
     ]
   },
   {
+    "ip": "185.152.66.247",
+    "name": "bunnycdn",
+    "sources": [
+      "https://api.bunny.net/system/edgeserverlist/plain"
+    ]
+  },
+  {
     "ip": "185.165.170.74",
     "name": "bunnycdn",
     "sources": [
@@ -5608,6 +5615,13 @@
   },
   {
     "ip": "2a02:6ea0:c113:2::911:1",
+    "name": "bunnycdn",
+    "sources": [
+      "https://api.bunny.net/system/edgeserverlist/ipv6"
+    ]
+  },
+  {
+    "ip": "2a02:6ea0:c113:2::1364:1",
     "name": "bunnycdn",
     "sources": [
       "https://api.bunny.net/system/edgeserverlist/ipv6"
