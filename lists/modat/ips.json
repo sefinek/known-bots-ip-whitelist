@@ -91,6 +91,20 @@
     ]
   },
   {
+    "ip": "23.106.54.151/32",
+    "name": "modat",
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
+  },
+  {
+    "ip": "23.106.244.195/32",
+    "name": "modat",
+    "sources": [
+      "https://scanner.modat.io/ipv4.txt"
+    ]
+  },
+  {
     "ip": "31.14.32.4/30",
     "name": "modat",
     "sources": [

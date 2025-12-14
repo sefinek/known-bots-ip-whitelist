@@ -5550,6 +5550,16 @@
     "Sources": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "23.106.54.151/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "23.106.244.195/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
     "IP": "23.111.152.74",
     "Name": "PingdomBot",
     "Sources": "https://my.pingdom.com/probes/ipv4"
@@ -32400,11 +32410,6 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -34578,16 +34583,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "124.220.31.125",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -43556,6 +43551,11 @@
   },
   {
     "IP": "150.109.172.224",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
