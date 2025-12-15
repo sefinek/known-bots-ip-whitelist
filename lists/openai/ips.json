@@ -595,6 +595,13 @@
     ]
   },
   {
+    "ip": "20.227.140.32",
+    "name": "openai",
+    "sources": [
+      "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
+    ]
+  },
+  {
     "ip": "20.228.106.176",
     "name": "openai",
     "sources": [
