@@ -5,11 +5,6 @@
     "Sources": "stat.ripe.net|whois.radb.net"
   },
   {
-    "IP": "1.117.61.116",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -4595,71 +4590,6 @@
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
-    "IP": "15.235.224.227/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.224.238/31",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.225.83/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.226.26/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.226.164/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.39/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.46/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.52/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.54/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.64/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.227.163/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.236.76/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "15.235.236.87/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "18.116.205.62",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -5553,11 +5483,6 @@
     "IP": "23.106.37.99",
     "Name": "PingdomBot",
     "Sources": "https://my.pingdom.com/probes/ipv4"
-  },
-  {
-    "IP": "23.106.54.151/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "23.106.244.195/32",
@@ -6505,11 +6430,6 @@
     "Sources": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "46.105.70.190/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "46.151.193.85",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -6628,21 +6548,6 @@
     "IP": "51.8.253.152/32",
     "Name": "DuckDuckBot",
     "Sources": "https://duckduckgo.com/duckduckbot.json"
-  },
-  {
-    "IP": "51.68.54.55/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "51.68.54.67/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "51.68.54.105/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "51.68.247.192",
@@ -16103,11 +16008,6 @@
     "IP": "51.222.95.255",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
-  },
-  {
-    "IP": "51.222.152.150/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "51.222.168.0",
@@ -32415,11 +32315,6 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -33205,29 +33100,19 @@
     "Sources": "https://my.pingdom.com/probes/ipv4"
   },
   {
-    "IP": "85.208.96.0/22",
-    "Name": "Semrush",
-    "Sources": "whois.radb.net"
-  },
-  {
     "IP": "85.208.96.0/24",
     "Name": "Semrush",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "85.208.97.0/24",
     "Name": "Semrush",
-    "Sources": "stat.ripe.net|whois.radb.net"
-  },
-  {
-    "IP": "85.208.98.0/24",
-    "Name": "Semrush",
-    "Sources": "whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "85.208.99.0/24",
     "Name": "Semrush",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "85.217.140.0/28",
@@ -33443,26 +33328,6 @@
     "IP": "91.108.56.0/22",
     "Name": "TelegramBot",
     "Sources": "https://core.telegram.org/resources/cidr.txt"
-  },
-  {
-    "IP": "91.134.9.78/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "91.134.73.222/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "91.134.73.230/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "91.134.84.178/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "92.222.104.192",
@@ -34280,11 +34145,6 @@
     "Sources": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
   },
   {
-    "IP": "104.236.209.11/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "104.237.51.58",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34550,11 +34410,6 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "115.159.57.46",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "116.202.80.29",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -34593,16 +34448,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "124.220.31.125",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "128.1.35.170",
@@ -34873,11 +34718,6 @@
     "IP": "134.209.95.237",
     "Name": "Shodan",
     "Sources": "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt"
-  },
-  {
-    "IP": "134.209.173.54/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "135.119.134.128",
@@ -35273,11 +35113,6 @@
     "IP": "141.8.128.0/18",
     "Name": "YandexBot",
     "Sources": "https://yandex.com/ips"
-  },
-  {
-    "IP": "141.95.206.110/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "141.101.64.0/18",
@@ -43420,114 +43255,9 @@
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
-    "IP": "148.113.189.33/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.190.57/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "148.113.190.161",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "148.113.193.57/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.193.59/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.193.79/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.206.49/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.208.45/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.210.228/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.210.254/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.211.131/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.212.55/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.213.23/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.213.24/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.214.99/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.214.202/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.214.204/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.214.206/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.214.212/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.216.105/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.221.28/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "148.113.221.195/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "148.251.41.244",
@@ -43570,12 +43300,7 @@
     "Sources": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.181.129",
+    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -44295,11 +44020,6 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "158.69.125.92/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "159.69.57.80",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -44333,16 +44053,6 @@
     "IP": "161.35.247.201",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
-  },
-  {
-    "IP": "162.19.80.7/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "162.19.80.39/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "162.55.135.11",
@@ -48502,7 +48212,7 @@
   {
     "IP": "185.170.167.0/24",
     "Name": "Semrush",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "185.180.12.65",
@@ -48527,7 +48237,7 @@
   {
     "IP": "185.191.171.0/24",
     "Name": "Semrush",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "185.246.208.82",
@@ -61128,16 +60838,6 @@
     "IP": "216.245.221.83",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
-  },
-  {
-    "IP": "217.182.213.55/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "217.182.213.59/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "2001:470:1a6::/48",
