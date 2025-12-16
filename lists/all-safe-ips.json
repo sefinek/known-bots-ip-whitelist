@@ -5490,6 +5490,11 @@
     "Sources": "https://my.pingdom.com/probes/ipv4"
   },
   {
+    "IP": "23.106.54.151/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
     "IP": "23.106.244.195/32",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
@@ -6158,6 +6163,11 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "39.104.13.61",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "40.64.105.247/32",
@@ -43330,6 +43340,11 @@
     "Sources": "https://core.telegram.org/resources/cidr.txt"
   },
   {
+    "IP": "150.109.170.94",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
@@ -47160,16 +47175,6 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "169.150.236.104",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "169.150.236.105",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
     "IP": "169.150.236.106",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
@@ -48208,11 +48213,6 @@
     "IP": "185.152.65.167",
     "Name": "PingdomBot",
     "Sources": "https://my.pingdom.com/probes/ipv4"
-  },
-  {
-    "IP": "185.152.66.243",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
     "IP": "185.152.66.247",
@@ -62780,16 +62780,6 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
-    "IP": "2400:52e0:1a00::1206:2",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
-    "IP": "2400:52e0:1a00::1207:2",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
-  },
-  {
     "IP": "2400:52e0:1a00::1232:1",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -64538,11 +64528,6 @@
     "IP": "2a02:5740:24:14::4073",
     "Name": "PingdomBot",
     "Sources": "https://my.pingdom.com/probes/ipv6"
-  },
-  {
-    "IP": "2a02:6ea0:c113:2::911:1",
-    "Name": "Bunny CDN",
-    "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
   },
   {
     "IP": "2a02:6ea0:c113:2::1364:1",
