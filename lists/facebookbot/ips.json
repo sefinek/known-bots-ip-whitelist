@@ -7233,6 +7233,7 @@
     "ip": "2a03:2880:ff0c::/47",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
