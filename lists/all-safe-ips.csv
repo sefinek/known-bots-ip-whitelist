@@ -1140,7 +1140,6 @@ IP,Name,Sources
 31.13.95.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 31.13.96.0/19,FacebookBot,stat.ripe.net|whois.radb.net
 31.14.32.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-31.14.32.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 34.21.9.50,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.22.85.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.39.131.22,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -2177,8 +2176,6 @@ IP,Name,Sources
 51.161.65.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.161.65.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.161.65.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-51.161.172.223/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-51.161.174.170/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 51.195.183.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.195.183.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.195.183.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4189,7 +4186,6 @@ IP,Name,Sources
 54.36.149.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.36.149.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.36.149.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-54.37.81.238/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 54.37.118.64,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.37.118.65,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.37.118.66,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4478,7 +4474,6 @@ IP,Name,Sources
 54.38.147.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.38.147.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.38.147.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-54.38.193.48/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 54.39.0.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.39.0.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 54.39.0.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6028,9 +6023,6 @@ IP,Name,Sources
 54.187.205.235,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 54.187.216.72,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 54.249.170.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-57.129.64.10/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-57.129.64.219/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-57.129.64.237/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 57.141.0.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 57.141.1.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 57.141.2.0/24,FacebookBot,stat.ripe.net|whois.radb.net
@@ -6895,7 +6887,6 @@ IP,Name,Sources
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8668,7 +8659,6 @@ IP,Name,Sources
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt

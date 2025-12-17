@@ -5705,11 +5705,6 @@
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "31.14.32.8/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "34.21.9.50",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
@@ -10888,16 +10883,6 @@
     "IP": "51.161.65.255",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
-  },
-  {
-    "IP": "51.161.172.223/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "51.161.174.170/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "51.195.183.0",
@@ -20950,11 +20935,6 @@
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
   },
   {
-    "IP": "54.37.81.238/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "54.37.118.64",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
@@ -22393,11 +22373,6 @@
     "IP": "54.38.147.255",
     "Name": "AhrefsBot",
     "Sources": "https://api.ahrefs.com/v3/public/crawler-ips"
-  },
-  {
-    "IP": "54.38.193.48/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
     "IP": "54.39.0.0",
@@ -30145,21 +30120,6 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
-    "IP": "57.129.64.10/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "57.129.64.219/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "57.129.64.237/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
     "IP": "57.141.0.0/24",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -34478,11 +34438,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -43341,11 +43296,6 @@
   },
   {
     "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.172.224",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
