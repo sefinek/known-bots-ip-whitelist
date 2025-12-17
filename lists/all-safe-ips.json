@@ -565,6 +565,11 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "5.161.90.230",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "5.161.113.195",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -573,6 +578,11 @@
     "IP": "5.161.117.52",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "5.161.118.194",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "5.161.177.47",
@@ -605,9 +615,29 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "5.223.56.56",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "5.223.57.22",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "5.223.60.188",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "5.223.73.226",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "5.223.75.121",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "5.255.192.0/18",
@@ -6393,6 +6423,11 @@
     "IP": "45.64.40.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
+  },
+  {
+    "IP": "45.79.236.121",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "45.125.247.57",
@@ -32285,11 +32320,6 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
-    "IP": "74.62.157.137",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "74.119.76.0/22",
     "Name": "FacebookBot",
     "Sources": "stat.ripe.net|whois.radb.net"
@@ -33270,9 +33300,19 @@
     "Sources": "https://yandex.com/ips"
   },
   {
+    "IP": "91.98.38.26",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "91.99.101.207",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "91.99.189.210",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "91.105.192.0/23",
@@ -43295,11 +43335,6 @@
     "Sources": "https://core.telegram.org/resources/cidr.txt"
   },
   {
-    "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
     "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
@@ -44053,6 +44088,11 @@
     "IP": "162.55.135.11",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "162.55.165.86",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "162.142.125.0/24",
@@ -46940,6 +46980,11 @@
     "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "168.119.246.194",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "168.119.254.124",
     "Name": "RSS API",
     "Sources": "https://rssapi.net/ips.txt"
@@ -47301,6 +47346,11 @@
   },
   {
     "IP": "172.104.181.25",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "172.105.162.156",
     "Name": "BetterStack",
     "Sources": "https://uptime.betterstack.com/ips.txt"
   },
@@ -47725,6 +47775,11 @@
     "Sources": "https://yandex.com/ips"
   },
   {
+    "IP": "178.156.154.250",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "178.156.181.172",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -47758,6 +47813,11 @@
     "IP": "178.156.189.249",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "178.156.217.188",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "178.162.206.244",
@@ -48345,6 +48405,11 @@
     "Sources": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt"
   },
   {
+    "IP": "192.53.169.77",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "192.155.95.211",
     "Name": "BetterStack",
     "Sources": "https://uptime.betterstack.com/ips.txt"
@@ -48543,6 +48608,11 @@
     "IP": "193.201.190.174",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
+  },
+  {
+    "IP": "194.195.248.157",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "194.195.253.108",
@@ -63460,6 +63530,26 @@
     "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "2400:8907::2000:2eff:fed6:8631",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2400:8907::2000:6fff:fe13:8fcc",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2400:8907::2000:d5ff:fecf:a8d3",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2400:8907::2000:f7ff:fe54:8db9",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2400:8907::f03c:94ff:fe4f:7d0b",
     "Name": "BetterStack",
     "Sources": "https://uptime.betterstack.com/ips.txt"
@@ -64265,6 +64355,11 @@
     "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
+    "IP": "2a01:4f8:c012:856d::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2a01:4f8:c012:8a9f::1",
     "Name": "BetterStack",
     "Sources": "https://uptime.betterstack.com/ips.txt"
@@ -64283,6 +64378,11 @@
     "IP": "2a01:4f8:c013:34c0::1",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "2a01:4f8:c013:3a76::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "2a01:4f8:c013:3b0f::1",
@@ -64315,6 +64415,16 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "2a01:4f8:c014:24d5::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2a01:4f8:c014:2649::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2a01:4f9:3070:3934::2",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/ipv6"
@@ -64335,6 +64445,16 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "2a01:4ff:f0:4f11::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2a01:4ff:f0:5a81::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2a01:4ff:f0:5f80::1",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -64348,6 +64468,11 @@
     "IP": "2a01:4ff:f0:9c5f::1",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "2a01:4ff:f0:abcd::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "2a01:4ff:f0:b2f2::1",
@@ -64385,6 +64510,11 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "2a01:4ff:f0:eec4::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2a01:4ff:f0:efd1::1",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -64400,9 +64530,29 @@
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
   },
   {
+    "IP": "2a01:4ff:2f0:1c39::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2a01:4ff:2f0:1f88::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
+    "IP": "2a01:4ff:2f0:258a::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
+  },
+  {
     "IP": "2a01:4ff:2f0:27de::1",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
+  },
+  {
+    "IP": "2a01:4ff:2f0:3b17::1",
+    "Name": "BetterStack",
+    "Sources": "https://uptime.betterstack.com/ips.txt"
   },
   {
     "IP": "2a01:4ff:2f0:3b3a::1",
