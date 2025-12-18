@@ -37,6 +37,7 @@ const sources = [
 	{ name: 'WebPageTest Bot', dir: 'webpagetestbot', url: 'https://www.webpagetest.org/addresses.php?f=json', type: 'jsonAddresses' },
 	{ name: 'YandexBot', dir: 'yandexbot', type: 'yandex' },
 	{ name: 'Kagi', dir: 'kagi', file: 'kagi.txt', type: 'file' },
+	{ name: 'NASK PL', dir: 'nask', analyzeKeywords: false, asn: 'AS8308', type: 'whois' },
 ];
 
 const runTests = () => {

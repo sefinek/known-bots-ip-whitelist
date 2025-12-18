@@ -1,6 +1,6 @@
 {
   "name": "known-bots-ip-whitelist",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/sefinek/known-bots-ip-whitelist#readme",
   "bugs": {
     "url": "https://github.com/sefinek/known-bots-ip-whitelist/issues"
@@ -20,16 +20,16 @@
   "dependencies": {
     "axios": "^1.13.2",
     "cheerio": "^1.1.2",
-    "cron": "^4.3.5",
+    "cron": "^4.4.0",
     "csv-stringify": "^6.6.0",
     "ipaddr.js": "^2.3.0",
-    "puppeteer": "^24.32.0",
+    "puppeteer": "^24.33.1",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "simple-git": "^3.30.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^9.39.2",
     "csv-parse": "^6.1.0",
     "globals": "^16.5.0",
     "jest": "^30.2.0"
