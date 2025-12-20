@@ -415,6 +415,7 @@
     "ip": "57.141.16.0/24",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -422,6 +423,7 @@
     "ip": "57.141.17.0/24",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -7120,6 +7122,7 @@
     "ip": "2a03:2880:f810::/48",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },
@@ -7127,6 +7130,7 @@
     "ip": "2a03:2880:f811::/48",
     "name": "facebookbot",
     "sources": [
+      "stat.ripe.net",
       "whois.radb.net"
     ]
   },

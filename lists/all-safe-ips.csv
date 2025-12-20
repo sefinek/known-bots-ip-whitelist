@@ -6050,8 +6050,8 @@ IP,Name,Sources
 57.141.13.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 57.141.14.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 57.141.15.0/24,FacebookBot,stat.ripe.net|whois.radb.net
-57.141.16.0/24,FacebookBot,whois.radb.net
-57.141.17.0/24,FacebookBot,whois.radb.net
+57.141.16.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+57.141.17.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 57.141.18.0/24,FacebookBot,whois.radb.net
 57.141.19.0/24,FacebookBot,whois.radb.net
 57.141.20.0/24,FacebookBot,whois.radb.net
@@ -6898,6 +6898,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6906,6 +6907,7 @@ IP,Name,Sources
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8677,6 +8679,7 @@ IP,Name,Sources
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
+150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -14118,8 +14121,8 @@ IP,Name,Sources
 2a03:2880:f80d::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f80e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f80f::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f810::/48,FacebookBot,whois.radb.net
-2a03:2880:f811::/48,FacebookBot,whois.radb.net
+2a03:2880:f810::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f811::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f812::/48,FacebookBot,whois.radb.net
 2a03:2880:f813::/48,FacebookBot,whois.radb.net
 2a03:2880:f814::/48,FacebookBot,whois.radb.net
