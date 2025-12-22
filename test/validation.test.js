@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const { validateCommandArgs, validateUrl, validateSource } = require('../scripts/utils/validation.js');
 const { SecurityError, ValidationError } = require('../scripts/utils/errors.js');
 

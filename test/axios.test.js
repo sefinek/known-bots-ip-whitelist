@@ -1,3 +1,5 @@
+const { describe, it, expect } = require('@jest/globals');
+
 describe('Axios retry logic', () => {
 	it('validates retry logic exists', () => {
 		const axiosModule = require('../scripts/services/axios.js');

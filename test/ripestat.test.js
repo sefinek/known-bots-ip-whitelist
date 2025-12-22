@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const fetchFromRIPEstat = require('../scripts/services/ripestat.js');
 
 describe('RIPEstat module', () => {

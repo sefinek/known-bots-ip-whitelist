@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const ipaddr = require('ipaddr.js');

@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const { compareIPs, parseIP } = require('../scripts/ipUtils.js');
 
 describe('parseIP', () => {

@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const { ValidationError, NetworkError, SecurityError, TimeoutError } = require('../scripts/utils/errors.js');
 
 describe('Custom Error Classes', () => {

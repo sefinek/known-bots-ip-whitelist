@@ -1,3 +1,4 @@
+const { describe, it, expect } = require('@jest/globals');
 const getASNPrefixes = require('../scripts/services/whois.js');
 
 describe('WHOIS module', () => {

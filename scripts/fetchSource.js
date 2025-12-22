@@ -8,7 +8,7 @@ const logger = require('./utils/logger.js');
 const { NetworkError, TimeoutError } = require('./utils/errors.js');
 const { validateSource } = require('./utils/validation.js');
 
-const isValidIP = (ip) => {
+const isValidIP = ip => {
 	try {
 		if (ip.includes('/')) {
 			ipaddr.parseCIDR(ip);
@@ -71,8 +71,8 @@ module.exports = async source => {
 				const data = await fs.readFile(filePath, 'utf8');
 				const sourceUrl = `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${source.file}`;
 				out = parseList(splitAndFilter(data), sourceUrl);
-			} catch (fileErr) {
-				throw new Error(`Failed to read file ${source.file}: ${fileErr.message}`);
+			} catch (err) {
+				throw new Error(`Failed to read file ${source.file}: ${err.message}`);
 			}
 			break;
 		}
