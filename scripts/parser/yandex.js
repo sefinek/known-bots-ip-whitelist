@@ -109,4 +109,8 @@ const getYandexIPs = async () => {
 
 module.exports = getYandexIPs;
 
-if (require.main === module) getYandexIPs().then(console.log).catch(console.error);
+if (require.main === module) {
+	getYandexIPs()
+		.then(data => logger.success(`Yandex data: ${JSON.stringify(data, null, 2)}`))
+		.catch(err => logger.err(err));
+}

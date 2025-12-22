@@ -73,8 +73,8 @@ const runTests = () => {
 			const fail = code !== 0 || stdout.includes('FAIL') || stderr.includes('FAIL');
 			if (fail) {
 				logger.err(`Tests failed with exit code ${code}`);
-				if (stdout.trim()) console.log(stdout.trim());
-				if (stderr.trim()) console.error(stderr.trim());
+				if (stdout.trim()) logger.info(stdout.trim());
+				if (stderr.trim()) logger.err(stderr.trim());
 				reject(new Error(`Tests failed with exit code ${code}`));
 			} else {
 				logger.success('Tests passed successfully');

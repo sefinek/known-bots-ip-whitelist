@@ -1,3 +1,5 @@
+const logger = require('./logger.js');
+
 class RateLimiter {
 	constructor(maxConcurrent = 3, delayMs = 1000) {
 		if (maxConcurrent <= 0 || delayMs < 0) throw new Error('Invalid rate limiter configuration');
@@ -66,14 +68,14 @@ module.exports = RateLimiter;
 
 if (require.main === module) {
 	const limiter = new RateLimiter(2, 1000);
-	console.log('Rate limiter test started');
+	logger.info('Rate limiter test started');
 
 	Promise.all([
 		limiter.execute(() => Promise.resolve('test1')),
 		limiter.execute(() => Promise.resolve('test2')),
 		limiter.execute(() => Promise.resolve('test3')),
 	]).then(results => {
-		console.log('Results:', results);
-		console.log('Stats:', limiter.getStats());
-	}).catch(console.error);
+		logger.success(`Results: ${JSON.stringify(results)}`);
+		logger.info(`Stats: ${JSON.stringify(limiter.getStats())}`);
+	}).catch(err => logger.err(err));
 }
