@@ -27,7 +27,6 @@
     "name": "Censys",
     "dir": "censys",
     "keywords": ["censys", "censy"],
-    "analyzeKeywords": true,
     "acceptNullable": true,
     "asn": "AS398324",
     "type": "whois"
@@ -48,7 +47,6 @@
     "name": "FacebookBot",
     "dir": "facebookbot",
     "keywords": ["meta", "fb", "facebook"],
-    "analyzeKeywords": true,
     "acceptNullable": true,
     "asn": "AS32934",
     "type": "whois"
@@ -94,7 +92,6 @@
     "name": "Palo Alto Networks",
     "dir": "paloaltonetworks",
     "keywords": ["paloalto", "palo alto"],
-    "analyzeKeywords": true,
     "acceptNullable": true,
     "asn": ["AS2763", "AS54538", "AS64280", "AS396421"],
     "type": "whois",
