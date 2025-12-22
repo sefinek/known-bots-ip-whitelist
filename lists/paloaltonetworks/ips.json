@@ -8,6 +8,20 @@
     ]
   },
   {
+    "ip": "35.203.210.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt"
+    ]
+  },
+  {
+    "ip": "35.203.211.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt"
+    ]
+  },
+  {
     "ip": "64.74.133.224/27",
     "name": "paloaltonetworks",
     "sources": [
@@ -312,6 +326,13 @@
     ]
   },
   {
+    "ip": "147.185.132.0/22",
+    "name": "paloaltonetworks",
+    "sources": [
+      "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt"
+    ]
+  },
+  {
     "ip": "147.185.136.0/24",
     "name": "paloaltonetworks",
     "sources": [
@@ -331,6 +352,13 @@
     "name": "paloaltonetworks",
     "sources": [
       "stat.ripe.net"
+    ]
+  },
+  {
+    "ip": "162.216.150.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt"
     ]
   },
   {

@@ -6,8 +6,10 @@ const { spawn } = require('node:child_process');
 const { stringify } = require('csv-stringify/sync');
 const fs = require('node:fs/promises');
 const path = require('node:path');
+const { hrtime } = require('node:process');
 const fetchSource = require('./scripts/fetchSource.js');
 const ipUtils = require('./scripts/ipUtils.js');
+const RateLimiter = require('./scripts/utils/rateLimiter.js');
 const logger = require('./scripts/utils/logger.js');
 const { validateCommandArgs } = require('./scripts/utils/validation.js');
 
@@ -40,6 +42,15 @@ const sources = [
 	{ name: 'NASK PL', dir: 'nask', analyzeKeywords: false, asn: 'AS8308', type: 'whois' },
 ];
 
+const startTimer = () => hrtime.bigint();
+const getDurationMs = start => Number(hrtime.bigint() - start) / 1e6;
+const formatDuration = ms => {
+	if (ms >= 3600000) return `${(ms / 3600000).toFixed(2)}h`;
+	if (ms >= 60000) return `${(ms / 60000).toFixed(2)}m`;
+	if (ms >= 1000) return `${(ms / 1000).toFixed(2)}s`;
+	return `${ms.toFixed(0)}ms`;
+};
+
 const runTests = () => {
 	logger.info('Running tests...');
 
@@ -66,7 +77,7 @@ const runTests = () => {
 				if (stderr.trim()) console.error(stderr.trim());
 				reject(new Error(`Tests failed with exit code ${code}`));
 			} else {
-				logger.info('Tests passed successfully');
+				logger.success('Tests passed successfully');
 				resolve();
 			}
 		});
@@ -92,19 +103,36 @@ const setupDirectories = async () => {
 
 const processAllSources = async (base) => {
 	const allMap = new Map();
+	const concurrency = Math.max(1, Number(process.env.SOURCE_CONCURRENCY) || 3);
+	const delayMs = Math.max(0, Number(process.env.SOURCE_DELAY_MS) || 500);
+	const limiter = new RateLimiter(concurrency, delayMs);
 
-	// Process sources sequentially to avoid rate limiting issues
-	for (const src of sources) {
+	const handleSource = async src => {
+		const sourceTimer = startTimer();
 		try {
 			logger.info(`Processing ${src.name}...`);
 			const records = await fetchSource(src);
 
 			if (!Array.isArray(records) || !records.length) {
 				logger.warn(`No records found for ${src.name}, skipping file write`);
-				continue;
+				return;
 			}
 
-			const sortedRecords = records.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
+			const filteredRecords = records.filter(r => {
+				if (!r?.ip) return false;
+				if (ipUtils.isPrivateIP(r.ip)) {
+					logger.warn(`Skipping private IP ${r.ip} from ${src.name}`);
+					return false;
+				}
+				return true;
+			});
+
+			if (!filteredRecords.length) {
+				logger.warn(`No non-private records for ${src.name}, skipping file write`);
+				return;
+			}
+
+			const sortedRecords = filteredRecords.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
 			const dir = path.join(base, src.dir);
 			await fs.mkdir(dir, { recursive: true });
 
@@ -115,11 +143,6 @@ const processAllSources = async (base) => {
 			for (const r of sortedRecords) {
 				const sourcesArray = Array.isArray(r.sources) ? r.sources : [r.source];
 				const sourcesStr = sourcesArray.join('|');
-
-				if (ipUtils.isPrivateIP(r.ip)) {
-					logger.debug(`Skipping private IP ${r.ip} from ${src.name}`);
-					continue;
-				}
 
 				ips.push(r.ip);
 				csvData.push({ IP: r.ip, Name: src.name, Sources: sourcesStr });
@@ -137,12 +160,13 @@ const processAllSources = async (base) => {
 				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
 			]);
 
-			logger.info(`${src.name}: ${sortedRecords.length} IPs`);
+			logger.success(`${src.name}: ${sortedRecords.length} IPs in ${formatDuration(getDurationMs(sourceTimer))}`);
 		} catch (err) {
-			logger.err(`Failed to process ${src.name}: ${err.message}`);
+			logger.err(`Failed to process ${src.name} after ${formatDuration(getDurationMs(sourceTimer))}: ${err.message}`);
 		}
-	}
+	};
 
+	await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))));
 	return allMap;
 };
 
@@ -187,20 +211,21 @@ const commitAndPushChanges = async () => {
 		);
 		await git.push('origin', 'main');
 
-		logger.info('Changes committed and pushed successfully');
+		logger.success('Changes committed and pushed successfully');
 	} else {
 		logger.info('No changes detected, skipping commit');
 	}
 };
 
 const generateLists = async () => {
+	const totalTimer = startTimer();
 	try {
 		logger.info('Starting IP list generation');
 		await pullLatestChanges();
 		const base = await setupDirectories();
 		const allMap = await processAllSources(base);
 		const globalRecs = await createGlobalLists(base, allMap);
-		logger.info(`Generation complete: ${globalRecs.length} IPs total`);
+		logger.success(`Generation complete: ${globalRecs.length} IPs total in ${formatDuration(getDurationMs(totalTimer))}`);
 
 		if (isDevelopment) return;
 
@@ -243,7 +268,7 @@ if (isDevelopment) {
 		}
 	}, null, true, 'utc');
 
-	logger.info('Production mode: Cron job scheduled for every 6 hours');
+			logger.info('Production mode: Cron job scheduled for every 6 hours');
 
 	process.on('unhandledRejection', (reason, promise) => {
 		logger.err('Unhandled Rejection', { reason, promise });

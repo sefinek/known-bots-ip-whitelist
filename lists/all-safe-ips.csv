@@ -1,6 +1,5 @@
 IP,Name,Sources
 1.7.225.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
-1.117.61.116,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 3.20.63.178,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1188,6 +1187,8 @@ IP,Name,Sources
 34.198.201.66,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 34.240.49.81,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 35.154.171.200,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
+35.203.210.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
+35.203.211.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 35.212.27.76,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 35.228.243.201,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 35.242.177.6,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -6208,9 +6209,9 @@ IP,Name,Sources
 65.154.226.0/24,Palo Alto Networks,stat.ripe.net
 65.155.30.0/24,Palo Alto Networks,stat.ripe.net
 65.155.38.0/24,Palo Alto Networks,stat.ripe.net
-66.132.148.0/24,Censys,stat.ripe.net|whois.radb.net
-66.132.153.0/24,Censys,stat.ripe.net|whois.radb.net
-66.132.159.0/24,Censys,stat.ripe.net|whois.radb.net
+66.132.148.0/24,Censys|Semrush,stat.ripe.net|whois.radb.net
+66.132.153.0/24,Censys|Semrush,stat.ripe.net|whois.radb.net
+66.132.159.0/24,Censys|Semrush,stat.ripe.net|whois.radb.net
 66.165.229.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.165.233.234,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.179.104.0/24,Palo Alto Networks,whois.radb.net
@@ -6898,7 +6899,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6907,6 +6907,7 @@ IP,Name,Sources
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8153,6 +8154,7 @@ IP,Name,Sources
 147.182.240.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 147.182.241.81,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 147.182.247.10,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.171.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8679,7 +8681,7 @@ IP,Name,Sources
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 150.109.172.224,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8832,9 +8834,10 @@ IP,Name,Sources
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.55.165.86,BetterStack,https://uptime.betterstack.com/ips.txt
-162.142.125.0/24,Censys,stat.ripe.net|whois.radb.net
+162.142.125.0/24,Censys|Semrush,stat.ripe.net|whois.radb.net
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
 162.159.244.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+162.216.150.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
 163.70.128.0/17,FacebookBot,stat.ripe.net|whois.radb.net
@@ -8883,7 +8886,7 @@ IP,Name,Sources
 165.227.55.4,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 165.227.62.247,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
-167.94.138.0/24,Censys,stat.ripe.net
+167.94.138.0/24,Censys|Semrush,stat.ripe.net
 167.99.18.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.114.139.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 167.114.139.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -9144,7 +9147,7 @@ IP,Name,Sources
 167.172.219.157,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 167.235.114.167,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 167.235.143.113,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-167.248.133.0/24,Censys,stat.ripe.net
+167.248.133.0/24,Censys|Semrush,stat.ripe.net
 168.1.203.46,PingdomBot,https://my.pingdom.com/probes/ipv4
 168.63.252.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 168.100.149.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -12744,10 +12747,10 @@ IP,Name,Sources
 203.57.82.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 204.15.20.0/22,FacebookBot,stat.ripe.net|whois.radb.net
 204.16.244.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-206.168.32.0/24,Censys,stat.ripe.net|whois.radb.net
-206.168.33.0/24,Censys,stat.ripe.net
-206.168.34.0/24,Censys,stat.ripe.net
-206.168.35.0/24,Censys,stat.ripe.net
+206.168.32.0/24,Censys|Semrush,stat.ripe.net|whois.radb.net
+206.168.33.0/24,Censys|Semrush,stat.ripe.net
+206.168.34.0/24,Censys|Semrush,stat.ripe.net
+206.168.35.0/24,Censys|Semrush,stat.ripe.net
 206.189.237.171,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 206.189.241.133,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 207.46.13.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -12819,7 +12822,7 @@ IP,Name,Sources
 217.9.160.0/20,NASK PL,whois.radb.net
 217.9.160.0/24,NASK PL,stat.ripe.net|whois.radb.net
 217.9.165.0/24,NASK PL,stat.ripe.net|whois.radb.net
-2001:470:1a6::/48,Censys,whois.radb.net
+2001:470:1a6::/48,Censys|Semrush,whois.radb.net
 2001:550:2:38::28:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:6f::f3:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:dc::5e:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -13403,8 +13406,8 @@ IP,Name,Sources
 2600:3c02::f03c:94ff:fe4f:eb49,BetterStack,https://uptime.betterstack.com/ips.txt
 2600:3c02::f03c:94ff:fed1:3dd2,BetterStack,https://uptime.betterstack.com/ips.txt
 2600:3c02::f03c:94ff:fed1:3df5,BetterStack,https://uptime.betterstack.com/ips.txt
-2602:80d:1000::/48,Censys,stat.ripe.net
-2602:80d:1006::/48,Censys,stat.ripe.net
+2602:80d:1000::/48,Censys|Semrush,stat.ripe.net
+2602:80d:1006::/48,Censys|Semrush,stat.ripe.net
 2602:ffe4:c09:106::1154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c54:277::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -13471,7 +13474,7 @@ IP,Name,Sources
 2620:0:1cfa::/48,FacebookBot,whois.radb.net
 2620:0:1cff::/48,FacebookBot,whois.radb.net
 2620:52:c000::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
-2620:96:e000::/48,Censys,stat.ripe.net
+2620:96:e000::/48,Censys|Semrush,stat.ripe.net
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6

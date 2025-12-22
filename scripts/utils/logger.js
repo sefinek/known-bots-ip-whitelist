@@ -1,6 +1,7 @@
 module.exports = {
-	info: msg => console.log('[INFO ]', msg),
-	debug: msg => console.log('[DEBUG]', msg),
-	warn: msg => console.warn('[WARN ]', msg),
-	err: msg => console.error('[FAIL ]', msg),
+	info: msg => console.log('[i]', msg),
+	success: msg => console.log('[✓]', msg),
+	debug: msg => console.debug('[D]', msg),
+	warn: msg => console.warn('[!]', msg),
+	err: msg => console.error('[X]', msg),
 };

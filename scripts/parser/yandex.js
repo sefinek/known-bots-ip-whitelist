@@ -87,7 +87,7 @@ const getYandexIPs = async () => {
 
 
 		if (ips.length) {
-			logger.info(`Yandex extraction completed: ${ips.length} IPs`);
+			logger.success(`Yandex extraction completed: ${ips.length} IPs`);
 		} else {
 			logger.warn('No IPs found on Yandex page, page structure may have changed');
 		}
