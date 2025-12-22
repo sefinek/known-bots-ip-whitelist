@@ -20,19 +20,13 @@
   {
     "name": "Bunny CDN",
     "dir": "bunnycdn",
-    "url": [
-      "https://api.bunny.net/system/edgeserverlist/plain",
-      "https://api.bunny.net/system/edgeserverlist/ipv6"
-    ],
+    "url": ["https://api.bunny.net/system/edgeserverlist/plain", "https://api.bunny.net/system/edgeserverlist/ipv6"],
     "type": "textMulti"
   },
   {
     "name": "Censys",
     "dir": "censys",
-    "keywords": [
-      "censys",
-      "censy"
-    ],
+    "keywords": ["censys", "censy"],
     "analyzeKeywords": true,
     "acceptNullable": true,
     "asn": "AS398324",
@@ -41,10 +35,7 @@
   {
     "name": "Cloudflare",
     "dir": "cloudflare",
-    "url": [
-      "https://www.cloudflare.com/ips-v4",
-      "https://www.cloudflare.com/ips-v6"
-    ],
+    "url": ["https://www.cloudflare.com/ips-v4", "https://www.cloudflare.com/ips-v6"],
     "type": "textMulti"
   },
   {
@@ -56,11 +47,7 @@
   {
     "name": "FacebookBot",
     "dir": "facebookbot",
-    "keywords": [
-      "meta",
-      "fb",
-      "facebook"
-    ],
+    "keywords": ["meta", "fb", "facebook"],
     "analyzeKeywords": true,
     "acceptNullable": true,
     "asn": "AS32934",
@@ -106,30 +93,17 @@
   {
     "name": "Palo Alto Networks",
     "dir": "paloaltonetworks",
-    "keywords": [
-      "paloalto",
-      "palo alto"
-    ],
+    "keywords": ["paloalto", "palo alto"],
     "analyzeKeywords": true,
     "acceptNullable": true,
-    "asn": [
-      "AS2763",
-      "AS54538",
-      "AS64280",
-      "AS396421"
-    ],
+    "asn": ["AS2763", "AS54538", "AS64280", "AS396421"],
     "type": "whois",
-    "extraFiles": [
-      "paloaltonetworks.txt"
-    ]
+    "extraFiles": ["paloaltonetworks.txt"]
   },
   {
     "name": "PingdomBot",
     "dir": "pingdombot",
-    "url": [
-      "https://my.pingdom.com/probes/ipv4",
-      "https://my.pingdom.com/probes/ipv6"
-    ],
+    "url": ["https://my.pingdom.com/probes/ipv4", "https://my.pingdom.com/probes/ipv6"],
     "type": "textMulti"
   },
   {
@@ -142,10 +116,7 @@
     "name": "Semrush",
     "dir": "semrush",
     "analyzeKeywords": false,
-    "asn": [
-      "AS398324",
-      "AS209366"
-    ],
+    "asn": ["AS398324", "AS209366"],
     "type": "whois"
   },
   {
