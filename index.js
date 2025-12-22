@@ -116,11 +116,19 @@ const processAllSources = async (base) => {
 				const sourcesArray = Array.isArray(r.sources) ? r.sources : [r.source];
 				const sourcesStr = sourcesArray.join('|');
 
+				if (ipUtils.isPrivateIP(r.ip)) {
+					logger.debug(`Skipping private IP ${r.ip} from ${src.name}`);
+					continue;
+				}
+
 				ips.push(r.ip);
 				csvData.push({ IP: r.ip, Name: src.name, Sources: sourcesStr });
 				jsonData.push({ ip: r.ip, name: src.dir, sources: sourcesArray });
 
-				if (!allMap.has(r.ip)) allMap.set(r.ip, { Name: src.name, Sources: sourcesStr });
+				const entry = allMap.get(r.ip) || { names: new Set(), sources: new Set() };
+				entry.names.add(src.name);
+				sourcesArray.forEach(s => entry.sources.add(s));
+				allMap.set(r.ip, entry);
 			}
 
 			await Promise.all([
@@ -142,7 +150,19 @@ const createGlobalLists = async (base, allMap) => {
 	logger.info('Writing global lists...');
 
 	const globalIPs = Array.from(allMap.keys()).sort(ipUtils.compareIPs);
-	const globalRecs = globalIPs.map(IP => ({ IP, ...allMap.get(IP) }));
+	const globalRecs = globalIPs.map(IP => {
+		const entry = allMap.get(IP);
+		const nameList = Array.from(entry.names).sort();
+		const sourceList = Array.from(entry.sources).sort();
+
+		return {
+			IP,
+			Name: nameList.join('|'),
+			Names: nameList,
+			Sources: sourceList.join('|'),
+			SourcesList: sourceList,
+		};
+	});
 
 	await Promise.all([
 		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
