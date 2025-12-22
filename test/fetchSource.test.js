@@ -18,14 +18,14 @@ describe('fetchSource', () => {
 		getASNPrefixes.mockResolvedValue([{ ip: '1.2.3.4', source: 'whois' }]);
 
 		const out = await fetchSource({ name: 'Test RADB', asn: 'AS123', type: 'whois' });
-		expect(out).toEqual([{ ip: '1.2.3.4', source: 'whois' }]);
+		expect(out).toEqual([{ ip: '1.2.3.4', sources: ['whois'] }]);
 	});
 
 	it('fetches Yandex data', async () => {
 		getYandexIPs.mockResolvedValue([{ ip: '77.88.5.5', source: 'yandex' }]);
 
 		const out = await fetchSource({ name: 'YandexBot', type: 'yandex' });
-		expect(out).toEqual([{ ip: '77.88.5.5', source: 'yandex' }]);
+		expect(out).toEqual([{ ip: '77.88.5.5', sources: ['yandex'] }]);
 	});
 
 	it('parses hosts file correctly', async () => {
@@ -33,8 +33,8 @@ describe('fetchSource', () => {
 
 		const out = await fetchSource({ name: 'Test', url: 'http://example.com/ips.txt', type: 'hosts' });
 		expect(out).toEqual([
-			{ ip: '1.1.1.1', source: 'http://example.com/ips.txt' },
-			{ ip: '2.2.2.2', source: 'http://example.com/ips.txt' },
+			{ ip: '1.1.1.1', sources: ['http://example.com/ips.txt'] },
+			{ ip: '2.2.2.2', sources: ['http://example.com/ips.txt'] },
 		]);
 	});
 });

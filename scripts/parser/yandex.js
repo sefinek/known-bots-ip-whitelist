@@ -7,7 +7,7 @@ const logger = require('../utils/logger.js');
 puppeteer.use(StealthPlugin());
 
 const getYandexIPs = async () => {
-	logger.info('Starting Yandex IP extraction');
+	logger.debug('Starting Yandex IP extraction');
 
 	let browser;
 	try {
@@ -28,7 +28,6 @@ const getYandexIPs = async () => {
 		});
 
 		const page = await browser.newPage();
-		await page.setViewport({ width: 1920, height: 1080 });
 
 		await page.goto('https://yandex.com/ips', {
 			waitUntil: 'domcontentloaded',
@@ -75,12 +74,7 @@ const getYandexIPs = async () => {
 				if (!addr || !ipaddr.isValid(addr.trim())) return;
 
 				const ipWithCidr = text.trim();
-				if (!ips.find(item => item.ip === ipWithCidr)) {
-					ips.push({
-						ip: ipWithCidr,
-						source: 'https://yandex.com/ips',
-					});
-				}
+				if (!ips.find(item => item.ip === ipWithCidr)) ips.push({ ip: ipWithCidr, source: 'https://yandex.com/ips' });
 			});
 			if (ips.length > 0) break;
 		}

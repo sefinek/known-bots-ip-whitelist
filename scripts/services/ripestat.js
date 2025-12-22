@@ -1,5 +1,6 @@
 const axios = require('./axios.js');
 const { parseIP } = require('../ipUtils.js');
+const { executeWithRetry } = require('../utils/retry.js');
 const logger = require('../utils/logger.js');
 
 const sleep = (baseMs, randomMs = 0) => {
@@ -17,9 +18,12 @@ const fetchFromRIPEstat = async (src, shouldDelay = true, retryCount = 0) => {
 			await sleep(baseDelay, randomDelay);
 		}
 
-		const res = await axios.get(`https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS${src.asn}`, {
-			headers: { 'Accept': 'application/json' },
-		});
+		const res = await executeWithRetry(
+			() => axios.get(`https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS${src.asn}`, {
+				headers: { 'Accept': 'application/json' },
+			}),
+			{ label: `RIPEstat AS${src.asn}` }
+		);
 
 		const { data } = res;
 		if (!data || data.status !== 'ok' || !data.data || !data.data.prefixes) {

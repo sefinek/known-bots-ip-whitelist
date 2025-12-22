@@ -6,6 +6,7 @@ const getASNPrefixes = require('./services/whois.js');
 const axios = require('./services/axios.js');
 const logger = require('./utils/logger.js');
 const { NetworkError, TimeoutError } = require('./utils/errors.js');
+const { executeWithRetry } = require('./utils/retry.js');
 const { validateSource } = require('./utils/validation.js');
 
 const isValidIP = ip => {
@@ -35,43 +36,29 @@ const parseList = (list, source) => {
 		.map(ip => ({ ip: ip.trim(), source }));
 };
 
-const RETRYABLE_ERROR_CODES = new Set([
-	'ECONNRESET',
-	'ETIMEDOUT',
-	'ECONNREFUSED',
-	'EAI_AGAIN',
-	'ENETUNREACH',
-	'EHOSTUNREACH',
-	'EPIPE',
-]);
+const mergeRecordsByIp = records => {
+	const map = new Map();
 
-const isRetryableError = err => (
-	err instanceof NetworkError ||
-	err instanceof TimeoutError ||
-	(Boolean(err?.code) && RETRYABLE_ERROR_CODES.has(err.code))
-);
+	for (const record of records) {
+		if (!record?.ip) continue;
+		const entry = map.get(record.ip) || { ip: record.ip, sources: new Set() };
+		const sources = Array.isArray(record.sources)
+			? record.sources
+			: (record.source ? [record.source] : []);
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-const executeWithRetry = async (operation, {
-	retries = 2,
-	delay = 1000,
-	backoff = 2,
-	label = 'operation',
-	retryPredicate = isRetryableError,
-} = {}) => {
-	let attempt = 0;
-	while (attempt <= retries) {
-		try {
-			return await operation();
-		} catch (err) {
-			if (!retryPredicate(err) || attempt === retries) throw err;
-			const waitMs = delay * Math.pow(backoff, attempt);
-			logger.warn(`Retrying ${label} in ${waitMs}ms (attempt ${attempt + 1}/${retries + 1}): ${err.message}`);
-			await sleep(waitMs);
-			attempt++;
+		for (const src of sources) {
+			if (typeof src !== 'string') continue;
+			const trimmed = src.trim();
+			if (trimmed) entry.sources.add(trimmed);
 		}
+
+		map.set(record.ip, entry);
 	}
+
+	return Array.from(map.values()).map(entry => ({
+		ip: entry.ip,
+		sources: Array.from(entry.sources).sort(),
+	}));
 };
 
 const readCustomFiles = async files => {
@@ -91,7 +78,6 @@ const readCustomFiles = async files => {
 
 	return results.flat();
 };
-
 
 const processWithTimeout = async (promise, timeoutMs = 60000) => {
 	let timeoutId;
@@ -114,17 +100,11 @@ module.exports = async source => {
 		switch (source.type) {
 		case 'whois':
 			if (!source.asn) throw new Error(`Missing ASN for ${source.name}`);
-			out = await executeWithRetry(
-				() => processWithTimeout(getASNPrefixes(source), 120000),
-				{ label: `${source.name} WHOIS` }
-			);
+			out = await executeWithRetry(() => processWithTimeout(getASNPrefixes(source), 60000), { label: `${source.name} WHOIS` });
 			break;
 
 		case 'yandex':
-			out = await executeWithRetry(
-				() => processWithTimeout(getYandexIPs(), 90000),
-				{ label: `${source.name} Yandex` }
-			);
+			out = await executeWithRetry(() => processWithTimeout(getYandexIPs(), 60000), { label: `${source.name} Yandex` });
 			break;
 
 		case 'file': {
@@ -135,10 +115,7 @@ module.exports = async source => {
 
 		case 'hosts': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			const res = await executeWithRetry(
-				() => processWithTimeout(axios.get(source.url)),
-				{ label: `${source.name} hosts` }
-			);
+			const res = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} hosts` });
 			out = parseList(splitAndFilter(res.data), source.url);
 			break;
 		}
@@ -149,10 +126,7 @@ module.exports = async source => {
 			const results = await Promise.allSettled(
 				source.url.map(async u => {
 					try {
-						const { data } = await executeWithRetry(
-							() => processWithTimeout(axios.get(u)),
-							{ label: `${source.name} ${u}` }
-						);
+						const { data } = await executeWithRetry(() => processWithTimeout(axios.get(u)), { label: `${source.name} ${u}` });
 						if (typeof data === 'string') return parseList(splitAndFilter(data), u);
 						if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
 						return [];
@@ -188,10 +162,7 @@ module.exports = async source => {
 		case 'jsonIps': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await executeWithRetry(
-				() => processWithTimeout(axios.get(source.url)),
-				{ label: `${source.name} jsonIps` }
-			);
+			const { data } = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} jsonIps` });
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
 			out = parseList(
@@ -204,10 +175,7 @@ module.exports = async source => {
 		case 'jsonAddresses': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const res = await executeWithRetry(
-				() => processWithTimeout(axios.get(source.url)),
-				{ label: `${source.name} jsonAddresses` }
-			);
+			const res = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} jsonAddresses` });
 			const data = res.data;
 			if (!data || typeof data !== 'object' || !data.data) throw new Error('Invalid JSON response structure');
 
@@ -218,10 +186,7 @@ module.exports = async source => {
 		case 'mdList': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await executeWithRetry(
-				() => processWithTimeout(axios.get(source.url)),
-				{ label: `${source.name} markdown list` }
-			);
+			const { data } = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} markdown list` });
 			if (typeof data !== 'string') throw new Error('Expected text response for markdown');
 
 			out = parseList(
@@ -249,7 +214,7 @@ module.exports = async source => {
 			}
 		}
 
-		out = Array.from(new Map(out.map(r => [`${r.ip}|${r.source}`, r])).values());
+		out = mergeRecordsByIp(out);
 		if (!out.length) logger.warn(`No valid IPs found for ${source.name}`);
 
 		return out;

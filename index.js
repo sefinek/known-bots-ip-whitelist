@@ -66,7 +66,7 @@ const runTests = () => {
 
 
 const pullLatestChanges = async () => {
-	logger.info('Pulling latest changes');
+	logger.info('Pulling latest changes...');
 	await git.pull('origin', 'main');
 };
 
@@ -85,7 +85,7 @@ const processAllSources = async (base) => {
 	const handleSource = async src => {
 		const sourceTimer = startTimer();
 		try {
-			logger.info(`Processing ${src.name}...`);
+			logger.debug(`Processing ${src.name}...`);
 			const records = await fetchSource(src);
 
 			if (!Array.isArray(records) || !records.length) {
@@ -132,7 +132,7 @@ const processAllSources = async (base) => {
 			await Promise.all([
 				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
 				fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
-				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData, null, 2), 'utf8'),
+				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData), 'utf8'),
 			]);
 
 			logger.success(`${src.name}: ${sortedRecords.length} IPs in ${formatDuration(getDurationMs(sourceTimer))}`);
@@ -165,7 +165,7 @@ const createGlobalLists = async (base, allMap) => {
 
 	await Promise.all([
 		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
-		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs, null, 2), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs), 'utf8'),
 		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
 	]);
 
@@ -193,19 +193,18 @@ const commitAndPushChanges = async () => {
 };
 
 const generateLists = async () => {
+	await pullLatestChanges();
+
 	const totalTimer = startTimer();
 	try {
-		logger.info('Starting IP list generation');
-		await pullLatestChanges();
+		logger.info('Starting IP list generation...');
+
 		const base = await setupDirectories();
 		const allMap = await processAllSources(base);
 		const globalRecs = await createGlobalLists(base, allMap);
 		logger.success(`Generation complete: ${globalRecs.length} IPs total in ${formatDuration(getDurationMs(totalTimer))}`);
 
-		if (isDevelopment) return;
-
-		await commitAndPushChanges();
-
+		if (!isDevelopment) await commitAndPushChanges();
 	} catch (err) {
 		logger.err(`Failed to generate lists: ${err.message}`);
 		throw err;

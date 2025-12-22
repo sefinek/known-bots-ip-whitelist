@@ -81,7 +81,7 @@ module.exports = async src => {
 	const ripestatResults = [];
 	const whoisResults = [];
 
-	logger.info(`Starting BGP lookup for ${src.name} (${asns.length} ASNs)`);
+	logger.debug(`Starting BGP lookup for ${src.name} (${asns.length} ASNs)`);
 
 	for (let i = 0; i < asns.length; i++) {
 		const asn = asns[i];
@@ -111,7 +111,7 @@ module.exports = async src => {
 			ripestatResults.push(...ripeRoutes);
 			whoisResults.push(...whoisRoutes);
 
-			logger.success(`Processed AS${asnNorm}: ${ripeRoutes.length} RIPEstat + ${whoisRoutes.length} WHOIS = ${ripeRoutes.length + whoisRoutes.length} total`);
+			logger.success(`Processed AS${asnNorm} for ${src.name}: ${ripeRoutes.length} RIPEstat + ${whoisRoutes.length} WHOIS = ${ripeRoutes.length + whoisRoutes.length} total`);
 		} catch (err) {
 			logger.err(`Failed to process ASN ${asnNorm}: ${err.message}`);
 		}
