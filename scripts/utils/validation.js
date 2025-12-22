@@ -39,6 +39,27 @@ const validateSource = source => {
 	return source;
 };
 
+const validateSourcesConfig = config => {
+	if (!Array.isArray(config) || !config.length) {
+		throw new ValidationError('Sources configuration must be a non-empty array', 'sources');
+	}
+
+	return config.map((src, index) => {
+		const validated = { ...validateSource(src) };
+
+		if (!validated.dir || typeof validated.dir !== 'string') {
+			throw new ValidationError('Source dir is required', `sources[${index}].dir`);
+		}
+
+		if (validated.extraFiles) {
+			const extra = Array.isArray(validated.extraFiles) ? validated.extraFiles : [validated.extraFiles];
+			validated.extraFiles = extra.filter(f => typeof f === 'string' && f.trim());
+		}
+
+		return validated;
+	});
+};
+
 const validateCommandArgs = args => {
 	const allowedCommands = ['test', 'lint', 'build'];
 	if (!Array.isArray(args) || !args.length) {
@@ -67,5 +88,6 @@ module.exports = {
 	isValidUrl,
 	validateUrl,
 	validateSource,
+	validateSourcesConfig,
 	validateCommandArgs,
 };

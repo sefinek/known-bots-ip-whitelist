@@ -3,6 +3,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const ipaddr = require('ipaddr.js');
 const { parse } = require('csv-parse/sync');
+const sourcesConfig = require('../sources.json');
 const listsDir = path.join(__dirname, '../lists');
 
 const validateIP = ip => {
@@ -52,6 +53,8 @@ describe('Generated bot IP lists', () => {
 		const entries = await fs.readdir(listsDir, { withFileTypes: true });
 		const folders = entries.filter(e => e.isDirectory() && !e.name.startsWith('all-')).map(e => e.name);
 		const allIPs = new Set();
+		const expectedDirs = new Set(sourcesConfig.map(src => src.dir));
+		expectedDirs.forEach(dir => expect(folders).toContain(dir));
 
 		for (const folder of folders) {
 			const dir = path.join(listsDir, folder);

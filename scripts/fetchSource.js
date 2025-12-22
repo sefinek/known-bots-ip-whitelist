@@ -35,6 +35,45 @@ const parseList = (list, source) => {
 		.map(ip => ({ ip: ip.trim(), source }));
 };
 
+const RETRYABLE_ERROR_CODES = new Set([
+	'ECONNRESET',
+	'ETIMEDOUT',
+	'ECONNREFUSED',
+	'EAI_AGAIN',
+	'ENETUNREACH',
+	'EHOSTUNREACH',
+	'EPIPE',
+]);
+
+const isRetryableError = err => (
+	err instanceof NetworkError ||
+	err instanceof TimeoutError ||
+	(Boolean(err?.code) && RETRYABLE_ERROR_CODES.has(err.code))
+);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const executeWithRetry = async (operation, {
+	retries = 2,
+	delay = 1000,
+	backoff = 2,
+	label = 'operation',
+	retryPredicate = isRetryableError,
+} = {}) => {
+	let attempt = 0;
+	while (attempt <= retries) {
+		try {
+			return await operation();
+		} catch (err) {
+			if (!retryPredicate(err) || attempt === retries) throw err;
+			const waitMs = delay * Math.pow(backoff, attempt);
+			logger.warn(`Retrying ${label} in ${waitMs}ms (attempt ${attempt + 1}/${retries + 1}): ${err.message}`);
+			await sleep(waitMs);
+			attempt++;
+		}
+	}
+};
+
 const readCustomFiles = async files => {
 	const fileList = (Array.isArray(files) ? files : [files]).filter(Boolean);
 	if (!fileList.length) throw new Error('Custom file name is required');
@@ -75,11 +114,17 @@ module.exports = async source => {
 		switch (source.type) {
 		case 'whois':
 			if (!source.asn) throw new Error(`Missing ASN for ${source.name}`);
-			out = await processWithTimeout(getASNPrefixes(source), 120000);
+			out = await executeWithRetry(
+				() => processWithTimeout(getASNPrefixes(source), 120000),
+				{ label: `${source.name} WHOIS` }
+			);
 			break;
 
 		case 'yandex':
-			out = await processWithTimeout(getYandexIPs(), 90000);
+			out = await executeWithRetry(
+				() => processWithTimeout(getYandexIPs(), 90000),
+				{ label: `${source.name} Yandex` }
+			);
 			break;
 
 		case 'file': {
@@ -90,7 +135,10 @@ module.exports = async source => {
 
 		case 'hosts': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			const res = await processWithTimeout(axios.get(source.url));
+			const res = await executeWithRetry(
+				() => processWithTimeout(axios.get(source.url)),
+				{ label: `${source.name} hosts` }
+			);
 			out = parseList(splitAndFilter(res.data), source.url);
 			break;
 		}
@@ -101,7 +149,10 @@ module.exports = async source => {
 			const results = await Promise.allSettled(
 				source.url.map(async u => {
 					try {
-						const { data } = await processWithTimeout(axios.get(u));
+						const { data } = await executeWithRetry(
+							() => processWithTimeout(axios.get(u)),
+							{ label: `${source.name} ${u}` }
+						);
 						if (typeof data === 'string') return parseList(splitAndFilter(data), u);
 						if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
 						return [];
@@ -120,7 +171,10 @@ module.exports = async source => {
 		case 'jsonPrefixes': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const res = await processWithTimeout(axios.get(source.url));
+			const res = await executeWithRetry(
+				() => processWithTimeout(axios.get(source.url)),
+				{ label: `${source.name} jsonPrefixes` }
+			);
 			const data = res.data;
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
@@ -134,7 +188,10 @@ module.exports = async source => {
 		case 'jsonIps': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await processWithTimeout(axios.get(source.url));
+			const { data } = await executeWithRetry(
+				() => processWithTimeout(axios.get(source.url)),
+				{ label: `${source.name} jsonIps` }
+			);
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
 			out = parseList(
@@ -147,7 +204,10 @@ module.exports = async source => {
 		case 'jsonAddresses': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const res = await processWithTimeout(axios.get(source.url));
+			const res = await executeWithRetry(
+				() => processWithTimeout(axios.get(source.url)),
+				{ label: `${source.name} jsonAddresses` }
+			);
 			const data = res.data;
 			if (!data || typeof data !== 'object' || !data.data) throw new Error('Invalid JSON response structure');
 
@@ -158,7 +218,10 @@ module.exports = async source => {
 		case 'mdList': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await processWithTimeout(axios.get(source.url));
+			const { data } = await executeWithRetry(
+				() => processWithTimeout(axios.get(source.url)),
+				{ label: `${source.name} markdown list` }
+			);
 			if (typeof data !== 'string') throw new Error('Expected text response for markdown');
 
 			out = parseList(
