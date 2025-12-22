@@ -1,8 +1,8 @@
-const { describe, beforeEach, it, expect } = require('@jest/globals');
+const { describe, beforeEach, it, expect, jest: jestMock } = require('@jest/globals');
 
-jest.mock('../scripts/services/axios.js');
-jest.mock('../scripts/services/whois.js');
-jest.mock('../scripts/parser/yandex.js');
+jestMock.mock('../scripts/services/axios.js');
+jestMock.mock('../scripts/services/whois.js');
+jestMock.mock('../scripts/parser/yandex.js');
 
 const fetchSource = require('../scripts/fetchSource.js');
 const axios = require('../scripts/services/axios.js');
@@ -11,7 +11,7 @@ const getYandexIPs = require('../scripts/parser/yandex.js');
 
 describe('fetchSource', () => {
 	beforeEach(() => {
-		jest.clearAllMocks();
+		jestMock.clearAllMocks();
 	});
 
 	it('fetches from RADB', async () => {

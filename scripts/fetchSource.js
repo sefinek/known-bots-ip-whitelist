@@ -35,6 +35,24 @@ const parseList = (list, source) => {
 		.map(ip => ({ ip: ip.trim(), source }));
 };
 
+const readCustomFiles = async files => {
+	const fileList = (Array.isArray(files) ? files : [files]).filter(Boolean);
+	if (!fileList.length) throw new Error('Custom file name is required');
+
+	const results = await Promise.all(fileList.map(async file => {
+		const filePath = path.join(__dirname, '../custom', file);
+		try {
+			const data = await fs.readFile(filePath, 'utf8');
+			const sourceUrl = `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`;
+			return parseList(splitAndFilter(data), sourceUrl);
+		} catch (err) {
+			throw new Error(`Failed to read file ${file}: ${err.message}`);
+		}
+	}));
+
+	return results.flat();
+};
+
 
 const processWithTimeout = async (promise, timeoutMs = 60000) => {
 	let timeoutId;
@@ -66,14 +84,7 @@ module.exports = async source => {
 
 		case 'file': {
 			if (!source.file) throw new Error(`Missing file for ${source.name}`);
-			const filePath = path.join(__dirname, '../custom', source.file);
-			try {
-				const data = await fs.readFile(filePath, 'utf8');
-				const sourceUrl = `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${source.file}`;
-				out = parseList(splitAndFilter(data), sourceUrl);
-			} catch (err) {
-				throw new Error(`Failed to read file ${source.file}: ${err.message}`);
-			}
+			out = await readCustomFiles(source.file);
 			break;
 		}
 
@@ -164,6 +175,15 @@ module.exports = async source => {
 
 		default:
 			throw new Error(`Unknown source type: ${source.type}`);
+		}
+
+		if (source.extraFiles) {
+			try {
+				const extraRecords = await readCustomFiles(source.extraFiles);
+				out = out.concat(extraRecords);
+			} catch (err) {
+				logger.warn(`Failed to append extra files for ${source.name}: ${err.message}`);
+			}
 		}
 
 		out = Array.from(new Map(out.map(r => [`${r.ip}|${r.source}`, r])).values());
