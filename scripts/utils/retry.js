@@ -4,6 +4,7 @@ const logger = require('./logger.js');
 const RETRYABLE_ERROR_CODES = new Set([
 	'ECONNRESET',
 	'ETIMEDOUT',
+	'ECONNABORTED',
 	'ECONNREFUSED',
 	'EAI_AGAIN',
 	'ENETUNREACH',

@@ -7,7 +7,6 @@ const { stringify } = require('csv-stringify/sync');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { hrtime } = require('node:process');
-const sourcesConfig = require('./sources.json');
 const fetchSource = require('./scripts/fetchSource.js');
 const ipUtils = require('./scripts/ipUtils.js');
 const RateLimiter = require('./scripts/utils/rateLimiter.js');
@@ -15,7 +14,13 @@ const logger = require('./scripts/utils/logger.js');
 const { validateCommandArgs, validateSourcesConfig } = require('./scripts/utils/validation.js');
 
 const isDevelopment = process.env.NODE_ENV === 'development';
-const sources = validateSourcesConfig(sourcesConfig);
+
+const loadSourcesConfig = async () => {
+	const filePath = path.join(__dirname, 'sources.json');
+	const raw = await fs.readFile(filePath, 'utf8');
+	const parsed = JSON.parse(raw);
+	return validateSourcesConfig(parsed);
+};
 
 const startTimer = () => hrtime.bigint();
 const getDurationMs = start => Number(hrtime.bigint() - start) / 1e6;
@@ -76,7 +81,7 @@ const setupDirectories = async () => {
 	return base;
 };
 
-const processAllSources = async (base) => {
+const processAllSources = async (base, sources) => {
 	const allMap = new Map();
 	const concurrency = Math.max(1, Number(process.env.SOURCE_CONCURRENCY) || 3);
 	const delayMs = Math.max(0, Number(process.env.SOURCE_DELAY_MS) || 500);
@@ -194,13 +199,14 @@ const commitAndPushChanges = async () => {
 
 const generateLists = async () => {
 	await pullLatestChanges();
+	const sources = await loadSourcesConfig();
 
 	const totalTimer = startTimer();
 	try {
 		logger.info('Starting IP list generation...');
 
 		const base = await setupDirectories();
-		const allMap = await processAllSources(base);
+		const allMap = await processAllSources(base, sources);
 		const globalRecs = await createGlobalLists(base, allMap);
 		logger.success(`Generation complete: ${globalRecs.length} IPs total in ${formatDuration(getDurationMs(totalTimer))}`);
 
@@ -238,18 +244,19 @@ if (isDevelopment) {
 		try {
 			await generateLists();
 		} catch (err) {
-			logger.err('Cron job failed', { err: err.message });
+			logger.err(`Cron job failed: ${err.message}`);
 		}
 	}, null, true, 'utc');
 
 	logger.info('Production mode: Cron job scheduled for every 6 hours');
 
-	process.on('unhandledRejection', (reason, promise) => {
-		logger.err('Unhandled Rejection', { reason, promise });
+	process.on('unhandledRejection', reason => {
+		const details = reason instanceof Error ? (reason.stack || reason.message) : JSON.stringify(reason);
+		logger.err(`Unhandled Rejection: ${details}`);
 	});
 
 	process.on('uncaughtException', err => {
-		logger.err('Uncaught Exception', { err: err.message, stack: err.stack });
+		logger.err(`Uncaught Exception: ${err.stack || err.message}`);
 		process.exit(1);
 	});
 

@@ -69,8 +69,7 @@ const readCustomFiles = async files => {
 		const filePath = path.join(__dirname, '../custom', file);
 		try {
 			const data = await fs.readFile(filePath, 'utf8');
-			const sourceUrl = `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`;
-			return parseList(splitAndFilter(data), sourceUrl);
+			return parseList(splitAndFilter(data), `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`);
 		} catch (err) {
 			throw new Error(`Failed to read file ${file}: ${err.message}`);
 		}
@@ -89,6 +88,21 @@ const processWithTimeout = async (promise, timeoutMs = 60000) => {
 	]).finally(() => {
 		if (timeoutId) clearTimeout(timeoutId);
 	});
+};
+
+const fetchWithTimeout = async (url, config = {}, timeoutMs = 60000) => {
+	const controller = new AbortController();
+	const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+	try {
+		return await axios.get(url, { ...config, signal: controller.signal });
+	} catch (err) {
+		if (err?.code === 'ERR_CANCELED' || err?.name === 'CanceledError') {
+			throw new TimeoutError(`Operation timeout after ${timeoutMs}ms`, timeoutMs);
+		}
+		throw err;
+	} finally {
+		clearTimeout(timeoutId);
+	}
 };
 
 module.exports = async source => {
@@ -115,7 +129,10 @@ module.exports = async source => {
 
 		case 'hosts': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			const res = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} hosts` });
+			const res = await executeWithRetry(
+				() => fetchWithTimeout(source.url),
+				{ label: `${source.name} hosts` }
+			);
 			out = parseList(splitAndFilter(res.data), source.url);
 			break;
 		}
@@ -126,7 +143,10 @@ module.exports = async source => {
 			const results = await Promise.allSettled(
 				source.url.map(async u => {
 					try {
-						const { data } = await executeWithRetry(() => processWithTimeout(axios.get(u)), { label: `${source.name} ${u}` });
+						const { data } = await executeWithRetry(
+							() => fetchWithTimeout(u),
+							{ label: `${source.name} ${u}` }
+						);
 						if (typeof data === 'string') return parseList(splitAndFilter(data), u);
 						if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
 						return [];
@@ -146,7 +166,7 @@ module.exports = async source => {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
 			const res = await executeWithRetry(
-				() => processWithTimeout(axios.get(source.url)),
+				() => fetchWithTimeout(source.url),
 				{ label: `${source.name} jsonPrefixes` }
 			);
 			const data = res.data;
@@ -162,7 +182,10 @@ module.exports = async source => {
 		case 'jsonIps': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} jsonIps` });
+			const { data } = await executeWithRetry(
+				() => fetchWithTimeout(source.url),
+				{ label: `${source.name} jsonIps` }
+			);
 			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
 
 			out = parseList(
@@ -175,7 +198,10 @@ module.exports = async source => {
 		case 'jsonAddresses': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const res = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} jsonAddresses` });
+			const res = await executeWithRetry(
+				() => fetchWithTimeout(source.url),
+				{ label: `${source.name} jsonAddresses` }
+			);
 			const data = res.data;
 			if (!data || typeof data !== 'object' || !data.data) throw new Error('Invalid JSON response structure');
 
@@ -186,7 +212,10 @@ module.exports = async source => {
 		case 'mdList': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const { data } = await executeWithRetry(() => processWithTimeout(axios.get(source.url)), { label: `${source.name} markdown list` });
+			const { data } = await executeWithRetry(
+				() => fetchWithTimeout(source.url),
+				{ label: `${source.name} markdown list` }
+			);
 			if (typeof data !== 'string') throw new Error('Expected text response for markdown');
 
 			out = parseList(
