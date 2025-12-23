@@ -2,7 +2,7 @@
   {
     "IP": "1.7.225.0/24",
     "Name": "Palo Alto Networks",
-    "Sources": "stat.ripe.net|whois.radb.net"
+    "Sources": "stat.ripe.net"
   },
   {
     "IP": "1.117.61.116",
@@ -6208,11 +6208,6 @@
     "IP": "38.142.94.218",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "39.104.13.61",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "40.64.105.247/32",
@@ -33155,12 +33150,7 @@
     "Sources": "stat.ripe.net|whois.radb.net"
   },
   {
-    "IP": "85.217.140.1/32",
-    "Name": "Modat Scanner",
-    "Sources": "https://scanner.modat.io/ipv4.txt"
-  },
-  {
-    "IP": "85.217.140.2/31",
+    "IP": "85.217.140.2/32",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
@@ -33180,7 +33170,22 @@
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "85.217.149.0/28",
+    "IP": "85.217.149.3/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "85.217.149.5/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "85.217.149.6/31",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "85.217.149.8/29",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
@@ -33190,7 +33195,12 @@
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
   {
-    "IP": "85.217.149.24/30",
+    "IP": "85.217.149.24/31",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "85.217.149.26/32",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
@@ -34543,11 +34553,6 @@
     "IP": "122.10.251.130",
     "Name": "Bunny CDN",
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
-  },
-  {
-    "IP": "124.156.244.42",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
   {
     "IP": "124.220.31.125",
@@ -43401,11 +43406,6 @@
   },
   {
     "IP": "150.109.170.94",
-    "Name": "WebPageTest Bot",
-    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
-  },
-  {
-    "IP": "150.109.181.129",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },
@@ -63925,7 +63925,22 @@
     "Sources": "https://api.bunny.net/system/edgeserverlist/plain"
   },
   {
-    "IP": "212.73.148.0/28",
+    "IP": "212.73.148.6/31",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "212.73.148.9/32",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "212.73.148.10/31",
+    "Name": "Modat Scanner",
+    "Sources": "https://scanner.modat.io/ipv4.txt"
+  },
+  {
+    "IP": "212.73.148.12/30",
     "Name": "Modat Scanner",
     "Sources": "https://scanner.modat.io/ipv4.txt"
   },
