@@ -1,1 +1,114 @@
-[{"ip":"5.45.192.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"5.255.192.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"37.9.64.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"37.140.128.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"77.88.0.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"84.252.160.0/19","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"87.250.224.0/19","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"90.156.176.0/20","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"92.255.112.0/20","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"93.158.128.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"95.108.128.0/17","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"141.8.128.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"178.154.128.0/18","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"185.32.187.0/24","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"213.180.192.0/19","name":"yandexbot","sources":["https://yandex.com/ips"]},{"ip":"2a02:6b8::/29","name":"yandexbot","sources":["https://yandex.com/ips"]}]
+[
+  {
+    "ip": "5.45.192.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "5.255.192.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "37.9.64.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "37.140.128.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "77.88.0.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "84.252.160.0/19",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "87.250.224.0/19",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "90.156.176.0/20",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "92.255.112.0/20",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "93.158.128.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "95.108.128.0/17",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "141.8.128.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "178.154.128.0/18",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "185.32.187.0/24",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "213.180.192.0/19",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  },
+  {
+    "ip": "2a02:6b8::/29",
+    "name": "yandexbot",
+    "sources": [
+      "https://yandex.com/ips"
+    ]
+  }
+]
