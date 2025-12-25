@@ -450,6 +450,13 @@
     ]
   },
   {
+    "ip": "193.110.181.0/24",
+    "name": "paloaltonetworks",
+    "sources": [
+      "stat.ripe.net"
+    ]
+  },
+  {
     "ip": "199.167.52.0/24",
     "name": "paloaltonetworks",
     "sources": [

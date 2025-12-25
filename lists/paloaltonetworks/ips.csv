@@ -61,6 +61,7 @@ IP,Name,Sources
 192.197.222.0/24,Palo Alto Networks,stat.ripe.net
 193.110.180.0/23,Palo Alto Networks,whois.radb.net
 193.110.180.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
+193.110.181.0/24,Palo Alto Networks,stat.ripe.net
 199.167.52.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 199.167.53.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 199.167.54.0/24,Palo Alto Networks,stat.ripe.net
