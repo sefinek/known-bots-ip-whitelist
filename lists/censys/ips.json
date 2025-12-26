@@ -3,32 +3,28 @@
     "ip": "66.132.148.0/24",
     "name": "censys",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
     "ip": "66.132.153.0/24",
     "name": "censys",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
     "ip": "66.132.159.0/24",
     "name": "censys",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
     "ip": "162.142.125.0/24",
     "name": "censys",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
@@ -49,8 +45,7 @@
     "ip": "206.168.32.0/24",
     "name": "censys",
     "sources": [
-      "stat.ripe.net",
-      "whois.radb.net"
+      "stat.ripe.net"
     ]
   },
   {
@@ -72,13 +67,6 @@
     "name": "censys",
     "sources": [
       "stat.ripe.net"
-    ]
-  },
-  {
-    "ip": "2001:470:1a6::/48",
-    "name": "censys",
-    "sources": [
-      "whois.radb.net"
     ]
   },
   {
