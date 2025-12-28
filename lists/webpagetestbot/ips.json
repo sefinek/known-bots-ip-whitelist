@@ -196,6 +196,13 @@
     ]
   },
   {
+    "ip": "39.104.13.61",
+    "name": "webpagetestbot",
+    "sources": [
+      "https://www.webpagetest.org/addresses.php?f=json"
+    ]
+  },
+  {
     "ip": "43.200.31.191",
     "name": "webpagetestbot",
     "sources": [
@@ -260,13 +267,6 @@
   },
   {
     "ip": "124.220.31.125",
-    "name": "webpagetestbot",
-    "sources": [
-      "https://www.webpagetest.org/addresses.php?f=json"
-    ]
-  },
-  {
-    "ip": "150.109.170.94",
     "name": "webpagetestbot",
     "sources": [
       "https://www.webpagetest.org/addresses.php?f=json"
