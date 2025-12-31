@@ -5,6 +5,11 @@
     "Sources": "stat.ripe.net|whois.radb.net"
   },
   {
+    "IP": "1.117.61.116",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
     "IP": "3.12.251.153",
     "Name": "UptimeRobot",
     "Sources": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt"
@@ -43391,6 +43396,11 @@
   },
   {
     "IP": "150.109.181.129",
+    "Name": "WebPageTest Bot",
+    "Sources": "https://www.webpagetest.org/addresses.php?f=json"
+  },
+  {
+    "IP": "150.158.3.127",
     "Name": "WebPageTest Bot",
     "Sources": "https://www.webpagetest.org/addresses.php?f=json"
   },

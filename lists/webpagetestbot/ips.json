@@ -1,5 +1,12 @@
 [
   {
+    "ip": "1.117.61.116",
+    "name": "webpagetestbot",
+    "sources": [
+      "https://www.webpagetest.org/addresses.php?f=json"
+    ]
+  },
+  {
     "ip": "4.199.33.8",
     "name": "webpagetestbot",
     "sources": [
@@ -253,6 +260,13 @@
   },
   {
     "ip": "150.109.181.129",
+    "name": "webpagetestbot",
+    "sources": [
+      "https://www.webpagetest.org/addresses.php?f=json"
+    ]
+  },
+  {
+    "ip": "150.158.3.127",
     "name": "webpagetestbot",
     "sources": [
       "https://www.webpagetest.org/addresses.php?f=json"
