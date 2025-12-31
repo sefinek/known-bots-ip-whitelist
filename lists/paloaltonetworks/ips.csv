@@ -1,5 +1,5 @@
 IP,Name,Sources
-1.7.225.0/24,Palo Alto Networks,stat.ripe.net
+1.7.225.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 64.74.133.224/27,Palo Alto Networks,whois.radb.net
 64.74.215.0/24,Palo Alto Networks,whois.radb.net
 65.154.226.0/24,Palo Alto Networks,stat.ripe.net
@@ -42,6 +42,7 @@ IP,Name,Sources
 144.125.205.0/24,Palo Alto Networks,stat.ripe.net
 144.125.208.0/21,Palo Alto Networks,whois.radb.net
 144.125.209.0/24,Palo Alto Networks,stat.ripe.net
+144.125.228.0/23,Palo Alto Networks,whois.radb.net
 144.125.230.0/23,Palo Alto Networks,whois.radb.net
 147.185.136.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 154.59.123.0/24,Palo Alto Networks,stat.ripe.net
