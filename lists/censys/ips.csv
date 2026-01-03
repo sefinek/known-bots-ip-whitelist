@@ -9,7 +9,6 @@ IP,Name,Sources
 206.168.33.0/24,Censys,stat.ripe.net
 206.168.34.0/24,Censys,stat.ripe.net
 206.168.35.0/24,Censys,stat.ripe.net
-2001:470:1a6::/48,Censys,whois.radb.net
 2602:80d:1000::/48,Censys,stat.ripe.net
 2602:80d:1006::/48,Censys,stat.ripe.net
 2620:96:e000::/48,Censys,stat.ripe.net

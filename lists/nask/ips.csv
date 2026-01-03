@@ -232,6 +232,7 @@ IP,Name,Sources
 194.92.62.0/24,NASK PL,whois.radb.net
 194.92.63.0/24,NASK PL,whois.radb.net
 194.92.77.0/24,NASK PL,whois.radb.net
+194.92.102.0/24,NASK PL,stat.ripe.net
 194.181.0.0/16,NASK PL,stat.ripe.net|whois.radb.net
 194.181.0.0/24,NASK PL,whois.radb.net
 194.181.1.0/24,NASK PL,whois.radb.net
@@ -631,7 +632,7 @@ IP,Name,Sources
 195.187.254.0/24,NASK PL,whois.radb.net
 195.187.255.0/24,NASK PL,whois.radb.net
 217.9.160.0/20,NASK PL,whois.radb.net
-217.9.160.0/24,NASK PL,stat.ripe.net|whois.radb.net
+217.9.160.0/24,NASK PL,whois.radb.net
 217.9.165.0/24,NASK PL,stat.ripe.net|whois.radb.net
 2001:a10::/32,NASK PL,stat.ripe.net|whois.radb.net
 2001:a10::/33,NASK PL,whois.radb.net
