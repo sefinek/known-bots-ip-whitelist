@@ -632,7 +632,7 @@ IP,Name,Sources
 195.187.254.0/24,NASK PL,whois.radb.net
 195.187.255.0/24,NASK PL,whois.radb.net
 217.9.160.0/20,NASK PL,whois.radb.net
-217.9.160.0/24,NASK PL,stat.ripe.net|whois.radb.net
+217.9.160.0/24,NASK PL,whois.radb.net
 217.9.165.0/24,NASK PL,stat.ripe.net|whois.radb.net
 2001:a10::/32,NASK PL,stat.ripe.net|whois.radb.net
 2001:a10::/33,NASK PL,whois.radb.net
