@@ -77,3 +77,7 @@ IP,Name,Sources
 2606:f4c0:b000::/36,Palo Alto Networks,whois.radb.net
 2606:f4c0:c000::/36,Palo Alto Networks,whois.radb.net
 2620:52:c000::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
+2a14:dc00::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
+2a14:dc00:1::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
+2a14:dc00:2::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
+2a14:dc00:3::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net

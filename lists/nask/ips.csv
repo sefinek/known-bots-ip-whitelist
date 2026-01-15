@@ -383,7 +383,7 @@ IP,Name,Sources
 194.181.175.0/24,NASK PL,whois.radb.net
 194.181.176.0/24,NASK PL,whois.radb.net
 194.181.178.0/24,NASK PL,whois.radb.net
-194.181.180.0/24,NASK PL,whois.radb.net
+194.181.180.0/24,NASK PL,stat.ripe.net|whois.radb.net
 194.181.182.0/24,NASK PL,whois.radb.net
 194.181.183.0/24,NASK PL,whois.radb.net
 194.181.184.0/24,NASK PL,whois.radb.net
