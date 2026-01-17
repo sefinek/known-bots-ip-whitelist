@@ -165,17 +165,29 @@ module.exports = async source => {
 		case 'jsonPrefixes': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
-			const res = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
-				{ label: `${source.name} jsonPrefixes` }
+			const urls = Array.isArray(source.url) ? source.url : [source.url];
+			const results = await Promise.allSettled(
+				urls.map(async u => {
+					try {
+						const res = await executeWithRetry(
+							() => fetchWithTimeout(u),
+							{ label: `${source.name} ${u}` }
+						);
+						const data = res.data;
+						if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
+						return parseList(
+							(data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean),
+							u
+						);
+					} catch (err) {
+						logger.warn(`Failed to fetch ${u}: ${err.message}`);
+						return [];
+					}
+				})
 			);
-			const data = res.data;
-			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
-
-			out = parseList(
-				(data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean),
-				source.url
-			);
+			out = results
+				.filter(r => r.status === 'fulfilled')
+				.flatMap(r => r.value);
 
 			break;
 		}

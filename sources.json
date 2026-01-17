@@ -58,6 +58,12 @@
     "type": "jsonPrefixes"
   },
   {
+    "name": "Google User-Triggered Fetchers",
+    "dir": "google-user-triggered-fetchers",
+    "url": ["https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json", "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers-google.json"],
+    "type": "jsonPrefixes"
+  },
+  {
     "name": "GoogleBot",
     "dir": "googlebot",
     "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
@@ -101,6 +107,12 @@
     "name": "PingdomBot",
     "dir": "pingdombot",
     "url": ["https://my.pingdom.com/probes/ipv4", "https://my.pingdom.com/probes/ipv6"],
+    "type": "textMulti"
+  },
+  {
+    "name": "Pulsetic",
+    "dir": "pulsetic",
+    "url": ["https://api.pulsetic.com/ip-ranges.txt", "https://api.pulsetic.com/ipv6-ranges.txt"],
     "type": "textMulti"
   },
   {
@@ -150,11 +162,5 @@
     "name": "YandexBot",
     "dir": "yandexbot",
     "type": "yandex"
-  },
-  {
-    "name": "Pulsetic",
-    "dir": "pulsetic",
-    "url": ["https://api.pulsetic.com/ip-ranges.txt", "https://api.pulsetic.com/ipv6-ranges.txt"],
-    "type": "textMulti"
   }
 ]
