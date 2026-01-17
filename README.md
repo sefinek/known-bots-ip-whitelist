@@ -8,12 +8,6 @@ The project is released under the [MIT license](LICENSE) — you can do whatever
 If you like this repository, leave a star ⭐. Thank you!
 
 
-## 🚨 Breaking Changes in v2.0.0
-- **JSON**: `source` (string) → `sources` (array)
-- **CSV**: Column `Source` → `Sources`, delimiter `,` → `|`
-- **BGPView → RIPEstat**: Migrated from BGPView (shut down Nov 26, 2025) to [RIPEstat](https://stat.ripe.net) + WHOIS backup
-
-
 ## ⏱️ Update Schedule
 Lists are updated every `6 hours`.
 
