@@ -2,8 +2,9 @@ IP,Name,Sources
 66.132.148.0/24,Censys,stat.ripe.net|whois.radb.net
 66.132.153.0/24,Censys,stat.ripe.net|whois.radb.net
 66.132.159.0/24,Censys,stat.ripe.net|whois.radb.net
+66.132.172.0/24,Censys,whois.radb.net
 162.142.125.0/24,Censys,stat.ripe.net|whois.radb.net
-167.94.138.0/24,Censys,stat.ripe.net
+167.94.138.0/24,Censys,stat.ripe.net|whois.radb.net
 167.248.133.0/24,Censys,stat.ripe.net
 206.168.32.0/24,Censys,stat.ripe.net|whois.radb.net
 206.168.33.0/24,Censys,stat.ripe.net
