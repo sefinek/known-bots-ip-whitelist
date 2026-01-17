@@ -150,5 +150,11 @@
     "name": "YandexBot",
     "dir": "yandexbot",
     "type": "yandex"
+  },
+  {
+    "name": "Pulsetic",
+    "dir": "pulsetic",
+    "url": ["https://api.pulsetic.com/ip-ranges.txt", "https://api.pulsetic.com/ipv6-ranges.txt"],
+    "type": "textMulti"
   }
 ]

@@ -114,6 +114,8 @@ IP,Name,Sources
 5.39.109.191,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 5.42.206.66,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.45.192.0/18,YandexBot,https://yandex.com/ips
+5.161.16.172,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+5.161.60.52,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.161.61.238,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.73.160,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.75.7,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -121,6 +123,7 @@ IP,Name,Sources
 5.161.113.195,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.117.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.118.194,BetterStack,https://uptime.betterstack.com/ips.txt
+5.161.123.19,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.161.177.47,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.194.92,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.215.244,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -130,6 +133,7 @@ IP,Name,Sources
 5.223.56.56,BetterStack,https://uptime.betterstack.com/ips.txt
 5.223.57.22,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.223.60.188,BetterStack,https://uptime.betterstack.com/ips.txt
+5.223.61.55,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.223.73.226,BetterStack,https://uptime.betterstack.com/ips.txt
 5.223.75.121,BetterStack,https://uptime.betterstack.com/ips.txt
 5.255.192.0/18,YandexBot,https://yandex.com/ips
@@ -1339,7 +1343,11 @@ IP,Name,Sources
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 45.55.127.146,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+45.63.31.206,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.64.40.0/22,FacebookBot,stat.ripe.net|whois.radb.net
+45.76.207.53,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+45.77.12.252,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+45.77.59.102,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.79.236.121,BetterStack,https://uptime.betterstack.com/ips.txt
 45.125.247.57,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 45.156.248.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1349,11 +1357,13 @@ IP,Name,Sources
 46.4.119.81,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.4.120.152,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.20.45.18,PingdomBot,https://my.pingdom.com/probes/ipv4
+46.62.208.79,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 46.151.193.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.151.193.86,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.151.194.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.151.194.243,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.199.75.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+46.224.40.12,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 46.246.122.10,PingdomBot,https://my.pingdom.com/probes/ipv4
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -6249,6 +6259,7 @@ IP,Name,Sources
 57.154.187.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 63.178.84.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.74.133.224/27,Palo Alto Networks,whois.radb.net
+64.176.218.54,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 64.185.232.82,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6262,6 +6273,7 @@ IP,Name,Sources
 64.236.118.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
+65.21.249.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 65.55.210.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 65.154.226.0/24,Palo Alto Networks,stat.ripe.net
 65.155.30.0/24,Palo Alto Networks,stat.ripe.net
@@ -6482,6 +6494,8 @@ IP,Name,Sources
 69.171.240.0/20,FacebookBot,stat.ripe.net|whois.radb.net
 69.171.250.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 69.171.255.0/24,FacebookBot,whois.radb.net
+70.34.201.66,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+70.34.218.144,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 70.42.131.0/24,Palo Alto Networks,stat.ripe.net
 71.6.135.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 71.6.146.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -6608,6 +6622,7 @@ IP,Name,Sources
 78.47.94.156,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.47.98.55,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 78.47.173.76,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+78.141.245.53,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 79.127.134.129,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.134.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.134.131,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6914,6 +6929,8 @@ IP,Name,Sources
 107.155.47.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.163.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
+107.191.47.164,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+108.61.219.226,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.141.83.74/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 108.162.192.0/18,Cloudflare,https://www.cloudflare.com/ips-v4
 108.177.2.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -6959,6 +6976,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -6966,6 +6984,8 @@ IP,Name,Sources
 116.202.193.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.224.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+116.203.113.136,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 124.220.31.125,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7089,6 +7109,10 @@ IP,Name,Sources
 138.201.51.89,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.201.86.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.59.50.44,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+139.84.134.95,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+139.84.211.213,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+139.84.228.151,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+139.84.237.134,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 139.99.174.7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.162.58.253,BetterStack,https://uptime.betterstack.com/ips.txt
 139.162.71.39,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -7097,6 +7121,7 @@ IP,Name,Sources
 139.162.215.113,BetterStack,https://uptime.betterstack.com/ips.txt
 139.162.215.114,BetterStack,https://uptime.betterstack.com/ips.txt
 139.180.129.216,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+139.180.183.114,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 139.180.209.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.217.52.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 141.8.128.0/18,YandexBot,https://yandex.com/ips
@@ -8738,8 +8763,10 @@ IP,Name,Sources
 148.251.131.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.238,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+149.28.43.73,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+149.28.83.249,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
-150.109.170.94,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+149.248.58.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 150.158.3.127,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9206,6 +9233,7 @@ IP,Name,Sources
 167.114.139.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 167.114.139.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 167.172.219.157,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+167.235.89.6,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 167.235.114.167,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 167.235.143.113,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.248.133.0/24,Censys|Semrush,stat.ripe.net
@@ -9635,6 +9663,7 @@ IP,Name,Sources
 178.63.41.234,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.41.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.41.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.128.32.203,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 178.154.128.0/18,YandexBot,https://yandex.com/ips
 178.156.154.250,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -12858,6 +12887,7 @@ IP,Name,Sources
 207.121.80.12,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.80.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.90.60,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+207.148.71.205,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 207.211.214.145,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
 208.83.234.224,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -12903,6 +12933,7 @@ IP,Name,Sources
 213.180.192.0/19,YandexBot,https://yandex.com/ips
 216.18.205.234,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 216.117.2.180,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+216.128.176.204,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.144.248.18,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.19,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.21,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -12917,10 +12948,13 @@ IP,Name,Sources
 216.144.248.30,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.202.194.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 216.202.194.252,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+216.238.99.176,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+216.238.109.23,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.245.221.83,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 217.9.160.0/20,NASK PL,whois.radb.net
 217.9.160.0/24,NASK PL,whois.radb.net
 217.9.165.0/24,NASK PL,stat.ripe.net|whois.radb.net
+217.69.4.131,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 2001:470:1a6::/48,Semrush,whois.radb.net
 2001:550:2:38::28:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:6f::f3:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -13667,9 +13701,11 @@ IP,Name,Sources
 2a01:4f8:c17:20b2::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a01:4f8:c17:42e4::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c17:aec0::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a01:4f8:c2c:9b3b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:c2c:9fc6::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c2c:beae::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1a:3d53::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2a01:4f8:1c1a:d804::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:1c1b:4ef4::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1b:5b5a::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1b:7ecc::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -13677,6 +13713,7 @@ IP,Name,Sources
 2a01:4f8:1c1c:5353::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1c:7240::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1c:a98a::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:c010:7943::/64,RSS API,https://rssapi.net/ips.txt
 2a01:4f8:c010:9390::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4f8:c012:25a4::1,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -13695,17 +13732,22 @@ IP,Name,Sources
 2a01:4f8:c014:24d5::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4f8:c014:2649::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4f9:3070:3934::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a01:4f9:c012:7a1b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f9:c013:7fca::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:bfd::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:2219::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:3e03::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2a01:4ff:f0:4156::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:4f11::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:f0:5a81::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:f0:5f80::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:7fad::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2a01:4ff:f0:98da::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:9c5f::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:abcd::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:f0:b2f2::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:b6f1::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2a01:4ff:f0:b8d5::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:d283::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:d3cd::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:e516::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -13717,6 +13759,7 @@ IP,Name,Sources
 2a01:4ff:2f0:193c::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:2f0:1c39::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:2f0:1f88::1,BetterStack,https://uptime.betterstack.com/ips.txt
+2a01:4ff:2f0:226a::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:2f0:258a::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:2f0:27de::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:2f0:3b17::1,BetterStack,https://uptime.betterstack.com/ips.txt
