@@ -11,7 +11,7 @@ const fetchSource = require('./scripts/fetchSource.js');
 const ipUtils = require('./scripts/ipUtils.js');
 const RateLimiter = require('./scripts/utils/rateLimiter.js');
 const logger = require('./scripts/utils/logger.js');
-const { validateCommandArgs, validateSourcesConfig } = require('./scripts/utils/validation.js');
+const { validateSourcesConfig } = require('./scripts/utils/validation.js');
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 
@@ -35,10 +35,7 @@ const runTests = () => {
 	logger.info('Running tests...');
 
 	return new Promise((resolve, reject) => {
-		const args = ['npm', 'test'];
-		validateCommandArgs(args);
-
-		const child = spawn(args[0], args.slice(1), {
+		const child = spawn('npm test', [], {
 			shell: true,
 			stdio: ['inherit', 'pipe', 'pipe'],
 			timeout: 300000,
