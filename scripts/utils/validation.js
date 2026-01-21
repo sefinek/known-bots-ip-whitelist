@@ -1,5 +1,4 @@
 const { ValidationError, SecurityError } = require('./errors.js');
-const ALLOWEd_COMMANDS = ['test', 'lint', 'build'];
 
 const isValidUrl = url => {
 	if (!url || typeof url !== 'string') return false;
