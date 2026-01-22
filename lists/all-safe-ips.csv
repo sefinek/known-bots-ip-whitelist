@@ -7618,7 +7618,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.57.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7629,6 +7628,7 @@ IP,Name,Sources
 116.203.113.136,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.156.244.42,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9413,6 +9413,7 @@ IP,Name,Sources
 149.28.83.249,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 149.248.58.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+150.109.181.129,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 152.89.160.26,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
