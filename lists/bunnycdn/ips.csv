@@ -938,3 +938,4 @@ IP,Name,Sources
 2a04:ff07:d9:3a::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a04:ff07:d9:3b::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a0b:21c0:2000:208f::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a0d:5600:1a:26::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
