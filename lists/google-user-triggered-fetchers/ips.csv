@@ -376,6 +376,9 @@ IP,Name,Sources
 35.243.22.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.22.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.22.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+35.243.22.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+35.243.22.160/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+35.243.22.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.23.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.23.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.23.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
@@ -1169,6 +1172,9 @@ IP,Name,Sources
 2600:1900:0:141::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:142::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:143::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+2600:1900:0:144::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+2600:1900:0:145::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+2600:1900:0:146::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:150::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:151::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:152::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
