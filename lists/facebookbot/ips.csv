@@ -286,7 +286,7 @@ IP,Name,Sources
 157.240.192.0/24,FacebookBot,whois.radb.net
 157.240.193.0/24,FacebookBot,whois.radb.net
 157.240.194.0/24,FacebookBot,whois.radb.net
-157.240.195.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+157.240.195.0/24,FacebookBot,whois.radb.net
 157.240.196.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.197.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.198.0/24,FacebookBot,whois.radb.net
