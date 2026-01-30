@@ -7042,6 +7042,7 @@ IP,Name,Sources
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,stat.ripe.net|whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7219,6 +7220,7 @@ IP,Name,Sources
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+81.69.231.117,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10908,7 +10910,7 @@ IP,Name,Sources
 194.181.175.0/24,NASK PL,whois.radb.net
 194.181.176.0/24,NASK PL,whois.radb.net
 194.181.178.0/24,NASK PL,whois.radb.net
-194.181.180.0/24,NASK PL,stat.ripe.net|whois.radb.net
+194.181.180.0/24,NASK PL,whois.radb.net
 194.181.182.0/24,NASK PL,whois.radb.net
 194.181.183.0/24,NASK PL,whois.radb.net
 194.181.184.0/24,NASK PL,whois.radb.net
