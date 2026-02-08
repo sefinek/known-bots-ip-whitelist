@@ -25,13 +25,13 @@
     "cron": "^4.4.0",
     "csv-stringify": "^6.6.0",
     "ipaddr.js": "^2.3.0",
-    "puppeteer": "^24.36.1",
+    "puppeteer": "^24.37.2",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "simple-git": "^3.30.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^10.0.1",
     "@jest/globals": "^30.2.0",
     "csv-parse": "^6.1.0",
     "globals": "^17.3.0",
