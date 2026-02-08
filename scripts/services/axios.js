@@ -4,7 +4,7 @@ const { version } = require('../../package.json');
 const api = axios.create({
 	timeout: 60000,
 	headers: {
-		'User-Agent': `Mozilla/5.0 (compatible; KnownBotsIPWhitelist/${version}; +https://github.com/sefinek/known-bots-ip-whitelist)`,
+		'User-Agent': `Mozilla/5.0 (compatible; BotsIPWhitelist/${version}; +https://github.com/sefinek/known-bots-ip-whitelist)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
 		'Connection': 'keep-alive',
