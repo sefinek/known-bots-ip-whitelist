@@ -1029,6 +1029,7 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.107.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.79.226.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1162,7 +1163,6 @@ IP,Name,Sources
 23.102.140.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.102.141.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
-23.106.54.151/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.106.244.195/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.152.74,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.111.159.174,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -1731,8 +1731,8 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.133.118.155,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.152.241.22,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -6562,7 +6562,7 @@ IP,Name,Sources
 57.144.72.0/23,FacebookBot,whois.radb.net
 57.144.74.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.76.0/23,FacebookBot,stat.ripe.net|whois.radb.net
-57.144.78.0/23,FacebookBot,whois.radb.net
+57.144.78.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.80.0/23,FacebookBot,whois.radb.net
 57.144.82.0/23,FacebookBot,whois.radb.net
 57.144.84.0/23,FacebookBot,whois.radb.net
@@ -15599,7 +15599,7 @@ IP,Name,Sources
 2a03:2880:f31b::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f31c::/48,FacebookBot,whois.radb.net
 2a03:2880:f31d::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f31e::/48,FacebookBot,whois.radb.net
+2a03:2880:f31e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f31f::/48,FacebookBot,whois.radb.net
 2a03:2880:f320::/48,FacebookBot,whois.radb.net
 2a03:2880:f321::/48,FacebookBot,whois.radb.net
