@@ -1137,7 +1137,6 @@ IP,Name,Sources
 20.215.220.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.220.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.220.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1736,6 +1735,7 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.133.103.102,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -6635,7 +6635,7 @@ IP,Name,Sources
 57.144.208.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.210.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.212.0/23,FacebookBot,stat.ripe.net|whois.radb.net
-57.144.214.0/23,FacebookBot,stat.ripe.net|whois.radb.net
+57.144.214.0/23,FacebookBot,whois.radb.net
 57.144.216.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.218.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.220.0/23,FacebookBot,stat.ripe.net|whois.radb.net
@@ -7226,6 +7226,7 @@ IP,Name,Sources
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+81.69.231.117,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -12512,7 +12513,6 @@ IP,Name,Sources
 200.25.53.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.57.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.62.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-200.25.69.94,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.70.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.80.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.86.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -15068,7 +15068,6 @@ IP,Name,Sources
 2620:96:e000::/48,Censys|Semrush,stat.ripe.net
 2800:1e0:c01:a003::8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2800:1e0:2420:2::69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
 2804:4c4:dc10:8860::4021,PingdomBot,https://my.pingdom.com/probes/ipv6
 2806:1090:cbff::/48,FacebookBot,whois.radb.net
@@ -15683,7 +15682,7 @@ IP,Name,Sources
 2a03:2880:f368::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f369::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f36a::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f36b::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f36b::/48,FacebookBot,whois.radb.net
 2a03:2880:f36c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f36d::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f36e::/48,FacebookBot,stat.ripe.net|whois.radb.net
