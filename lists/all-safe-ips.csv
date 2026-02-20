@@ -1738,7 +1738,7 @@ IP,Name,Sources
 40.119.232.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-43.133.103.102,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -7284,8 +7284,7 @@ IP,Name,Sources
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.40/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.44/32,Modat Scanner,https://scanner.modat.io/ipv4.txt

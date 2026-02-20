@@ -15,8 +15,7 @@ IP,Name,Sources
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.40/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.44/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
