@@ -1140,7 +1140,6 @@ IP,Name,Sources
 20.215.220.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.220.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.220.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1741,6 +1740,7 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.152.241.22,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7177,6 +7177,7 @@ IP,Name,Sources
 74.179.232.116/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.201.127.0/24,Palo Alto Networks,stat.ripe.net
 74.226.253.160,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.243.255.151,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
