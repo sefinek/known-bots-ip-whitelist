@@ -48,6 +48,7 @@ IP,Name,Sources
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,stat.ripe.net
 153.72.96.0/19,Palo Alto Networks,whois.radb.net
+153.72.192.0/19,Palo Alto Networks,whois.radb.net
 154.59.123.0/24,Palo Alto Networks,stat.ripe.net
 154.59.126.0/24,Palo Alto Networks,stat.ripe.net
 162.216.150.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
