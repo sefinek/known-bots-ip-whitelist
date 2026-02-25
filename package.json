@@ -25,10 +25,10 @@
     "cron": "^4.4.0",
     "csv-stringify": "^6.6.0",
     "ipaddr.js": "^2.3.0",
-    "puppeteer": "^24.37.2",
+    "puppeteer": "^24.37.5",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "simple-git": "^3.30.0"
+    "simple-git": "^3.32.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
