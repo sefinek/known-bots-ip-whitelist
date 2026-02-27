@@ -33,7 +33,6 @@ IP,Name,Sources
 4.197.64.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.64.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.115.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-4.200.141.43,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 4.201.125.59/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.141.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.197.203/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -977,7 +976,6 @@ IP,Name,Sources
 20.0.53.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.3.1.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.8.252.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.11.145.57,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.12.141.99/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.13.44.19/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.14.99.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1167,6 +1165,7 @@ IP,Name,Sources
 23.102.140.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.102.141.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
+23.106.54.151/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.183/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.184/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.192/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -1210,6 +1209,9 @@ IP,Name,Sources
 31.13.94.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 31.13.95.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 31.13.96.0/19,FacebookBot,stat.ripe.net|whois.radb.net
+31.14.32.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+31.14.32.6/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+31.14.32.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 34.21.9.50,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.22.85.0/27,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
 34.39.131.22,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -1689,7 +1691,6 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-39.104.87.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1735,7 +1736,6 @@ IP,Name,Sources
 40.119.232.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -7056,7 +7056,6 @@ IP,Name,Sources
 74.7.243.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.243.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 74.7.244.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-74.62.157.137,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.119.76.0/22,FacebookBot,stat.ripe.net|whois.radb.net
 74.125.148.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 74.125.148.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
@@ -7233,7 +7232,6 @@ IP,Name,Sources
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-81.69.231.117,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9579,6 +9577,7 @@ IP,Name,Sources
 157.240.254.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.245.164.170,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 158.51.123.205,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+158.252.53.73,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 159.69.57.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.68.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.158.189,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -13610,6 +13609,7 @@ IP,Name,Sources
 209.38.124.252,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4
+209.58.160.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 209.85.238.0/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.85.238.32/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
 209.85.238.64/27,Google Special Crawlers,https://developers.google.com/search/apis/ipranges/special-crawlers.json
