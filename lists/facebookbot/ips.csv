@@ -322,7 +322,7 @@ IP,Name,Sources
 157.240.224.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.225.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.226.0/24,FacebookBot,stat.ripe.net|whois.radb.net
-157.240.227.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+157.240.227.0/24,FacebookBot,whois.radb.net
 157.240.228.0/24,FacebookBot,whois.radb.net
 157.240.229.0/24,FacebookBot,whois.radb.net
 157.240.231.0/24,FacebookBot,stat.ripe.net|whois.radb.net
