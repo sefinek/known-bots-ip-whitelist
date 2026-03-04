@@ -196,7 +196,6 @@ IP,Name,Sources
 13.235.122.149,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
 13.246.114.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 15.134.168.178,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
-15.184.48.78,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 15.235.27.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.27.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.27.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -1718,7 +1717,6 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-39.104.87.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1765,7 +1763,6 @@ IP,Name,Sources
 40.122.235.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -7315,13 +7312,17 @@ IP,Name,Sources
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.48/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.40/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.44/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.40/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.48/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.64/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 87.249.137.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.26.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.26.189,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -13662,7 +13663,9 @@ IP,Name,Sources
 212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.32/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 212.102.40.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
