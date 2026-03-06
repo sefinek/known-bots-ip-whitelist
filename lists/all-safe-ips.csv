@@ -1162,6 +1162,7 @@ IP,Name,Sources
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.184.230/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.235.87.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.249.63.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1734,6 +1735,7 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.87.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1785,6 +1787,7 @@ IP,Name,Sources
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -14570,7 +14573,11 @@ IP,Name,Sources
 2406:da14:94d:8601:9d0d:7754:bedf:e4f5,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2406:da14:94d:8601:b325:ff58:2bba:7934,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2406:da14:94d:8601:db4b:c5ac:2cbe:9a79,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2406:da14:144e:9200:2ef5:8389:e929:2534,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2406:da18:1710:ca00:716e:8241:1938:9501,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2406:da1a:b0a:bf02::4050,PingdomBot,https://my.pingdom.com/probes/ipv6
+2406:da1a:ce1:ff00:a0f6:634f:ec30:dbf4,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2406:da1c:5ed:d900:aa26:a65d:e28d:3dd8,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2406:da1c:9c8:dc02:7ae1:f2ea:ab91:2fde,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2406:da1c:9c8:dc02:7db9:f38b:7b9f:402e,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2406:da1c:9c8:dc02:82b2:f0fd:ee96:579,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt

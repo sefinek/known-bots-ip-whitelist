@@ -39,6 +39,10 @@ IP,Name,Sources
 216.238.99.176,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.109.23,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 217.69.4.131,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+2406:da14:144e:9200:2ef5:8389:e929:2534,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2406:da18:1710:ca00:716e:8241:1938:9501,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2406:da1a:ce1:ff00:a0f6:634f:ec30:dbf4,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2406:da1c:5ed:d900:aa26:a65d:e28d:3dd8,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:c2c:9b3b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:1c1a:d804::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
