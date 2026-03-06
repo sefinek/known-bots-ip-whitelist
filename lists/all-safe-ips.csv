@@ -1035,6 +1035,7 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.107.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -1180,7 +1181,6 @@ IP,Name,Sources
 23.102.140.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.102.141.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
-23.106.54.151/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.183/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.184/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.192/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -1784,7 +1784,6 @@ IP,Name,Sources
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -6709,7 +6708,7 @@ IP,Name,Sources
 57.145.0.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.2.0/23,FacebookBot,whois.radb.net
 57.145.4.0/23,FacebookBot,stat.ripe.net|whois.radb.net
-57.145.6.0/23,FacebookBot,whois.radb.net
+57.145.6.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.152.72.128/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 57.154.174.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.154.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7279,7 +7278,6 @@ IP,Name,Sources
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-81.69.231.117,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -15789,7 +15787,7 @@ IP,Name,Sources
 2a03:2880:f380::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f381::/48,FacebookBot,whois.radb.net
 2a03:2880:f382::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f383::/48,FacebookBot,whois.radb.net
+2a03:2880:f383::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f800::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f801::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f802::/48,FacebookBot,stat.ripe.net|whois.radb.net
