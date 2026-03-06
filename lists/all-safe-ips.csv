@@ -119,6 +119,7 @@ IP,Name,Sources
 5.39.109.190,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 5.39.109.191,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 5.42.206.66,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+5.45.192.0/18,YandexBot,https://yandex.com/ips
 5.161.16.172,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.161.60.52,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.161.61.238,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -141,6 +142,7 @@ IP,Name,Sources
 5.223.61.55,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.223.73.226,BetterStack,https://uptime.betterstack.com/ips.txt
 5.223.75.121,BetterStack,https://uptime.betterstack.com/ips.txt
+5.255.192.0/18,YandexBot,https://yandex.com/ips
 8.52.135.180,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.135.204,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.135.212,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1688,6 +1690,7 @@ IP,Name,Sources
 35.243.23.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.243.23.224/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 35.247.243.240/28,GoogleBot,https://developers.google.com/static/search/apis/ipranges/googlebot.json
+37.9.64.0/18,YandexBot,https://yandex.com/ips
 37.19.203.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 37.19.207.34,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 37.19.207.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1729,6 +1732,7 @@ IP,Name,Sources
 37.59.204.157,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 37.59.204.158,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 37.59.204.159,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+37.140.128.0/18,YandexBot,https://yandex.com/ips
 37.236.234.2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.32.110.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.54.3.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1783,7 +1787,6 @@ IP,Name,Sources
 40.122.235.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-42.192.58.21,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -7230,6 +7233,7 @@ IP,Name,Sources
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
+77.88.0.0/18,YandexBot,https://yandex.com/ips
 78.46.69.199,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.86,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7317,6 +7321,7 @@ IP,Name,Sources
 84.17.59.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.59.117,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.63.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+84.252.160.0/19,YandexBot,https://yandex.com/ips
 85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7345,6 +7350,7 @@ IP,Name,Sources
 85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 87.249.137.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+87.250.224.0/19,YandexBot,https://yandex.com/ips
 88.99.26.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.26.189,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.63.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7372,6 +7378,7 @@ IP,Name,Sources
 89.248.167.131,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 89.248.172.7,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 89.248.172.16,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+90.156.176.0/20,YandexBot,https://yandex.com/ips
 91.98.38.26,BetterStack,https://uptime.betterstack.com/ips.txt
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 91.99.189.210,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -7451,7 +7458,9 @@ IP,Name,Sources
 92.222.108.125,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.126,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.127,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+92.255.112.0/20,YandexBot,https://yandex.com/ips
 93.120.27.62,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+93.158.128.0/18,YandexBot,https://yandex.com/ips
 93.174.95.106,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 93.180.217.214,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.20.154.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7496,6 +7505,7 @@ IP,Name,Sources
 94.130.68.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.204.110,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
+95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 101.43.244.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7839,6 +7849,7 @@ IP,Name,Sources
 139.180.183.114,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 139.180.209.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 139.217.52.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+141.8.128.0/18,YandexBot,https://yandex.com/ips
 141.101.64.0/18,Cloudflare,https://www.cloudflare.com/ips-v4
 141.164.35.160,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 141.227.142.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10386,6 +10397,7 @@ IP,Name,Sources
 178.63.41.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.128.32.203,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+178.154.128.0/18,YandexBot,https://yandex.com/ips
 178.156.154.250,BetterStack,https://uptime.betterstack.com/ips.txt
 178.156.181.172,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.184.20,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -10412,6 +10424,7 @@ IP,Name,Sources
 184.75.214.98,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.24.11.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.24.11.19,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+185.32.187.0/24,YandexBot,https://yandex.com/ips
 185.39.146.214,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.39.146.215,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.40.106.117,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -13701,6 +13714,7 @@ IP,Name,Sources
 212.102.50.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.50.54,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.50.59,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+213.180.192.0/19,YandexBot,https://yandex.com/ips
 216.18.205.234,Kagi,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/kagi.txt
 216.117.2.180,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 216.128.176.204,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -15253,6 +15267,7 @@ IP,Name,Sources
 2a01:7a0:2:1754::4056,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a01:7a7:2:205c::4058,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a01:7a7:2:205d::4057,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a02:6b8::/29,YandexBot,https://yandex.com/ips
 2a02:750:11:284::442,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:752:100:e::4001,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:752:100:e::4002,PingdomBot,https://my.pingdom.com/probes/ipv6
