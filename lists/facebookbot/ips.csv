@@ -133,7 +133,7 @@ IP,Name,Sources
 57.144.142.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.144.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.146.0/23,FacebookBot,whois.radb.net
-57.144.148.0/23,FacebookBot,stat.ripe.net|whois.radb.net
+57.144.148.0/23,FacebookBot,whois.radb.net
 57.144.150.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.152.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.144.154.0/23,FacebookBot,whois.radb.net
