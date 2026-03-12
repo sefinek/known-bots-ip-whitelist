@@ -1,5 +1,5 @@
 IP,Name,Sources
-1.7.225.0/24,Palo Alto Networks,stat.ripe.net
+1.7.225.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 35.203.210.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 35.203.211.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 64.74.133.224/27,Palo Alto Networks,whois.radb.net
