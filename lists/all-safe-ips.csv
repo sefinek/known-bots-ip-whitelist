@@ -1787,7 +1787,6 @@ IP,Name,Sources
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -9589,7 +9588,7 @@ IP,Name,Sources
 157.240.198.0/24,FacebookBot,whois.radb.net
 157.240.199.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.200.0/24,FacebookBot,stat.ripe.net|whois.radb.net
-157.240.201.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+157.240.201.0/24,FacebookBot,whois.radb.net
 157.240.202.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.203.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.204.0/24,FacebookBot,whois.radb.net
@@ -15082,6 +15081,8 @@ IP,Name,Sources
 2600:1f1e:d7c:fd05::4028,PingdomBot,https://my.pingdom.com/probes/ipv6
 2602:80d:1000::/48,Censys|Semrush,stat.ripe.net
 2602:80d:1006::/48,Censys|Semrush,stat.ripe.net
+2602:80d:1007::/48,Censys|Semrush,whois.radb.net
+2602:80d:1008::/48,Censys|Semrush,whois.radb.net
 2602:ffe4:c09:106::1154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c54:277::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -15327,7 +15328,7 @@ IP,Name,Sources
 2a03:2880:f042::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f043::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f044::/48,FacebookBot,whois.radb.net
-2a03:2880:f045::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f045::/48,FacebookBot,whois.radb.net
 2a03:2880:f046::/48,FacebookBot,whois.radb.net
 2a03:2880:f047::/48,FacebookBot,whois.radb.net
 2a03:2880:f048::/48,FacebookBot,stat.ripe.net|whois.radb.net
@@ -15457,7 +15458,7 @@ IP,Name,Sources
 2a03:2880:f142::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f143::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f144::/48,FacebookBot,whois.radb.net
-2a03:2880:f145::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f145::/48,FacebookBot,whois.radb.net
 2a03:2880:f146::/48,FacebookBot,whois.radb.net
 2a03:2880:f147::/48,FacebookBot,whois.radb.net
 2a03:2880:f148::/48,FacebookBot,stat.ripe.net|whois.radb.net
@@ -15586,7 +15587,7 @@ IP,Name,Sources
 2a03:2880:f242::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f243::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f244::/48,FacebookBot,whois.radb.net
-2a03:2880:f245::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f245::/48,FacebookBot,whois.radb.net
 2a03:2880:f246::/48,FacebookBot,whois.radb.net
 2a03:2880:f247::/48,FacebookBot,whois.radb.net
 2a03:2880:f248::/48,FacebookBot,stat.ripe.net|whois.radb.net
