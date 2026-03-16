@@ -203,6 +203,7 @@ IP,Name,Sources
 34.127.128.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 34.127.128.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 34.127.128.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+34.127.128.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 34.127.129.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 34.127.129.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 34.127.129.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
@@ -1423,6 +1424,7 @@ IP,Name,Sources
 2600:1900:0:351::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:352::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:353::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
+2600:1900:0:354::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:360::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:361::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
 2600:1900:0:362::/64,Google User-Triggered Fetchers,https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json
