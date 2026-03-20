@@ -9,8 +9,8 @@ IP,Name,Sources
 66.132.195.0/24,Semrush,stat.ripe.net|whois.radb.net
 66.132.198.0/24,Semrush,stat.ripe.net|whois.radb.net
 66.132.209.0/24,Semrush,whois.radb.net
-66.132.224.0/24,Semrush,whois.radb.net
-66.132.228.0/24,Semrush,whois.radb.net
+66.132.224.0/24,Semrush,stat.ripe.net|whois.radb.net
+66.132.228.0/24,Semrush,stat.ripe.net|whois.radb.net
 66.132.233.0/24,Semrush,whois.radb.net
 66.132.237.0/24,Semrush,whois.radb.net
 66.132.245.0/24,Semrush,whois.radb.net
@@ -36,6 +36,6 @@ IP,Name,Sources
 2602:80d:1006::/48,Semrush,stat.ripe.net
 2602:80d:1007::/48,Semrush,stat.ripe.net|whois.radb.net
 2602:80d:1008::/48,Semrush,stat.ripe.net|whois.radb.net
-2602:80d:1009::/48,Semrush,whois.radb.net
+2602:80d:1009::/48,Semrush,stat.ripe.net|whois.radb.net
 2602:80d:100a::/48,Semrush,stat.ripe.net|whois.radb.net
 2620:96:e000::/48,Semrush,stat.ripe.net
