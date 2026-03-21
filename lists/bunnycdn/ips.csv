@@ -862,7 +862,6 @@ IP,Name,Sources
 2404:f780:0:2::15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2404:f780:5:cafe::13,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c09:106::1154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c54:277::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:5300:20e:a100::,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2607:f2d8:4010:5b::1358:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
