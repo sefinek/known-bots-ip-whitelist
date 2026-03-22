@@ -1739,6 +1739,7 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.87.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7338,6 +7339,8 @@ IP,Name,Sources
 84.17.46.54,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.59.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.59.117,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+84.17.59.119,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+84.17.59.120,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.63.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.252.160.0/19,YandexBot,https://yandex.com/ips
 85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -14537,6 +14540,8 @@ IP,Name,Sources
 2400:52e0:1e03::1312:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e04::888:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e04::1202:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e04::1432:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e04::1433:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e05::887:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e05::1204:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e06::895:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
