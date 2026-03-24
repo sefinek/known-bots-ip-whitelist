@@ -1740,6 +1740,7 @@ IP,Name,Sources
 38.54.5.37,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.104.169.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 38.142.94.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+39.104.87.46,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.67.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1791,6 +1792,7 @@ IP,Name,Sources
 43.138.124.228,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -6720,6 +6722,7 @@ IP,Name,Sources
 57.145.10.0/23,FacebookBot,whois.radb.net
 57.145.12.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.14.0/23,FacebookBot,whois.radb.net
+57.145.18.0/23,FacebookBot,whois.radb.net
 57.151.131.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.152.72.128/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 57.154.174.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -15837,6 +15840,7 @@ IP,Name,Sources
 2a03:2880:f385::/48,FacebookBot,whois.radb.net
 2a03:2880:f386::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f387::/48,FacebookBot,whois.radb.net
+2a03:2880:f389::/48,FacebookBot,whois.radb.net
 2a03:2880:f800::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f801::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f802::/48,FacebookBot,stat.ripe.net|whois.radb.net
