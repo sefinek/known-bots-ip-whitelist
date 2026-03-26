@@ -7302,6 +7302,7 @@ IP,Name,Sources
 80.82.77.33,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 80.82.77.139,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 81.70.170.28,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+81.70.218.38,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.103.136.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.139.165,PingdomBot,https://my.pingdom.com/probes/ipv4
 82.103.145.126,PingdomBot,https://my.pingdom.com/probes/ipv4
