@@ -13,6 +13,7 @@ IP,Name,Sources
 3.133.226.214,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.149.57.90,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.212.128.62,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.150.142.218/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.151.71.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.151.119.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -986,6 +987,7 @@ IP,Name,Sources
 20.43.120.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.43.150.85/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.43.150.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.43.152.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.43.172.120/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.44.222.1/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.45.178.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1024,6 +1026,9 @@ IP,Name,Sources
 20.61.142.192/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.62.224.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.63.221.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.64.185.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.69.129.205/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.69.131.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.71.12.143/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.71.69.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.72.242.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1038,6 +1043,7 @@ IP,Name,Sources
 20.79.238.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.239.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.129.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.80.156.88/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.90.7.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.93.28.24/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.97.189.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1107,6 +1113,7 @@ IP,Name,Sources
 20.194.0.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.194.1.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.194.157.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.195.58.189/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.195.108.47/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.197.209.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.197.209.27/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1131,6 +1138,7 @@ IP,Name,Sources
 20.210.154.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.210.174.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.210.211.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.215.187.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.188.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.215.214.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1156,13 +1164,13 @@ IP,Name,Sources
 20.227.140.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.228.106.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.232.184.230/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.235.87.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.249.63.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.250.51.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.252.16.193/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.59.76/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.96.199/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 23.22.2.46,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -1758,7 +1766,6 @@ IP,Name,Sources
 40.77.202.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 40.79.131.208/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 40.79.186.176/28,BingBot,https://www.bing.com/toolbox/bingbot.json
-40.80.242.63/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.81.134.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 40.81.134.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 40.81.234.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1787,6 +1794,7 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1813,6 +1821,7 @@ IP,Name,Sources
 46.199.75.115,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 46.224.40.12,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 46.246.122.10,PingdomBot,https://my.pingdom.com/probes/ipv4
+48.204.32.87/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1823,7 +1832,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -6723,6 +6731,7 @@ IP,Name,Sources
 57.154.174.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.154.175.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 57.154.187.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+57.155.18.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 63.178.84.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.74.133.224/27,Palo Alto Networks,whois.radb.net
 64.176.218.54,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -7348,7 +7357,6 @@ IP,Name,Sources
 85.208.97.0/24,Semrush,stat.ripe.net|whois.radb.net
 85.208.98.0/24,Semrush,whois.radb.net
 85.208.99.0/24,Semrush,stat.ripe.net|whois.radb.net
-85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -10356,6 +10364,7 @@ IP,Name,Sources
 172.183.143.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.183.222.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.193.245.229/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.194.141.49/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.199.55.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.202.102.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.203.190.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
