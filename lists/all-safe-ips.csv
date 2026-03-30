@@ -166,6 +166,8 @@ IP,Name,Sources
 8.52.184.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.184.180,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.184.188,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+9.160.163.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+9.160.164.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.36.154.207,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 13.65.138.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.65.138.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1128,6 +1130,7 @@ IP,Name,Sources
 20.204.243.55/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.246.81/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.246.254/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.206.107.192,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.207.72.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.21/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1160,6 +1163,7 @@ IP,Name,Sources
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.226.32.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.226.133.105/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.227.140.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.228.106.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1837,7 +1841,6 @@ IP,Name,Sources
 51.8.155.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.155.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-51.8.155.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.68.247.193,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -7732,6 +7735,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7742,6 +7746,7 @@ IP,Name,Sources
 116.203.113.136,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -7804,7 +7809,6 @@ IP,Name,Sources
 135.234.221.112/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 135.237.131.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 135.237.133.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-135.237.133.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 136.243.2.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.16.49,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10364,10 +10368,12 @@ IP,Name,Sources
 172.183.222.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.193.245.229/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.194.141.49/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.196.40.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.199.55.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.202.102.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.203.190.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.204.16.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+172.204.27.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.212.159.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.213.11.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.213.12.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
