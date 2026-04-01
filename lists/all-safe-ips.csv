@@ -21,6 +21,7 @@ IP,Name,Sources
 4.156.136.79/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.156.154.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.172.49.103/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.177.16.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.182.10.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.182.131.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.189.118.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -48,7 +49,9 @@ IP,Name,Sources
 4.227.36.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.228.76.163/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.237.244.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.248.234.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.249.216.104/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.254.123.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.255.35.121/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 5.9.71.119,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.98.45,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1798,7 +1801,6 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.55.123.175,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -1836,7 +1838,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7257,6 +7258,7 @@ IP,Name,Sources
 74.179.232.116/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.201.127.0/24,Palo Alto Networks,stat.ripe.net
 74.226.253.160,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+74.242.194.48/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.243.255.151,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.249.86.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7371,7 +7373,6 @@ IP,Name,Sources
 85.217.140.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7738,6 +7739,7 @@ IP,Name,Sources
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7798,9 +7800,12 @@ IP,Name,Sources
 130.41.255.0/24,Palo Alto Networks,stat.ripe.net
 130.107.228.224/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 131.0.72.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
+131.145.39.118/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+131.189.183.241/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.164.209.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.196.82.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 132.196.86.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+132.220.1.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 134.209.95.237,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 135.119.134.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -10341,6 +10346,7 @@ IP,Name,Sources
 170.64.250.235,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
 172.105.162.156,BetterStack,https://uptime.betterstack.com/ips.txt
+172.168.43.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.53.53/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.115.250/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.227.120/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -10368,6 +10374,7 @@ IP,Name,Sources
 172.182.224.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.183.143.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 172.183.222.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+172.189.40.18/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.193.245.229/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.194.141.49/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.196.40.208,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -11083,7 +11090,7 @@ IP,Name,Sources
 194.181.226.0/24,NASK PL,whois.radb.net
 194.181.227.0/24,NASK PL,whois.radb.net
 194.181.228.0/24,NASK PL,stat.ripe.net|whois.radb.net
-194.181.229.0/24,NASK PL,stat.ripe.net|whois.radb.net
+194.181.229.0/24,NASK PL,whois.radb.net
 194.181.232.0/24,NASK PL,whois.radb.net
 194.181.233.0/24,NASK PL,whois.radb.net
 194.181.234.0/24,NASK PL,whois.radb.net
