@@ -383,7 +383,7 @@ IP,Name,Sources
 163.70.151.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 163.70.152.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 163.70.153.0/24,FacebookBot,whois.radb.net
-163.70.158.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+163.70.158.0/24,FacebookBot,whois.radb.net
 163.70.159.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 163.77.128.0/17,FacebookBot,whois.radb.net
 163.77.132.0/23,FacebookBot,stat.ripe.net|whois.radb.net
