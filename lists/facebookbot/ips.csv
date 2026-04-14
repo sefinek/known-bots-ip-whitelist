@@ -537,7 +537,7 @@ IP,Name,Sources
 2a03:2880:f08e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f091::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f096::/48,FacebookBot,whois.radb.net
-2a03:2880:f097::/48,FacebookBot,whois.radb.net
+2a03:2880:f097::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f098::/48,FacebookBot,whois.radb.net
 2a03:2880:f099::/48,FacebookBot,whois.radb.net
 2a03:2880:f09a::/48,FacebookBot,whois.radb.net
@@ -667,7 +667,7 @@ IP,Name,Sources
 2a03:2880:f17b::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f17c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f17d::/48,FacebookBot,whois.radb.net
-2a03:2880:f17e::/48,FacebookBot,whois.radb.net
+2a03:2880:f17e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f17f::/48,FacebookBot,whois.radb.net
 2a03:2880:f180::/48,FacebookBot,whois.radb.net
 2a03:2880:f181::/48,FacebookBot,whois.radb.net
@@ -796,7 +796,7 @@ IP,Name,Sources
 2a03:2880:f27b::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f27c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f27d::/48,FacebookBot,whois.radb.net
-2a03:2880:f27e::/48,FacebookBot,whois.radb.net
+2a03:2880:f27e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f27f::/48,FacebookBot,whois.radb.net
 2a03:2880:f280::/48,FacebookBot,whois.radb.net
 2a03:2880:f281::/48,FacebookBot,whois.radb.net
@@ -903,8 +903,8 @@ IP,Name,Sources
 2a03:2880:f358::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f359::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f35a::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f35b::/48,FacebookBot,whois.radb.net
-2a03:2880:f35c::/48,FacebookBot,whois.radb.net
+2a03:2880:f35b::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f35c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f35d::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f35e::/48,FacebookBot,whois.radb.net
 2a03:2880:f35f::/48,FacebookBot,whois.radb.net
@@ -926,7 +926,7 @@ IP,Name,Sources
 2a03:2880:f36f::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f370::/48,FacebookBot,whois.radb.net
 2a03:2880:f371::/48,FacebookBot,whois.radb.net
-2a03:2880:f372::/48,FacebookBot,whois.radb.net
+2a03:2880:f372::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f373::/48,FacebookBot,whois.radb.net
 2a03:2880:f374::/48,FacebookBot,whois.radb.net
 2a03:2880:f375::/48,FacebookBot,stat.ripe.net|whois.radb.net
