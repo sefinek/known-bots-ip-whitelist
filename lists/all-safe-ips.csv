@@ -1770,7 +1770,6 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.32.66.130,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
