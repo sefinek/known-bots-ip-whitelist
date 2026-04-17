@@ -1770,6 +1770,7 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.32.66.130,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -6676,7 +6677,7 @@ IP,Name,Sources
 57.145.2.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.4.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.6.0/23,FacebookBot,stat.ripe.net|whois.radb.net
-57.145.8.0/23,FacebookBot,whois.radb.net
+57.145.8.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.10.0/23,FacebookBot,whois.radb.net
 57.145.12.0/23,FacebookBot,stat.ripe.net|whois.radb.net
 57.145.14.0/23,FacebookBot,whois.radb.net
@@ -7676,7 +7677,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -15631,7 +15631,7 @@ IP,Name,Sources
 2a03:2880:f381::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f382::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f383::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f384::/48,FacebookBot,whois.radb.net
+2a03:2880:f384::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f385::/48,FacebookBot,whois.radb.net
 2a03:2880:f386::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f387::/48,FacebookBot,whois.radb.net
