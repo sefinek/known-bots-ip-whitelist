@@ -7307,8 +7307,7 @@ IP,Name,Sources
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7486,7 +7485,7 @@ IP,Name,Sources
 102.132.97.0/24,FacebookBot,whois.radb.net
 102.132.99.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 102.132.100.0/24,FacebookBot,whois.radb.net
-102.132.101.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+102.132.101.0/24,FacebookBot,whois.radb.net
 102.132.103.0/24,FacebookBot,whois.radb.net
 102.132.104.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 102.219.126.20,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7676,6 +7675,8 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9564,7 +9565,7 @@ IP,Name,Sources
 157.240.219.0/24,FacebookBot,whois.radb.net
 157.240.220.0/24,FacebookBot,whois.radb.net
 157.240.221.0/24,FacebookBot,whois.radb.net
-157.240.222.0/24,FacebookBot,stat.ripe.net|whois.radb.net
+157.240.222.0/24,FacebookBot,whois.radb.net
 157.240.223.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.224.0/24,FacebookBot,stat.ripe.net|whois.radb.net
 157.240.225.0/24,FacebookBot,stat.ripe.net|whois.radb.net
@@ -15157,7 +15158,7 @@ IP,Name,Sources
 2a03:2880:f035::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f036::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f037::/48,FacebookBot,whois.radb.net
-2a03:2880:f038::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f038::/48,FacebookBot,whois.radb.net
 2a03:2880:f03a::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f03b::/48,FacebookBot,whois.radb.net
 2a03:2880:f03d::/48,FacebookBot,stat.ripe.net|whois.radb.net
@@ -15287,7 +15288,7 @@ IP,Name,Sources
 2a03:2880:f135::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f136::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f137::/48,FacebookBot,whois.radb.net
-2a03:2880:f138::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f138::/48,FacebookBot,whois.radb.net
 2a03:2880:f13a::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f13b::/48,FacebookBot,whois.radb.net
 2a03:2880:f13d::/48,FacebookBot,stat.ripe.net|whois.radb.net
@@ -15416,7 +15417,7 @@ IP,Name,Sources
 2a03:2880:f235::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f236::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f237::/48,FacebookBot,whois.radb.net
-2a03:2880:f238::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f238::/48,FacebookBot,whois.radb.net
 2a03:2880:f23a::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f23b::/48,FacebookBot,whois.radb.net
 2a03:2880:f23d::/48,FacebookBot,stat.ripe.net|whois.radb.net
