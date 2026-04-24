@@ -28,7 +28,7 @@
     "dir": "censys",
     "keywords": ["censys", "censy"],
     "acceptNullable": true,
-    "asn": ["AS398324", "AS398722"],
+    "asn": ["AS398324", "AS398722", "AS398705"],
     "type": "whois"
   },
   {
