@@ -75,7 +75,7 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 ```
 #### Curl
 ```bash
-curl -fsS --max-redirs 0 -o all-safe-ips.txt https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
+curl -fsSL -o all-safe-ips.txt https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
 ```
 
 ### 📑 CSV
@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 ```
 #### Curl
 ```bash
-curl -fsS --max-redirs 0 -o all-safe-ips.csv https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
+curl -fsSL -o all-safe-ips.csv https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
 ```
 
 ### 🔤 JSON
@@ -93,5 +93,5 @@ https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all
 ```
 #### Curl
 ```bash
-curl -fsS --max-redirs 0 -o all-safe-ips.json https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
+curl -fsSL -o all-safe-ips.json https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
 ```
