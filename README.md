@@ -82,19 +82,6 @@ curl -fsSLO https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/ma
 wget -q https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.txt
 ```
 
-### 📑 CSV
-```text
-https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
-```
-#### Curl
-```bash
-curl -fsSLO https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
-```
-#### Wget
-```bash
-wget -q https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
-```
-
 ### 🔤 JSON
 ```text
 https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
@@ -106,4 +93,17 @@ curl -fsSLO https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/ma
 #### Wget
 ```bash
 wget -q https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.json
+```
+
+### 📑 CSV
+```text
+https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
+```
+#### Curl
+```bash
+curl -fsSLO https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
+```
+#### Wget
+```bash
+wget -q https://raw.githubusercontent.com/sefinek/known-bots-ip-whitelist/main/lists/all-safe-ips.csv
 ```
