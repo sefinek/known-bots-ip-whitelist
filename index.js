@@ -239,7 +239,6 @@ if (isDevelopment) {
 		});
 } else {
 	addGracefulShutdown();
-	generateLists();
 
 	new CronJob('0 */6 * * *', async () => {
 		try {
