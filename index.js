@@ -180,7 +180,10 @@ const commitAndPushChanges = async () => {
 		await runTests();
 
 		logger.info(`Committing & pushing ${status.files.length} changed files...`);
-		const timestamp = new Date().toUTCString();
+
+		const now = new Date();
+		const pad = n => String(n).padStart(2, '0');
+		const timestamp = `${pad(now.getUTCDate())}.${pad(now.getUTCMonth() + 1)}.${now.getUTCFullYear()}, ${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())} UTC`;
 		await git.add('./lists');
 		await git.commit(
 			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
