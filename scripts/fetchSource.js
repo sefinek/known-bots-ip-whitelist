@@ -8,18 +8,7 @@ const logger = require('./utils/logger.js');
 const { NetworkError, TimeoutError } = require('./utils/errors.js');
 const { executeWithRetry } = require('./utils/retry.js');
 const { validateSource } = require('./utils/validation.js');
-
-const isValidIP = ip => {
-	try {
-		if (ip.includes('/')) {
-			ipaddr.parseCIDR(ip);
-			return true;
-		}
-		return ipaddr.isValid(ip);
-	} catch {
-		return false;
-	}
-};
+const { isValidIP } = require('./ipUtils.js');
 
 const splitAndFilter = data => {
 	if (typeof data !== 'string') return [];
@@ -140,7 +129,7 @@ module.exports = async source => {
 		case 'textMulti': {
 			if (!Array.isArray(source.url) || !source.url.length) throw new Error(`Missing URLs array for ${source.name}`);
 
-			const results = await Promise.allSettled(
+			const results = await Promise.all(
 				source.url.map(async u => {
 					try {
 						const { data } = await executeWithRetry(
@@ -156,9 +145,7 @@ module.exports = async source => {
 					}
 				})
 			);
-			out = results
-				.filter(r => r.status === 'fulfilled')
-				.flatMap(r => r.value);
+			out = results.flat();
 			break;
 		}
 

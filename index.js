@@ -118,12 +118,12 @@ const processAllSources = async (base, sources) => {
 			const jsonData = [];
 
 			for (const r of sortedRecords) {
-				const sourcesArray = Array.isArray(r.sources) ? r.sources : [r.source];
+				const sourcesArray = r.sources;
 				const sourcesStr = sourcesArray.join('|');
 
 				ips.push(r.ip);
 				csvData.push({ IP: r.ip, Name: src.name, Sources: sourcesStr });
-				jsonData.push({ ip: r.ip, name: src.dir, sources: sourcesArray });
+				jsonData.push({ ip: r.ip, name: src.name, sources: sourcesArray });
 
 				const entry = allMap.get(r.ip) || { names: new Set(), sources: new Set() };
 				entry.names.add(src.name);
@@ -151,24 +151,24 @@ const createGlobalLists = async (base, allMap) => {
 	logger.info('Writing global lists...');
 
 	const globalIPs = Array.from(allMap.keys()).sort(ipUtils.compareIPs);
-	const globalRecs = globalIPs.map(IP => {
-		const entry = allMap.get(IP);
+	const globalRecs = globalIPs.map(ip => {
+		const entry = allMap.get(ip);
 		const nameList = Array.from(entry.names).sort();
-		const sourceList = Array.from(entry.sources).sort();
-
+		if (nameList.length > 1) logger.warn(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
 		return {
-			IP,
-			Name: nameList.join('|'),
-			Names: nameList,
-			Sources: sourceList.join('|'),
-			SourcesList: sourceList,
+			ip,
+			name: nameList.join('|'),
+			sources: Array.from(entry.sources).sort(),
 		};
 	});
 
 	await Promise.all([
 		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
 		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs), 'utf8'),
-		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(globalRecs, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(
+			globalRecs.map(r => ({ IP: r.ip, Name: r.name, Sources: r.sources.join('|') })),
+			{ header: true, columns: ['IP', 'Name', 'Sources'] }
+		), 'utf8'),
 	]);
 
 	return globalRecs;
@@ -239,6 +239,7 @@ if (isDevelopment) {
 		});
 } else {
 	addGracefulShutdown();
+	generateLists();
 
 	new CronJob('0 */6 * * *', async () => {
 		try {

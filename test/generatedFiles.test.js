@@ -33,15 +33,13 @@ const parseCsv = raw => {
 	});
 };
 
-const parseJson = (raw, global = false) => {
+const parseJson = raw => {
 	const records = JSON.parse(raw);
 	expect(Array.isArray(records)).toBe(true);
 	expect(records.length).toBeGreaterThan(0);
 	return records.map(r => {
-		const ip = global ? r.IP : r.ip;
-		const keys = global
-			? { IP: expect.any(String), Name: expect.any(String), Sources: expect.any(String) }
-			: { ip: expect.any(String), name: expect.any(String), sources: expect.any(Array) };
+		const ip = r.ip;
+		const keys = { ip: expect.any(String), name: expect.any(String), sources: expect.any(Array) };
 		expect(r).toMatchObject(keys);
 		validateIP(ip);
 		return ip;
@@ -78,7 +76,7 @@ describe('Generated bot IP lists', () => {
 
 		const txtIPs = parseTxt(txt);
 		const csvIPs = parseCsv(csv);
-		const jsonIPs = parseJson(json, true);
+		const jsonIPs = parseJson(json);
 
 		expect(new Set(csvIPs)).toEqual(new Set(txtIPs));
 		expect(new Set(jsonIPs)).toEqual(new Set(txtIPs));

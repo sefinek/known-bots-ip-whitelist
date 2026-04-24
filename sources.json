@@ -54,19 +54,19 @@
   {
     "name": "Google Special Crawlers",
     "dir": "google-special-crawlers",
-    "url": "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
+    "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "Google User-Triggered Fetchers",
     "dir": "google-user-triggered-fetchers",
-    "url": ["https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json", "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers-google.json"],
+    "url": ["https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json", "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json"],
     "type": "jsonPrefixes"
   },
   {
     "name": "GoogleBot",
     "dir": "googlebot",
-    "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
+    "url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "type": "jsonPrefixes"
   },
   {
@@ -125,7 +125,7 @@
     "name": "Semrush",
     "dir": "semrush",
     "analyzeKeywords": false,
-    "asn": ["AS398324", "AS209366"],
+    "asn": ["AS209366"],
     "type": "whois"
   },
   {

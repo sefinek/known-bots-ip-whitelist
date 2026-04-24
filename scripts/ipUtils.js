@@ -36,21 +36,6 @@ const isValidIP = ip => {
 	}
 };
 
-const normalizeIP = ip => {
-	if (!ip || typeof ip !== 'string') return null;
-
-	try {
-		const trimmed = ip.trim();
-		if (trimmed.includes('/')) {
-			const [addr, prefix] = ipaddr.parseCIDR(trimmed);
-			return `${addr.toString()}/${prefix}`;
-		}
-		return ipaddr.parse(trimmed).toString();
-	} catch {
-		return null;
-	}
-};
-
 const compareIPs = (a, b) => {
 	if (!a || !b) return (a || '').localeCompare(b || '');
 
@@ -86,13 +71,6 @@ const compareIPs = (a, b) => {
 	}
 };
 
-const getIPVersion = ip => {
-	const parsed = parseIP(ip);
-	if (!parsed) return null;
-
-	return parsed.kind();
-};
-
 const isPrivateIP = ip => {
 	const parsed = parseIP(ip);
 	if (!parsed) return false;
@@ -107,8 +85,6 @@ const isPrivateIP = ip => {
 module.exports = {
 	parseIP,
 	isValidIP,
-	normalizeIP,
 	compareIPs,
-	getIPVersion,
 	isPrivateIP,
 };
