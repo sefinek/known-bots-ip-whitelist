@@ -1836,7 +1836,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7732,7 +7731,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -15740,7 +15738,7 @@ IP,Name,Sources
 2a03:2880:f313::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f314::/48,FacebookBot,whois.radb.net
 2a03:2880:f315::/48,FacebookBot,whois.radb.net
-2a03:2880:f316::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f316::/48,FacebookBot,whois.radb.net
 2a03:2880:f317::/48,FacebookBot,whois.radb.net
 2a03:2880:f318::/48,FacebookBot,whois.radb.net
 2a03:2880:f319::/48,FacebookBot,whois.radb.net
