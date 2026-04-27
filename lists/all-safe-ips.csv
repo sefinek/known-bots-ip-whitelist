@@ -1,10 +1,10 @@
 IP,Name,Sources
-1.0.0.1,Cloudflare DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-1.0.0.2,Cloudflare DNS for Families (block malware),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-1.0.0.3,Cloudflare DNS for Families (block malware + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-1.1.1.1,Cloudflare DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-1.1.1.2,Cloudflare DNS for Families (block malware),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-1.1.1.3,Cloudflare DNS for Families (block malware + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.0.0.1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.0.0.2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.0.0.3,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.1.1.1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.1.1.2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+1.1.1.3,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 1.7.225.0/24,Palo Alto Networks,stat.ripe.net|whois.radb.net
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.18.12.63,Stripe,https://stripe.com/files/ips/ips_webhooks.txt
@@ -19,12 +19,12 @@ IP,Name,Sources
 3.133.226.214,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.149.57.90,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 3.212.128.62,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-4.2.2.1,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-4.2.2.2,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-4.2.2.3,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-4.2.2.4,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-4.2.2.5,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-4.2.2.6,Level3 / Lumen Technologies DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.3,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.4,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.5,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+4.2.2.6,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.150.142.218/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.151.71.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -48,6 +48,7 @@ IP,Name,Sources
 4.197.64.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.64.64,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.197.115.112,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+4.198.72.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 4.201.125.59/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.141.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.197.203/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -158,8 +159,8 @@ IP,Name,Sources
 5.223.73.226,BetterStack,https://uptime.betterstack.com/ips.txt
 5.223.75.121,BetterStack,https://uptime.betterstack.com/ips.txt
 5.255.192.0/18,YandexBot,https://yandex.com/ips
-8.8.4.4,Google Public DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-8.8.8.8,Google Public DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+8.8.4.4,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+8.8.8.8,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 8.52.139.20,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.139.28,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.139.36,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -183,8 +184,8 @@ IP,Name,Sources
 8.52.184.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.184.180,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.52.184.188,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-9.9.9.9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-9.9.9.10,Quad9 DNS (unfiltered),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+9.9.9.9,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+9.9.9.10,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 9.160.163.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 9.160.164.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.36.154.207,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -193,7 +194,6 @@ IP,Name,Sources
 13.66.139.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.66.144.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.67.10.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
-13.67.46.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.67.72.16,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.69.66.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.70.107.160,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -203,8 +203,6 @@ IP,Name,Sources
 13.76.115.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.76.115.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.76.116.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-13.76.223.48,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-13.79.43.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.83.167.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.83.237.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 13.86.35.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -995,12 +993,14 @@ IP,Name,Sources
 20.13.44.19/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.14.99.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.15.133.160/27,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.17.108.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.25.151.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.27.94.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.36.108.32/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.40.133.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.40.147.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.42.10.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
+20.42.250.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.43.120.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.43.150.85/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.43.150.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1061,7 +1061,6 @@ IP,Name,Sources
 20.79.239.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.129.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.156.88/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.90.7.144,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.93.28.24/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.97.189.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.99.255.235/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1072,7 +1071,6 @@ IP,Name,Sources
 20.112.58.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.113.3.121/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.113.14.159/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.117.22.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.118.11.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.125.66.80,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 20.125.112.224,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -1813,7 +1811,6 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.32.66.130,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -1853,7 +1850,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7277,6 +7273,12 @@ IP,Name,Sources
 76.164.234.106,PingdomBot,https://my.pingdom.com/probes/ipv4
 76.164.234.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 77.88.0.0/18,YandexBot,https://yandex.com/ips
+77.88.8.1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+77.88.8.2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+77.88.8.3,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+77.88.8.7,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+77.88.8.8,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+77.88.8.88,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 78.46.69.199,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.86,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7375,11 +7377,13 @@ IP,Name,Sources
 85.208.97.0/24,Semrush,stat.ripe.net|whois.radb.net
 85.208.98.0/24,Semrush,whois.radb.net
 85.208.99.0/24,Semrush,stat.ripe.net|whois.radb.net
+85.211.241.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7550,12 +7554,12 @@ IP,Name,Sources
 94.128.254.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.68.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.204.110,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-94.140.14.14,AdGuard DNS (block ads + trackers),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-94.140.14.15,AdGuard DNS Family (block ads + trackers + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-94.140.14.140,AdGuard DNS Non-filtering,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-94.140.14.141,AdGuard DNS Non-filtering,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-94.140.15.15,AdGuard DNS (block ads + trackers),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-94.140.15.16,AdGuard DNS Family (block ads + trackers + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.14.14,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.14.15,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.14.140,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.14.141,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.15.15,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+94.140.15.16,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.98.242.142,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -7836,9 +7840,6 @@ IP,Name,Sources
 136.243.42.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.70.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-137.135.183.96,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-137.135.190.240,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
-137.135.191.32,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 137.135.191.176,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 137.184.9.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 137.184.13.100,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -9552,8 +9553,8 @@ IP,Name,Sources
 149.28.43.73,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 149.28.83.249,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 149.28.170.157,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
-149.112.112.10,Quad9 DNS (unfiltered),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-149.112.112.112,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+149.112.112.10,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+149.112.112.112,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
 149.248.58.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -9713,6 +9714,7 @@ IP,Name,Sources
 162.55.165.86,BetterStack,https://uptime.betterstack.com/ips.txt
 162.142.125.0/24,Censys,stat.ripe.net|whois.radb.net
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
+162.159.244.38,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 162.216.149.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 162.216.150.0/24,Palo Alto Networks,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/paloaltonetworks.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -10564,12 +10566,12 @@ IP,Name,Sources
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.181.102.18,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.191.171.0/24,Semrush,stat.ripe.net|whois.radb.net
-185.228.168.9,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-185.228.168.10,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-185.228.168.168,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-185.228.169.9,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-185.228.169.11,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-185.228.169.168,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.168.9,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.168.10,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.168.168,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.169.9,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.169.11,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+185.228.169.168,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 185.246.208.82,PingdomBot,https://my.pingdom.com/probes/ipv4
 188.40.126.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 188.114.96.0/20,Cloudflare,https://www.cloudflare.com/ips-v4
@@ -11339,9 +11341,13 @@ IP,Name,Sources
 197.234.240.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 198.20.69.74,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.20.69.96/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.69.98,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.20.70.112/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.70.114,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.20.87.96/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.87.98,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.20.99.128/29,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
+198.20.99.130,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.41.128.0/17,Cloudflare,https://www.cloudflare.com/ips-v4
 198.211.117.142,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 198.244.168.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -13729,10 +13735,10 @@ IP,Name,Sources
 207.148.71.205,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 207.211.214.145,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
-208.67.220.123,OpenDNS FamilyShield (block adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-208.67.220.220,OpenDNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-208.67.222.123,OpenDNS FamilyShield (block adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-208.67.222.222,OpenDNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+208.67.220.123,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+208.67.220.220,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+208.67.222.123,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+208.67.222.222,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 208.83.234.224,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 208.91.111.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 208.180.20.97,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
@@ -14374,8 +14380,8 @@ IP,Name,Sources
 2001:4860:4801:4164::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4165::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4166::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
-2001:4860:4860::8844,Google Public DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2001:4860:4860::8888,Google Public DNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2001:4860:4860::8844,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2001:4860:4860::8888,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2001:4ba0:ffa5:ed::4003,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:4ba0:ffa5:1d5::4004,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:4ba0:ffe2:22::1,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -15205,6 +15211,12 @@ IP,Name,Sources
 2605:fe80:2100:a00f:4::4045,PingdomBot,https://my.pingdom.com/probes/ipv6
 2605:fe80:2100:a00f:5::4046,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:4700::/32,Cloudflare,https://www.cloudflare.com/ips-v6
+2606:4700:4700::1001,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2606:4700:4700::1002,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2606:4700:4700::1003,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2606:4700:4700::1111,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2606:4700:4700::1112,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2606:4700:4700::1113,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2606:6080:1001::439,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:6080:1001:1::459,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:6080:1001:4::448,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -15240,12 +15252,12 @@ IP,Name,Sources
 2620:0:1cfa::/48,FacebookBot,whois.radb.net
 2620:0:1cff::/48,FacebookBot,whois.radb.net
 2620:52:c000::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
-2620:fe::9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2620:fe::10,Quad9 DNS (unfiltered),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2620:fe::fe,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2620:fe::fe:10,Quad9 DNS (unfiltered),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2620:119:35::35,OpenDNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2620:119:53::53,OpenDNS,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:fe::9,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:fe::10,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:fe::fe,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:fe::fe:10,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:119:35::35,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2620:119:53::53,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2800:1e0:c01:a003::8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
@@ -15344,6 +15356,12 @@ IP,Name,Sources
 2a01:7a7:2:205d::4057,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a01:6ee0:30:c::1127:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6b8::/29,YandexBot,https://yandex.com/ips
+2a02:6b8::feed:0ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a02:6b8::feed:a11,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a02:6b8::feed:bad,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a02:6b8:0:1::feed:0ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a02:6b8:0:1::feed:a11,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a02:6b8:0:1::feed:bad,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2a02:750:11:284::442,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:752:100:e::4001,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:752:100:e::4002,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -16019,20 +16037,20 @@ IP,Name,Sources
 2a0a:3a40:1004::/48,NASK PL,stat.ripe.net|whois.radb.net
 2a0a:f280::/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2a0b:21c0:2000:208f::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2a0d:2a00:1::,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a0d:2a00:1::1,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a0d:2a00:1::2,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a0d:2a00:2::,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a0d:2a00:2::1,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a0d:2a00:2::2,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:1::,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:1::1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:1::2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:2::,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:2::1,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a0d:2a00:2::2,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2a0d:3002:2100:a00c:5::4065,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a0d:5600:1a:26::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
-2a10:50c0::1:ff,AdGuard DNS Non-filtering,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a10:50c0::2:ff,AdGuard DNS Non-filtering,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a10:50c0::ad1:ff,AdGuard DNS (block ads + trackers),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a10:50c0::ad2:ff,AdGuard DNS (block ads + trackers),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a10:50c0::bad1:ff,AdGuard DNS Family (block ads + trackers + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
-2a10:50c0::bad2:ff,AdGuard DNS Family (block ads + trackers + adult content),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::1:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::2:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::ad1:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::ad2:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::bad1:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
+2a10:50c0::bad2:ff,DNS Resolvers,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2a10:f781:10:cee0::/64,FacebookBot,whois.radb.net
 2a14:dc00::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
 2a14:dc00:1::/48,Palo Alto Networks,stat.ripe.net|whois.radb.net
