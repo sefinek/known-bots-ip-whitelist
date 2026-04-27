@@ -35,9 +35,7 @@ const parseCustomFileData = (data, source) => {
 		if (!line) continue;
 
 		if (line.startsWith('#')) {
-			const text = line.slice(1).trim();
-			const match = text.match(/^(.+?) - https?:\/\/.+/);
-			currentLabel = match ? match[1].trim() : null;
+			currentLabel = line.slice(1).trim() || null;
 			continue;
 		}
 
