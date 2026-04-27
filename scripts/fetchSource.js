@@ -24,12 +24,41 @@ const parseList = (list, source) => {
 		.map(ip => ({ ip: ip.trim(), source }));
 };
 
+const parseCustomFileData = (data, source) => {
+	if (typeof data !== 'string') return [];
+	const lines = data.split(/\r?\n/);
+	let currentLabel = null;
+	const results = [];
+
+	for (const raw of lines) {
+		const line = raw.trim();
+		if (!line) continue;
+
+		if (line.startsWith('#')) {
+			const text = line.slice(1).trim();
+			const match = text.match(/^(.+?) - https?:\/\/.+/);
+			currentLabel = match ? match[1].trim() : null;
+			continue;
+		}
+
+		const hashIdx = line.indexOf('#');
+		const ipPart = hashIdx !== -1 ? line.slice(0, hashIdx).trim() : line;
+		if (!ipPart || !isValidIP(ipPart)) continue;
+
+		const record = { ip: ipPart, source };
+		if (currentLabel) record.label = currentLabel;
+		results.push(record);
+	}
+
+	return results;
+};
+
 const mergeRecordsByIp = records => {
 	const map = new Map();
 
 	for (const record of records) {
 		if (!record?.ip) continue;
-		const entry = map.get(record.ip) || { ip: record.ip, sources: new Set() };
+		const entry = map.get(record.ip) || { ip: record.ip, sources: new Set(), labels: new Set() };
 		const sources = Array.isArray(record.sources)
 			? record.sources
 			: (record.source ? [record.source] : []);
@@ -40,13 +69,15 @@ const mergeRecordsByIp = records => {
 			if (trimmed) entry.sources.add(trimmed);
 		}
 
+		if (record.label) entry.labels.add(record.label);
 		map.set(record.ip, entry);
 	}
 
-	return Array.from(map.values()).map(entry => ({
-		ip: entry.ip,
-		sources: Array.from(entry.sources).sort(),
-	}));
+	return Array.from(map.values()).map(entry => {
+		const result = { ip: entry.ip, sources: Array.from(entry.sources).sort() };
+		if (entry.labels.size > 0) result.label = Array.from(entry.labels).join(' | ');
+		return result;
+	});
 };
 
 const readCustomFiles = async files => {
@@ -57,7 +88,7 @@ const readCustomFiles = async files => {
 		const filePath = path.join(__dirname, '../custom', file);
 		try {
 			const data = await fs.readFile(filePath, 'utf8');
-			return parseList(splitAndFilter(data), `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`);
+			return parseCustomFileData(data, `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`);
 		} catch (err) {
 			throw new Error(`Failed to read file ${file}: ${err.message}`);
 		}

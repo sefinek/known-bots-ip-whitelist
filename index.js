@@ -121,12 +121,13 @@ const processAllSources = async (base, sources) => {
 				const sourcesArray = r.sources;
 				const sourcesStr = sourcesArray.join('|');
 
+				const displayName = r.label || src.name;
 				ips.push(r.ip);
-				csvData.push({ IP: r.ip, Name: src.name, Sources: sourcesStr });
-				jsonData.push({ ip: r.ip, name: src.name, sources: sourcesArray });
+				csvData.push({ IP: r.ip, Name: displayName, Sources: sourcesStr });
+				jsonData.push({ ip: r.ip, name: displayName, sources: sourcesArray });
 
 				const entry = allMap.get(r.ip) || { names: new Set(), sources: new Set() };
-				entry.names.add(src.name);
+				entry.names.add(displayName);
 				sourcesArray.forEach(s => entry.sources.add(s));
 				allMap.set(r.ip, entry);
 			}
@@ -151,19 +152,33 @@ const createGlobalLists = async (base, allMap) => {
 	logger.info('Writing global lists...');
 
 	const globalIPs = Array.from(allMap.keys()).sort(ipUtils.compareIPs);
-	const globalRecs = globalIPs.map(ip => {
+	const parsedCIDRs = globalIPs
+		.filter(ip => ip.includes('/'))
+		.map(ipUtils.parseCIDREntry)
+		.filter(Boolean);
+
+	const globalRecs = globalIPs.flatMap(ip => {
+		if (!ip.includes('/')) {
+			const match = ipUtils.findCoveringCIDR(ip, parsedCIDRs);
+			if (match) {
+				const entry = allMap.get(ip);
+				logger.warn(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${match.cidr}, skipping`);
+				return [];
+			}
+		}
+
 		const entry = allMap.get(ip);
 		const nameList = Array.from(entry.names).sort();
 		if (nameList.length > 1) logger.warn(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
-		return {
+		return [{
 			ip,
 			name: nameList.join('|'),
 			sources: Array.from(entry.sources).sort(),
-		};
+		}];
 	});
 
 	await Promise.all([
-		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalIPs.join('\n'), 'utf8'),
+		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.ip).join('\n'), 'utf8'),
 		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs), 'utf8'),
 		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(
 			globalRecs.map(r => ({ IP: r.ip, Name: r.name, Sources: r.sources.join('|') })),
@@ -208,7 +223,10 @@ const generateLists = async () => {
 		const base = await setupDirectories();
 		const allMap = await processAllSources(base, sources);
 		const globalRecs = await createGlobalLists(base, allMap);
-		logger.success(`Generation complete: ${globalRecs.length} IPs total in ${formatDuration(getDurationMs(totalTimer))}`);
+
+		const cidrCount = globalRecs.filter(r => r.ip.includes('/')).length;
+		const ipCount = globalRecs.length - cidrCount;
+		logger.success(`Generation complete: ${globalRecs.length} total (${ipCount} IPs, ${cidrCount} CIDRs) in ${formatDuration(getDurationMs(totalTimer))}`);
 
 		if (!isDevelopment) await commitAndPushChanges();
 	} catch (err) {

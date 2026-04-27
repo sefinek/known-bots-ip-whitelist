@@ -38,6 +38,12 @@
     "type": "textMulti"
   },
   {
+    "name": "DNS Resolvers",
+    "dir": "dns-resolvers",
+    "file": "dns-resolvers.txt",
+    "type": "file"
+  },
+  {
     "name": "DuckDuckBot",
     "dir": "duckduckbot",
     "url": "https://duckduckgo.com/duckduckbot.json",

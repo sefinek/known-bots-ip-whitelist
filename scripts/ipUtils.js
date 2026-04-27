@@ -82,9 +82,30 @@ const isPrivateIP = ip => {
 	}
 };
 
+const parseCIDREntry = cidr => {
+	try {
+		const [addr, prefix] = ipaddr.parseCIDR(cidr.trim());
+		return { cidr, addr, prefix };
+	} catch {
+		return null;
+	}
+};
+
+const findCoveringCIDR = (ip, parsedCIDRs) => {
+	try {
+		const parsed = ipaddr.parse(ip.trim());
+		const kind = parsed.kind();
+		return parsedCIDRs.find(c => c.addr.kind() === kind && parsed.match(c.addr, c.prefix));
+	} catch {
+		return null;
+	}
+};
+
 module.exports = {
 	parseIP,
 	isValidIP,
 	compareIPs,
 	isPrivateIP,
+	parseCIDREntry,
+	findCoveringCIDR,
 };
