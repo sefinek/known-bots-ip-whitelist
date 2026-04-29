@@ -7369,9 +7369,11 @@ IP,Name,Sources
 85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
-85.208.96.0/24,Semrush,stat.ripe.net
-85.208.97.0/24,Semrush,stat.ripe.net
-85.208.99.0/24,Semrush,stat.ripe.net
+85.208.96.0/22,Semrush,whois.radb.net
+85.208.96.0/24,Semrush,stat.ripe.net|whois.radb.net
+85.208.97.0/24,Semrush,stat.ripe.net|whois.radb.net
+85.208.98.0/24,Semrush,whois.radb.net
+85.208.99.0/24,Semrush,stat.ripe.net|whois.radb.net
 85.211.241.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7754,6 +7756,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10555,12 +10558,12 @@ IP,Name,Sources
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.165.190.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.165.190.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-185.170.167.0/24,Semrush,stat.ripe.net
+185.170.167.0/24,Semrush,stat.ripe.net|whois.radb.net
 185.180.12.65,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.180.12.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.181.102.18,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-185.191.171.0/24,Semrush,stat.ripe.net
+185.191.171.0/24,Semrush,stat.ripe.net|whois.radb.net
 185.228.168.9,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.10,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.168,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
@@ -15482,7 +15485,7 @@ IP,Name,Sources
 2a03:2880:f08e::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f091::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f096::/48,FacebookBot,whois.radb.net
-2a03:2880:f097::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f097::/48,FacebookBot,whois.radb.net
 2a03:2880:f098::/48,FacebookBot,whois.radb.net
 2a03:2880:f099::/48,FacebookBot,whois.radb.net
 2a03:2880:f09a::/48,FacebookBot,whois.radb.net
@@ -15612,7 +15615,7 @@ IP,Name,Sources
 2a03:2880:f17b::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f17c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f17d::/48,FacebookBot,whois.radb.net
-2a03:2880:f17e::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f17e::/48,FacebookBot,whois.radb.net
 2a03:2880:f17f::/48,FacebookBot,whois.radb.net
 2a03:2880:f180::/48,FacebookBot,whois.radb.net
 2a03:2880:f181::/48,FacebookBot,whois.radb.net
@@ -15741,7 +15744,7 @@ IP,Name,Sources
 2a03:2880:f27b::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f27c::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f27d::/48,FacebookBot,whois.radb.net
-2a03:2880:f27e::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f27e::/48,FacebookBot,whois.radb.net
 2a03:2880:f27f::/48,FacebookBot,whois.radb.net
 2a03:2880:f280::/48,FacebookBot,whois.radb.net
 2a03:2880:f281::/48,FacebookBot,whois.radb.net
@@ -15848,8 +15851,8 @@ IP,Name,Sources
 2a03:2880:f358::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f359::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f35a::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f35b::/48,FacebookBot,stat.ripe.net|whois.radb.net
-2a03:2880:f35c::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f35b::/48,FacebookBot,whois.radb.net
+2a03:2880:f35c::/48,FacebookBot,whois.radb.net
 2a03:2880:f35d::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f35e::/48,FacebookBot,whois.radb.net
 2a03:2880:f35f::/48,FacebookBot,whois.radb.net
@@ -15871,7 +15874,7 @@ IP,Name,Sources
 2a03:2880:f36f::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f370::/48,FacebookBot,whois.radb.net
 2a03:2880:f371::/48,FacebookBot,whois.radb.net
-2a03:2880:f372::/48,FacebookBot,stat.ripe.net|whois.radb.net
+2a03:2880:f372::/48,FacebookBot,whois.radb.net
 2a03:2880:f373::/48,FacebookBot,whois.radb.net
 2a03:2880:f374::/48,FacebookBot,stat.ripe.net|whois.radb.net
 2a03:2880:f375::/48,FacebookBot,stat.ripe.net|whois.radb.net
