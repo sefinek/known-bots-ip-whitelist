@@ -59,7 +59,7 @@ describe('RIPEstat module', () => {
 		const content = fs.readFileSync(ripestatPath, 'utf8');
 
 		expect(content).toContain('result.push');
-		expect(content).toContain('source: \'stat.ripe.net\'');
+		expect(content).toContain('source: \'https://stat.ripe.net\'');
 	});
 
 	it('handles errors gracefully and returns empty array', () => {
