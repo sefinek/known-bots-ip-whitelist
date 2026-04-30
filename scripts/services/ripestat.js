@@ -42,7 +42,7 @@ const fetchFromRIPEstat = async (src, shouldDelay = true, retryCount = 0) => {
 				continue;
 			}
 
-			result.push({ ip: p.prefix, source: 'stat.ripe.net' });
+			result.push({ ip: p.prefix, source: 'https://stat.ripe.net' });
 		}
 
 		return result;

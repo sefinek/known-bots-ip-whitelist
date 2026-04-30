@@ -5,6 +5,10 @@ const fetchFromRIPEstat = require('./ripestat.js');
 const logger = require('../utils/logger.js');
 
 const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
+const WHOIS_SOURCE_URLS = {
+	'whois.radb.net': 'https://radb.net',
+	'whois.arin.net': 'https://arin.net',
+};
 const WHOIS_PORT = 43;
 
 const normalizeKeywords = keywords => (
@@ -115,7 +119,7 @@ const fetchRoutesFromHost = async (asn, host, options = {}) => {
 
 				for (const block of filtered) {
 					if (!block.ip || !parseIP(block.ip)) continue;
-					routes.push({ ip: block.ip, source: host });
+					routes.push({ ip: block.ip, source: WHOIS_SOURCE_URLS[host] ?? `https://${host}` });
 				}
 
 				safeResolve(routes);
