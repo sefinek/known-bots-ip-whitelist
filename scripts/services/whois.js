@@ -4,11 +4,11 @@ const fetchFromRIPEstat = require('./ripestat.js');
 
 const logger = require('../utils/logger.js');
 
-const WHOIS_HOSTS = ['whois.radb.net', 'whois.arin.net'];
 const WHOIS_SOURCE_URLS = {
 	'whois.radb.net': 'https://radb.net',
 	'whois.arin.net': 'https://arin.net',
 };
+const WHOIS_HOSTS = Object.keys(WHOIS_SOURCE_URLS);
 const WHOIS_PORT = 43;
 
 const normalizeKeywords = keywords => (
