@@ -162,7 +162,7 @@ const createGlobalLists = async (base, allMap) => {
 			const match = ipUtils.findCoveringCIDR(ip, parsedCIDRs);
 			if (match) {
 				const entry = allMap.get(ip);
-				logger.warn(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${match.cidr}, skipping`);
+				logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${match.cidr}, skipping`);
 				return [];
 			}
 		}
