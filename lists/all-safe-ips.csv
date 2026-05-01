@@ -1813,6 +1813,7 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 45.32.66.130,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -7427,13 +7428,16 @@ IP,Name,Sources
 91.98.38.26,BetterStack,https://uptime.betterstack.com/ips.txt
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 91.99.189.210,BetterStack,https://uptime.betterstack.com/ips.txt
-91.105.192.0/23,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.4.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.4.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.8.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.8.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.12.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.12.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.16.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
-91.108.20.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.16.0/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.56.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+91.108.56.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.194.210.0/23,NASK PL,https://radb.net|https://stat.ripe.net
 91.194.210.0/24,NASK PL,https://radb.net|https://stat.ripe.net
 91.194.211.0/24,NASK PL,https://radb.net
@@ -7754,6 +7758,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9552,6 +9557,28 @@ IP,Name,Sources
 149.112.112.10,Quad9 DNS (unfiltered),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 149.112.112.112,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 149.154.160.0/20,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.160.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.164.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.164.8/29,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.164.250/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.165.120/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.166.120/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.40/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.42/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.50/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.51/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.90/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.91/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.99/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.117/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.118/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.167.192/27,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.168.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.172.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.175.10/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.175.50/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.175.100/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
+149.154.175.117/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
 149.248.58.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 152.42.149.135,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -10496,7 +10523,6 @@ IP,Name,Sources
 185.60.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.60.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.70.76.23,PingdomBot,https://my.pingdom.com/probes/ipv4
-185.76.151.0/24,TelegramBot,https://core.telegram.org/resources/cidr.txt
 185.89.216.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -13806,14 +13832,22 @@ IP,Name,Sources
 2001:550:2:6f::f3:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:550:2:dc::5e:2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:67c:4e8::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:67c:4e8:f002::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:67c:4e8:f002::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:67c:4e8:f004::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:67c:4e8:fa60::/64,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:a10::/32,NASK PL,https://radb.net|https://stat.ripe.net
 2001:a10::/33,NASK PL,https://radb.net
 2001:a10:220::/48,NASK PL,https://radb.net|https://stat.ripe.net
 2001:a10:8000::/33,NASK PL,https://radb.net
 2001:a10:ffff::/48,NASK PL,https://radb.net
-2001:b28:f23c::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23d::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23d:f001::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23d:f001::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23d:f003::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23d:f003::e/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:b28:f23f::/48,TelegramBot,https://core.telegram.org/resources/cidr.txt
+2001:b28:f23f:f005::a/128,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2001:1900:22b3:80d::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:80e::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:1900:22b3:810::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -16015,7 +16049,6 @@ IP,Name,Sources
 2a06:98c0::/29,Cloudflare,https://www.cloudflare.com/ips-v6
 2a0a:3a40::/32,NASK PL,https://radb.net|https://stat.ripe.net
 2a0a:3a40:1004::/48,NASK PL,https://radb.net|https://stat.ripe.net
-2a0a:f280::/32,TelegramBot,https://core.telegram.org/resources/cidr.txt
 2a0b:21c0:2000:208f::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a0d:2a00:1::,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 2a0d:2a00:1::1,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
