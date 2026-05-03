@@ -8,8 +8,10 @@ The project is released under the [MIT license](LICENSE) — you can do whatever
 If you like this repository, leave a star ⭐. Thank you!
 
 
-## ⏱️ Update Schedule
-Lists are updated every `6 hours`.
+|                     |                              |
+|---------------------|------------------------------|
+| 🔄 Update frequency | Every `6 hours`              |
+| 📋 Changelog        | [CHANGELOG.md](CHANGELOG.md) |
 
 
 ## 🌍 Supported Services
