@@ -1855,7 +1855,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
@@ -7372,9 +7371,11 @@ IP,Name,Sources
 85.25.43.94,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
-85.208.96.0/24,Semrush,https://stat.ripe.net
-85.208.97.0/24,Semrush,https://stat.ripe.net
-85.208.99.0/24,Semrush,https://stat.ripe.net
+85.208.96.0/22,Semrush,https://radb.net
+85.208.96.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.97.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.98.0/24,Semrush,https://radb.net
+85.208.99.0/24,Semrush,https://radb.net|https://stat.ripe.net
 85.211.241.128,OpenAI,https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7760,6 +7761,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10562,12 +10564,12 @@ IP,Name,Sources
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.165.190.17,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
 185.165.190.34,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-185.170.167.0/24,Semrush,https://stat.ripe.net
+185.170.167.0/24,Semrush,https://radb.net|https://stat.ripe.net
 185.180.12.65,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.180.12.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.181.102.18,Shodan,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/shodan.txt
-185.191.171.0/24,Semrush,https://stat.ripe.net
+185.191.171.0/24,Semrush,https://radb.net|https://stat.ripe.net
 185.228.168.9,CleanBrowsing DNS Security Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.10,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.168,CleanBrowsing DNS Family Filter,https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/dns-resolvers.txt

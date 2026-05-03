@@ -1,6 +1,8 @@
 IP,Name,Sources
-85.208.96.0/24,Semrush,https://stat.ripe.net
-85.208.97.0/24,Semrush,https://stat.ripe.net
-85.208.99.0/24,Semrush,https://stat.ripe.net
-185.170.167.0/24,Semrush,https://stat.ripe.net
-185.191.171.0/24,Semrush,https://stat.ripe.net
+85.208.96.0/22,Semrush,https://radb.net
+85.208.96.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.97.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.98.0/24,Semrush,https://radb.net
+85.208.99.0/24,Semrush,https://radb.net|https://stat.ripe.net
+185.170.167.0/24,Semrush,https://radb.net|https://stat.ripe.net
+185.191.171.0/24,Semrush,https://radb.net|https://stat.ripe.net
