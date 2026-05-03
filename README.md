@@ -7,11 +7,9 @@ Join my [Discord server](https://discord.gg/S7NDzCzQTg)! If you don't use Discor
 The project is released under the [MIT license](LICENSE) — you can do whatever you want with it.  
 If you like this repository, leave a star ⭐. Thank you!
 
-
-|                     |                              |
+| 🔄 Update frequency | 📋 Changelog                 |
 |---------------------|------------------------------|
-| 🔄 Update frequency | Every `6 hours`              |
-| 📋 Changelog        | [CHANGELOG.md](CHANGELOG.md) |
+| Every `6 hours`     | [CHANGELOG.md](CHANGELOG.md) |
 
 
 ## 🌍 Supported Services
