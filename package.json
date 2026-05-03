@@ -1,13 +1,13 @@
 {
-  "name": "known-bots-ip-whitelist",
-  "version": "3.1.2",
-  "homepage": "https://github.com/sefinek/known-bots-ip-whitelist#readme",
+  "name": "trusted-ips-whitelist",
+  "version": "3.2.0",
+  "homepage": "https://github.com/sefinek/trusted-ips-whitelist#readme",
   "bugs": {
-    "url": "https://github.com/sefinek/known-bots-ip-whitelist/issues"
+    "url": "https://github.com/sefinek/trusted-ips-whitelist/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sefinek/known-bots-ip-whitelist.git"
+    "url": "git+https://github.com/sefinek/trusted-ips-whitelist.git"
   },
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",

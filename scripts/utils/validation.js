@@ -32,12 +32,20 @@ const validateSource = source => {
 	return source;
 };
 
+const VALID_CATEGORIES = new Set(['crawlers', 'monitoring', 'infrastructure']);
+
 const validateSourcesConfig = config => {
 	if (!Array.isArray(config) || !config.length) throw new ValidationError('Sources configuration must be a non-empty array', 'sources');
 
 	return config.map((src, index) => {
 		const validated = { ...validateSource(src) };
 		if (!validated.dir || typeof validated.dir !== 'string') throw new ValidationError('Source dir is required', `sources[${index}].dir`);
+
+		if (validated.category !== undefined) {
+			if (!VALID_CATEGORIES.has(validated.category)) {
+				throw new ValidationError(`Invalid category "${validated.category}" for source "${validated.name}". Valid: ${[...VALID_CATEGORIES].join(', ')}`, `sources[${index}].category`);
+			}
+		}
 
 		if (validated.extraFiles) {
 			const extra = Array.isArray(validated.extraFiles) ? validated.extraFiles : [validated.extraFiles];

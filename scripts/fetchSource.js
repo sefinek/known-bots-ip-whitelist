@@ -86,7 +86,7 @@ const readCustomFiles = async files => {
 		const filePath = path.join(__dirname, '../custom', file);
 		try {
 			const data = await fs.readFile(filePath, 'utf8');
-			return parseCustomFileData(data, `https://github.com/sefinek/known-bots-ip-whitelist/blob/main/custom/${file}`);
+			return parseCustomFileData(data, `https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/${file}`);
 		} catch (err) {
 			throw new Error(`Failed to read file ${file}: ${err.message}`);
 		}

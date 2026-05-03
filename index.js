@@ -80,6 +80,7 @@ const setupDirectories = async () => {
 
 const processAllSources = async (base, sources) => {
 	const allMap = new Map();
+	const categoryMaps = new Map();
 	const concurrency = Math.max(1, Number(process.env.SOURCE_CONCURRENCY) || 3);
 	const delayMs = Math.max(0, Number(process.env.SOURCE_DELAY_MS) || 500);
 	const limiter = new RateLimiter(concurrency, delayMs);
@@ -126,10 +127,19 @@ const processAllSources = async (base, sources) => {
 				csvData.push({ IP: r.ip, Name: displayName, Sources: sourcesStr });
 				jsonData.push({ ip: r.ip, name: displayName, sources: sourcesArray });
 
-				const entry = allMap.get(r.ip) || { names: new Set(), sources: new Set() };
-				entry.names.add(displayName);
-				sourcesArray.forEach(s => entry.sources.add(s));
-				allMap.set(r.ip, entry);
+				const addToMap = map => {
+					const entry = map.get(r.ip) || { names: new Set(), sources: new Set() };
+					entry.names.add(displayName);
+					sourcesArray.forEach(s => entry.sources.add(s));
+					map.set(r.ip, entry);
+				};
+
+				addToMap(allMap);
+
+				if (src.category) {
+					if (!categoryMaps.has(src.category)) categoryMaps.set(src.category, new Map());
+					addToMap(categoryMaps.get(src.category));
+				}
 			}
 
 			await Promise.all([
@@ -145,47 +155,64 @@ const processAllSources = async (base, sources) => {
 	};
 
 	await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))));
-	return allMap;
+	return { allMap, categoryMaps };
+};
+
+const buildRecords = (ipMap, logSkipped = false) => {
+	const sortedIPs = Array.from(ipMap.keys()).sort(ipUtils.compareIPs);
+	const parsedCIDRs = sortedIPs
+		.filter(ip => ip.includes('/'))
+		.map(ipUtils.parseCIDREntry)
+		.filter(Boolean);
+
+	return sortedIPs.flatMap(ip => {
+		if (!ip.includes('/')) {
+			const covering = ipUtils.findCoveringCIDR(ip, parsedCIDRs);
+			if (covering) {
+				if (logSkipped) {
+					const entry = ipMap.get(ip);
+					logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${covering.cidr}, skipping...`);
+				}
+				return [];
+			}
+		}
+
+		const entry = ipMap.get(ip);
+		const nameList = Array.from(entry.names).sort();
+		if (logSkipped && nameList.length > 1) logger.warn(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
+		return [{ ip, name: nameList.join('|'), sources: Array.from(entry.sources).sort() }];
+	});
+};
+
+const writeListFiles = async (base, filename, recs) => {
+	await Promise.all([
+		fs.writeFile(path.join(base, `${filename}.txt`), recs.map(r => r.ip).join('\n'), 'utf8'),
+		fs.writeFile(path.join(base, `${filename}.json`), JSON.stringify(recs), 'utf8'),
+		fs.writeFile(path.join(base, `${filename}.csv`), stringify(
+			recs.map(r => ({ IP: r.ip, Name: r.name, Sources: r.sources.join('|') })),
+			{ header: true, columns: ['IP', 'Name', 'Sources'] }
+		), 'utf8'),
+	]);
+};
+
+const createCategoryLists = async (base, categoryMaps) => {
+	logger.info('Writing category lists...');
+
+	await Promise.all(Array.from(categoryMaps.keys()).map(async category => {
+		const catMap = categoryMaps.get(category);
+		if (!catMap || !catMap.size) return;
+
+		const recs = buildRecords(catMap);
+		await writeListFiles(base, `all-${category}-ips`, recs);
+		logger.success(`Category ${category}: ${recs.length} IPs written`);
+	}));
 };
 
 const createGlobalLists = async (base, allMap) => {
 	logger.info('Writing global lists...');
 
-	const globalIPs = Array.from(allMap.keys()).sort(ipUtils.compareIPs);
-	const parsedCIDRs = globalIPs
-		.filter(ip => ip.includes('/'))
-		.map(ipUtils.parseCIDREntry)
-		.filter(Boolean);
-
-	const globalRecs = globalIPs.flatMap(ip => {
-		if (!ip.includes('/')) {
-			const match = ipUtils.findCoveringCIDR(ip, parsedCIDRs);
-			if (match) {
-				const entry = allMap.get(ip);
-				logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${match.cidr}, skipping...`);
-				return [];
-			}
-		}
-
-		const entry = allMap.get(ip);
-		const nameList = Array.from(entry.names).sort();
-		if (nameList.length > 1) logger.warn(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
-		return [{
-			ip,
-			name: nameList.join('|'),
-			sources: Array.from(entry.sources).sort(),
-		}];
-	});
-
-	await Promise.all([
-		fs.writeFile(path.join(base, 'all-safe-ips.txt'), globalRecs.map(r => r.ip).join('\n'), 'utf8'),
-		fs.writeFile(path.join(base, 'all-safe-ips.json'), JSON.stringify(globalRecs), 'utf8'),
-		fs.writeFile(path.join(base, 'all-safe-ips.csv'), stringify(
-			globalRecs.map(r => ({ IP: r.ip, Name: r.name, Sources: r.sources.join('|') })),
-			{ header: true, columns: ['IP', 'Name', 'Sources'] }
-		), 'utf8'),
-	]);
-
+	const globalRecs = buildRecords(allMap, true);
+	await writeListFiles(base, 'all-safe-ips', globalRecs);
 	return globalRecs;
 };
 
@@ -221,8 +248,11 @@ const generateLists = async () => {
 		logger.info('Starting IP list generation...');
 
 		const base = await setupDirectories();
-		const allMap = await processAllSources(base, sources);
-		const globalRecs = await createGlobalLists(base, allMap);
+		const { allMap, categoryMaps } = await processAllSources(base, sources);
+		const [globalRecs] = await Promise.all([
+			createGlobalLists(base, allMap),
+			createCategoryLists(base, categoryMaps),
+		]);
 
 		const cidrCount = globalRecs.filter(r => r.ip.includes('/')).length;
 		const ipCount = globalRecs.length - cidrCount;

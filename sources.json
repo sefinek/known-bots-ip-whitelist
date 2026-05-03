@@ -2,30 +2,43 @@
   {
     "name": "AhrefsBot",
     "dir": "ahrefsbot",
+    "category": "crawlers",
     "url": "https://api.ahrefs.com/v3/public/crawler-ips",
     "type": "jsonIps"
   },
   {
     "name": "BetterStack",
     "dir": "betterstack",
+    "category": "monitoring",
     "url": "https://uptime.betterstack.com/ips.txt",
     "type": "hosts"
   },
   {
     "name": "BingBot",
     "dir": "bingbot",
+    "category": "crawlers",
     "url": "https://www.bing.com/toolbox/bingbot.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "Bunny CDN",
     "dir": "bunnycdn",
+    "category": "infrastructure",
     "url": ["https://api.bunny.net/system/edgeserverlist/plain", "https://api.bunny.net/system/edgeserverlist/ipv6"],
     "type": "textMulti"
   },
   {
+    "name": "Canonical",
+    "dir": "canonical",
+    "category": "infrastructure",
+    "keywords": ["canonical"],
+    "asn": "AS41231",
+    "type": "whois"
+  },
+  {
     "name": "Censys",
     "dir": "censys",
+    "category": "monitoring",
     "keywords": ["censys", "censy"],
     "acceptNullable": true,
     "asn": ["AS398324", "AS398722", "AS398705"],
@@ -34,24 +47,28 @@
   {
     "name": "Cloudflare",
     "dir": "cloudflare",
+    "category": "infrastructure",
     "url": ["https://www.cloudflare.com/ips-v4", "https://www.cloudflare.com/ips-v6"],
     "type": "textMulti"
   },
   {
     "name": "DNS Resolvers",
     "dir": "dns-resolvers",
+    "category": "infrastructure",
     "file": "dns-resolvers.txt",
     "type": "file"
   },
   {
     "name": "DuckDuckBot",
     "dir": "duckduckbot",
+    "category": "crawlers",
     "url": "https://duckduckgo.com/duckduckbot.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "FacebookBot",
     "dir": "facebookbot",
+    "category": "crawlers",
     "keywords": ["meta", "fb", "facebook"],
     "acceptNullable": true,
     "asn": "AS32934",
@@ -60,36 +77,42 @@
   {
     "name": "Google Special Crawlers",
     "dir": "google-special-crawlers",
+    "category": "crawlers",
     "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "Google User-Triggered Fetchers",
     "dir": "google-user-triggered-fetchers",
+    "category": "crawlers",
     "url": ["https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json", "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json"],
     "type": "jsonPrefixes"
   },
   {
     "name": "GoogleBot",
     "dir": "googlebot",
+    "category": "crawlers",
     "url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "Kagi",
     "dir": "kagi",
+    "category": "crawlers",
     "file": "kagi.txt",
     "type": "file"
   },
   {
     "name": "Modat Scanner",
     "dir": "modat",
+    "category": "monitoring",
     "url": "https://scanner.modat.io/ipv4.txt",
     "type": "hosts"
   },
   {
     "name": "NASK PL",
     "dir": "nask",
+    "category": "infrastructure",
     "analyzeKeywords": false,
     "asn": "AS8308",
     "type": "whois"
@@ -97,12 +120,14 @@
   {
     "name": "OpenAI",
     "dir": "openai",
+    "category": "crawlers",
     "url": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt",
     "type": "hosts"
   },
   {
     "name": "Palo Alto Networks",
     "dir": "paloaltonetworks",
+    "category": "infrastructure",
     "keywords": ["paloalto", "palo alto"],
     "acceptNullable": true,
     "asn": ["AS2763", "AS54538", "AS64280", "AS396421"],
@@ -112,24 +137,28 @@
   {
     "name": "PingdomBot",
     "dir": "pingdombot",
+    "category": "monitoring",
     "url": ["https://my.pingdom.com/probes/ipv4", "https://my.pingdom.com/probes/ipv6"],
     "type": "textMulti"
   },
   {
     "name": "Pulsetic",
     "dir": "pulsetic",
+    "category": "monitoring",
     "url": ["https://api.pulsetic.com/ip-ranges.txt", "https://api.pulsetic.com/ipv6-ranges.txt"],
     "type": "textMulti"
   },
   {
     "name": "RSS API",
     "dir": "rssapi",
+    "category": "infrastructure",
     "url": "https://rssapi.net/ips.txt",
     "type": "hosts"
   },
   {
     "name": "Semrush",
     "dir": "semrush",
+    "category": "crawlers",
     "analyzeKeywords": false,
     "asn": ["AS209366"],
     "type": "whois"
@@ -137,36 +166,42 @@
   {
     "name": "Shodan",
     "dir": "shodan",
+    "category": "monitoring",
     "file": "shodan.txt",
     "type": "file"
   },
   {
     "name": "Stripe",
     "dir": "stripewebhook",
+    "category": "infrastructure",
     "url": "https://stripe.com/files/ips/ips_webhooks.txt",
     "type": "hosts"
   },
   {
     "name": "TelegramBot",
     "dir": "telegrambot",
+    "category": "infrastructure",
     "url": "https://core.telegram.org/resources/cidr.txt",
     "type": "hosts"
   },
   {
     "name": "UptimeRobot",
     "dir": "uptimerobot",
+    "category": "monitoring",
     "url": "https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt",
     "type": "hosts"
   },
   {
     "name": "WebPageTest Bot",
     "dir": "webpagetestbot",
+    "category": "crawlers",
     "url": "https://www.webpagetest.org/addresses.php?f=json",
     "type": "jsonAddresses"
   },
   {
     "name": "YandexBot",
     "dir": "yandexbot",
+    "category": "crawlers",
     "type": "yandex"
   }
 ]

@@ -178,7 +178,7 @@ module.exports = async src => {
 			ripestatResults.push(...filteredRipeRoutes);
 			whoisResults.push(...whoisRoutes);
 
-			logger.success(`Processed AS${asnNorm} for ${src.name}: ${filteredRipeRoutes.length} RIPEstat + ${whoisRoutes.length} WHOIS = ${filteredRipeRoutes.length + whoisRoutes.length} total`);
+			logger.success(`AS${asnNorm} for ${src.name}: ${filteredRipeRoutes.length} RIPEstat + ${whoisRoutes.length} WHOIS = ${filteredRipeRoutes.length + whoisRoutes.length} total`);
 		} catch (err) {
 			logger.err(`Failed to process ASN ${asnNorm}: ${err.message}`);
 		}

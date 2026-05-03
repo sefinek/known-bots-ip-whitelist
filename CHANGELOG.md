@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.2.0] — 2026-05-03
+
+### Added
+- **Canonical (AS41231)** — new `lists/canonical/` with IP ranges for Canonical Ltd. (Ubuntu infrastructure)
+- **Category-based combined lists** — three new aggregate files generated alongside `all-safe-ips`:
+  - `lists/all-crawlers-ips` — search engines, SEO tools, AI crawlers and web testing bots
+  - `lists/all-monitoring-ips` — uptime monitoring services and internet scanners
+  - `lists/all-infrastructure-ips` — CDN providers, hosting networks, DNS resolvers and web services
+
+
 ## [3.1.0] — 2026-04-27
 
 ### Added

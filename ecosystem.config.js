@@ -6,9 +6,9 @@ module.exports = {
 		// Logging configuration
 		log_date_format: 'HH:mm:ss.SSS DD.MM.YYYY',
 		merge_logs: true,
-		log_file: '/home/sefinek/logs/other/known-bots-ip-whitelist/combined.log',
-		out_file: '/home/sefinek/logs/other/known-bots-ip-whitelist/out.log',
-		error_file: '/home/sefinek/logs/other/known-bots-ip-whitelist/error.log',
+		log_file: '/home/sefinek/logs/other/trusted-ips-whitelist/combined.log',
+		out_file: '/home/sefinek/logs/other/trusted-ips-whitelist/out.log',
+		error_file: '/home/sefinek/logs/other/trusted-ips-whitelist/error.log',
 
 		// Application restart policy settings
 		wait_ready: true,
