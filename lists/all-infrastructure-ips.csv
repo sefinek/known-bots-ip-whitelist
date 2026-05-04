@@ -124,6 +124,7 @@ IP,Name,Sources
 72.5.231.0/24,Palo Alto Networks,https://radb.net
 72.165.69.0/24,Palo Alto Networks,https://stat.ripe.net
 74.201.127.0/24,Palo Alto Networks,https://stat.ripe.net
+75.125.64.0/18,Palo Alto Networks,https://radb.net
 77.88.8.1,Yandex DNS Basic,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 77.88.8.2,Yandex DNS Safe (block malware + fraud),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 77.88.8.3,Yandex DNS Family (block malware + adult content),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
