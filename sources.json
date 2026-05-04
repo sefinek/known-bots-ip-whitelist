@@ -118,6 +118,13 @@
     "type": "whois"
   },
   {
+    "name": "ClaudeBot",
+    "dir": "claudebot",
+    "category": "crawlers",
+    "url": "https://claude.com/crawling/bots.json",
+    "type": "jsonPrefixes"
+  },
+  {
     "name": "GPTBot",
     "dir": "gptbot",
     "category": "crawlers",

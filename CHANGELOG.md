@@ -3,6 +3,7 @@
 ## [3.2.1] — 2026-05-04
 
 ### Added
+- **ClaudeBot** — Anthropic's official web crawler, sourced from `claude.com/crawling/bots.json` (`lists/claudebot/`)
 - **GPTBot** — official OpenAI crawler for AI model training (`lists/gptbot/`)
 - **OpenAI SearchBot** — crawler for ChatGPT Search results (`lists/oai-searchbot/`)
 - **ChatGPT User** — user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`)
