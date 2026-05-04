@@ -1,16 +1,21 @@
 # Changelog
 
-## [3.2.1] — 2026-05-04
+## [3.3.0] — 2026-05-04
 
 ### Added
-- **ClaudeBot** — Anthropic's official web crawler, sourced from `claude.com/crawling/bots.json` (`lists/claudebot/`)
-- **GPTBot** — official OpenAI crawler for AI model training (`lists/gptbot/`)
-- **OpenAI SearchBot** — crawler for ChatGPT Search results (`lists/oai-searchbot/`)
-- **ChatGPT User** — user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`)
+- **ClaudeBot** — Anthropic's official web crawler (`lists/claudebot/`, source: `claude.com/crawling/bots.json`)
+- **GPTBot** — OpenAI crawler for AI model training (`lists/gptbot/`, source: `openai.com/gptbot.json`)
+- **OpenAI SearchBot** — crawler for ChatGPT Search results (`lists/oai-searchbot/`, source: `openai.com/searchbot.json`)
+- **ChatGPT User** — user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`, source: `openai.com/chatgpt-user.json`)
+- **PerplexityBot** — Perplexity AI crawler (`lists/perplexitybot/`, source: `perplexity.ai/perplexitybot.json`)
+- **Perplexity User** — user-initiated Perplexity AI agent (`lists/perplexity-user/`, source: `perplexity.ai/perplexity-user.json`)
+- **Applebot** — Apple's web crawler for Spotlight and Safari Reader (`lists/applebot/`, source: `search.developer.apple.com/applebot.json`)
+- **AI category** — new `all-ai-ips` combined list grouping all AI provider bots separately from traditional crawlers
 
 ### Changed
 - **OpenAI source** — replaced unofficial GitHub mirror with official `openai.com` endpoints; source split into three separate per-bot lists
 - **Global list deduplication fix** — individual IPs from one source are no longer suppressed by a CIDR range from a different source (e.g. Cloudflare DNS resolver IPs such as `2606:4700:4700::1113` now correctly appear in `all-safe-ips` and `all-infrastructure-ips`)
+- **Auto-cleanup** — orphaned directories in `lists/` (sources removed from `sources.json`) are now automatically deleted on each generator run
 
 
 ## [3.2.0] — 2026-05-03

@@ -32,7 +32,7 @@ const validateSource = source => {
 	return source;
 };
 
-const VALID_CATEGORIES = new Set(['crawlers', 'monitoring', 'infrastructure']);
+const VALID_CATEGORIES = new Set(['crawlers', 'monitoring', 'infrastructure', 'ai']);
 
 const validateSourcesConfig = config => {
 	if (!Array.isArray(config) || !config.length) throw new ValidationError('Sources configuration must be a non-empty array', 'sources');

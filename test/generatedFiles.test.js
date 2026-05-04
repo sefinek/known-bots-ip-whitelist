@@ -12,7 +12,7 @@ const validateIP = ip => {
 	try {
 		ip.includes('/') ? ipaddr.parseCIDR(ip) : ipaddr.parse(ip);
 	} catch (err) {
-		throw new Error(`${ip} - ${err.message}`);
+		throw new Error(`${ip} - ${err.message}`, { cause: err });
 	}
 };
 
@@ -46,41 +46,67 @@ const parseJson = raw => {
 	});
 };
 
+const validateListFiles = async (dir, label) => {
+	const [txt, csv, json] = await Promise.all([
+		fs.readFile(path.join(dir, 'ips.txt'), 'utf8').catch(() => null),
+		fs.readFile(path.join(dir, 'ips.csv'), 'utf8').catch(() => null),
+		fs.readFile(path.join(dir, 'ips.json'), 'utf8').catch(() => null),
+	]);
+
+	if (!txt || !csv || !json) throw new Error(`Missing files in ${label}`);
+
+	const txtIPs = parseTxt(txt);
+	expect(parseCsv(csv)).toEqual(txtIPs);
+	expect(parseJson(json)).toEqual(txtIPs);
+	return txtIPs;
+};
+
+const validateCombinedFiles = async (basename) => {
+	const [txt, csv, json] = await Promise.all([
+		fs.readFile(path.join(listsDir, `${basename}.txt`), 'utf8'),
+		fs.readFile(path.join(listsDir, `${basename}.csv`), 'utf8'),
+		fs.readFile(path.join(listsDir, `${basename}.json`), 'utf8'),
+	]);
+
+	const txtIPs = parseTxt(txt);
+	const csvIPs = parseCsv(csv);
+	const jsonIPs = parseJson(json);
+
+	expect(new Set(csvIPs)).toEqual(new Set(txtIPs));
+	expect(new Set(jsonIPs)).toEqual(new Set(txtIPs));
+	expect(new Set(txtIPs).size).toBe(txtIPs.length);
+	return txtIPs;
+};
+
 describe('Generated bot IP lists', () => {
 	it('validates bot folders and global merged list', async () => {
 		const entries = await fs.readdir(listsDir, { withFileTypes: true });
 		const folders = entries.filter(e => e.isDirectory() && !e.name.startsWith('all-')).map(e => e.name);
-		const allIPs = new Set();
 		const expectedDirs = new Set(sourcesConfig.map(src => src.dir));
-		expectedDirs.forEach(dir => expect(folders).toContain(dir));
+
+		// no orphaned directories
+		folders.forEach(dir => expect(expectedDirs).toContain(dir));
+
+		const allIPs = new Set();
 
 		for (const folder of folders) {
-			const dir = path.join(listsDir, folder);
-			const [txt, csv, json] = await Promise.all([
-				fs.readFile(path.join(dir, 'ips.txt'), 'utf8'),
-				fs.readFile(path.join(dir, 'ips.csv'), 'utf8'),
-				fs.readFile(path.join(dir, 'ips.json'), 'utf8'),
-			]);
-
-			const txtIPs = parseTxt(txt);
-			expect(parseCsv(csv)).toEqual(txtIPs);
-			expect(parseJson(json)).toEqual(txtIPs);
-			txtIPs.forEach(ip => allIPs.add(ip));
+			const ips = await validateListFiles(path.join(listsDir, folder), folder);
+			ips.forEach(ip => allIPs.add(ip));
 		}
 
-		const [txt, csv, json] = await Promise.all([
-			fs.readFile(path.join(listsDir, 'all-safe-ips.txt'), 'utf8'),
-			fs.readFile(path.join(listsDir, 'all-safe-ips.csv'), 'utf8'),
-			fs.readFile(path.join(listsDir, 'all-safe-ips.json'), 'utf8'),
-		]);
+		// global list
+		const globalIPs = await validateCombinedFiles('all-safe-ips');
+		globalIPs.forEach(ip => expect(allIPs.has(ip)).toBe(true));
 
-		const txtIPs = parseTxt(txt);
-		const csvIPs = parseCsv(csv);
-		const jsonIPs = parseJson(json);
+		// category lists
+		const categories = [...new Set(sourcesConfig.map(s => s.category).filter(Boolean))];
+		for (const category of categories) {
+			const basename = `all-${category}-ips`;
+			const exists = await fs.access(path.join(listsDir, `${basename}.txt`)).then(() => true).catch(() => false);
+			if (!exists) continue;
 
-		expect(new Set(csvIPs)).toEqual(new Set(txtIPs));
-		expect(new Set(jsonIPs)).toEqual(new Set(txtIPs));
-		expect(new Set(txtIPs).size).toBe(txtIPs.length);
-		txtIPs.forEach(ip => expect(allIPs.has(ip)).toBe(true));
+			const catIPs = await validateCombinedFiles(basename);
+			catIPs.forEach(ip => expect(allIPs.has(ip)).toBe(true));
+		}
 	}, 20000);
 });

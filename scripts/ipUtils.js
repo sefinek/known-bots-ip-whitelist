@@ -95,7 +95,7 @@ const findCoveringCIDR = (ip, parsedCIDRs) => {
 	try {
 		const parsed = ipaddr.parse(ip.trim());
 		const kind = parsed.kind();
-		return parsedCIDRs.find(c => c.addr.kind() === kind && parsed.match(c.addr, c.prefix));
+		return parsedCIDRs.find(c => c.addr.kind() === kind && parsed.match(c.addr, c.prefix)) ?? null;
 	} catch {
 		return null;
 	}

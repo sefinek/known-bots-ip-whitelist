@@ -1,75 +1,111 @@
-const { describe, it, expect } = require('@jest/globals');
+const { describe, beforeEach, it, expect, jest: jestMock } = require('@jest/globals');
+
+jestMock.mock('../scripts/services/axios.js');
+jestMock.mock('../scripts/utils/retry.js', () => ({
+	executeWithRetry: fn => fn(),
+}));
+
+const axios = require('../scripts/services/axios.js');
 const fetchFromRIPEstat = require('../scripts/services/ripestat.js');
 
-describe('RIPEstat module', () => {
-	it('exports function for fetching ASN prefixes', () => {
-		expect(typeof fetchFromRIPEstat).toBe('function');
+const src = asn => ({ name: 'TestBot', asn });
+
+describe('fetchFromRIPEstat', () => {
+	beforeEach(() => {
+		jestMock.clearAllMocks();
 	});
 
-	it('has retry mechanism with exponential backoff', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('returns IPs from valid response', async () => {
+		axios.get.mockResolvedValue({
+			data: {
+				status: 'ok',
+				data: {
+					prefixes: [
+						{ prefix: '1.2.3.0/24' },
+						{ prefix: '5.6.7.0/24' },
+					],
+				},
+			},
+		});
 
-		expect(content).toContain('retryCount');
-		expect(content).toContain('maxRetries');
-		expect(content).toContain('429');
-		expect(content).toContain('backoffDelay');
-		expect(content).toContain('Math.pow(2, retryCount)');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toEqual([
+			{ ip: '1.2.3.0/24', source: 'https://stat.ripe.net' },
+			{ ip: '5.6.7.0/24', source: 'https://stat.ripe.net' },
+		]);
 	});
 
-	it('validates response structure from RIPEstat API', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('returns empty array when status is not ok', async () => {
+		axios.get.mockResolvedValue({
+			data: { status: 'error', data: null },
+		});
 
-		expect(content).toContain('data.status');
-		expect(content).toContain('data.data.prefixes');
-		expect(content).toContain('status !== \'ok\'');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toEqual([]);
 	});
 
-	it('uses progressive delays for rate limiting', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('returns empty array when prefixes are missing', async () => {
+		axios.get.mockResolvedValue({
+			data: { status: 'ok', data: {} },
+		});
 
-		expect(content).toContain('shouldDelay');
-		expect(content).toContain('baseDelay');
-		expect(content).toContain('randomDelay');
-		expect(content).toContain('sleep(baseDelay, randomDelay)');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toEqual([]);
 	});
 
-	it('validates IP prefixes using parseIP', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('skips entries with invalid prefix', async () => {
+		axios.get.mockResolvedValue({
+			data: {
+				status: 'ok',
+				data: {
+					prefixes: [
+						{ prefix: 'not-an-ip' },
+						{ prefix: '1.2.3.0/24' },
+					],
+				},
+			},
+		});
 
-		expect(content).toContain('parseIP');
-		expect(content).toContain('p.prefix');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toHaveLength(1);
+		expect(result[0].ip).toBe('1.2.3.0/24');
 	});
 
-	it('returns array with ip and source properties', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('skips entries with null or missing prefix', async () => {
+		axios.get.mockResolvedValue({
+			data: {
+				status: 'ok',
+				data: { prefixes: [null, {}, { prefix: '8.8.0.0/16' }] },
+			},
+		});
 
-		expect(content).toContain('result.push');
-		expect(content).toContain('source: \'https://stat.ripe.net\'');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toHaveLength(1);
+		expect(result[0].ip).toBe('8.8.0.0/16');
 	});
 
-	it('handles errors gracefully and returns empty array', () => {
-		const fs = require('node:fs');
-		const path = require('node:path');
-		const ripestatPath = path.join(__dirname, '../scripts/services/ripestat.js');
-		const content = fs.readFileSync(ripestatPath, 'utf8');
+	it('returns empty array on network error', async () => {
+		axios.get.mockRejectedValue(new Error('ECONNREFUSED'));
 
-		expect(content).toContain('catch (err)');
-		expect(content).toContain('return []');
-		expect(content).toContain('logger.warn');
+		const result = await fetchFromRIPEstat(src('12345'), false);
+		expect(result).toEqual([]);
 	});
+
+	it('retries on 429 and returns result after retry', async () => {
+		const rateLimitErr = Object.assign(new Error('Too Many Requests'), {
+			response: { status: 429 },
+		});
+
+		axios.get
+			.mockRejectedValueOnce(rateLimitErr)
+			.mockResolvedValueOnce({
+				data: {
+					status: 'ok',
+					data: { prefixes: [{ prefix: '9.9.9.0/24' }] },
+				},
+			});
+
+		const result = await fetchFromRIPEstat(src('12345'), false, 0);
+		expect(result).toEqual([{ ip: '9.9.9.0/24', source: 'https://stat.ripe.net' }]);
+	}, 60000);
 });

@@ -78,6 +78,18 @@ const setupDirectories = async () => {
 	return base;
 };
 
+const cleanupOrphanedDirs = async (base, sources) => {
+	const validDirs = new Set(sources.map(s => s.dir));
+	const entries = await fs.readdir(base, { withFileTypes: true });
+	const orphans = entries.filter(e => e.isDirectory() && !validDirs.has(e.name));
+
+	await Promise.all(orphans.map(async e => {
+		const dirPath = path.join(base, e.name);
+		await fs.rm(dirPath, { recursive: true, force: true });
+		logger.info(`Removed orphaned directory: lists/${e.name}`);
+	}));
+};
+
 const processAllSources = async (base, sources) => {
 	const allMap = new Map();
 	const categoryMaps = new Map();
@@ -250,6 +262,8 @@ const generateLists = async () => {
 		logger.info('Starting IP list generation...');
 
 		const base = await setupDirectories();
+		await cleanupOrphanedDirs(base, sources);
+
 		const { allMap, categoryMaps } = await processAllSources(base, sources);
 		const [globalRecs] = await Promise.all([
 			createGlobalLists(base, allMap),

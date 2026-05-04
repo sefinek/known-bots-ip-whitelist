@@ -88,7 +88,7 @@ const readCustomFiles = async files => {
 			const data = await fs.readFile(filePath, 'utf8');
 			return parseCustomFileData(data, `https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/${file}`);
 		} catch (err) {
-			throw new Error(`Failed to read file ${file}: ${err.message}`);
+			throw new Error(`Failed to read file ${file}: ${err.message}`, { cause: err });
 		}
 	}));
 
@@ -123,7 +123,7 @@ const fetchWithTimeout = async (url, config = {}, timeoutMs = 60000) => {
 };
 
 module.exports = async source => {
-	let out = [];
+	let out;
 
 	try {
 		validateSource(source);

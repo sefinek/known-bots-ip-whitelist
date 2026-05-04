@@ -7,6 +7,13 @@
     "type": "jsonIps"
   },
   {
+    "name": "Applebot",
+    "dir": "applebot",
+    "category": "crawlers",
+    "url": "https://search.developer.apple.com/applebot.json",
+    "type": "jsonPrefixes"
+  },
+  {
     "name": "BetterStack",
     "dir": "betterstack",
     "category": "monitoring",
@@ -43,6 +50,13 @@
     "acceptNullable": true,
     "asn": ["AS398324", "AS398722", "AS398705"],
     "type": "whois"
+  },
+  {
+    "name": "ClaudeBot",
+    "dir": "claudebot",
+    "category": "ai",
+    "url": "https://claude.com/crawling/bots.json",
+    "type": "jsonPrefixes"
   },
   {
     "name": "Cloudflare",
@@ -96,6 +110,13 @@
     "type": "jsonPrefixes"
   },
   {
+    "name": "GPTBot",
+    "dir": "gptbot",
+    "category": "ai",
+    "url": "https://openai.com/gptbot.json",
+    "type": "jsonPrefixes"
+  },
+  {
     "name": "Kagi",
     "dir": "kagi",
     "category": "crawlers",
@@ -118,30 +139,16 @@
     "type": "whois"
   },
   {
-    "name": "ClaudeBot",
-    "dir": "claudebot",
-    "category": "crawlers",
-    "url": "https://claude.com/crawling/bots.json",
-    "type": "jsonPrefixes"
-  },
-  {
-    "name": "GPTBot",
-    "dir": "gptbot",
-    "category": "crawlers",
-    "url": "https://openai.com/gptbot.json",
-    "type": "jsonPrefixes"
-  },
-  {
     "name": "OpenAI SearchBot",
     "dir": "oai-searchbot",
-    "category": "crawlers",
+    "category": "ai",
     "url": "https://openai.com/searchbot.json",
     "type": "jsonPrefixes"
   },
   {
     "name": "ChatGPT User",
     "dir": "chatgpt-user",
-    "category": "crawlers",
+    "category": "ai",
     "url": "https://openai.com/chatgpt-user.json",
     "type": "jsonPrefixes"
   },
@@ -154,6 +161,20 @@
     "asn": ["AS2763", "AS54538", "AS64280", "AS396421"],
     "type": "whois",
     "extraFiles": ["paloaltonetworks.txt"]
+  },
+  {
+    "name": "PerplexityBot",
+    "dir": "perplexitybot",
+    "category": "ai",
+    "url": "https://www.perplexity.ai/perplexitybot.json",
+    "type": "jsonPrefixes"
+  },
+  {
+    "name": "Perplexity User",
+    "dir": "perplexity-user",
+    "category": "ai",
+    "url": "https://www.perplexity.ai/perplexity-user.json",
+    "type": "jsonPrefixes"
   },
   {
     "name": "PingdomBot",
