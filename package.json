@@ -1,6 +1,6 @@
 {
   "name": "trusted-ips-whitelist",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "homepage": "https://github.com/sefinek/trusted-ips-whitelist#readme",
   "bugs": {
     "url": "https://github.com/sefinek/trusted-ips-whitelist/issues"

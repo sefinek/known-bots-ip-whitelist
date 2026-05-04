@@ -118,11 +118,25 @@
     "type": "whois"
   },
   {
-    "name": "OpenAI",
-    "dir": "openai",
+    "name": "GPTBot",
+    "dir": "gptbot",
     "category": "crawlers",
-    "url": "https://raw.githubusercontent.com/FabrizioCafolla/openai-crawlers-ip-ranges/main/openai/openai-ip-ranges-all.txt",
-    "type": "hosts"
+    "url": "https://openai.com/gptbot.json",
+    "type": "jsonPrefixes"
+  },
+  {
+    "name": "OpenAI SearchBot",
+    "dir": "oai-searchbot",
+    "category": "crawlers",
+    "url": "https://openai.com/searchbot.json",
+    "type": "jsonPrefixes"
+  },
+  {
+    "name": "ChatGPT User",
+    "dir": "chatgpt-user",
+    "category": "crawlers",
+    "url": "https://openai.com/chatgpt-user.json",
+    "type": "jsonPrefixes"
   },
   {
     "name": "Palo Alto Networks",

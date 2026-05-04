@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.2.1] — 2026-05-04
+
+### Added
+- **GPTBot** — official OpenAI crawler for AI model training (`lists/gptbot/`)
+- **OpenAI SearchBot** — crawler for ChatGPT Search results (`lists/oai-searchbot/`)
+- **ChatGPT User** — user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`)
+
+### Changed
+- **OpenAI source** — replaced unofficial GitHub mirror with official `openai.com` endpoints; source split into three separate per-bot lists
+- **Global list deduplication fix** — individual IPs from one source are no longer suppressed by a CIDR range from a different source (e.g. Cloudflare DNS resolver IPs such as `2606:4700:4700::1113` now correctly appear in `all-safe-ips` and `all-infrastructure-ips`)
+
+
 ## [3.2.0] — 2026-05-03
 
 ### Added

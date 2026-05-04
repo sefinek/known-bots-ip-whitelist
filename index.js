@@ -162,17 +162,19 @@ const buildRecords = (ipMap, logSkipped = false) => {
 	const sortedIPs = Array.from(ipMap.keys()).sort(ipUtils.compareIPs);
 	const parsedCIDRs = sortedIPs
 		.filter(ip => ip.includes('/'))
-		.map(ipUtils.parseCIDREntry)
+		.map(ip => {
+			const parsed = ipUtils.parseCIDREntry(ip);
+			return parsed ? { ...parsed, names: ipMap.get(ip).names } : null;
+		})
 		.filter(Boolean);
 
 	return sortedIPs.flatMap(ip => {
 		if (!ip.includes('/')) {
-			const covering = ipUtils.findCoveringCIDR(ip, parsedCIDRs);
+			const entry = ipMap.get(ip);
+			const sameSourceCIDRs = parsedCIDRs.filter(c => [...c.names].some(n => entry.names.has(n)));
+			const covering = ipUtils.findCoveringCIDR(ip, sameSourceCIDRs);
 			if (covering) {
-				if (logSkipped) {
-					const entry = ipMap.get(ip);
-					logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${covering.cidr}, skipping...`);
-				}
+				if (logSkipped) logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${covering.cidr}, skipping...`);
 				return [];
 			}
 		}
