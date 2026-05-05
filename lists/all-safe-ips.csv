@@ -1860,7 +1860,6 @@ IP,Name,Sources
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -1901,7 +1900,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
